@@ -37,7 +37,7 @@ $(shell mkdir -p $(BIN_DIR))
 endif
 
 ifeq ($(origin VERSION), undefined)
-VERSION := $(shell git describe --abbrev=0 --dirty --always --tags | sed 's/-/./g')
+VERSION := $(shell git describe --tags --always --match="v*" --dirty | sed 's/-/./g')	#v2.3.3.631.g00abdc9b.dirty
 endif
 
 # Check if the tree is dirty. default to dirty(maybe u should commit?)
@@ -82,11 +82,21 @@ else
 	IMAGE_PLAT := $(PLATFORM)
 endif
 
+# Copy githook scripts when execute makefile
+# TODO! GIT_FILE_SIZE_LIMIT=42000000 git commit -m "This commit is allowed file sizes up to 42MB"
+COPY_GITHOOK:=$(shell cp -f script/githooks/* .git/hooks/; chmod +x .git/hooks/*)
 
 # Linux command settings
 FIND := find . ! -path './image/*' ! -path './vendor/*' ! -path './bin/*'
 XARGS := xargs -r
 LICENSE_TEMPLATE ?= $(ROOT_DIR)/scripts/LICENSE_TEMPLATES
+
+# COMMA: Concatenate multiple strings to form a list of strings
+COMMA := ,
+# SPACE: Used to separate strings
+SPACE :=
+# SPACE: Replace multiple consecutive Spaces with a single space
+SPACE +=
 
 # ==============================================================================
 # Build definition
