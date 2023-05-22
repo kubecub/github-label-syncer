@@ -5,9 +5,10 @@
 ################################################################################
 # ========================== Capture Environment ===============================
 # get the repo root and output path
-ROOT_PACKAGE=github.com/kubecub/feishu-sheet-parser
+ROOT_PACKAGE=github.com/kubecub/github-label-syncer
 OUT_DIR=$(REPO_ROOT)/_output
 # ==============================================================================
+
 # define the default goal
 #
 
@@ -40,7 +41,7 @@ ifeq (, $(shell git status --porcelain 2>/dev/null))
 endif
 GIT_COMMIT:=$(shell git rev-parse HEAD)
 
-IMG ?= ghcr.io/kubecub/feishu-sheet-parser:latest
+IMG ?= ghcr.io/kubecub/github-label-syncer:latest
 
 BUILDFILE = "./main.go"
 BUILDAPP = "$(OUTPUT_DIR)/"
@@ -53,13 +54,75 @@ ifndef V
 MAKEFLAGS += --no-print-directory
 endif
 
+# The OS must be linux when building docker images
+PLATFORMS ?= linux_amd64 linux_arm64
+# The OS can be linux/windows/darwin when building binaries
+# PLATFORMS ?= darwin_amd64 windows_amd64 linux_amd64 linux_arm64
+
+# Set a specific PLATFORM
+ifeq ($(origin PLATFORM), undefined)
+	ifeq ($(origin GOOS), undefined)
+		GOOS := $(shell go env GOOS)
+	endif
+	ifeq ($(origin GOARCH), undefined)
+		GOARCH := $(shell go env GOARCH)
+	endif
+	PLATFORM := $(GOOS)_$(GOARCH)
+	# Use linux as the default OS when building images
+	IMAGE_PLAT := linux_$(GOARCH)
+else
+	GOOS := $(word 1, $(subst _, ,$(PLATFORM)))
+	GOARCH := $(word 2, $(subst _, ,$(PLATFORM)))
+	IMAGE_PLAT := $(PLATFORM)
+endif
+
+
 # Linux command settings
 FIND := find . ! -path './image/*' ! -path './vendor/*' ! -path './bin/*'
 XARGS := xargs -r
 LICENSE_TEMPLATE ?= $(ROOT_DIR)/scripts/LICENSE_TEMPLATES
 
 # ==============================================================================
-# Targets
+# Build definition
+
+GO_SUPPORTED_VERSIONS ?= 1.18|1.19|1.20
+GO_LDFLAGS += -X $(VERSION_PACKAGE).GitVersion=$(VERSION) \
+	-X $(VERSION_PACKAGE).GitCommit=$(GIT_COMMIT) \
+	-X $(VERSION_PACKAGE).GitTreeState=$(GIT_TREE_STATE) \
+	-X $(VERSION_PACKAGE).BuildDate=$(shell date -u +'%Y-%m-%dT%H:%M:%SZ')
+ifneq ($(DLV),)
+	GO_BUILD_FLAGS += -gcflags "all=-N -l"
+	LDFLAGS = ""
+endif
+GO_BUILD_FLAGS += -ldflags "$(GO_LDFLAGS)"
+
+ifeq ($(GOOS),windows)
+	GO_OUT_EXT := .exe
+endif
+
+ifeq ($(ROOT_PACKAGE),)
+	$(error the variable ROOT_PACKAGE must be set prior to including golang.mk)
+endif
+
+GOPATH := $(shell go env GOPATH)
+ifeq ($(origin GOBIN), undefined)
+	GOBIN := $(GOPATH)/bin
+endif
+
+COMMANDS ?= $(filter-out %.md, $(wildcard ${ROOT_DIR}/cmd/*))
+BINS ?= $(foreach cmd,${COMMANDS},$(notdir ${cmd}))
+
+ifeq (${COMMANDS},)
+  $(error Could not determine COMMANDS, set ROOT_DIR or run in source dir)
+endif
+ifeq (${BINS},)
+  $(error Could not determine BINS, set ROOT_DIR or run in source dir)
+endif
+
+EXCLUDE_TESTS=github.com/kubecub/CloudBuildAI/test
+
+# ==============================================================================
+# Build
 
 ## all: Build all the necessary targets.
 .PHONY: all
@@ -67,19 +130,38 @@ all: tidy add-copyright lint cover build
 
 ## build: Build binaries by default.
 .PHONY: build
-build: 
-	@echo "$(shell go version)"
-	@echo "===========> Building binary $(BUILDAPP) *[Git Info]: $(VERSION)-$(GIT_COMMIT)"
-	@export CGO_ENABLED=0 && chmod +x ./scripts/build.sh && ./scripts/build.sh
+build: go.build.verify $(addprefix go.build., $(addprefix $(PLATFORM)., $(BINS)))
 
-## build.%: Builds a binary of the specified directory.
 .PHONY: build.%
 build.%:
 	@echo "$(shell go version)"
 	@echo "===========> Building binary $(BUILDAPP) *[Git Info]: $(VERSION)-$(GIT_COMMIT)"
 	@export CGO_ENABLED=0 && GOOS=linux go build -o $(BUILDAPP)/$*/ -ldflags '-s -w' $*/example/$(BUILDFILE)
-	@export CGO_ENABLED=0 && GOOS=linux go build -o $(BUILDAPP)/$*/ -ldflags '-s -w' $*/example/$(BUILDFILE)
 
+.PHONY: go.build.verify
+go.build.verify:
+ifneq ($(shell $(GO) version | grep -q -E '\bgo($(GO_SUPPORTED_VERSIONS))\b' && echo 0 || echo 1), 0)
+	$(error unsupported go version. Please make install one of the following supported version: '$(GO_SUPPORTED_VERSIONS)')
+endif
+
+.PHONY: go.build.%
+go.build.%:
+	$(eval COMMAND := $(word 2,$(subst ., ,$*)))
+	$(eval PLATFORM := $(word 1,$(subst ., ,$*)))
+	$(eval OS := $(word 1,$(subst _, ,$(PLATFORM))))
+	$(eval ARCH := $(word 2,$(subst _, ,$(PLATFORM))))
+	@echo "=====> COMMAND=$(COMMAND)"
+	@echo "=====> PLATFORM=$(PLATFORM)"
+	@echo "=====> BIN_DIR=$(BIN_DIR)"
+	@echo "===========> Building binary $(COMMAND) $(VERSION) for $(OS)_$(ARCH)"
+	@mkdir -p $(OUTPUT_DIR)/platforms/$(OS)/$(ARCH)
+	@CGO_ENABLED=0 GOOS=$(OS) GOARCH=$(ARCH) $(GO) build $(GO_BUILD_FLAGS) -o $(OUTPUT_DIR)/platforms/$(OS)/$(ARCH)/$(COMMAND)$(GO_OUT_EXT) $(ROOT_PACKAGE)/cmd/$(COMMAND)
+
+.PHONY: go.build.multiarch
+go.build.multiarch: go.build.verify $(foreach p,$(PLATFORMS),$(addprefix go.build., $(addprefix $(p)., $(BINS))))
+
+# ==============================================================================
+# Targets
 
 ## tidy: tidy go.mod
 .PHONY: tidy
@@ -135,7 +217,7 @@ copyright-add:
 	@addlicense -y $(shell date +"%Y") -v -c "KubeCub & Xinwei Xiong(cubxxw)." -f $(LICENSE_TEMPLATE) $(CODE_DIRS)
 	@echo "===========> End the copyright is added..."
 
-## go.clean: Clean all builds.
+## clean: Clean all builds.
 .PHONY: clean
 clean:
 	@echo "===========> Cleaning all builds OUTPUT_DIR($(OUTPUT_DIR))"
@@ -147,5 +229,4 @@ clean:
 help: Makefile
 	@printf "\n\033[1mUsage: make <TARGETS> ...\033[0m\n\n\\033[1mTargets:\\033[0m\n\n"
 	@sed -n 's/^##//p' $< | awk -F':' '{printf "\033[36m%-28s\033[0m %s\n", $$1, $$2}' | sed -e 's/^/ /'
-
 ################################################################################

@@ -43,7 +43,7 @@ Simply replace `<owner>` and `<repo>` with the owner and repository name, respec
 
 github-label-syncer is a tool to sync labels between repos and org. The main features are:
 
-- [x]  Feel free to pick a remote repository and fetch all its labels to a local yaml or json file
+- [x]  Feel free to pick a remote repository and fetch all its labels to a local `yaml`, `table` AND `json`
 - [x]  Feel free to pick a remote repository and sync all of its labels to your desired project repository
 - [x]  Sync labels across repositories according to configuration 
 - [x]  Create, update and delete labels 
