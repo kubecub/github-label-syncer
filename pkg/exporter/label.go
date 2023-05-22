@@ -4,7 +4,6 @@ import (
 	"context"
 
 	"github.com/google/go-github/v28/github"
-	"github.com/kubecub/github-label-syncer/pkg/client"
 )
 
 type Label struct {
