@@ -26,8 +26,14 @@ ROOT_DIR := $(abspath $(shell cd $(COMMON_SELF_DIR)/. && pwd -P))
 endif
 # OUTPUT_DIR: The directory where the build output is stored.
 ifeq ($(origin OUTPUT_DIR),undefined)
-OUTPUT_DIR := $(ROOT_DIR)/bin
+OUTPUT_DIR := $(ROOT_DIR)/_output
 $(shell mkdir -p $(OUTPUT_DIR))
+endif
+
+## BIN_DIR: The directory where the build output is stored.
+ifeq ($(origin BIN_DIR),undefined)
+BIN_DIR := $(OUTPUT_DIR)/bin
+$(shell mkdir -p $(BIN_DIR))
 endif
 
 ifeq ($(origin VERSION), undefined)
