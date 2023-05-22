@@ -67,6 +67,7 @@ The labels are designed semantic and standard. We provide labels for priority, t
 ```bash
 ❯ make help    # show help
 ❯ make build   # build binary exporter and syncer
+❯ echo 'export PATH=$PATH:/path/to/_output/platforms/linux/amd64/' | tee -a ~/.zshrc;source ~/.zshrc
 ```
 
 </details>
@@ -102,7 +103,7 @@ Args:
   <repo>   Repository whose wanted labels.
 
 ❯ export GITHUB_TOKEN="ghp_****************************************0z"
-❯ ./_output/platforms/linux/amd64/exporter kubecub log --json | jq
+❯ exporter kubecub log --json | jq
 [
   {
     "name": "major version",
@@ -126,7 +127,7 @@ Args:
   }
 ]
 
-❯ ./_output/platforms/linux/amd64/syncer --help
+❯ ./syncer --help
 ```
 
 </details>
