@@ -15,6 +15,8 @@ var (
 	yaml  = kingpin.Flag("yaml", "Use the YAML format.").Short('y').Bool()
 	json  = kingpin.Flag("json", "Use the JSON format.").Short('j').Bool()
 	table = kingpin.Flag("table", "Use the table format.").Short('t').Bool()
+
+	// TODO: xml, toml, ini, csv
 )
 
 func main() {
