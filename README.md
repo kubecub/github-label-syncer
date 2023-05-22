@@ -66,7 +66,7 @@ The labels are designed semantic and standard. We provide labels for priority, t
 
 ```bash
 ❯ make help    # show help
-❯ make build   # build binary
+❯ make build   # build binary exporter and syncer
 ```
 
 </details>
@@ -84,10 +84,49 @@ Comment in an issue:
 
 </details>
 <details>
-  <summary>Work with Tools</summary>
+  <summary>Use</summary>
 
 ```bash
-❯ make tools
+❯ ./_output/platforms/linux/amd64/exporter --help
+usage: exporter [<flags>] <owner> <repo>
+
+
+Flags:
+      --[no-]help   Show context-sensitive help (also try --help-long and --help-man).
+  -y, --[no-]yaml   Use the YAML format.
+  -j, --[no-]json   Use the JSON format.
+  -t, --[no-]table  Use the table format.
+
+Args:
+  <owner>  Owner of the repository.
+  <repo>   Repository whose wanted labels.
+
+❯ export GITHUB_TOKEN="ghp_****************************************0z"
+❯ ./_output/platforms/linux/amd64/exporter kubecub log --json | jq
+[
+  {
+    "name": "major version",
+    "description": "Automatically create a new major version tag after PR is merged",
+    "color": "1E8DE7"
+  },
+  {
+    "name": "merge when passing",
+    "description": "Merge the PR automatically once all status checks have passed",
+    "color": "FF851B"
+  },
+  {
+    "name": "minor version",
+    "description": "Automatically create a new minor version tag after PR is merged",
+    "color": "6EBAF7"
+  },
+  {
+    "name": "patch version",
+    "description": "Automatically create a new patch version tag after PR is merged",
+    "color": "99cef9"
+  }
+]
+
+❯ ./_output/platforms/linux/amd64/syncer --help
 ```
 
 </details>
