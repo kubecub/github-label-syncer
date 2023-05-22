@@ -4,7 +4,7 @@
     </b>
 </h1>
 <h3 align="center" style="border-bottom: none">
-      ⭐️  Template for a typical module written on Go.  ⭐️ <br>
+      ⭐️  sync labels between repos and org.  ⭐️ <br>
 <h3>
 
 
@@ -30,24 +30,36 @@
 
 ## 🧩 Awesome features
 
-At Github, we want to start new projects faster using best practices with a predefined structure and focusing on core ideas implementation rather than wasting time on environment configuration and copying boilerplate code.
+This document discusses the development of a Go language actions that synchronizes labels on GitHub repositories. This actions is not limited to synchronizing labels on your own repository, but can also retrieve all of the API objects of a target repository, which can then be saved to a YAML file or synchronized to your own GitHub project.
 
-I defined a spec template that I could use to quickly start building a full-fledged project.
+Labels are an important way of organizing and categorizing issues and pull requests on GitHub. They allow you to quickly and easily identify the status, priority, and type of each issue or pull request.
 
-In each directory, there is a README.md and an OWNERS, which explains what the directory does and who owns it.
+To retrieve the API objects of a GitHub project's labels, you can use the following URLs:
+
+- To retrieve the first page of objects: `https://api.github.com/repos/<owner>/<repo>/labels?page=1&sort=name-asc`
+- To retrieve all objects: `https://api.github.com/repos/<owner>/<repo>/labels?per_page=100&page=1&sort=name-asc`
+
+Simply replace `<owner>` and `<repo>` with the owner and repository name, respectively. These URLs can be used to retrieve all of the labels associated with a project, which can then be synchronized or saved as needed.
+
+github-label-syncer is a tool to sync labels between repos and org. The main features are:
+
+- [x]  Feel free to pick a remote repository and fetch all its labels to a local yaml or json file
+- [x]  Feel free to pick a remote repository and sync all of its labels to your desired project repository
+- [x]  Sync labels across repositories according to configuration 
+- [x]  Create, update and delete labels 
+- [x]  Dry run to preview which labels would be created, updated or deleted 
+- [x]  Handle label collisions by renaming or skipping existing labels 
+- [x]  Support labeling pull requests and issues
+
 
 **Labels denger:**
-Read about the [github-label-syncer](https://github.com/kubecub/github-label-syncer/labels) tag design
+The labels are designed semantic and standard. We provide labels for priority, type, status etc. You can refer to the [label doc](https://github.com/kubecub/github-label-syncer/labels) to get more info.
 
 
-## 🛫 Quick start 
+## 🛫 Quick start
 
 > **Note**: You can get started quickly with github-label-syncer.
 
-1. Generate a [new repository](https://github.com/kubecub/github-label-syncer/generate) from the template.
-2. Clone the repository locally.
-3. Update files, read the README files in each directory.
-4. Write your code and tests. 
 
 <details>
   <summary>Work with Makefile</summary>
@@ -92,39 +104,32 @@ Comment in an issue:
 ## 🕋 architecture diagram
 ```mermaid
 graph LR
-
-subgraph External Services
-feishuAPI --> sheetParser
-end
-
-subgraph Sheet Parser & Manager
-sheetParser[Sheet Parser] --> versionControl
-versionControl[Version Control] --> sheetDisplay
-end
-
-subgraph Display
-sheetDisplay[Sheet Display] --> UI
-end
-
-subgraph Backend
-versionControl --> API
-end
-
-subgraph Frontend
-UI[User Interface]
-end
-
-API --> UI
-UI --> feishuAPI 
+A[Config file] -->B(github-label-syncer)
+B --> C{Sync labels}
+C -->|Yes| D[Create/Update labels] 
+C -->|No | E[Delete labels]
+D --> F[Dry run]
+F --> |Yes| G[Preview]
+F --> |No| H[Apply changes]
+E --> I[Dry run]
+I --> |Yes| J[Preview]
+I --> |No| K[Apply changes]
 ```
 
 **MVC Architecture Design:**
 ```mermaid
-graph LR
-A[View] -->|1. User interaction| B(Controller)
-B -->|2. Requests data| C(Model)
-C -->|3. Returns data| B
-B -->|4. Updates view| A
+flowchart TB
+
+A[Config file]
+A --> B[github-label-syncer]
+B --> C{Sync labels}
+C -->|Yes|D[<font color='green'>Create/Update </font> <br>labels]
+C -->|No|E[<font color='red'>Delete </font><br> labels]  
+D -.-> F[<font color='blue'>Dry run</font><br>Preview]
+F --> G[Apply <br>changes]
+E -.-> H[<font color='blue'>Dry run</font><br>Preview]
+H --> I[Apply<br> changes]
+B --> J[Label <br>PRs & <br>Issues]
 ```
 
 ## 🤖 File Directory Description
