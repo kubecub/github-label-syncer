@@ -7,7 +7,16 @@ import (
 
 	"github.com/alecthomas/kingpin/v2"
 	"github.com/kubecub/github-label-syncer/pkg/exporter"
+
+	"github.com/kubecub/github-label-syncer/internal/exporter/cmd"
 )
+
+func main() {
+	command := cmd.NewDefaultIAMCtlCommand()
+	if err := command.Execute(); err != nil {
+		os.Exit(1)
+	}
+}
 
 var (
 	owner = kingpin.Arg("owner", "Owner of the repository.").Required().String()
