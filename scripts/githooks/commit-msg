@@ -48,7 +48,7 @@ test "" = "$(grep '^Signed-off-by: ' "$1" |
 	exit 1
 }
 
-./_output/tools/go-gitlint \
+$($(TOOLS_DIR))/go-gitlint \
     --msg-file=$1 \
     --subject-regex="^(build|chore|ci|docs|feat|feature|fix|perf|refactor|revert|style|test)(.*)?:\s?.*" \
     --subject-maxlen=150 \
