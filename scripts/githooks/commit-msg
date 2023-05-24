@@ -37,6 +37,8 @@ printSuccess() {
 printError() {
    printf "${RED}kubecub : $1${ENDCOLOR}\n"
 }
+GITLINT_DIR="./_output/tools/go-gitlint"
+
 
 printMessage "$GITLINT_DIR Running the kubecub commit-msg hook."
 
@@ -49,7 +51,6 @@ test "" = "$(grep '^Signed-off-by: ' "$1" |
 }
 
 # TODO: go-gitlint dir set
-GITLINT_DIR="./_output/tools/go-gitlint"
 
 $GITLINT_DIR \
     --msg-file=$1 \
