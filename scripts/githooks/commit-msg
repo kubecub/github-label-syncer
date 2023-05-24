@@ -48,6 +48,7 @@ test "" = "$(grep '^Signed-off-by: ' "$1" |
 	exit 1
 }
 
+# TODO: go-gitlint dir set
 GITLINT_DIR="./_output/tools/go-gitlint"
 
 $GITLINT_DIR \
