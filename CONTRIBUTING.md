@@ -357,3 +357,6 @@ In addition to Slack, we also offer the following ways to get in touch:
 + <a href="http://sm.nsddd.top/sm0d220ad72063197b9875379403f6c88.jpg" target="_blank"><img src="https://img.shields.io/badge/%E5%BE%AE%E4%BF%A1-smile-brightgreen?kubecubo=wechat&style=flat-square?logo=wechat"></a> Add [📲Wechat](https://img.shields.io/badge/%E5%BE%AE%E4%BF%A1-smile-brightgreen?kubecubo=wechat&style=flat-square) and indicate that you are a user or developer of kubecub. We will process your request as soon as possible.
 
 Whether you're looking to join our community or have any questions or suggestions, we welcome you to get in touch with us.
+
+> **Note**
+> This is not a private repository, kubecub's purpose is to help more people learn and progress. The sponsorship and contribution of kubecub will be open and transparent, and all the sponsorship proceeds will be used for good causes.
