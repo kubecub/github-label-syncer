@@ -4,6 +4,7 @@ import (
 	"context"
 	"fmt"
 	"log"
+	"os"
 
 	"github.com/alecthomas/kingpin/v2"
 	"github.com/kubecub/github-label-syncer/pkg/exporter"

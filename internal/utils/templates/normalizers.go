@@ -3,7 +3,7 @@ package templates
 import (
 	"strings"
 
-	"github.com/MakeNowJust/heredoc/v2"
+	"github.com/MakeNowJust/heredoc"
 	"github.com/russross/blackfriday"
 	"github.com/spf13/cobra"
 )

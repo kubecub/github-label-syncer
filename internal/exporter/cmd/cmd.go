@@ -1,9 +1,11 @@
 package cmd
 
 import (
+	"fmt"
 	"io"
 	"os"
 
+	"github.com/kubecub/github-label-syncer/internal/utils/templates"
 	"github.com/spf13/cobra"
 )
 
@@ -15,8 +17,8 @@ func NewDefaultIAMCtlCommand() *cobra.Command {
 // NewEeporterCtlCommand returns new initialized instance of 'exporter' root command.
 func NewEeporterCtlCommand(in io.Reader, out, err io.Writer) *cobra.Command {
 	cmds := &cobra.Command{
-		Use:   "iamctl",
-		Short: "iamctl controls the iam platform",
+		Use:   "exporter",
+		Short: "exporter exporting labels",
 		Long: templates.LongDesc(`
 		iamctl controls the iam platform, is the client side tool for iam platform.
 
@@ -33,5 +35,9 @@ func NewEeporterCtlCommand(in io.Reader, out, err io.Writer) *cobra.Command {
 		},
 	}
 
+	return cmds
+}
 
+func runHelp() {
+	fmt.Println("run help")
 }

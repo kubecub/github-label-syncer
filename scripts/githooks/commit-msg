@@ -48,7 +48,7 @@ test "" = "$(grep '^Signed-off-by: ' "$1" |
 	exit 1
 }
 
-go-gitlint \
+./_output/tools/go-gitlint \
     --msg-file=$1 \
     --subject-regex="^(build|chore|ci|docs|feat|feature|fix|perf|refactor|revert|style|test)(.*)?:\s?.*" \
     --subject-maxlen=150 \
@@ -58,6 +58,9 @@ go-gitlint \
 
 if [ $? -ne 0 ]
 then
+    if ! command -v go-gitlint &>/dev/null; then
+        printError "go-gitlint not found. Please run 'make tools' OR 'make tools.verify.go-gitlint' make verto install it."
+    fi
     printError "Please fix your commit message to match kubecub coding standards"
     printError "https://gist.github.com/cubxxw/126b72104ac0b0ca484c9db09c3e5694#file-githook-md"
     exit 1
