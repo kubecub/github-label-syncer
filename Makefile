@@ -152,7 +152,7 @@ EXCLUDE_TESTS=github.com/kubecub/CloudBuildAI/test
 
 ## all: Build all the necessary targets.
 .PHONY: all
-all: tidy add-copyright lint cover build
+all: copyright-verify build # tidy lint cover
 
 ## build: Build binaries by default.
 .PHONY: build
@@ -170,6 +170,7 @@ ifneq ($(shell $(GO) version | grep -q -E '\bgo($(GO_SUPPORTED_VERSIONS))\b' && 
 	$(error unsupported go version. Please make install one of the following supported version: '$(GO_SUPPORTED_VERSIONS)')
 endif
 
+## go.build
 .PHONY: go.build.%
 go.build.%:
 	$(eval COMMAND := $(word 2,$(subst ., ,$*)))
@@ -183,6 +184,7 @@ go.build.%:
 	@mkdir -p $(BIN_DIR)/platforms/$(OS)/$(ARCH)
 	@CGO_ENABLED=0 GOOS=$(OS) GOARCH=$(ARCH) $(GO) build $(GO_BUILD_FLAGS) -o $(BIN_DIR)/platforms/$(OS)/$(ARCH)/$(COMMAND)$(GO_OUT_EXT) $(ROOT_PACKAGE)/cmd/$(COMMAND)
 
+## go.build.multiarch: Build binaries for all platforms
 .PHONY: go.build.multiarch
 go.build.multiarch: go.build.verify $(foreach p,$(PLATFORMS),$(addprefix go.build., $(addprefix $(p)., $(BINS))))
 
@@ -211,9 +213,9 @@ generate:
 
 ## lint: Run go lint against code.
 .PHONY: lint
-lint:
+lint: tools.verify.golangci-lint
 	@echo "===========> Run golangci to lint source codes"
-	@golangci-lint run -c $(ROOT_DIR)/.golangci.yml $(ROOT_DIR)/...
+	@$(TOOLS_DIR)/golangci-lint run -c $(ROOT_DIR)/.golangci.yml $(ROOT_DIR)/...
 
 ## style: Code style -> fmt,vet,lint
 .PHONY: style
@@ -232,16 +234,16 @@ cover: test
 
 ## copyright.verify: Validate boilerplate headers for assign files.
 .PHONY: copyright-verify
-copyright-verify: 
+copyright-verify: tools.verify.addlicense
 	@echo "===========> Validate boilerplate headers for assign files starting in the $(ROOT_DIR) directory"
-	@addlicense -v -check -ignore **/test/** -f $(LICENSE_TEMPLATE) $(CODE_DIRS)
+	@$(TOOLS_DIR)/addlicense -v -check -ignore **/test/** -f $(LICENSE_TEMPLATE) $(CODE_DIRS)
 	@echo "===========> End of boilerplate headers check..."
 
 ## copyright-add: Add the boilerplate headers for all files.
 .PHONY: copyright-add
-copyright-add: 
+copyright-add: tools.verify.addlicense
 	@echo "===========> Adding $(LICENSE_TEMPLATE) the boilerplate headers for all files"
-	@addlicense -y $(shell date +"%Y") -v -c "KubeCub & Xinwei Xiong(cubxxw)." -f $(LICENSE_TEMPLATE) $(CODE_DIRS)
+	@$(TOOLS_DIR)/addlicense -y $(shell date +"%Y") -v -c "KubeCub & Xinwei Xiong(cubxxw)." -f $(LICENSE_TEMPLATE) $(CODE_DIRS)
 	@echo "===========> End the copyright is added..."
 
 ## clean: Clean all builds.
