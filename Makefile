@@ -221,7 +221,6 @@ lint: tools.verify.golangci-lint
 .PHONY: style
 style: fmt vet lint
 
-
 ## test: Run unit test
 .PHONY: test
 test: 
@@ -234,7 +233,7 @@ cover: test
 
 ## copyright.verify: Validate boilerplate headers for assign files.
 .PHONY: copyright-verify
-copyright-verify: tools.verify.addlicense
+copyright-verify: tools.verify.addlicense copyright-add
 	@echo "===========> Validate boilerplate headers for assign files starting in the $(ROOT_DIR) directory"
 	@$(TOOLS_DIR)/addlicense -v -check -ignore **/test/** -f $(LICENSE_TEMPLATE) $(CODE_DIRS)
 	@echo "===========> End of boilerplate headers check..."
