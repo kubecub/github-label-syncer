@@ -4,29 +4,36 @@ import (
 	"context"
 	"fmt"
 	"log"
-	"os"
 
 	"github.com/alecthomas/kingpin/v2"
 	"github.com/kubecub/github-label-syncer/pkg/exporter"
-
-	"github.com/kubecub/github-label-syncer/internal/exporter/cmd"
 )
 
-func main() {
-	command := cmd.NewDefaultIAMCtlCommand()
-	if err := command.Execute(); err != nil {
-		os.Exit(1)
-	}
-}
 
 var (
-	owner = kingpin.Arg("owner", "Owner of the repository.").Required().String()
-	repo  = kingpin.Arg("repo", "Repository whose wanted labels.").Required().String()
-	yaml  = kingpin.Flag("yaml", "Use the YAML format.").Short('y').Bool()
-	json  = kingpin.Flag("json", "Use the JSON format.").Short('j').Bool()
-	table = kingpin.Flag("table", "Use the table format.").Short('t').Bool()
+    // Required arguments.
+    owner = kingpin.Arg("owner", "Owner of the repository.").Required().String()
+    repo  = kingpin.Arg("repo", "Repository whose wanted labels.").Required().String()
+    
+    // Optional flags.
+    yaml  = kingpin.Flag("yaml", "Use the YAML format.").Short('y').Bool()
+    json  = kingpin.Flag("json", "Use the JSON format.").Short('j').Bool()
+    table = kingpin.Flag("table", "Use the table format.").Short('t').Bool()
+    
+    // TODO: Add support for these formats.
+    xml   = kingpin.Flag("xml", "Use the XML format.").Bool()
+    toml  = kingpin.Flag("toml", "Use the TOML format.").Bool()
+    ini   = kingpin.Flag("ini", "Use the INI format.").Bool()
+    csv   = kingpin.Flag("csv", "Use the CSV format.").Bool()
+)
 
-	// TODO: xml, toml, ini, csv
+var (
+	goVersion = "unknown"	// Populated by goreleaser during build
+
+	// Populated by goreleaser during build
+	version = "master"
+	commit  = "?"
+	date    = ""
 )
 
 func main() {
