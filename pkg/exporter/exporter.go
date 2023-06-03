@@ -12,6 +12,24 @@ import (
 	"sigs.k8s.io/yaml"
 )
 
+type LabelsToObject interface {
+	// Convert labels to JSON format
+	LabelsToJSON(labels []*Label) ([]byte, error)
+	// Convert labels to YAML format
+	LabelsToYAML(labels []*Label) ([]byte, error)
+	// Convert labels to table format
+	LabelsToTable(labels []*Label) ([]byte, error)
+
+	// Convert labels to XML format
+	LabelsToXML(labels []*Label) ([]byte, error)
+	// Convert labels to TOML format
+	LabelsToTOML(labels []*Label) ([]byte, error)
+	// Convert labels to INI format
+	LabelsToINI(labels []*Label) ([]byte, error)
+	// Convert labels to CSV format
+	LabelsToCSV(labels []*Label) ([]byte, error)
+}
+
 func LabelsToJSON(labels []*Label) ([]byte, error) {
 	return json.Marshal(labels)
 }
@@ -33,4 +51,20 @@ func LabelsToTable(labels []*Label) ([]byte, error) {
 	t.Render()
 
 	return b.Bytes(), nil
+}
+
+func LabelsToXML(labels []*Label) ([]byte, error) {
+	return nil, nil
+}
+
+func LabelsToTOML(labels []*Label) ([]byte, error) {
+	return nil, nil
+}
+
+func LabelsToINI(labels []*Label) ([]byte, error) {
+	return nil, nil
+}
+
+func LabelsToCSV(labels []*Label) ([]byte, error) {
+	return nil, nil
 }
