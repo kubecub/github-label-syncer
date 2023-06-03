@@ -25,6 +25,7 @@ URL： https://api.github.com/repos/Kubernetes/Kubernetes/labels?page=1&sort=nam
 	  "description": "Categorizes an issue or PR as actively needing an API review."
 	},
 */
+
 type Label struct {
 	// The name of the label.
 	Name string `json:"name"`
@@ -61,6 +62,10 @@ func (c *githubClient) ListLabels(ctx context.Context, owner, repo string) ([]*L
 				Name:        l.GetName(),
 				Description: l.GetDescription(),
 				Color:       l.GetColor(),
+				Default:     l.GetDefault(),
+				ID:          l.GetID(),
+				NodeID:      l.GetNodeID(),
+				URL:         l.GetURL(),
 			})
 		}
 		if resp.NextPage == 0 {
