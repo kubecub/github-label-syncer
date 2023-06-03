@@ -14,7 +14,7 @@ import (
 	"github.com/spf13/cobra"
 	flag "github.com/spf13/pflag"
 
-	"github.com/kubecub/github-label-syncer/internal/util/term"
+	"github.com/kubecub/github-label-syncer/internal/utils/term"
 )
 
 type FlagExposer interface {

@@ -68,6 +68,7 @@ The labels are designed semantic and standard. We provide labels for priority, t
 ❯ make help    # show help
 ❯ make build   # build binary exporter and syncer
 ❯ echo 'export PATH=$PATH:/path/to/_output/platforms/linux/amd64/' | tee -a ~/.zshrc;source ~/.zshrc
+
 ```
 
 </details>

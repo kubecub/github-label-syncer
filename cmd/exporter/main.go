@@ -8,6 +8,8 @@ import (
 	"context"
 	"fmt"
 	"log"
+	"os"
+	"runtime/debug"
 
 	"github.com/alecthomas/kingpin/v2"
 	"github.com/kubecub/github-label-syncer/pkg/exporter"
@@ -40,6 +42,31 @@ var (
 )
 
 func main() {
+
+	if buildInfo, available := debug.ReadBuildInfo(); available {
+		goVersion = buildInfo.GoVersion
+
+		if date == "" {
+			version = buildInfo.Main.Version
+			commit = fmt.Sprintf("(unknown, mod sum: %q)", buildInfo.Main.Sum)
+			date = "(unknown)"
+		}
+	}
+
+	info := commands.BuildInfo{
+		GoVersion: goVersion,
+		Version:   version,
+		Commit:    commit,
+		Date:      date,
+	}
+
+	e := commands.NewExecutor(info)
+
+	if err := e.Execute(); err != nil {
+		fmt.Fprintf(os.Stderr, "failed executing command with error %v\n", err)
+		os.Exit(exitcodes.Failure)
+	}
+	
 	kingpin.Parse()
 	client, err := exporter.NewClient()
 	if err != nil {
@@ -76,4 +103,41 @@ func main() {
 		fmt.Println(string(b))
 		return
 	}
+
+	if *xml {
+		b, err := exporter.LabelsToXML(labels)
+		if err != nil {
+			log.Fatal(err)
+		}
+		fmt.Println(string(b))
+		return
+	}
+
+	if *toml {
+		b, err := exporter.LabelsToTOML(labels)
+		if err != nil {
+			log.Fatal(err)
+		}
+		fmt.Println(string(b))
+		return
+	}
+
+	if *ini {
+		b, err := exporter.LabelsToINI(labels)
+		if err != nil {
+			log.Fatal(err)
+		}
+		fmt.Println(string(b))
+		return
+	}
+
+	if *csv {
+		b, err := exporter.LabelsToCSV(labels)
+		if err != nil {
+			log.Fatal(err)
+		}
+		fmt.Println(string(b))
+		return
+	}
+
 }

@@ -30,9 +30,7 @@ type Label struct {
 
 /*
 	Kubernetes API
-
 URL： https://api.github.com/repos/Kubernetes/Kubernetes/labels?page=1&sort=name-asc
-
 	{
 	  "id": 1242861616,
 	  "node_id": "MDU6TGFiZWwxMjQyODYxNjE2",

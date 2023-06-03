@@ -11,17 +11,35 @@ import (
 
 	"github.com/google/go-github/v28/github"
 	"golang.org/x/oauth2"
+	"github.com/spf13/viper"
 )
 
 type githubClient struct {
 	client *github.Client
 }
 
+
+// 1. New client
 func NewClient() (*githubClient, error) {
+	// Read the yaml configuration file
+	viper.SetConfigName("github-key") // The file name is github-key.yaml
+	// The file path is the  ~/.config/kubecub/github-key.yaml
+	viper.AddConfigPath("$HOME/.config/kubecub")
+	err := viper.ReadInConfig() // Read configuration file
+	if err != nil {
+		return nil, err
+	}
+
+	// Getting the token
 	token := os.Getenv("GITHUB_TOKEN")
 	if token == "" {
-		return nil, errors.New("missing GITHUB_TOKEN")
+		token = viper.GetString("github.github_token")
+		if token == "" {
+			return nil, errors.New("missing GITHUB_TOKEN")
+		}
 	}
+
+	// 创建 github 客户端
 	cli := newClient(token)
 	return &githubClient{
 		client: cli,
