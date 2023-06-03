@@ -10,6 +10,24 @@ import (
 	"github.com/google/go-github/v28/github"
 )
 
+type Label struct {
+	// The name of the label.
+	Name string `json:"name"`
+	// An optional description of the label.
+	Description string `json:"description"`
+	// The hexadecimal color code for the label.
+	Color string `json:"color"`
+
+	// True if the label is the default label for the repository, false otherwise.
+	Default bool `json:"default"`
+	// The unique ID of the label assigned by GitHub.
+	ID int64 `json:"id"`
+	// The unique node ID of the label assigned by GitHub.
+	NodeID string `json:"node_id"`
+	// The URL to query information about the label.
+	URL string `json:"url"`
+}
+
 /*
 	Kubernetes API
 
@@ -26,29 +44,6 @@ URL： https://api.github.com/repos/Kubernetes/Kubernetes/labels?page=1&sort=nam
 	},
 */
 
-type Label struct {
-	// The name of the label.
-	Name string `json:"name"`
-
-	// An optional description of the label.
-	Description string `json:"description"`
-
-	// The hexadecimal color code for the label.
-	Color string `json:"color"`
-
-	// True if the label is the default label for the repository, false otherwise.
-	Default bool `json:"default"`
-
-	// The unique ID of the label assigned by GitHub.
-	ID int64 `json:"id"`
-
-	// The unique node ID of the label assigned by GitHub.
-	NodeID string `json:"node_id"`
-
-	// The URL to query information about the label.
-	URL string `json:"url"`
-}
-
 func (c *githubClient) ListLabels(ctx context.Context, owner, repo string) ([]*Label, error) {
 	opt := &github.ListOptions{PerPage: 10}
 	var labels []*Label
@@ -59,13 +54,13 @@ func (c *githubClient) ListLabels(ctx context.Context, owner, repo string) ([]*L
 		}
 		for _, l := range ghLabels {
 			labels = append(labels, &Label{
-				Name:        l.GetName(),
-				Description: l.GetDescription(),
-				Color:       l.GetColor(),
-				Default:     l.GetDefault(),
 				ID:          l.GetID(),
 				NodeID:      l.GetNodeID(),
 				URL:         l.GetURL(),
+				Name:        l.GetName(),
+				Color:       l.GetColor(),
+				Default:     l.GetDefault(),
+				Description: l.GetDescription(),
 			})
 		}
 		if resp.NextPage == 0 {
