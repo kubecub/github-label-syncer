@@ -3,3 +3,9 @@
 // you may not use this file except in compliance with the License.
 
 package log
+
+import (
+	"github.com/kubecub/log"
+)
+
+type Logger = log.Logger
