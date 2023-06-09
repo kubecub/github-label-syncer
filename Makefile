@@ -231,6 +231,21 @@ test:
 cover: test
 	@$(GO) test -cover
 
+## docker-build: Build docker image with the manager.
+.PHONY: docker-build
+docker-build: test
+	docker build -t ${IMG} .
+
+## docker-push: Push docker image with the manager.
+.PHONY: docker-push
+docker-push:
+	docker push ${IMG}
+
+## docker-buildx-push: Push docker image with the manager using buildx.
+.PHONY: docker-buildx-push
+docker-buildx-push:
+	docker buildx build --platform linux/arm64,linux/amd64 -t ${IMG} . --push
+
 ## copyright.verify: Validate boilerplate headers for assign files.
 .PHONY: copyright-verify
 copyright-verify: tools.verify.addlicense copyright-add
