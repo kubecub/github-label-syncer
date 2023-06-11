@@ -319,6 +319,7 @@ flycheck_*.el
 /network-security.data
 
 ### vscode ###
+.vscode
 .vscode/*
 !.vscode/settings.json
 !.vscode/tasks.json
