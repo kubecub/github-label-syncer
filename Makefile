@@ -100,7 +100,7 @@ COPY_GITHOOK:=$(shell cp -f scripts/githooks/* .git/hooks/; chmod +x .git/hooks/
 # Linux command settings
 FIND := find . ! -path './image/*' ! -path './vendor/*' ! -path './bin/*'
 XARGS := xargs -r
-LICENSE_TEMPLATE ?= $(ROOT_DIR)/scripts/LICENSE_TEMPLATES
+LICENSE_TEMPLATE ?= $(ROOT_DIR)/scripts/LICENSE/LICENSE_TEMPLATES
 
 # COMMA: Concatenate multiple strings to form a list of strings
 COMMA := ,
