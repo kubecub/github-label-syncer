@@ -12,6 +12,7 @@ import (
 	"strconv"
 	"strings"
 
+	"github.com/joho/godotenv"
 	"github.com/kubecub/github-label-syncer/pkg/github"
 	"go.uber.org/multierr"
 )
@@ -23,6 +24,19 @@ func main() {
 }
 
 func run(ctx context.Context) error {
+	// Check if .env file exists
+	if _, err := os.Stat(".env"); os.IsNotExist(err) {
+		fmt.Println("The .env file does not exist. Please rename .env.template to .env and set the required values.")
+		return err
+	}
+
+	// Load environment variables from .env file
+	err := godotenv.Load()
+	if err != nil {
+		fmt.Println("Error loading .env file")
+		return err
+	}
+
 	manifest := os.Getenv("INPUT_MANIFEST")
 	labels, err := github.FromManifestToLabels(manifest)
 	if err != nil {
