@@ -55,6 +55,8 @@ github-label-syncer is a tool to sync labels between repos and org. The main fea
 **Labels denger:**
 The labels are designed semantic and standard. We provide labels for priority, type, status etc. You can refer to the [label doc](https://github.com/kubecub/github-label-syncer/labels) to get more info.
 
+**github actions
+
 
 ## 🛫 Quick start
 

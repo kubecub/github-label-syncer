@@ -2,7 +2,7 @@
 # Use of this source code is governed by a MIT style
 # license that can be found in the LICENSE file.
 
-################################################################################
+###################################=> common commands <=#############################################
 # ========================== Capture Environment ===============================
 # get the repo root and output path
 ROOT_PACKAGE=github.com/kubecub/github-label-syncer
@@ -57,8 +57,7 @@ ifeq (, $(shell git status --porcelain 2>/dev/null))
 endif
 GIT_COMMIT:=$(shell git rev-parse HEAD)
 
-# docker registry: registry.example.com/namespace/image:tag as: registry.hub.docker.com/cubxxw/<image-name>:<tag>
-IMG ?= registry.hub.docker.com/cubxxw/github-label-syncer:latest
+IMG ?= ghcr.io/kubecub/github-label-syncer:latest
 
 BUILDFILE = "./main.go"
 BUILDAPP = "$(OUTPUT_DIR)/"
@@ -100,7 +99,11 @@ COPY_GITHOOK:=$(shell cp -f scripts/githooks/* .git/hooks/; chmod +x .git/hooks/
 # Linux command settings
 FIND := find . ! -path './image/*' ! -path './vendor/*' ! -path './bin/*'
 XARGS := xargs -r
-LICENSE_TEMPLATE ?= $(ROOT_DIR)/scripts/LICENSE/LICENSE_TEMPLATES
+
+# ==============================================================================
+# TODO: License selection
+LICENSE_TEMPLATE ?= $(ROOT_DIR)/scripts/LICENSE/license_templates.txt	# MIT License
+# LICENSE_TEMPLATE ?= $(ROOT_DIR)/scripts/LICENSE/LICENSE_TEMPLATES  # Apache License
 
 # COMMA: Concatenate multiple strings to form a list of strings
 COMMA := ,
@@ -112,7 +115,7 @@ SPACE +=
 # ==============================================================================
 # Build definition
 
-GO_SUPPORTED_VERSIONS ?= 1.18|1.19|1.20|1.21
+GO_SUPPORTED_VERSIONS ?= 1.18|1.19|1.20
 GO_LDFLAGS += -X $(VERSION_PACKAGE).GitVersion=$(VERSION) \
 	-X $(VERSION_PACKAGE).GitCommit=$(GIT_COMMIT) \
 	-X $(VERSION_PACKAGE).GitTreeState=$(GIT_TREE_STATE) \
@@ -185,9 +188,9 @@ go.build.%:
 	@mkdir -p $(BIN_DIR)/platforms/$(OS)/$(ARCH)
 	@CGO_ENABLED=0 GOOS=$(OS) GOARCH=$(ARCH) $(GO) build $(GO_BUILD_FLAGS) -o $(BIN_DIR)/platforms/$(OS)/$(ARCH)/$(COMMAND)$(GO_OUT_EXT) $(ROOT_PACKAGE)/cmd/$(COMMAND)
 
-## go.build.multiarch: Build binaries for all platforms
-.PHONY: go.build.multiarch
-go.build.multiarch: go.build.verify $(foreach p,$(PLATFORMS),$(addprefix go.build., $(addprefix $(p)., $(BINS))))
+## build-multiarch: Build binaries for multiple platforms.
+.PHONY: build-multiarch
+build-multiarch: go.build.verify $(foreach p,$(PLATFORMS),$(addprefix go.build., $(addprefix $(p)., $(BINS))))
 
 # ==============================================================================
 # Targets
@@ -196,6 +199,10 @@ go.build.multiarch: go.build.verify $(foreach p,$(PLATFORMS),$(addprefix go.buil
 .PHONY: tidy
 tidy:
 	@$(GO) mod tidy
+
+## style: Code style -> fmt,vet,lint
+.PHONY: style
+style: fmt vet lint
 
 ## fmt: Run go fmt against code.
 .PHONY: fmt
@@ -214,13 +221,9 @@ generate:
 
 ## lint: Run go lint against code.
 .PHONY: lint
-lint: tools.verify.golangci-lint
+lint:
 	@echo "===========> Run golangci to lint source codes"
-	@$(TOOLS_DIR)/golangci-lint run -c $(ROOT_DIR)/.golangci.yml $(ROOT_DIR)/...
-
-## style: Code style -> fmt,vet,lint
-.PHONY: style
-style: fmt vet lint
+	@golangci-lint run -c $(ROOT_DIR)/.golangci.yml $(ROOT_DIR)/...
 
 ## test: Run unit test
 .PHONY: test
@@ -247,7 +250,7 @@ docker-push:
 docker-buildx-push:
 	docker buildx build --platform linux/arm64,linux/amd64 -t ${IMG} . --push
 
-## copyright.verify: Validate boilerplate headers for assign files.
+## copyright-verify: Validate boilerplate headers for assign files.
 .PHONY: copyright-verify
 copyright-verify: tools.verify.addlicense copyright-add
 	@echo "===========> Validate boilerplate headers for assign files starting in the $(ROOT_DIR) directory"
@@ -258,7 +261,7 @@ copyright-verify: tools.verify.addlicense copyright-add
 .PHONY: copyright-add
 copyright-add: tools.verify.addlicense
 	@echo "===========> Adding $(LICENSE_TEMPLATE) the boilerplate headers for all files"
-	@$(TOOLS_DIR)/addlicense -y $(shell date +"%Y") -v -c "KubeCub & Xinwei Xiong(cubxxw)." -f $(LICENSE_TEMPLATE) $(CODE_DIRS)
+	@$(TOOLS_DIR)/addlicense -y $(shell date +"%Y") -v -c "KubeCub open source community." -f $(LICENSE_TEMPLATE) $(CODE_DIRS)
 	@echo "===========> End the copyright is added..."
 
 ## clean: Clean all builds.
@@ -273,8 +276,10 @@ clean:
 help: Makefile
 	@printf "\n\033[1mUsage: make <TARGETS> ...\033[0m\n\n\\033[1mTargets:\\033[0m\n\n"
 	@sed -n 's/^##//p' $< | awk -F':' '{printf "\033[36m%-28s\033[0m %s\n", $$1, $$2}' | sed -e 's/^/ /'
-################################################################################
+	
+######################################=> common tools<= ############################################
 # tools
+
 BUILD_TOOLS ?= go-gitlint golangci-lint goimports addlicense deepcopy-gen conversion-gen ginkgo go-junit-report 
 
 # tools.verify.%: Check if a tool is installed and install it
@@ -325,3 +330,122 @@ install.go-gitlint:
 .PHONY: install.go-junit-report
 install.go-junit-report:
 	@$(GO) install github.com/jstemmer/go-junit-report@latest
+
+# ==============================================================================
+# Tools that might be used include go gvm, cos
+#
+
+## install.kube-score: Install kube-score, used to check kubernetes yaml files
+.PHONY: install.kube-score
+install.kube-score:
+	@$(GO) install github.com/zegl/kube-score/cmd/kube-score@latest
+
+## install.kubeconform: Install kubeconform, used to check kubernetes yaml files
+.PHONY: install.kubeconform
+install.kubeconform:
+	@$(GO) install github.com/yannh/kubeconform/cmd/kubeconform@latest
+
+## install.gsemver: Install gsemver, used to generate semver
+.PHONY: install.gsemver
+install.gsemver:
+	@$(GO) install github.com/arnaud-deprez/gsemver@latest
+
+## install.git-chglog: Install git-chglog, used to generate changelog
+.PHONY: install.git-chglog
+install.git-chglog:
+	@$(GO) install github.com/git-chglog/git-chglog/cmd/git-chglog@latest
+
+## install.github-release: Install github-release, used to create github release
+.PHONY: install.github-release
+install.github-release:
+	@$(GO) install github.com/github-release/github-release@latest
+
+## install.coscli: Install coscli, used to upload files to cos
+# example: ./coscli  cp/sync -r /root/workspaces/kubecub/github-label-syncer/ cos://kubecub-1306374445/code/ -e cos.ap-hongkong.myqcloud.com
+# https://cloud.tencent.com/document/product/436/71763
+# kubecub/*
+# - code/
+# - docs/
+# - images/
+# - scripts/
+.PHONY: install.coscli
+install.coscli:
+	@wget -q https://github.com/tencentyun/coscli/releases/download/v0.13.0-beta/coscli-linux -O ${TOOLS_DIR}/coscli
+	@chmod +x ${TOOLS_DIR}/coscli
+
+## install.coscmd: Install coscmd, used to upload files to cos
+.PHONY: install.coscmd
+install.coscmd:
+	@if which pip &>/dev/null; then pip install coscmd; else pip3 install coscmd; fi
+
+## install.delve: Install delve, used to debug go program
+.PHONY: install.delve
+install.delve:
+	@$(GO) install github.com/go-delve/delve/cmd/dlv@latest
+
+## install.air: Install air, used to hot reload go program
+.PHONY: install.air
+install.air:
+	@$(GO) install github.com/cosmtrek/air@latest
+
+## install.gvm: Install gvm, gvm is a Go version manager, built on top of the official go tool.
+.PHONY: install.gvm
+install.gvm:
+	@echo "===========> Installing gvm,The default installation path is ~/.gvm/script/gvm"
+	@bash < <(curl -s -S -L https://raw.gitee.com/moovweb/gvm/master/binscripts/gvm-installer)
+	@$(shell source /root/.gvm/script/gvm)
+
+## install.golines: Install golines, used to format long lines
+.PHONY: install.golines
+install.golines:
+	@$(GO) install github.com/segmentio/golines@latest
+
+## install.go-mod-outdated: Install go-mod-outdated, used to check outdated dependencies
+.PHONY: install.go-mod-outdated
+install.go-mod-outdated:
+	@$(GO) install github.com/psampaz/go-mod-outdated@latest
+
+## install.mockgen: Install mockgen, used to generate mock functions
+.PHONY: install.mockgen
+install.mockgen:
+	@$(GO) install github.com/golang/mock/mockgen@latest
+
+## install.gotests: Install gotests, used to generate test functions
+.PHONY: install.gotests
+install.gotests:
+	@$(GO) install github.com/cweill/gotests/gotests@latest
+
+## install.protoc-gen-go: Install protoc-gen-go, used to generate go source files from protobuf files
+.PHONY: install.protoc-gen-go
+install.protoc-gen-go:
+	@$(GO) install github.com/golang/protobuf/protoc-gen-go@latest
+
+## install.cfssl: Install cfssl, used to generate certificates
+.PHONY: install.cfssl
+install.cfssl:
+	@$(ROOT_DIR)/script/install/install.sh iam::install::install_cfssl
+
+## install.depth: Install depth, used to check dependency tree
+.PHONY: install.depth
+install.depth:
+	@$(GO) install github.com/KyleBanks/depth/cmd/depth@latest
+
+## install.go-callvis: Install go-callvis, used to visualize call graph
+.PHONY: install.go-callvis
+install.go-callvis:
+	@$(GO) install github.com/ofabry/go-callvis@latest
+
+## install.gothanks: Install gothanks, used to thank go dependencies
+.PHONY: install.gothanks
+install.gothanks:
+	@$(GO) install github.com/psampaz/gothanks@latest
+
+## install.richgo: Install richgo
+.PHONY: install.richgo
+install.richgo:
+	@$(GO) install github.com/kyoh86/richgo@latest
+
+## install.rts: Install rts
+.PHONY: install.rts
+install.rts:
+	@$(GO) install github.com/galeone/rts/cmd/rts@latest
