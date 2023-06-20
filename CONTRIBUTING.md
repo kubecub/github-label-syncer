@@ -8,13 +8,23 @@ This document provides guidelines and best practices to help you contribute effe
 
 ## 📇Topics
 
-- [What we expect of you](#What-we-expect-of-you)
-- [Code of Conduct](#Code-of-Conduct)
-- [Getting Started](#Getting-Started)
-- [Style and Specification](#Style-and-Specification)
-- [Engage to help anything](#Engage-to-help-anything)
-- [Release version](#Release-version)
-- [Contact Us](#Contact-Us)
+- [Contributing to github-label-syncer](#contributing-to-github-label-syncer)
+  - [📇Topics](#topics)
+  - [What we expect of you](#what-we-expect-of-you)
+  - [Code of ConductCode of Conduct](#code-of-conductcode-of-conduct)
+      - [Code and doc contribution](#code-and-doc-contribution)
+      - [Where should I start?](#where-should-i-start)
+      - [Design documents](#design-documents)
+  - [Getting Started](#getting-started)
+  - [Style and Specification](#style-and-specification)
+      - [Reporting security issues](#reporting-security-issues)
+      - [Reporting general issues](#reporting-general-issues)
+      - [Commit Rules](#commit-rules)
+      - [PR Description](#pr-description)
+      - [Docs Contribution](#docs-contribution)
+  - [Engage to help anything](#engage-to-help-anything)
+  - [Release version](#release-version)
+  - [Contact Us](#contact-us)
 
 ## What we expect of you
 
@@ -175,7 +185,7 @@ To be honest, we regard every user of github-label-synceras a very kind contribu
 
 Since we collaborate project github-label-syncer in a distributed way, we appreciate **WELL-WRITTEN**, **DETAILED**, **EXPLICIT** issue reports. To make the communication more efficient, we wish everyone could search if your issue is an existing one in the searching list. If you find it existing, please add your details in comments under the existing issue instead of opening a brand new one.
 
-To make the issue details as standard as possible, we setup an [ISSUE TEMPLATE](https://github.com/kubecub/github-label-syncer/tree/main/.github/ISSUE_TEMPLATE) for issue reporters. You can find three kinds of issue templates there: question, bug report and feature request. Please **BE SURE** to follow the instructions to fill fields in template.
+To make the issue details as standard as possible, we setup an [ISSUE TEMPLATE](https://github.com/kubecub/.github/tree/main/.github/ISSUE_TEMPLATE) for issue reporters. You can find three kinds of issue templates there: question, bug report and feature request. Please **BE SURE** to follow the instructions to fill fields in template.
 
 **There are a lot of cases when you could open an issue:**
 

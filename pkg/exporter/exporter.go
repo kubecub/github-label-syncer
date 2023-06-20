@@ -6,9 +6,13 @@ package exporter
 
 import (
 	"bytes"
+	"encoding/csv"
 	"encoding/json"
+	"encoding/xml"
+	"fmt"
 
 	"github.com/olekukonko/tablewriter"
+	"gopkg.in/ini.v1"
 	"sigs.k8s.io/yaml"
 )
 
@@ -31,14 +35,17 @@ type LabelsToObject interface {
 }
 
 func LabelsToJSON(labels []*Label) ([]byte, error) {
+	fmt.Println("hits labels to json")
 	return json.Marshal(labels)
 }
 
 func LabelsToYAML(labels []*Label) ([]byte, error) {
+	fmt.Println("hits labels to yaml")
 	return yaml.Marshal(labels)
 }
 
 func LabelsToTable(labels []*Label) ([]byte, error) {
+	fmt.Println("hits labels to table")
 	labelRows := make([][]string, 0, len(labels))
 	for _, l := range labels {
 		labelRows = append(labelRows, []string{l.Name, l.Description, l.Color})
@@ -54,17 +61,62 @@ func LabelsToTable(labels []*Label) ([]byte, error) {
 }
 
 func LabelsToXML(labels []*Label) ([]byte, error) {
-	return nil, nil
+	fmt.Println("hits labels to xml")
+	type XMLLabels struct {
+		XMLName xml.Name `xml:"labels"`
+		Labels  []*Label `xml:"label"`
+	}
+	xmlLabels := &XMLLabels{Labels: labels}
+	return xml.MarshalIndent(xmlLabels, "", "  ")
 }
 
 func LabelsToTOML(labels []*Label) ([]byte, error) {
+	fmt.Println("hits labels to toml")
+	type TOMLLabel struct {
+		Name        string `toml:"name"`
+		Description string `toml:"description"`
+		Color       string `toml:"color"`
+	}
+	type TOMLLabels struct {
+		Labels []*TOMLLabel `toml:"label"`
+	}
+	tomlLabels := &TOMLLabels{}
+	for _, label := range labels {
+		tomlLabels.Labels = append(tomlLabels.Labels, &TOMLLabel{
+			Name:        label.Name,
+			Description: label.Description,
+			Color:       label.Color,
+		})
+	}
 	return nil, nil
 }
 
 func LabelsToINI(labels []*Label) ([]byte, error) {
+	fmt.Println("hits labels to ini")
+	cfg := ini.Empty()
+	for _, label := range labels {
+		section, err := cfg.NewSection(label.Name)
+		if err != nil {
+			return nil, err
+		}
+		section.NewKey("description", label.Description)
+		section.NewKey("color", label.Color)
+	}
 	return nil, nil
 }
 
 func LabelsToCSV(labels []*Label) ([]byte, error) {
-	return nil, nil
+	fmt.Println("hits labels to csv")
+	b := &bytes.Buffer{}
+	w := csv.NewWriter(b)
+	if err := w.Write([]string{"Name", "Description", "Color"}); err != nil {
+		return nil, err
+	}
+	for _, label := range labels {
+		if err := w.Write([]string{label.Name, label.Description, label.Color}); err != nil {
+			return nil, err
+		}
+	}
+	w.Flush()
+	return b.Bytes(), nil
 }

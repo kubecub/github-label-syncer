@@ -70,7 +70,6 @@ The labels are designed semantic and standard. We provide labels for priority, t
 ❯ make help    # show help
 ❯ make build   # build binary exporter and syncer
 ❯ echo 'export PATH=$PATH:/path/to/_output/platforms/linux/amd64/' | tee -a ~/.zshrc;source ~/.zshrc
-
 ```
 
 </details>
@@ -90,8 +89,10 @@ Comment in an issue:
 <details>
   <summary>Use</summary>
 
+You can set your own `GITHUB_TOKEN` via env or via the `export GITHUB_TOKEN` environment variable, or use one of the default tokens we provide, which is `TOEKN` for our free automated [🤖 robot](https://github.com/kubbot)
+
 ```bash
-❯ ./_output/platforms/linux/amd64/exporter --help
+❯ ./_output/bin/platforms/linux/amd64/exporter --help
 usage: exporter [<flags>] <owner> <repo>
 
 
@@ -100,6 +101,10 @@ Flags:
   -y, --[no-]yaml   Use the YAML format.
   -j, --[no-]json   Use the JSON format.
   -t, --[no-]table  Use the table format.
+  -x, --[no-]xml    Use the XML format.
+      --[no-]toml   Use the TOML format.
+      --[no-]ini    Use the INI format.
+      --[no-]csv    Use the CSV format.
 
 Args:
   <owner>  Owner of the repository.

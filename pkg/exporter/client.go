@@ -3,6 +3,7 @@ package exporter
 import (
 	"context"
 	"errors"
+	"fmt"
 	"os"
 	"os/exec"
 	"path/filepath"
@@ -23,6 +24,7 @@ func NewClient() (*githubClient, error) {
 	envPath := filepath.Join(".", ".env")
 	if _, err := os.Stat(envPath); os.IsNotExist(err) {
 		envTemplatePath := filepath.Join(".", ".env.template")
+		fmt.Println("envPath: ", envPath)
 		if _, err := os.Stat(envTemplatePath); os.IsNotExist(err) {
 			return nil, errors.New("missing .env.template file")
 		}

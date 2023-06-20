@@ -8,6 +8,7 @@ import (
 	"context"
 	"fmt"
 	"log"
+	"os"
 	"runtime/debug"
 
 	"github.com/alecthomas/kingpin/v2"
@@ -23,12 +24,18 @@ var (
 	yaml  = kingpin.Flag("yaml", "Use the YAML format.").Short('y').Bool()
 	json  = kingpin.Flag("json", "Use the JSON format.").Short('j').Bool()
 	table = kingpin.Flag("table", "Use the table format.").Short('t').Bool()
+	xml   = kingpin.Flag("xml", "Use the XML format.").Short('x').Bool()
 
 	// TODO: Add support for these formats.
-	xml  = kingpin.Flag("xml", "Use the XML format.").Short('x').Bool()
 	toml = kingpin.Flag("toml", "Use the TOML format.").Bool()
 	ini  = kingpin.Flag("ini", "Use the INI format.").Bool()
 	csv  = kingpin.Flag("csv", "Use the CSV format.").Bool()
+)
+
+var (
+	// New flags.
+	file  = kingpin.Flag("file", "Export labels to file.").Short('f').String()
+	token = kingpin.Flag("token", "GitHub token.").Envar("GITHUB_TOKEN").String()
 )
 
 var (
@@ -67,7 +74,15 @@ func main() {
 		if err != nil {
 			log.Fatal(err)
 		}
-		fmt.Println(string(b))
+		if *file != "" {
+			err = os.WriteFile(*file, b, 0644)
+			if err != nil {
+				log.Fatal(err)
+			}
+			fmt.Printf("Labels exported to %s\n", *file)
+		} else {
+			fmt.Println(string(b))
+		}
 		return
 	}
 
@@ -76,7 +91,15 @@ func main() {
 		if err != nil {
 			log.Fatal(err)
 		}
-		fmt.Println(string(b))
+		if *file != "" {
+			err = os.WriteFile(*file, b, 0644)
+			if err != nil {
+				log.Fatal(err)
+			}
+			fmt.Printf("Labels exported to %s\n", *file)
+		} else {
+			fmt.Println(string(b))
+		}
 		return
 	}
 
@@ -85,7 +108,15 @@ func main() {
 		if err != nil {
 			log.Fatal(err)
 		}
-		fmt.Println(string(b))
+		if *file != "" {
+			err = os.WriteFile(*file, b, 0644)
+			if err != nil {
+				log.Fatal(err)
+			}
+			fmt.Printf("Labels exported to %s\n", *file)
+		} else {
+			fmt.Println(string(b))
+		}
 		return
 	}
 
@@ -94,7 +125,15 @@ func main() {
 		if err != nil {
 			log.Fatal(err)
 		}
-		fmt.Println(string(b))
+		if *file != "" {
+			err = os.WriteFile(*file, b, 0644)
+			if err != nil {
+				log.Fatal(err)
+			}
+			fmt.Printf("Labels exported to %s\n", *file)
+		} else {
+			fmt.Println(string(b))
+		}
 		return
 	}
 
