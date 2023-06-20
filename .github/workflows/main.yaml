@@ -1,15 +1,18 @@
+name: CI
 on: [push]
-
 jobs:
-  hello_world_job:
+  test:
+    name: Test
     runs-on: ubuntu-latest
-    name: A job to say hello
     steps:
-      - name: Hello world action step
-        id: hello
-        uses: actions/hello-world-docker-action@v2
+      - name: Set up Go 1.13
+        uses: actions/setup-go@v1
         with:
-          who-to-greet: 'Kubecub && cubxxw'
-      # Use the output from the `hello` step
-      - name: Get the output time
-        run: echo "The time was ${{ steps.hello.outputs.time }}"
+          go-version: 1.13
+        id: go
+      - name: Check out code into the Go module directory
+        uses: actions/checkout@v1
+      - name: Download modules
+        run: go get -d -v ./...
+      - name: Test
+        run: go test ./...
