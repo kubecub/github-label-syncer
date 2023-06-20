@@ -27,7 +27,6 @@ func run(ctx context.Context) error {
 	// Check if .env file exists
 	if _, err := os.Stat(".env"); os.IsNotExist(err) {
 		fmt.Println("The .env file does not exist. Please rename .env.template to .env and set the required values.")
-		return err
 	}
 
 	// Load environment variables from .env file
@@ -58,8 +57,8 @@ func run(ctx context.Context) error {
 	if len(repository) == 0 {
 		repository = os.Getenv("GITHUB_REPOSITORY")
 	}
-
 	// Doesn't run concurrently to avoid GitHub API rate limit.
+
 	for _, r := range strings.Split(repository, "\n") {
 		if len(r) == 0 {
 			continue

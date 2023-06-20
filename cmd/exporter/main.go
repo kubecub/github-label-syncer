@@ -8,7 +8,6 @@ import (
 	"context"
 	"fmt"
 	"log"
-	"os"
 	"runtime/debug"
 
 	"github.com/alecthomas/kingpin/v2"
@@ -53,20 +52,6 @@ func main() {
 		}
 	}
 
-	info := commands.BuildInfo{
-		GoVersion: goVersion,
-		Version:   version,
-		Commit:    commit,
-		Date:      date,
-	}
-
-	e := commands.NewExecutor(info)
-
-	if err := e.Execute(); err != nil {
-		fmt.Fprintf(os.Stderr, "failed executing command with error %v\n", err)
-		os.Exit(exitcodes.Failure)
-	}
-	
 	kingpin.Parse()
 	client, err := exporter.NewClient()
 	if err != nil {
