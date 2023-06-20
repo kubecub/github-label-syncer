@@ -20,10 +20,14 @@ type Client struct {
 	token        string
 }
 
+//
 type Label struct {
-	Name        string `yaml:"name"`
-	Description string `yaml:"description"`
-	Color       string `yaml:"color"`
+	// The name of the label.
+	Name string `json:"name"`
+	// An optional description of the label.
+	Description string `json:"description"`
+	// The hexadecimal color code for the label.
+	Color string `json:"color"`
 }
 
 func FromManifestToLabels(path string) ([]Label, error) {

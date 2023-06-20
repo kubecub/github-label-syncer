@@ -1,0 +1,24 @@
+name: "Github lables pull and synchronize"
+description: "Sync your github labels, or download specific github labels"
+author: "Kubecub"
+inputs:
+  manifest:
+    description: "File path of YAML manifest for labels"
+    required: false
+    default: ".github/labels.yml"
+  repository:
+    description: "The repo to sync labels on (defaults to current repo)"
+    required: false
+  token:
+    description: "An alternative GitHub token to use instead"
+    required: false
+  prune:
+    description: "Remove unmanaged labels from repository"
+    required: false
+    default: true
+runs:
+  using: "docker"
+  image: "Dockerfile"
+branding:
+  icon: tool
+  color: blue
