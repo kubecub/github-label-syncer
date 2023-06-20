@@ -87,7 +87,7 @@ Comment in an issue:
 
 </details>
 <details>
-  <summary>Use</summary>
+  <summary>Use Github-Label-Syncer</summary>
 
 You can set your own `GITHUB_TOKEN` via env or via the `export GITHUB_TOKEN` environment variable, or use one of the default tokens we provide, which is `TOEKN` for our free automated [🤖 robot](https://github.com/kubbot)
 
@@ -97,14 +97,16 @@ usage: exporter [<flags>] <owner> <repo>
 
 
 Flags:
-      --[no-]help   Show context-sensitive help (also try --help-long and --help-man).
-  -y, --[no-]yaml   Use the YAML format.
-  -j, --[no-]json   Use the JSON format.
-  -t, --[no-]table  Use the table format.
-  -x, --[no-]xml    Use the XML format.
-      --[no-]toml   Use the TOML format.
-      --[no-]ini    Use the INI format.
-      --[no-]csv    Use the CSV format.
+      --[no-]help    Show context-sensitive help (also try --help-long and --help-man).
+  -y, --[no-]yaml    Use the YAML format.
+  -j, --[no-]json    Use the JSON format.
+  -t, --[no-]table   Use the table format.
+  -x, --[no-]xml     Use the XML format.
+      --[no-]toml    Use the TOML format.
+      --[no-]ini     Use the INI format.
+      --[no-]csv     Use the CSV format.
+  -f, --file=FILE    Export labels to file.
+      --token=TOKEN  GitHub token. ($GITHUB_TOKEN)
 
 Args:
   <owner>  Owner of the repository.
@@ -134,6 +136,21 @@ Args:
     "color": "99cef9"
   }
 ]
+
+❯ ./_output/bin/platforms/linux/amd64/exporter kubernetes kubernetes --yaml -f ./_output/tmp/kubernetes_labels.yaml
+❯ tree _output/
+_output/
+├── bin
+│   └── platforms
+│       └── linux
+│           └── amd64
+│               ├── exporter
+│               └── syncer
+├── tmp
+│   └── kubernetes_labels.yaml
+└── tools
+    ├── addlicense
+    └── go-gitlint
 
 ❯ ./syncer --help
 ```

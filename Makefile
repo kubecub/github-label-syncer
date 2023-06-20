@@ -191,7 +191,6 @@ go.build.%:
 ## build-multiarch: Build binaries for multiple platforms.
 .PHONY: build-multiarch
 build-multiarch: go.build.verify $(foreach p,$(PLATFORMS),$(addprefix go.build., $(addprefix $(p)., $(BINS))))
-
 # ==============================================================================
 # Targets
 

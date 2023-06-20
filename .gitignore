@@ -22,6 +22,7 @@
 *_LOCAL_*.txt
 *_REMOTE_*.txt
 
+
 ### Go ###
 # Binaries for programs and plugins
 *.exe

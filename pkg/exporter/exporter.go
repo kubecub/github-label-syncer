@@ -34,17 +34,23 @@ type LabelsToObject interface {
 	LabelsToCSV(labels []*Label) ([]byte, error)
 }
 
-func LabelsToJSON(labels []*Label) ([]byte, error) {
+type Labels struct {
+	Name        string `json:"name" yaml:"name" toml:"name" ini:"name" xml:"name"`
+	Description string `json:"description,omitempty" yaml:"description,omitempty" toml:"description,omitempty" ini:"description,omitempty" xml:"description,omitempty"`
+	Color       string `json:"color,omitempty" yaml:"color,omitempty" toml:"color,omitempty" ini:"color,omitempty" xml:"color,omitempty"`
+}
+
+func (l Labels) LabelsToJSON(labels []*Label) ([]byte, error) {
 	fmt.Println("hits labels to json")
 	return json.Marshal(labels)
 }
 
-func LabelsToYAML(labels []*Label) ([]byte, error) {
+func (l Labels) LabelsToYAML(labels []*Label) ([]byte, error) {
 	fmt.Println("hits labels to yaml")
 	return yaml.Marshal(labels)
 }
 
-func LabelsToTable(labels []*Label) ([]byte, error) {
+func (l Labels) LabelsToTable(labels []*Label) ([]byte, error) {
 	fmt.Println("hits labels to table")
 	labelRows := make([][]string, 0, len(labels))
 	for _, l := range labels {
@@ -60,7 +66,7 @@ func LabelsToTable(labels []*Label) ([]byte, error) {
 	return b.Bytes(), nil
 }
 
-func LabelsToXML(labels []*Label) ([]byte, error) {
+func (l Labels) LabelsToXML(labels []*Label) ([]byte, error) {
 	fmt.Println("hits labels to xml")
 	type XMLLabels struct {
 		XMLName xml.Name `xml:"labels"`
@@ -70,7 +76,7 @@ func LabelsToXML(labels []*Label) ([]byte, error) {
 	return xml.MarshalIndent(xmlLabels, "", "  ")
 }
 
-func LabelsToTOML(labels []*Label) ([]byte, error) {
+func (l Labels) LabelsToTOML(labels []*Label) ([]byte, error) {
 	fmt.Println("hits labels to toml")
 	type TOMLLabel struct {
 		Name        string `toml:"name"`
@@ -91,7 +97,7 @@ func LabelsToTOML(labels []*Label) ([]byte, error) {
 	return nil, nil
 }
 
-func LabelsToINI(labels []*Label) ([]byte, error) {
+func (l Labels) LabelsToINI(labels []*Label) ([]byte, error) {
 	fmt.Println("hits labels to ini")
 	cfg := ini.Empty()
 	for _, label := range labels {
@@ -105,7 +111,7 @@ func LabelsToINI(labels []*Label) ([]byte, error) {
 	return nil, nil
 }
 
-func LabelsToCSV(labels []*Label) ([]byte, error) {
+func (l Labels) LabelsToCSV(labels []*Label) ([]byte, error) {
 	fmt.Println("hits labels to csv")
 	b := &bytes.Buffer{}
 	w := csv.NewWriter(b)

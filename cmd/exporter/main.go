@@ -49,6 +49,8 @@ var (
 
 func main() {
 
+	exporters := exporter.Labels{}
+	// var exporters exporter.LabelsToObject
 	if buildInfo, available := debug.ReadBuildInfo(); available {
 		goVersion = buildInfo.GoVersion
 
@@ -70,7 +72,7 @@ func main() {
 	}
 
 	if *yaml {
-		b, err := exporter.LabelsToYAML(labels)
+		b, err := exporters.LabelsToYAML(labels)
 		if err != nil {
 			log.Fatal(err)
 		}
@@ -87,7 +89,7 @@ func main() {
 	}
 
 	if *json {
-		b, err := exporter.LabelsToJSON(labels)
+		b, err := exporters.LabelsToJSON(labels)
 		if err != nil {
 			log.Fatal(err)
 		}
@@ -104,7 +106,7 @@ func main() {
 	}
 
 	if *table {
-		b, err := exporter.LabelsToTable(labels)
+		b, err := exporters.LabelsToTable(labels)
 		if err != nil {
 			log.Fatal(err)
 		}
@@ -121,7 +123,7 @@ func main() {
 	}
 
 	if *xml {
-		b, err := exporter.LabelsToXML(labels)
+		b, err := exporters.LabelsToXML(labels)
 		if err != nil {
 			log.Fatal(err)
 		}
@@ -138,7 +140,7 @@ func main() {
 	}
 
 	if *toml {
-		b, err := exporter.LabelsToTOML(labels)
+		b, err := exporters.LabelsToTOML(labels)
 		if err != nil {
 			log.Fatal(err)
 		}
@@ -147,7 +149,7 @@ func main() {
 	}
 
 	if *ini {
-		b, err := exporter.LabelsToINI(labels)
+		b, err := exporters.LabelsToINI(labels)
 		if err != nil {
 			log.Fatal(err)
 		}
@@ -156,7 +158,7 @@ func main() {
 	}
 
 	if *csv {
-		b, err := exporter.LabelsToCSV(labels)
+		b, err := exporters.LabelsToCSV(labels)
 		if err != nil {
 			log.Fatal(err)
 		}
