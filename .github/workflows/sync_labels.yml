@@ -5,7 +5,7 @@ on:
     branches:
       - mian
     paths:
-      - .github/labels.yml
+      - .github/sync_labels.yml
 
 jobs:
   sync:
