@@ -1,0 +1,15 @@
+FROM golang:1.20-alpine
+# docker build -t exporter:1.0 -f ./Dockerfile.exporter .
+WORKDIR /app
+
+COPY . .
+
+RUN apk update && apk add make
+
+RUN make exporter
+
+FROM alpine:latest
+
+COPY --from=0 /app/_output/bin/platforms/linux/amd64/exporter /app/exporter
+
+ENTRYPOINT ["/app/exporter"]
