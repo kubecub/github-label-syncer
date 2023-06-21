@@ -4,8 +4,8 @@ on:
   push:
     branches:
       - main
-    paths:
-      - .github/sync_labels.yml
+    # paths:
+    #   - .github/sync_labels.yml
 
 jobs:
   sync:
