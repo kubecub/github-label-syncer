@@ -3,7 +3,9 @@ name: Kubecub Sync labels
 on:
   push:
     branches:
-      - mian
+      - main
+    paths:
+      - .github/sync_labels.yml
 
 jobs:
   sync:
