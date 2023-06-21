@@ -1,4 +1,4 @@
-name: 🎯 Kubecub Sync labels
+name: Kubecub Sync labels
 
 on:
   push:

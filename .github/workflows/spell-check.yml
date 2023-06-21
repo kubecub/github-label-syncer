@@ -19,23 +19,9 @@ jobs:
     - name: Check spelling of md
       uses: crate-ci/typos@master
       with: 
-        files: 
-            ./CONTIRIBUTING.md
-            ./README.md
-            
+        files: ./CONTIRIBUTING.md
+
     - name: Use custom config file
       uses: crate-ci/typos@master
       with: 
-        files: ./file.txt
-        config: ./myconfig.toml
-
-    - name: Ignore implicit configuration file
-      uses: crate-ci/typos@master
-      with: 
-        files: ./file.txt
-        isolated: true
-
-    - name: Writes changes in the local checkout
-      uses: crate-ci/typos@master
-      with: 
-        write_changes: true
+        files: ./README.md

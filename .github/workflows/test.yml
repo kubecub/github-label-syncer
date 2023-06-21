@@ -19,7 +19,7 @@ jobs:
       
       - name: Build project
         run: make build
-      
+
       - name: Test build artifacts
         run: |
           # Add your tests here to check the build artifacts
