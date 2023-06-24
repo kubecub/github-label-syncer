@@ -16,7 +16,7 @@ jobs:
         - name: Github lables pull and synchronize
           uses: kubecub/github-label-syncer@v1.2.0
           with:
-            manifest: .github/sync_labels.yml
+            manifest: .github/sync_labeler.yml
             repository: |
                 kubecub/kubecub
             token: ${{ secrets.BOT_GITHUB_TOKEN }}
