@@ -193,6 +193,20 @@ go.build.%:
 build-multiarch: go.build.verify $(foreach p,$(PLATFORMS),$(addprefix go.build., $(addprefix $(p)., $(BINS))))
 # ==============================================================================
 # Targets
+.PHONY: release
+release: release.verify release.ensure-tag
+	@scripts/release.sh
+
+.PHONY: install.gsemver
+release.verify: install.git-chglog install.github-release install.coscmd
+
+.PHONY: release.tag
+release.tag: install.gsemver release.ensure-tag
+	@git push origin `git describe --tags --abbrev=0`
+
+.PHONY: release.ensure-tag
+release.ensure-tag: install.gsemver
+	@scripts/ensure_tag.sh
 
 ## tidy: tidy go.mod
 .PHONY: tidy
@@ -422,7 +436,7 @@ install.protoc-gen-go:
 ## install.cfssl: Install cfssl, used to generate certificates
 .PHONY: install.cfssl
 install.cfssl:
-	@$(ROOT_DIR)/script/install/install.sh iam::install::install_cfssl
+	@$(ROOT_DIR)/script/install/install.sh kubecub::install::install_cfssl
 
 ## install.depth: Install depth, used to check dependency tree
 .PHONY: install.depth

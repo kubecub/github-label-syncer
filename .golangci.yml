@@ -165,7 +165,7 @@ linters-settings:
     # put imports beginning with prefix after 3rd-party packages;
     # only support one prefix
     # if not set, use goimports.local-prefixes
-    prefix: github.com/marmotedu/iam
+    prefix: github.com/marmotedu/kubecub
   gocognit:
     # minimal code complexity to report, 30 by default (but we recommend 10-20)
     min-complexity: 30
@@ -322,7 +322,7 @@ linters-settings:
   goimports:
     # put imports beginning with prefix after 3rd-party packages;
     # it's a comma-separated list of prefixes
-    local-prefixes: github.com/marmotedu/iam
+    local-prefixes: github.com/marmotedu/kubecub
   golint:
     # minimal confidence for issues, default is 0.8
     min-confidence: 0.9

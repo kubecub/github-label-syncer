@@ -330,7 +330,7 @@ flycheck_*.el
 
 # End of https://www.toptal.com/developers/gitignore/api/vim,jetbrains,vscode,git,go,tags,backup,test
 
-# Start by iam
+# Start by kubecub
 
 # log
 *.log
