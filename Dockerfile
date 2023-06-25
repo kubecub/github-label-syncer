@@ -2,7 +2,7 @@
 # Licensed under the MIT License (the "License");
 # you may not use this file except in compliance with the License.
 
-FROM golang:1.20 AS build
+FROM golang:1.18 AS build
 
 WORKDIR /go/src/app
 COPY . /go/src/app
