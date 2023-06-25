@@ -12,6 +12,7 @@ on:
     #   - .github/sync_labels.yml
 
 # uses: kubecub/github-label-syncer@v1.2.0
+# micnncim/action-label-syncer@v1
 jobs:
     build:
       runs-on: ubuntu-latest
@@ -19,7 +20,7 @@ jobs:
         - name: Checkout
           uses: actions/checkout@1.0.0
         - name: Github lables pull and synchronize
-          uses: micnncim/action-label-syncer@v1
+          uses: kubecub/github-label-syncer@v1.4.0
           with:
             manifest: .github/sync_labeler.yml
             token: ${{ secrets.BOT_GITHUB_TOKEN }}
