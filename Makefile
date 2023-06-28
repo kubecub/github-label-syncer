@@ -295,7 +295,7 @@ help: Makefile
 
 BUILD_TOOLS ?= go-gitlint golangci-lint goimports addlicense deepcopy-gen conversion-gen ginkgo go-junit-report 
 
-# tools.verify.%: Check if a tool is installed and install it
+## tools.verify.%: Check if a tool is installed and install it
 .PHONY: tools.verify.%
 tools.verify.%:
 	@echo "===========> Verifying $* is installed"
