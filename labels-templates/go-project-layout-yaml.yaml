@@ -1,0 +1,147 @@
+- color: FBCA04
+  default: false
+  description: Issues and PR about the API
+  id: 5520223401
+  name: API
+  node_id: LA_kwDOJk4SXM8AAAABSQfsqQ
+  url: https://api.github.com/repos/kubecub/go-project-layout/labels/API
+- color: FEF2C0
+  default: false
+  description: Automatically synchronize files to merge PR tags
+  id: 5602537306
+  name: automerge
+  node_id: LA_kwDOJk4SXM8AAAABTe_vWg
+  url: https://api.github.com/repos/kubecub/go-project-layout/labels/automerge
+- color: FEF2C0
+  default: false
+  description: Autosync file
+  id: 5602535701
+  name: file-sync
+  node_id: LA_kwDOJk4SXM8AAAABTe_pFQ
+  url: https://api.github.com/repos/kubecub/go-project-layout/labels/file-sync
+- color: 7057ff
+  default: true
+  description: Good for newcomers
+  id: 5520223407
+  name: good first issue
+  node_id: LA_kwDOJk4SXM8AAAABSQfsrw
+  url: https://api.github.com/repos/kubecub/go-project-layout/labels/good%20first%20issue
+- color: "008672"
+  default: true
+  description: Extra attention is needed
+  id: 5520223410
+  name: help wanted
+  node_id: LA_kwDOJk4SXM8AAAABSQfssg
+  url: https://api.github.com/repos/kubecub/go-project-layout/labels/help%20wanted
+- color: e4e669
+  default: true
+  description: This doesn't seem right
+  id: 5520223414
+  name: invalid
+  node_id: LA_kwDOJk4SXM8AAAABSQfstg
+  url: https://api.github.com/repos/kubecub/go-project-layout/labels/invalid
+- color: d73a4a
+  default: false
+  description: Something isn't working
+  id: 5520223417
+  name: kind/bug
+  node_id: LA_kwDOJk4SXM8AAAABSQfsuQ
+  url: https://api.github.com/repos/kubecub/go-project-layout/labels/kind/bug
+- color: 0075ca
+  default: false
+  description: Improvements or additions to documentation
+  id: 5520223420
+  name: kind/documentation
+  node_id: LA_kwDOJk4SXM8AAAABSQfsvA
+  url: https://api.github.com/repos/kubecub/go-project-layout/labels/kind/documentation
+- color: a2eeef
+  default: false
+  description: New feature or request
+  id: 5520223423
+  name: kind/enhancement
+  node_id: LA_kwDOJk4SXM8AAAABSQfsvw
+  url: https://api.github.com/repos/kubecub/go-project-layout/labels/kind/enhancement
+- color: DC03D2
+  default: false
+  description: ""
+  id: 5520223425
+  name: kind/feature
+  node_id: LA_kwDOJk4SXM8AAAABSQfswQ
+  url: https://api.github.com/repos/kubecub/go-project-layout/labels/kind/feature
+- color: 0E8A16
+  default: false
+  description: Indicates that a PR is ready to be merged.
+  id: 5520223428
+  name: lgtm
+  node_id: LA_kwDOJk4SXM8AAAABSQfsxA
+  url: https://api.github.com/repos/kubecub/go-project-layout/labels/lgtm
+- color: ededed
+  default: false
+  description: ""
+  id: 5618487007
+  name: lifecycle/stale
+  node_id: LA_kwDOJk4SXM8AAAABTuNO3w
+  url: https://api.github.com/repos/kubecub/go-project-layout/labels/lifecycle/stale
+- color: FBCA04
+  default: false
+  description: ""
+  id: 5520223430
+  name: log
+  node_id: LA_kwDOJk4SXM8AAAABSQfsxg
+  url: https://api.github.com/repos/kubecub/go-project-layout/labels/log
+- color: d876e3
+  default: true
+  description: Further information is requested
+  id: 5520223431
+  name: question
+  node_id: LA_kwDOJk4SXM8AAAABSQfsxw
+  url: https://api.github.com/repos/kubecub/go-project-layout/labels/question
+- color: 0E8A16
+  default: false
+  description: ""
+  id: 5520832656
+  name: report
+  node_id: LA_kwDOJk4SXM8AAAABSRE4kA
+  url: https://api.github.com/repos/kubecub/go-project-layout/labels/report
+- color: 10C590
+  default: false
+  description: ""
+  id: 5520223404
+  name: RFC
+  node_id: LA_kwDOJk4SXM8AAAABSQfsrA
+  url: https://api.github.com/repos/kubecub/go-project-layout/labels/RFC
+- color: 0E8A16
+  default: false
+  description: ""
+  id: 5520223432
+  name: roadmap
+  node_id: LA_kwDOJk4SXM8AAAABSQfsyA
+  url: https://api.github.com/repos/kubecub/go-project-layout/labels/roadmap
+- color: 0E8A16
+  default: false
+  description: ""
+  id: 5520223434
+  name: triage/accepted
+  node_id: LA_kwDOJk4SXM8AAAABSQfsyg
+  url: https://api.github.com/repos/kubecub/go-project-layout/labels/triage/accepted
+- color: C001BC
+  default: false
+  description: This issue or pull request already exists
+  id: 5520223439
+  name: triage/duplicate
+  node_id: LA_kwDOJk4SXM8AAAABSQfszw
+  url: https://api.github.com/repos/kubecub/go-project-layout/labels/triage/duplicate
+- color: D93F0B
+  default: false
+  description: ""
+  id: 5520832653
+  name: triage/unresolved
+  node_id: LA_kwDOJk4SXM8AAAABSRE4jQ
+  url: https://api.github.com/repos/kubecub/go-project-layout/labels/triage/unresolved
+- color: ffffff
+  default: true
+  description: This will not be worked on
+  id: 5520223448
+  name: wontfix
+  node_id: LA_kwDOJk4SXM8AAAABSQfs2A
+  url: https://api.github.com/repos/kubecub/go-project-layout/labels/wontfix

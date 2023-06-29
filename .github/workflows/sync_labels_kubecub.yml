@@ -1,0 +1,41 @@
+# Copyright © 2023 KubeCub open source community. All rights reserved.
+# Licensed under the MIT License (the "License");
+# you may not use this file except in compliance with the License.
+
+name: Kubecub Sync labels
+
+on:
+  push:
+    branches:
+      - main
+    # paths:
+    #   - .github/sync_labels.yml
+
+jobs:
+    build:
+      runs-on: ubuntu-latest
+      steps:
+        - name: Checkout
+          uses: actions/checkout@1.0.0
+        - name: Github lables pull and synchronize
+          uses: kubecub/github-label-syncer@v2.0.0
+          with:
+            manifest: labels-templates/go-project-layout-yaml.yaml
+            token: ${{ secrets.BOT_GITHUB_TOKEN }}
+            repository: |
+                kubecub/CUB-learning
+                kubecub/.github
+                kubecub/cub
+                kubecub/docs
+                kubecub/log
+                kubecub/community
+                kubecub/CloudBuildAI
+                kubecub/kubecub
+                kubecub/automation
+                kubecub/feishu-sheet-parser
+                kubecub/go-project-layout
+                kubecub/RemoteOps-scripts
+                kubecub/github-label-syncer
+                kubecub/kube-im
+          env:
+            GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

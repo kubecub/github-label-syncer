@@ -1,0 +1,30 @@
++--------------------+--------------------------------+--------+
+|        NAME        |          DESCRIPTION           | COLOR  |
++--------------------+--------------------------------+--------+
+| API                | Issues and PR about the API    | FBCA04 |
+| automerge          | Automatically synchronize      | FEF2C0 |
+|                    | files to merge PR tags         |        |
+| file-sync          | Autosync file                  | FEF2C0 |
+| good first issue   | Good for newcomers             | 7057ff |
+| help wanted        | Extra attention is needed      | 008672 |
+| invalid            | This doesn't seem right        | e4e669 |
+| kind/bug           | Something isn't working        | d73a4a |
+| kind/documentation | Improvements or additions to   | 0075ca |
+|                    | documentation                  |        |
+| kind/enhancement   | New feature or request         | a2eeef |
+| kind/feature       |                                | DC03D2 |
+| lgtm               | Indicates that a PR is ready   | 0E8A16 |
+|                    | to be merged.                  |        |
+| lifecycle/stale    |                                | ededed |
+| log                |                                | FBCA04 |
+| question           | Further information is         | d876e3 |
+|                    | requested                      |        |
+| report             |                                | 0E8A16 |
+| RFC                |                                | 10C590 |
+| roadmap            |                                | 0E8A16 |
+| triage/accepted    |                                | 0E8A16 |
+| triage/duplicate   | This issue or pull request     | C001BC |
+|                    | already exists                 |        |
+| triage/unresolved  |                                | D93F0B |
+| wontfix            | This will not be worked on     | ffffff |
++--------------------+--------------------------------+--------+
