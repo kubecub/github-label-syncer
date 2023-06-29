@@ -20,12 +20,12 @@ jobs:
         - name: Checkout
           uses: actions/checkout@1.0.0
         - name: Github lables pull and synchronize
-          uses: kubecub/github-label-syncer@v1.4.0
+          uses: kubecub/github-label-syncer@main
           with:
             manifest: .github/sync_labeler.yml
             token: ${{ secrets.BOT_GITHUB_TOKEN }}
             repository: |
               kubecub/github-label-syncer
-              kubecub/kubecub
+              kubecub/log
           env:
             GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
