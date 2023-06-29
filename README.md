@@ -63,8 +63,7 @@ The labels are designed semantic and standard. We provide labels for priority, t
 > **Note**: You can get started quickly with github-label-syncer.
 
 
-<details>
-  <summary>Work with Makefile</summary>
+#### Work with Makefile
 
 ```bash
 ❯ make help    # show help
@@ -72,22 +71,8 @@ The labels are designed semantic and standard. We provide labels for priority, t
 ❯ echo 'export PATH=$PATH:/path/to/_output/platforms/linux/amd64/' | tee -a ~/.zshrc;source ~/.zshrc
 ```
 
-</details>
-<details>
-  <summary>Work with actions</summary>
 
-Actions provide handling of PR and issue.
-We used the bot [🚀@kubbot](https://github.com/kubbot), It can detect issues in Chinese and translate them to English, and you can interact with it using the command `/comment`.
-
-Comment in an issue:
-
-```bash
-❯ /intive
-```
-
-</details>
-<details>
-  <summary>Use Github-Label-Syncer</summary>
+#### Use Github-Label-Syncer
 
 You can set your own `GITHUB_TOKEN` via env or via the `export GITHUB_TOKEN` environment variable, or use one of the default tokens we provide, which is `TOEKN` for our free automated [🤖 robot](https://github.com/kubbot)
 
@@ -155,15 +140,78 @@ _output/
 ❯ ./syncer --help
 ```
 
-</details>
-<details>
-  <summary>Work with Docker</summary>
+
+#### Actions Auto Sync labels
+
+For a more convenient way, we can use actions to sync labels directly, which is faster and easier
+
+An example workflow is here:
+
+```yaml
+name: Sync labels
+on:
+  push:
+    branches:
+      - master
+    paths:
+      - path/to/manifest/labels.yml
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Github lables pull and synchronize
+        uses: kubecub/github-label-syncer@v2.0.0
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          manifest: path/to/manifest/labels.yml
+```
+
+
+You can sync labels to multiple repositories at the same time, which is more convenient, but you'll need to provide a token.
+
+For example, the following yaml file takes a `local.github/sync_labeler.yml` file and syncs it to `kubecub/github-label-syncer`, `kubecub/log`, etc. `BOT_GITHUB_TOKEN` is used as the token
+
+
+```yaml
+name: Kubecub Sync labels
+
+on:
+  push:
+    branches:
+      - main
+    # paths:
+    #   - .github/sync_labels.yml
+
+jobs:
+    build:
+      runs-on: ubuntu-latest
+      steps:
+        - name: Checkout
+          uses: actions/checkout@1.0.0
+        - name: Github lables pull and synchronize
+          uses: kubecub/github-label-syncer@v2.0.0
+          with:
+            manifest: .github/sync_labeler.yml
+            token: ${{ secrets.BOT_GITHUB_TOKEN }}
+            repository: |
+              kubecub/github-label-syncer
+              kubecub/log
+          env:
+            GITHUB_TOKEN: ${{ secrets.BOT_GITHUB_TOKEN }}
+```
+
+> **Note**:
+> The new labels and colors will replace the old ones
+
+You can add jobs.<job_id>.steps.with.prune: false in order to preserver all existing labels which is not mentioned in manifest, in this case when a label will be renamed old label will be not deleted.
+
+
+#### Work with Docker
 
 ```bash
 ❯ make deploy
 ```
-
-</details>
 
 
 ## 🕋 architecture diagram
@@ -195,76 +243,6 @@ F --> G[Apply <br>changes]
 E -.-> H[<font color='blue'>Dry run</font><br>Preview]
 H --> I[Apply<br> changes]
 B --> J[Label <br>PRs & <br>Issues]
-```
-
-## 🤖 File Directory Description
-
-Catalog standardization design structure:
-
-```bash
-.github-label-syncer
-├── CONTRIBUTING.md          # Contribution guidelines
-├── LICENSE                  # License information
-├── Makefile                 # Makefile for building and running the project
-├── README.md                # Project overview in English
-├── README_zh-CN.md          # Project overview in Chinese
-├── api                      # API-related files
-│   ├── OWNERS               # API owners
-│   └── README.md            # API documentation
-├── assets                   # Static assets, such as images and stylesheets
-│   └── README.md            # Assets documentation
-├── build                    # Build-related files
-│   ├── OWNERS               # Build owners
-│   └── README.md            # Build documentation
-├── cmd                      # Command-line tools and entry points
-│   ├── OWNERS               # Command owners
-│   └── README.md            # Command documentation
-├── configs                  # Configuration files
-│   ├── OWNERS               # Configuration owners
-│   ├── README.md            # Configuration documentation
-│   └── config.yaml          # Main configuration file
-├── deploy                   # Deployment-related files
-│   ├── OWNERS               # Deployment owners
-│   └── README.md            # Deployment documentation
-├── docs                     # Project documentation
-│   ├── OWNERS               # Documentation owners
-│   └── README.md            # Documentation index
-├── examples                 # Example code and usage
-│   ├── OWNERS               # Example owners
-│   └── README.md            # Example documentation
-├── init                     # Initialization files
-│   ├── OWNERS               # Initialization owners
-│   └── README.md            # Initialization documentation
-├── internal                 # Internal application code
-│   ├── OWNERS               # Internal code owners
-│   ├── README.md            # Internal code documentation
-│   ├── app                  # Application logic
-│   ├── pkg                  # Internal packages
-│   └── utils                # Utility functions and helpers
-├── pkg                      # Public packages and libraries
-│   ├── OWNERS               # Package owners
-│   ├── README.md            # Package documentation
-│   ├── common               # Common utilities and helpers
-│   ├── log                  # Log utilities
-│   ├── tools                # Tooling and scripts
-│   ├── utils                # General utility functions
-│   └── version              # Version information
-├── scripts                  # Scripts for development and automation
-│   ├── LICENSE_TEMPLATES    # License templates
-│   ├── OWNERS               # Script owners
-│   ├── README.md            # Script documentation
-│   ├── githooks             # Git hooks for development
-│   └── make-rules           # Makefile rules and scripts
-├── test                     # Test files and test-related utilities
-│   ├── OWNERS               # Test owners
-│   └── README.md            # Test documentation
-├── third_party              # Third-party dependencies and libraries
-│   └── README.md            # Third-party documentation
-├── tools                    # Tooling and utilities for development
-│   └── README.md            # Tool documentation
-└── web                      # Web-related files, such as HTML and CSS
-    ├── OWNERS               # Web owners
-    └── README.md            # Web documentation
 ```
 
 ## 🗓️ community meeting
