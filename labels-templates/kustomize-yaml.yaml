@@ -1,0 +1,1004 @@
+- color: f9d0c4
+  default: false
+  description: ¯\\\_(ツ)_/¯
+  id: 1040962640
+  name: ¯\_(ツ)_/¯
+  node_id: MDU6TGFiZWwxMDQwOTYyNjQw
+  url: https://api.github.com/repos/kubernetes-sigs/kustomize/labels/%C2%AF%5C_(%E3%83%84)_/%C2%AF
+- color: 3DBF29
+  default: false
+  description: ""
+  id: 3033664937
+  name: anchors
+  node_id: MDU6TGFiZWwzMDMzNjY0OTM3
+  url: https://api.github.com/repos/kubernetes-sigs/kustomize/labels/anchors
+- color: e11d21
+  default: false
+  description: Categorizes an issue or PR as actively needing an API review.
+  id: 1243095403
+  name: api-review
+  node_id: MDU6TGFiZWwxMjQzMDk1NDAz
+  url: https://api.github.com/repos/kubernetes-sigs/kustomize/labels/api-review
+- color: c2e0c6
+  default: false
+  description: issues for `kustomize apply`
+  id: 1732756440
+  name: apply
+  node_id: MDU6TGFiZWwxNzMyNzU2NDQw
+  url: https://api.github.com/repos/kubernetes-sigs/kustomize/labels/apply
+- color: 0ffa16
+  default: false
+  description: Indicates a PR has been approved by an approver from all required OWNERS
+    files.
+  id: 952071101
+  name: approved
+  node_id: MDU6TGFiZWw5NTIwNzExMDE=
+  url: https://api.github.com/repos/kubernetes-sigs/kustomize/labels/approved
+- color: c5def5
+  default: false
+  description: related to yaml anchors
+  id: 3686126502
+  name: area/anchors
+  node_id: LA_kwDOB-5y6s7btdOm
+  url: https://api.github.com/repos/kubernetes-sigs/kustomize/labels/area/anchors
+- color: 49bcff
+  default: false
+  description: issues for api module
+  id: 2427471722
+  name: area/api
+  node_id: MDU6TGFiZWwyNDI3NDcxNzIy
+  url: https://api.github.com/repos/kubernetes-sigs/kustomize/labels/area/api
+- color: fbca04
+  default: false
+  description: Issues for kustomize CLI interface
+  id: 2444508235
+  name: area/cli
+  node_id: MDU6TGFiZWwyNDQ0NTA4MjM1
+  url: https://api.github.com/repos/kubernetes-sigs/kustomize/labels/area/cli
+- color: 0052cc
+  default: false
+  description: Issues or PRs that should potentially be discussed in a Kubernetes
+    community meeting.
+  id: 4582643115
+  name: area/community-meeting
+  node_id: LA_kwDOB-5y6s8AAAABESWVqw
+  url: https://api.github.com/repos/kubernetes-sigs/kustomize/labels/area/community-meeting
+- color: 0052cc
+  default: false
+  description: Issues or PRs related to dependency changes
+  id: 1305795131
+  name: area/dependency
+  node_id: MDU6TGFiZWwxMzA1Nzk1MTMx
+  url: https://api.github.com/repos/kubernetes-sigs/kustomize/labels/area/dependency
+- color: 7045BC
+  default: false
+  description: ""
+  id: 3705228113
+  name: area/helm
+  node_id: LA_kwDOB-5y6s7c2UtR
+  url: https://api.github.com/repos/kubernetes-sigs/kustomize/labels/area/helm
+- color: d26cdd
+  default: false
+  description: issues for kyaml
+  id: 1664300382
+  name: area/kyaml
+  node_id: MDU6TGFiZWwxNjY0MzAwMzgy
+  url: https://api.github.com/repos/kubernetes-sigs/kustomize/labels/area/kyaml
+- color: b529ce
+  default: false
+  description: Issues to OpenAPI in kyaml
+  id: 2438555046
+  name: area/openapi
+  node_id: MDU6TGFiZWwyNDM4NTU1MDQ2
+  url: https://api.github.com/repos/kubernetes-sigs/kustomize/labels/area/openapi
+- color: c2e0c6
+  default: false
+  description: issues for plugins
+  id: 2427473666
+  name: area/plugin
+  node_id: MDU6TGFiZWwyNDI3NDczNjY2
+  url: https://api.github.com/repos/kubernetes-sigs/kustomize/labels/area/plugin
+- color: 0052cc
+  default: false
+  description: Issues or PRs related to aws provider
+  id: 952071148
+  name: area/provider/aws
+  node_id: MDU6TGFiZWw5NTIwNzExNDg=
+  url: https://api.github.com/repos/kubernetes-sigs/kustomize/labels/area/provider/aws
+- color: 0052cc
+  default: false
+  description: Issues or PRs related to azure provider
+  id: 952071084
+  name: area/provider/azure
+  node_id: MDU6TGFiZWw5NTIwNzEwODQ=
+  url: https://api.github.com/repos/kubernetes-sigs/kustomize/labels/area/provider/azure
+- color: 0052cc
+  default: false
+  description: Issues or PRs related to digitalocean provider
+  id: 1946568347
+  name: area/provider/digitalocean
+  node_id: MDU6TGFiZWwxOTQ2NTY4MzQ3
+  url: https://api.github.com/repos/kubernetes-sigs/kustomize/labels/area/provider/digitalocean
+- color: 0052cc
+  default: false
+  description: Issues or PRs related to gcp provider
+  id: 952071096
+  name: area/provider/gcp
+  node_id: MDU6TGFiZWw5NTIwNzEwOTY=
+  url: https://api.github.com/repos/kubernetes-sigs/kustomize/labels/area/provider/gcp
+- color: 0052cc
+  default: false
+  description: Issues or PRs related to ibmcloud provider
+  id: 952071129
+  name: area/provider/ibmcloud
+  node_id: MDU6TGFiZWw5NTIwNzExMjk=
+  url: https://api.github.com/repos/kubernetes-sigs/kustomize/labels/area/provider/ibmcloud
+- color: 0052cc
+  default: false
+  description: Issues or PRs related to openstack provider
+  id: 952071109
+  name: area/provider/openstack
+  node_id: MDU6TGFiZWw5NTIwNzExMDk=
+  url: https://api.github.com/repos/kubernetes-sigs/kustomize/labels/area/provider/openstack
+- color: 0052cc
+  default: false
+  description: Issues or PRs related to vmware provider
+  id: 952071132
+  name: area/provider/vmware
+  node_id: MDU6TGFiZWw5NTIwNzExMzI=
+  url: https://api.github.com/repos/kubernetes-sigs/kustomize/labels/area/provider/vmware
+- color: c40775
+  default: false
+  description: ""
+  id: 1665991328
+  name: area/pseudo
+  node_id: MDU6TGFiZWwxNjY1OTkxMzI4
+  url: https://api.github.com/repos/kubernetes-sigs/kustomize/labels/area/pseudo
+- color: d93f0b
+  default: false
+  description: Issues to release process
+  id: 2438562536
+  name: area/release
+  node_id: MDU6TGFiZWwyNDM4NTYyNTM2
+  url: https://api.github.com/repos/kubernetes-sigs/kustomize/labels/area/release
+- color: FA5A28
+  default: false
+  description: Issues root caused to gopkg.in/yaml
+  id: 4303874894
+  name: area/yaml-upstream
+  node_id: LA_kwDOB-5y6s8AAAABAIfrTg
+  url: https://api.github.com/repos/kubernetes-sigs/kustomize/labels/area/yaml-upstream
+- color: fef2c0
+  default: false
+  description: Indicates a cherry-pick PR into a release branch has been approved
+    by the release branch manager.
+  id: 952071139
+  name: cherry-pick-approved
+  node_id: MDU6TGFiZWw5NTIwNzExMzk=
+  url: https://api.github.com/repos/kubernetes-sigs/kustomize/labels/cherry-pick-approved
+- color: e11d21
+  default: false
+  description: Indicates the PR's author has not signed the CNCF CLA.
+  id: 952071135
+  name: 'cncf-cla: no'
+  node_id: MDU6TGFiZWw5NTIwNzExMzU=
+  url: https://api.github.com/repos/kubernetes-sigs/kustomize/labels/cncf-cla:%20no
+- color: bfe5bf
+  default: false
+  description: Indicates the PR's author has signed the CNCF CLA.
+  id: 930398993
+  name: 'cncf-cla: yes'
+  node_id: MDU6TGFiZWw5MzAzOTg5OTM=
+  url: https://api.github.com/repos/kubernetes-sigs/kustomize/labels/cncf-cla:%20yes
+- color: c0ff4a
+  default: false
+  description: Denotes an issue or PR intended to be handled by the code of conduct
+    committee.
+  id: 952071076
+  name: committee/code-of-conduct
+  node_id: MDU6TGFiZWw5NTIwNzEwNzY=
+  url: https://api.github.com/repos/kubernetes-sigs/kustomize/labels/committee/code-of-conduct
+- color: c0ff4a
+  default: false
+  description: Denotes an issue or PR intended to be handled by the product security
+    committee.
+  id: 1208608865
+  name: committee/security-response
+  node_id: MDU6TGFiZWwxMjA4NjA4ODY1
+  url: https://api.github.com/repos/kubernetes-sigs/kustomize/labels/committee/security-response
+- color: c0ff4a
+  default: false
+  description: Denotes an issue or PR intended to be handled by the steering committee.
+  id: 952071115
+  name: committee/steering
+  node_id: MDU6TGFiZWw5NTIwNzExMTU=
+  url: https://api.github.com/repos/kubernetes-sigs/kustomize/labels/committee/steering
+- color: 0366d6
+  default: false
+  description: Pull requests that update a dependency file
+  id: 2188447576
+  name: dependencies
+  node_id: MDU6TGFiZWwyMTg4NDQ3NTc2
+  url: https://api.github.com/repos/kubernetes-sigs/kustomize/labels/dependencies
+- color: e11d21
+  default: false
+  description: DEPRECATED. Indicates that a PR should not merge. Label can only be
+    manually applied/removed.
+  id: 952071104
+  name: do-not-merge
+  node_id: MDU6TGFiZWw5NTIwNzExMDQ=
+  url: https://api.github.com/repos/kubernetes-sigs/kustomize/labels/do-not-merge
+- color: e11d21
+  default: false
+  description: Indicates that a PR should not merge because it touches files in blocked
+    paths.
+  id: 952071088
+  name: do-not-merge/blocked-paths
+  node_id: MDU6TGFiZWw5NTIwNzEwODg=
+  url: https://api.github.com/repos/kubernetes-sigs/kustomize/labels/do-not-merge/blocked-paths
+- color: e11d21
+  default: false
+  description: Indicates that a PR is not yet approved to merge into a release branch.
+  id: 952071142
+  name: do-not-merge/cherry-pick-not-approved
+  node_id: MDU6TGFiZWw5NTIwNzExNDI=
+  url: https://api.github.com/repos/kubernetes-sigs/kustomize/labels/do-not-merge/cherry-pick-not-approved
+- color: e11d21
+  default: false
+  description: Indicates that a PR should not merge because someone has issued a /hold
+    command.
+  id: 952071121
+  name: do-not-merge/hold
+  node_id: MDU6TGFiZWw5NTIwNzExMjE=
+  url: https://api.github.com/repos/kubernetes-sigs/kustomize/labels/do-not-merge/hold
+- color: e11d21
+  default: false
+  description: Indicates that a PR should not merge because it has an invalid commit
+    message.
+  id: 1322587022
+  name: do-not-merge/invalid-commit-message
+  node_id: MDU6TGFiZWwxMzIyNTg3MDIy
+  url: https://api.github.com/repos/kubernetes-sigs/kustomize/labels/do-not-merge/invalid-commit-message
+- color: e11d21
+  default: false
+  description: Indicates that a PR should not merge because it has an invalid OWNERS
+    file in it.
+  id: 969567369
+  name: do-not-merge/invalid-owners-file
+  node_id: MDU6TGFiZWw5Njk1NjczNjk=
+  url: https://api.github.com/repos/kubernetes-sigs/kustomize/labels/do-not-merge/invalid-owners-file
+- color: e11d21
+  default: false
+  description: Indicates that a PR should not merge because it's missing one of the
+    release note labels.
+  id: 952071147
+  name: do-not-merge/release-note-label-needed
+  node_id: MDU6TGFiZWw5NTIwNzExNDc=
+  url: https://api.github.com/repos/kubernetes-sigs/kustomize/labels/do-not-merge/release-note-label-needed
+- color: e11d21
+  default: false
+  description: Indicates that a PR should not merge because it is a work in progress.
+  id: 952071082
+  name: do-not-merge/work-in-progress
+  node_id: MDU6TGFiZWw5NTIwNzEwODI=
+  url: https://api.github.com/repos/kubernetes-sigs/kustomize/labels/do-not-merge/work-in-progress
+- color: "000000"
+  default: false
+  description: Pull requests that update GitHub Actions code
+  id: 5286043583
+  name: github_actions
+  node_id: LA_kwDOB-5y6s8AAAABOxKfvw
+  url: https://api.github.com/repos/kubernetes-sigs/kustomize/labels/github_actions
+- color: 16e2e2
+  default: false
+  description: Pull requests that update Go code
+  id: 5167692819
+  name: go
+  node_id: LA_kwDOB-5y6s8AAAABNAS8Ew
+  url: https://api.github.com/repos/kubernetes-sigs/kustomize/labels/go
+- color: 7057ff
+  default: true
+  description: Denotes an issue ready for a new contributor, according to the "help
+    wanted" guidelines.
+  id: 930208022
+  name: good first issue
+  node_id: MDU6TGFiZWw5MzAyMDgwMjI=
+  url: https://api.github.com/repos/kubernetes-sigs/kustomize/labels/good%20first%20issue
+- color: d32688
+  default: false
+  description: ""
+  id: 2439403741
+  name: hacktoberfest-accepted
+  node_id: MDU6TGFiZWwyNDM5NDAzNzQx
+  url: https://api.github.com/repos/kubernetes-sigs/kustomize/labels/hacktoberfest-accepted
+- color: 006b75
+  default: true
+  description: Denotes an issue that needs help from a contributor. Must meet "help
+    wanted" guidelines.
+  id: 930208019
+  name: help wanted
+  node_id: MDU6TGFiZWw5MzAyMDgwMTk=
+  url: https://api.github.com/repos/kubernetes-sigs/kustomize/labels/help%20wanted
+- color: e11d21
+  default: false
+  description: Categorizes issue or PR as related to adding, removing, or otherwise
+    changing an API
+  id: 1032282897
+  name: kind/api-change
+  node_id: MDU6TGFiZWwxMDMyMjgyODk3
+  url: https://api.github.com/repos/kubernetes-sigs/kustomize/labels/kind/api-change
+- color: e11d21
+  default: false
+  description: Categorizes issue or PR as related to a bug.
+  id: 952071125
+  name: kind/bug
+  node_id: MDU6TGFiZWw5NTIwNzExMjU=
+  url: https://api.github.com/repos/kubernetes-sigs/kustomize/labels/kind/bug
+- color: c7def8
+  default: false
+  description: Categorizes issue or PR as related to cleaning up code, process, or
+    technical debt.
+  id: 955801537
+  name: kind/cleanup
+  node_id: MDU6TGFiZWw5NTU4MDE1Mzc=
+  url: https://api.github.com/repos/kubernetes-sigs/kustomize/labels/kind/cleanup
+- color: e11d21
+  default: false
+  description: Categorizes issue or PR as related to a feature/enhancement marked
+    for deprecation.
+  id: 1740296298
+  name: kind/deprecation
+  node_id: MDU6TGFiZWwxNzQwMjk2Mjk4
+  url: https://api.github.com/repos/kubernetes-sigs/kustomize/labels/kind/deprecation
+- color: c7def8
+  default: false
+  description: Categorizes issue or PR as related to design.
+  id: 955801746
+  name: kind/design
+  node_id: MDU6TGFiZWw5NTU4MDE3NDY=
+  url: https://api.github.com/repos/kubernetes-sigs/kustomize/labels/kind/design
+- color: c7def8
+  default: false
+  description: Categorizes issue or PR as related to documentation.
+  id: 952071102
+  name: kind/documentation
+  node_id: MDU6TGFiZWw5NTIwNzExMDI=
+  url: https://api.github.com/repos/kubernetes-sigs/kustomize/labels/kind/documentation
+- color: e11d21
+  default: false
+  description: Categorizes issue or PR as related to a consistently or frequently
+    failing test.
+  id: 4589464254
+  name: kind/failing-test
+  node_id: LA_kwDOB-5y6s8AAAABEY2qvg
+  url: https://api.github.com/repos/kubernetes-sigs/kustomize/labels/kind/failing-test
+- color: c7def8
+  default: false
+  description: Categorizes issue or PR as related to a new feature.
+  id: 952071118
+  name: kind/feature
+  node_id: MDU6TGFiZWw5NTIwNzExMTg=
+  url: https://api.github.com/repos/kubernetes-sigs/kustomize/labels/kind/feature
+- color: f7c6c7
+  default: false
+  description: Categorizes issue or PR as related to a flaky test.
+  id: 955801480
+  name: kind/flake
+  node_id: MDU6TGFiZWw5NTU4MDE0ODA=
+  url: https://api.github.com/repos/kubernetes-sigs/kustomize/labels/kind/flake
+- color: e11d21
+  default: false
+  description: Categorizes issue or PR as related to a regression from a prior release.
+  id: 1967292032
+  name: kind/regression
+  node_id: MDU6TGFiZWwxOTY3MjkyMDMy
+  url: https://api.github.com/repos/kubernetes-sigs/kustomize/labels/kind/regression
+- color: 76A6D3
+  default: false
+  description: issues related to releasing
+  id: 3070521183
+  name: kind/releasing
+  node_id: MDU6TGFiZWwzMDcwNTIxMTgz
+  url: https://api.github.com/repos/kubernetes-sigs/kustomize/labels/kind/releasing
+- color: d455d0
+  default: false
+  description: Categorizes issue or PR as a support question.
+  id: 930208026
+  name: kind/support
+  node_id: MDU6TGFiZWw5MzAyMDgwMjY=
+  url: https://api.github.com/repos/kubernetes-sigs/kustomize/labels/kind/support
+- color: e11d21
+  default: false
+  description: Categorizes issue or PR as related to a gap in or problem with our
+    test coverage.
+  id: 952071149
+  name: kind/test-coverage
+  node_id: MDU6TGFiZWw5NTIwNzExNDk=
+  url: https://api.github.com/repos/kubernetes-sigs/kustomize/labels/kind/test-coverage
+- color: 15dd18
+  default: false
+  description: Indicates that a PR is ready to be merged.
+  id: 952071134
+  name: lgtm
+  node_id: MDU6TGFiZWw5NTIwNzExMzQ=
+  url: https://api.github.com/repos/kubernetes-sigs/kustomize/labels/lgtm
+- color: 8fc951
+  default: false
+  description: Indicates that an issue or PR is actively being worked on by a contributor.
+  id: 1007214497
+  name: lifecycle/active
+  node_id: MDU6TGFiZWwxMDA3MjE0NDk3
+  url: https://api.github.com/repos/kubernetes-sigs/kustomize/labels/lifecycle/active
+- color: d3e2f0
+  default: false
+  description: Indicates that an issue or PR should not be auto-closed due to staleness.
+  id: 952071131
+  name: lifecycle/frozen
+  node_id: MDU6TGFiZWw5NTIwNzExMzE=
+  url: https://api.github.com/repos/kubernetes-sigs/kustomize/labels/lifecycle/frozen
+- color: "604460"
+  default: false
+  description: Denotes an issue or PR that has aged beyond stale and will be auto-closed.
+  id: 952071107
+  name: lifecycle/rotten
+  node_id: MDU6TGFiZWw5NTIwNzExMDc=
+  url: https://api.github.com/repos/kubernetes-sigs/kustomize/labels/lifecycle/rotten
+- color: "795548"
+  default: false
+  description: Denotes an issue or PR has remained open with no activity and has become
+    stale.
+  id: 952071111
+  name: lifecycle/stale
+  node_id: MDU6TGFiZWw5NTIwNzExMTE=
+  url: https://api.github.com/repos/kubernetes-sigs/kustomize/labels/lifecycle/stale
+- color: ededed
+  default: false
+  description: Indicates a PR lacks a `kind/foo` label and requires one.
+  id: 1047248632
+  name: needs-kind
+  node_id: MDU6TGFiZWwxMDQ3MjQ4NjMy
+  url: https://api.github.com/repos/kubernetes-sigs/kustomize/labels/needs-kind
+- color: b60205
+  default: false
+  description: Indicates a PR that requires an org member to verify it is safe to
+    test.
+  id: 952071090
+  name: needs-ok-to-test
+  node_id: MDU6TGFiZWw5NTIwNzEwOTA=
+  url: https://api.github.com/repos/kubernetes-sigs/kustomize/labels/needs-ok-to-test
+- color: ededed
+  default: false
+  description: Indicates an issue or PR lacks a `priority/foo` label and requires
+    one.
+  id: 5298478130
+  name: needs-priority
+  node_id: LA_kwDOB-5y6s8AAAABO9BcMg
+  url: https://api.github.com/repos/kubernetes-sigs/kustomize/labels/needs-priority
+- color: e11d21
+  default: false
+  description: Indicates a PR cannot be merged because it has merge conflicts with
+    HEAD.
+  id: 952071083
+  name: needs-rebase
+  node_id: MDU6TGFiZWw5NTIwNzEwODM=
+  url: https://api.github.com/repos/kubernetes-sigs/kustomize/labels/needs-rebase
+- color: ededed
+  default: false
+  description: Indicates an issue or PR lacks a `sig/foo` label and requires one.
+  id: 952071154
+  name: needs-sig
+  node_id: MDU6TGFiZWw5NTIwNzExNTQ=
+  url: https://api.github.com/repos/kubernetes-sigs/kustomize/labels/needs-sig
+- color: ededed
+  default: false
+  description: Indicates an issue or PR lacks a `triage/foo` label and requires one.
+  id: 2390353964
+  name: needs-triage
+  node_id: MDU6TGFiZWwyMzkwMzUzOTY0
+  url: https://api.github.com/repos/kubernetes-sigs/kustomize/labels/needs-triage
+- color: 15dd18
+  default: false
+  description: Indicates a non-member PR verified by an org member that is safe to
+    test.
+  id: 1086815217
+  name: ok-to-test
+  node_id: MDU6TGFiZWwxMDg2ODE1MjE3
+  url: https://api.github.com/repos/kubernetes-sigs/kustomize/labels/ok-to-test
+- color: fef2c0
+  default: false
+  description: Lowest priority. Possibly useful, but not yet enough support to actually
+    get it done.
+  id: 952071127
+  name: priority/awaiting-more-evidence
+  node_id: MDU6TGFiZWw5NTIwNzExMjc=
+  url: https://api.github.com/repos/kubernetes-sigs/kustomize/labels/priority/awaiting-more-evidence
+- color: fbca04
+  default: false
+  description: Higher priority than priority/awaiting-more-evidence.
+  id: 952071153
+  name: priority/backlog
+  node_id: MDU6TGFiZWw5NTIwNzExNTM=
+  url: https://api.github.com/repos/kubernetes-sigs/kustomize/labels/priority/backlog
+- color: e11d21
+  default: false
+  description: Highest priority. Must be actively worked on as someone's top priority
+    right now.
+  id: 952071089
+  name: priority/critical-urgent
+  node_id: MDU6TGFiZWw5NTIwNzEwODk=
+  url: https://api.github.com/repos/kubernetes-sigs/kustomize/labels/priority/critical-urgent
+- color: eb6420
+  default: false
+  description: Important over the long term, but may not be staffed and/or may need
+    multiple releases to complete.
+  id: 952071138
+  name: priority/important-longterm
+  node_id: MDU6TGFiZWw5NTIwNzExMzg=
+  url: https://api.github.com/repos/kubernetes-sigs/kustomize/labels/priority/important-longterm
+- color: eb6420
+  default: false
+  description: Must be staffed and worked on either currently, or very soon, ideally
+    in time for the next release.
+  id: 952071144
+  name: priority/important-soon
+  node_id: MDU6TGFiZWw5NTIwNzExNDQ=
+  url: https://api.github.com/repos/kubernetes-sigs/kustomize/labels/priority/important-soon
+- color: e99695
+  default: false
+  description: ""
+  id: 2287679445
+  name: release-blocker
+  node_id: MDU6TGFiZWwyMjg3Njc5NDQ1
+  url: https://api.github.com/repos/kubernetes-sigs/kustomize/labels/release-blocker
+- color: c2e0c6
+  default: false
+  description: Denotes a PR that will be considered when it comes time to generate
+    release notes.
+  id: 952071123
+  name: release-note
+  node_id: MDU6TGFiZWw5NTIwNzExMjM=
+  url: https://api.github.com/repos/kubernetes-sigs/kustomize/labels/release-note
+- color: c2e0c6
+  default: false
+  description: Denotes a PR that introduces potentially breaking changes that require
+    user action.
+  id: 952071140
+  name: release-note-action-required
+  node_id: MDU6TGFiZWw5NTIwNzExNDA=
+  url: https://api.github.com/repos/kubernetes-sigs/kustomize/labels/release-note-action-required
+- color: c2e0c6
+  default: false
+  description: Denotes a PR that doesn't merit a release note.
+  id: 952071150
+  name: release-note-none
+  node_id: MDU6TGFiZWw5NTIwNzExNTA=
+  url: https://api.github.com/repos/kubernetes-sigs/kustomize/labels/release-note-none
+- color: d2b48c
+  default: false
+  description: Categorizes an issue or PR as relevant to SIG API Machinery.
+  id: 952071100
+  name: sig/api-machinery
+  node_id: MDU6TGFiZWw5NTIwNzExMDA=
+  url: https://api.github.com/repos/kubernetes-sigs/kustomize/labels/sig/api-machinery
+- color: d2b48c
+  default: false
+  description: Categorizes an issue or PR as relevant to SIG Apps.
+  id: 952071124
+  name: sig/apps
+  node_id: MDU6TGFiZWw5NTIwNzExMjQ=
+  url: https://api.github.com/repos/kubernetes-sigs/kustomize/labels/sig/apps
+- color: d2b48c
+  default: false
+  description: Categorizes an issue or PR as relevant to SIG Architecture.
+  id: 952071091
+  name: sig/architecture
+  node_id: MDU6TGFiZWw5NTIwNzEwOTE=
+  url: https://api.github.com/repos/kubernetes-sigs/kustomize/labels/sig/architecture
+- color: d2b48c
+  default: false
+  description: Categorizes an issue or PR as relevant to SIG Auth.
+  id: 952071141
+  name: sig/auth
+  node_id: MDU6TGFiZWw5NTIwNzExNDE=
+  url: https://api.github.com/repos/kubernetes-sigs/kustomize/labels/sig/auth
+- color: d2b48c
+  default: false
+  description: Categorizes an issue or PR as relevant to SIG Autoscaling.
+  id: 952071137
+  name: sig/autoscaling
+  node_id: MDU6TGFiZWw5NTIwNzExMzc=
+  url: https://api.github.com/repos/kubernetes-sigs/kustomize/labels/sig/autoscaling
+- color: d2b48c
+  default: false
+  description: Categorizes an issue or PR as relevant to SIG CLI.
+  id: 952071085
+  name: sig/cli
+  node_id: MDU6TGFiZWw5NTIwNzEwODU=
+  url: https://api.github.com/repos/kubernetes-sigs/kustomize/labels/sig/cli
+- color: d2b48c
+  default: false
+  description: Categorizes an issue or PR as relevant to SIG Cloud Provider.
+  id: 958179776
+  name: sig/cloud-provider
+  node_id: MDU6TGFiZWw5NTgxNzk3NzY=
+  url: https://api.github.com/repos/kubernetes-sigs/kustomize/labels/sig/cloud-provider
+- color: d2b48c
+  default: false
+  description: Categorizes an issue or PR as relevant to SIG Cluster Lifecycle.
+  id: 952071114
+  name: sig/cluster-lifecycle
+  node_id: MDU6TGFiZWw5NTIwNzExMTQ=
+  url: https://api.github.com/repos/kubernetes-sigs/kustomize/labels/sig/cluster-lifecycle
+- color: d2b48c
+  default: false
+  description: Categorizes an issue or PR as relevant to SIG Contributor Experience.
+  id: 952071094
+  name: sig/contributor-experience
+  node_id: MDU6TGFiZWw5NTIwNzEwOTQ=
+  url: https://api.github.com/repos/kubernetes-sigs/kustomize/labels/sig/contributor-experience
+- color: d2b48c
+  default: false
+  description: Categorizes an issue or PR as relevant to SIG Docs.
+  id: 952071108
+  name: sig/docs
+  node_id: MDU6TGFiZWw5NTIwNzExMDg=
+  url: https://api.github.com/repos/kubernetes-sigs/kustomize/labels/sig/docs
+- color: d2b48c
+  default: false
+  description: Categorizes an issue or PR as relevant to SIG Instrumentation.
+  id: 952071163
+  name: sig/instrumentation
+  node_id: MDU6TGFiZWw5NTIwNzExNjM=
+  url: https://api.github.com/repos/kubernetes-sigs/kustomize/labels/sig/instrumentation
+- color: d2b48c
+  default: false
+  description: Categorizes an issue or PR as relevant to SIG K8s Infra.
+  id: 3373535784
+  name: sig/k8s-infra
+  node_id: LA_kwDOB-5y6s7JFBIo
+  url: https://api.github.com/repos/kubernetes-sigs/kustomize/labels/sig/k8s-infra
+- color: d2b48c
+  default: false
+  description: Categorizes an issue or PR as relevant to SIG Multicluster.
+  id: 952071103
+  name: sig/multicluster
+  node_id: MDU6TGFiZWw5NTIwNzExMDM=
+  url: https://api.github.com/repos/kubernetes-sigs/kustomize/labels/sig/multicluster
+- color: d2b48c
+  default: false
+  description: Categorizes an issue or PR as relevant to SIG Network.
+  id: 952071112
+  name: sig/network
+  node_id: MDU6TGFiZWw5NTIwNzExMTI=
+  url: https://api.github.com/repos/kubernetes-sigs/kustomize/labels/sig/network
+- color: d2b48c
+  default: false
+  description: Categorizes an issue or PR as relevant to SIG Node.
+  id: 952071143
+  name: sig/node
+  node_id: MDU6TGFiZWw5NTIwNzExNDM=
+  url: https://api.github.com/repos/kubernetes-sigs/kustomize/labels/sig/node
+- color: d2b48c
+  default: false
+  description: Categorizes an issue or PR as relevant to SIG Release.
+  id: 952071151
+  name: sig/release
+  node_id: MDU6TGFiZWw5NTIwNzExNTE=
+  url: https://api.github.com/repos/kubernetes-sigs/kustomize/labels/sig/release
+- color: d2b48c
+  default: false
+  description: Categorizes an issue or PR as relevant to SIG Scalability.
+  id: 952071105
+  name: sig/scalability
+  node_id: MDU6TGFiZWw5NTIwNzExMDU=
+  url: https://api.github.com/repos/kubernetes-sigs/kustomize/labels/sig/scalability
+- color: d2b48c
+  default: false
+  description: Categorizes an issue or PR as relevant to SIG Scheduling.
+  id: 952071130
+  name: sig/scheduling
+  node_id: MDU6TGFiZWw5NTIwNzExMzA=
+  url: https://api.github.com/repos/kubernetes-sigs/kustomize/labels/sig/scheduling
+- color: d2b48c
+  default: false
+  description: Categorizes an issue or PR as relevant to SIG Security.
+  id: 2315035310
+  name: sig/security
+  node_id: MDU6TGFiZWwyMzE1MDM1MzEw
+  url: https://api.github.com/repos/kubernetes-sigs/kustomize/labels/sig/security
+- color: d2b48c
+  default: false
+  description: Categorizes an issue or PR as relevant to SIG Service Catalog.
+  id: 952071117
+  name: sig/service-catalog
+  node_id: MDU6TGFiZWw5NTIwNzExMTc=
+  url: https://api.github.com/repos/kubernetes-sigs/kustomize/labels/sig/service-catalog
+- color: d2b48c
+  default: false
+  description: Categorizes an issue or PR as relevant to SIG Storage.
+  id: 952071116
+  name: sig/storage
+  node_id: MDU6TGFiZWw5NTIwNzExMTY=
+  url: https://api.github.com/repos/kubernetes-sigs/kustomize/labels/sig/storage
+- color: d2b48c
+  default: false
+  description: Categorizes an issue or PR as relevant to SIG Testing.
+  id: 952071086
+  name: sig/testing
+  node_id: MDU6TGFiZWw5NTIwNzEwODY=
+  url: https://api.github.com/repos/kubernetes-sigs/kustomize/labels/sig/testing
+- color: d2b48c
+  default: false
+  description: Categorizes an issue or PR as relevant to SIG UI.
+  id: 952071152
+  name: sig/ui
+  node_id: MDU6TGFiZWw5NTIwNzExNTI=
+  url: https://api.github.com/repos/kubernetes-sigs/kustomize/labels/sig/ui
+- color: d2b48c
+  default: false
+  description: Categorizes an issue or PR as relevant to SIG Usability.
+  id: 1476762153
+  name: sig/usability
+  node_id: MDU6TGFiZWwxNDc2NzYyMTUz
+  url: https://api.github.com/repos/kubernetes-sigs/kustomize/labels/sig/usability
+- color: d2b48c
+  default: false
+  description: Categorizes an issue or PR as relevant to SIG Windows.
+  id: 952071122
+  name: sig/windows
+  node_id: MDU6TGFiZWw5NTIwNzExMjI=
+  url: https://api.github.com/repos/kubernetes-sigs/kustomize/labels/sig/windows
+- color: ee9900
+  default: false
+  description: Denotes a PR that changes 100-499 lines, ignoring generated files.
+  id: 936746286
+  name: size/L
+  node_id: MDU6TGFiZWw5MzY3NDYyODY=
+  url: https://api.github.com/repos/kubernetes-sigs/kustomize/labels/size/L
+- color: eebb00
+  default: false
+  description: Denotes a PR that changes 30-99 lines, ignoring generated files.
+  id: 934259944
+  name: size/M
+  node_id: MDU6TGFiZWw5MzQyNTk5NDQ=
+  url: https://api.github.com/repos/kubernetes-sigs/kustomize/labels/size/M
+- color: 77bb00
+  default: false
+  description: Denotes a PR that changes 10-29 lines, ignoring generated files.
+  id: 935471860
+  name: size/S
+  node_id: MDU6TGFiZWw5MzU0NzE4NjA=
+  url: https://api.github.com/repos/kubernetes-sigs/kustomize/labels/size/S
+- color: ee5500
+  default: false
+  description: Denotes a PR that changes 500-999 lines, ignoring generated files.
+  id: 952071119
+  name: size/XL
+  node_id: MDU6TGFiZWw5NTIwNzExMTk=
+  url: https://api.github.com/repos/kubernetes-sigs/kustomize/labels/size/XL
+- color: "009900"
+  default: false
+  description: Denotes a PR that changes 0-9 lines, ignoring generated files.
+  id: 930399082
+  name: size/XS
+  node_id: MDU6TGFiZWw5MzAzOTkwODI=
+  url: https://api.github.com/repos/kubernetes-sigs/kustomize/labels/size/XS
+- color: ee0000
+  default: false
+  description: Denotes a PR that changes 1000+ lines, ignoring generated files.
+  id: 951214946
+  name: size/XXL
+  node_id: MDU6TGFiZWw5NTEyMTQ5NDY=
+  url: https://api.github.com/repos/kubernetes-sigs/kustomize/labels/size/XXL
+- color: e11d21
+  default: false
+  description: Denotes an issue that blocks the tide merge queue for a branch while
+    it is open.
+  id: 1313655559
+  name: tide/merge-blocker
+  node_id: MDU6TGFiZWwxMzEzNjU1NTU5
+  url: https://api.github.com/repos/kubernetes-sigs/kustomize/labels/tide/merge-blocker
+- color: ffaa00
+  default: false
+  description: Denotes a PR that should use a standard merge by tide when it merges.
+  id: 1299782720
+  name: tide/merge-method-merge
+  node_id: MDU6TGFiZWwxMjk5NzgyNzIw
+  url: https://api.github.com/repos/kubernetes-sigs/kustomize/labels/tide/merge-method-merge
+- color: ffaa00
+  default: false
+  description: Denotes a PR that should be rebased by tide when it merges.
+  id: 1299782563
+  name: tide/merge-method-rebase
+  node_id: MDU6TGFiZWwxMjk5NzgyNTYz
+  url: https://api.github.com/repos/kubernetes-sigs/kustomize/labels/tide/merge-method-rebase
+- color: ffaa00
+  default: false
+  description: Denotes a PR that should be squashed by tide when it merges.
+  id: 1049655806
+  name: tide/merge-method-squash
+  node_id: MDU6TGFiZWwxMDQ5NjU1ODA2
+  url: https://api.github.com/repos/kubernetes-sigs/kustomize/labels/tide/merge-method-squash
+- color: 8fc951
+  default: false
+  description: Indicates an issue or PR is ready to be actively worked on.
+  id: 2390353576
+  name: triage/accepted
+  node_id: MDU6TGFiZWwyMzkwMzUzNTc2
+  url: https://api.github.com/repos/kubernetes-sigs/kustomize/labels/triage/accepted
+- color: d455d0
+  default: false
+  description: Indicates an issue is a duplicate of other open issue.
+  id: 952071128
+  name: triage/duplicate
+  node_id: MDU6TGFiZWw5NTIwNzExMjg=
+  url: https://api.github.com/repos/kubernetes-sigs/kustomize/labels/triage/duplicate
+- color: d455d0
+  default: false
+  description: Indicates an issue needs more information in order to work on it.
+  id: 952071098
+  name: triage/needs-information
+  node_id: MDU6TGFiZWw5NTIwNzEwOTg=
+  url: https://api.github.com/repos/kubernetes-sigs/kustomize/labels/triage/needs-information
+- color: BC137E
+  default: false
+  description: ""
+  id: 2763366142
+  name: triage/not-an-issue
+  node_id: MDU6TGFiZWwyNzYzMzY2MTQy
+  url: https://api.github.com/repos/kubernetes-sigs/kustomize/labels/triage/not-an-issue
+- color: d455d0
+  default: false
+  description: Indicates an issue can not be reproduced as described.
+  id: 952071110
+  name: triage/not-reproducible
+  node_id: MDU6TGFiZWw5NTIwNzExMTA=
+  url: https://api.github.com/repos/kubernetes-sigs/kustomize/labels/triage/not-reproducible
+- color: BC137E
+  default: false
+  description: Indicates an issue or PR is not a fit for Kustomize's scope and/or
+    principles
+  id: 4365739498
+  name: triage/out-of-scope
+  node_id: LA_kwDOB-5y6s8AAAABBDfl6g
+  url: https://api.github.com/repos/kubernetes-sigs/kustomize/labels/triage/out-of-scope
+- color: 12ed42
+  default: false
+  description: Indicates an issue has been resolved or doesn't need to be resolved.
+  id: 2462383385
+  name: triage/resolved
+  node_id: MDU6TGFiZWwyNDYyMzgzMzg1
+  url: https://api.github.com/repos/kubernetes-sigs/kustomize/labels/triage/resolved
+- color: cfdb72
+  default: false
+  description: ""
+  id: 2568007435
+  name: triage/under-consideration
+  node_id: MDU6TGFiZWwyNTY4MDA3NDM1
+  url: https://api.github.com/repos/kubernetes-sigs/kustomize/labels/triage/under-consideration
+- color: d455d0
+  default: false
+  description: Indicates an issue that can not or will not be resolved.
+  id: 952071095
+  name: triage/unresolved
+  node_id: MDU6TGFiZWw5NTIwNzEwOTU=
+  url: https://api.github.com/repos/kubernetes-sigs/kustomize/labels/triage/unresolved
+- color: d2b48c
+  default: false
+  description: Categorizes an issue or PR as relevant to ug-big-data.
+  id: 952071106
+  name: ug/big-data
+  node_id: MDU6TGFiZWw5NTIwNzExMDY=
+  url: https://api.github.com/repos/kubernetes-sigs/kustomize/labels/ug/big-data
+- color: d2b48c
+  default: false
+  description: Categorizes an issue or PR as relevant to ug-vmware.
+  id: 1596580993
+  name: ug/vmware
+  node_id: MDU6TGFiZWwxNTk2NTgwOTkz
+  url: https://api.github.com/repos/kubernetes-sigs/kustomize/labels/ug/vmware
+- color: d4c5f9
+  default: false
+  description: ""
+  id: 2103345733
+  name: vars-related
+  node_id: MDU6TGFiZWwyMTAzMzQ1NzMz
+  url: https://api.github.com/repos/kubernetes-sigs/kustomize/labels/vars-related
+- color: d2b48c
+  default: false
+  description: Categorizes an issue or PR as relevant to WG API Expression.
+  id: 1985767920
+  name: wg/api-expression
+  node_id: MDU6TGFiZWwxOTg1NzY3OTIw
+  url: https://api.github.com/repos/kubernetes-sigs/kustomize/labels/wg/api-expression
+- color: d2b48c
+  default: false
+  description: Categorizes an issue or PR as relevant to WG Batch.
+  id: 3984893769
+  name: wg/batch
+  node_id: LA_kwDOB-5y6s7thKdJ
+  url: https://api.github.com/repos/kubernetes-sigs/kustomize/labels/wg/batch
+- color: d2b48c
+  default: false
+  description: Categorizes an issue or PR as relevant to wg-cluster-api.
+  id: 971854270
+  name: wg/cluster-api
+  node_id: MDU6TGFiZWw5NzE4NTQyNzA=
+  url: https://api.github.com/repos/kubernetes-sigs/kustomize/labels/wg/cluster-api
+- color: d2b48c
+  default: false
+  description: Categorizes an issue or PR as relevant to WG Component Standard.
+  id: 1208608861
+  name: wg/component-standard
+  node_id: MDU6TGFiZWwxMjA4NjA4ODYx
+  url: https://api.github.com/repos/kubernetes-sigs/kustomize/labels/wg/component-standard
+- color: d2b48c
+  default: false
+  description: Categorizes an issue or PR as relevant to WG Data Protection.
+  id: 3959519843
+  name: wg/data-protection
+  node_id: LA_kwDOB-5y6s7sAXpj
+  url: https://api.github.com/repos/kubernetes-sigs/kustomize/labels/wg/data-protection
+- color: d2b48c
+  default: false
+  description: Categorizes an issue or PR as relevant to WG IOT Edge.
+  id: 971854554
+  name: wg/iot-edge
+  node_id: MDU6TGFiZWw5NzE4NTQ1NTQ=
+  url: https://api.github.com/repos/kubernetes-sigs/kustomize/labels/wg/iot-edge
+- color: d2b48c
+  default: false
+  description: Categorizes an issue or PR as relevant to WG LTS.
+  id: 1246963123
+  name: wg/lts
+  node_id: MDU6TGFiZWwxMjQ2OTYzMTIz
+  url: https://api.github.com/repos/kubernetes-sigs/kustomize/labels/wg/lts
+- color: d2b48c
+  default: false
+  description: Categorizes an issue or PR as relevant to WG Machine Learning.
+  id: 971855386
+  name: wg/machine-learning
+  node_id: MDU6TGFiZWw5NzE4NTUzODY=
+  url: https://api.github.com/repos/kubernetes-sigs/kustomize/labels/wg/machine-learning
+- color: d2b48c
+  default: false
+  description: Categorizes an issue or PR as relevant to WG Multitenancy.
+  id: 971854797
+  name: wg/multitenancy
+  node_id: MDU6TGFiZWw5NzE4NTQ3OTc=
+  url: https://api.github.com/repos/kubernetes-sigs/kustomize/labels/wg/multitenancy
+- color: d2b48c
+  default: false
+  description: Categorizes an issue or PR as relevant to WG Naming.
+  id: 2175217882
+  name: wg/naming
+  node_id: MDU6TGFiZWwyMTc1MjE3ODgy
+  url: https://api.github.com/repos/kubernetes-sigs/kustomize/labels/wg/naming
+- color: d2b48c
+  default: false
+  description: Categorizes an issue or PR as relevant to WG Policy.
+  id: 971854352
+  name: wg/policy
+  node_id: MDU6TGFiZWw5NzE4NTQzNTI=
+  url: https://api.github.com/repos/kubernetes-sigs/kustomize/labels/wg/policy
+- color: d2b48c
+  default: false
+  description: Categorizes an issue or PR as relevant to WG Reliability
+  id: 2681781848
+  name: wg/reliability
+  node_id: MDU6TGFiZWwyNjgxNzgxODQ4
+  url: https://api.github.com/repos/kubernetes-sigs/kustomize/labels/wg/reliability
+- color: d2b48c
+  default: false
+  description: Categorizes an issue or PR as relevant to WG Security Audit.
+  id: 1086815354
+  name: wg/security-audit
+  node_id: MDU6TGFiZWwxMDg2ODE1MzU0
+  url: https://api.github.com/repos/kubernetes-sigs/kustomize/labels/wg/security-audit
+- color: d2b48c
+  default: false
+  description: Categorizes an issue or PR as relevant to WG Structured Logging.
+  id: 3025138579
+  name: wg/structured-logging
+  node_id: MDU6TGFiZWwzMDI1MTM4NTc5
+  url: https://api.github.com/repos/kubernetes-sigs/kustomize/labels/wg/structured-logging

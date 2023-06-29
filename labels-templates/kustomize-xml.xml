@@ -1,0 +1,1253 @@
+<labels>
+  <label>
+    <Name>¯\_(ツ)_/¯</Name>
+    <Description>¯\\\_(ツ)_/¯</Description>
+    <Color>f9d0c4</Color>
+    <Default>false</Default>
+    <ID>1040962640</ID>
+    <NodeID>MDU6TGFiZWwxMDQwOTYyNjQw</NodeID>
+    <URL>https://api.github.com/repos/kubernetes-sigs/kustomize/labels/%C2%AF%5C_(%E3%83%84)_/%C2%AF</URL>
+  </label>
+  <label>
+    <Name>anchors</Name>
+    <Description></Description>
+    <Color>3DBF29</Color>
+    <Default>false</Default>
+    <ID>3033664937</ID>
+    <NodeID>MDU6TGFiZWwzMDMzNjY0OTM3</NodeID>
+    <URL>https://api.github.com/repos/kubernetes-sigs/kustomize/labels/anchors</URL>
+  </label>
+  <label>
+    <Name>api-review</Name>
+    <Description>Categorizes an issue or PR as actively needing an API review.</Description>
+    <Color>e11d21</Color>
+    <Default>false</Default>
+    <ID>1243095403</ID>
+    <NodeID>MDU6TGFiZWwxMjQzMDk1NDAz</NodeID>
+    <URL>https://api.github.com/repos/kubernetes-sigs/kustomize/labels/api-review</URL>
+  </label>
+  <label>
+    <Name>apply</Name>
+    <Description>issues for `kustomize apply`</Description>
+    <Color>c2e0c6</Color>
+    <Default>false</Default>
+    <ID>1732756440</ID>
+    <NodeID>MDU6TGFiZWwxNzMyNzU2NDQw</NodeID>
+    <URL>https://api.github.com/repos/kubernetes-sigs/kustomize/labels/apply</URL>
+  </label>
+  <label>
+    <Name>approved</Name>
+    <Description>Indicates a PR has been approved by an approver from all required OWNERS files.</Description>
+    <Color>0ffa16</Color>
+    <Default>false</Default>
+    <ID>952071101</ID>
+    <NodeID>MDU6TGFiZWw5NTIwNzExMDE=</NodeID>
+    <URL>https://api.github.com/repos/kubernetes-sigs/kustomize/labels/approved</URL>
+  </label>
+  <label>
+    <Name>area/anchors</Name>
+    <Description>related to yaml anchors</Description>
+    <Color>c5def5</Color>
+    <Default>false</Default>
+    <ID>3686126502</ID>
+    <NodeID>LA_kwDOB-5y6s7btdOm</NodeID>
+    <URL>https://api.github.com/repos/kubernetes-sigs/kustomize/labels/area/anchors</URL>
+  </label>
+  <label>
+    <Name>area/api</Name>
+    <Description>issues for api module</Description>
+    <Color>49bcff</Color>
+    <Default>false</Default>
+    <ID>2427471722</ID>
+    <NodeID>MDU6TGFiZWwyNDI3NDcxNzIy</NodeID>
+    <URL>https://api.github.com/repos/kubernetes-sigs/kustomize/labels/area/api</URL>
+  </label>
+  <label>
+    <Name>area/cli</Name>
+    <Description>Issues for kustomize CLI interface</Description>
+    <Color>fbca04</Color>
+    <Default>false</Default>
+    <ID>2444508235</ID>
+    <NodeID>MDU6TGFiZWwyNDQ0NTA4MjM1</NodeID>
+    <URL>https://api.github.com/repos/kubernetes-sigs/kustomize/labels/area/cli</URL>
+  </label>
+  <label>
+    <Name>area/community-meeting</Name>
+    <Description>Issues or PRs that should potentially be discussed in a Kubernetes community meeting.</Description>
+    <Color>0052cc</Color>
+    <Default>false</Default>
+    <ID>4582643115</ID>
+    <NodeID>LA_kwDOB-5y6s8AAAABESWVqw</NodeID>
+    <URL>https://api.github.com/repos/kubernetes-sigs/kustomize/labels/area/community-meeting</URL>
+  </label>
+  <label>
+    <Name>area/dependency</Name>
+    <Description>Issues or PRs related to dependency changes</Description>
+    <Color>0052cc</Color>
+    <Default>false</Default>
+    <ID>1305795131</ID>
+    <NodeID>MDU6TGFiZWwxMzA1Nzk1MTMx</NodeID>
+    <URL>https://api.github.com/repos/kubernetes-sigs/kustomize/labels/area/dependency</URL>
+  </label>
+  <label>
+    <Name>area/helm</Name>
+    <Description></Description>
+    <Color>7045BC</Color>
+    <Default>false</Default>
+    <ID>3705228113</ID>
+    <NodeID>LA_kwDOB-5y6s7c2UtR</NodeID>
+    <URL>https://api.github.com/repos/kubernetes-sigs/kustomize/labels/area/helm</URL>
+  </label>
+  <label>
+    <Name>area/kyaml</Name>
+    <Description>issues for kyaml</Description>
+    <Color>d26cdd</Color>
+    <Default>false</Default>
+    <ID>1664300382</ID>
+    <NodeID>MDU6TGFiZWwxNjY0MzAwMzgy</NodeID>
+    <URL>https://api.github.com/repos/kubernetes-sigs/kustomize/labels/area/kyaml</URL>
+  </label>
+  <label>
+    <Name>area/openapi</Name>
+    <Description>Issues to OpenAPI in kyaml</Description>
+    <Color>b529ce</Color>
+    <Default>false</Default>
+    <ID>2438555046</ID>
+    <NodeID>MDU6TGFiZWwyNDM4NTU1MDQ2</NodeID>
+    <URL>https://api.github.com/repos/kubernetes-sigs/kustomize/labels/area/openapi</URL>
+  </label>
+  <label>
+    <Name>area/plugin</Name>
+    <Description>issues for plugins</Description>
+    <Color>c2e0c6</Color>
+    <Default>false</Default>
+    <ID>2427473666</ID>
+    <NodeID>MDU6TGFiZWwyNDI3NDczNjY2</NodeID>
+    <URL>https://api.github.com/repos/kubernetes-sigs/kustomize/labels/area/plugin</URL>
+  </label>
+  <label>
+    <Name>area/provider/aws</Name>
+    <Description>Issues or PRs related to aws provider</Description>
+    <Color>0052cc</Color>
+    <Default>false</Default>
+    <ID>952071148</ID>
+    <NodeID>MDU6TGFiZWw5NTIwNzExNDg=</NodeID>
+    <URL>https://api.github.com/repos/kubernetes-sigs/kustomize/labels/area/provider/aws</URL>
+  </label>
+  <label>
+    <Name>area/provider/azure</Name>
+    <Description>Issues or PRs related to azure provider</Description>
+    <Color>0052cc</Color>
+    <Default>false</Default>
+    <ID>952071084</ID>
+    <NodeID>MDU6TGFiZWw5NTIwNzEwODQ=</NodeID>
+    <URL>https://api.github.com/repos/kubernetes-sigs/kustomize/labels/area/provider/azure</URL>
+  </label>
+  <label>
+    <Name>area/provider/digitalocean</Name>
+    <Description>Issues or PRs related to digitalocean provider</Description>
+    <Color>0052cc</Color>
+    <Default>false</Default>
+    <ID>1946568347</ID>
+    <NodeID>MDU6TGFiZWwxOTQ2NTY4MzQ3</NodeID>
+    <URL>https://api.github.com/repos/kubernetes-sigs/kustomize/labels/area/provider/digitalocean</URL>
+  </label>
+  <label>
+    <Name>area/provider/gcp</Name>
+    <Description>Issues or PRs related to gcp provider</Description>
+    <Color>0052cc</Color>
+    <Default>false</Default>
+    <ID>952071096</ID>
+    <NodeID>MDU6TGFiZWw5NTIwNzEwOTY=</NodeID>
+    <URL>https://api.github.com/repos/kubernetes-sigs/kustomize/labels/area/provider/gcp</URL>
+  </label>
+  <label>
+    <Name>area/provider/ibmcloud</Name>
+    <Description>Issues or PRs related to ibmcloud provider</Description>
+    <Color>0052cc</Color>
+    <Default>false</Default>
+    <ID>952071129</ID>
+    <NodeID>MDU6TGFiZWw5NTIwNzExMjk=</NodeID>
+    <URL>https://api.github.com/repos/kubernetes-sigs/kustomize/labels/area/provider/ibmcloud</URL>
+  </label>
+  <label>
+    <Name>area/provider/openstack</Name>
+    <Description>Issues or PRs related to openstack provider</Description>
+    <Color>0052cc</Color>
+    <Default>false</Default>
+    <ID>952071109</ID>
+    <NodeID>MDU6TGFiZWw5NTIwNzExMDk=</NodeID>
+    <URL>https://api.github.com/repos/kubernetes-sigs/kustomize/labels/area/provider/openstack</URL>
+  </label>
+  <label>
+    <Name>area/provider/vmware</Name>
+    <Description>Issues or PRs related to vmware provider</Description>
+    <Color>0052cc</Color>
+    <Default>false</Default>
+    <ID>952071132</ID>
+    <NodeID>MDU6TGFiZWw5NTIwNzExMzI=</NodeID>
+    <URL>https://api.github.com/repos/kubernetes-sigs/kustomize/labels/area/provider/vmware</URL>
+  </label>
+  <label>
+    <Name>area/pseudo</Name>
+    <Description></Description>
+    <Color>c40775</Color>
+    <Default>false</Default>
+    <ID>1665991328</ID>
+    <NodeID>MDU6TGFiZWwxNjY1OTkxMzI4</NodeID>
+    <URL>https://api.github.com/repos/kubernetes-sigs/kustomize/labels/area/pseudo</URL>
+  </label>
+  <label>
+    <Name>area/release</Name>
+    <Description>Issues to release process</Description>
+    <Color>d93f0b</Color>
+    <Default>false</Default>
+    <ID>2438562536</ID>
+    <NodeID>MDU6TGFiZWwyNDM4NTYyNTM2</NodeID>
+    <URL>https://api.github.com/repos/kubernetes-sigs/kustomize/labels/area/release</URL>
+  </label>
+  <label>
+    <Name>area/yaml-upstream</Name>
+    <Description>Issues root caused to gopkg.in/yaml</Description>
+    <Color>FA5A28</Color>
+    <Default>false</Default>
+    <ID>4303874894</ID>
+    <NodeID>LA_kwDOB-5y6s8AAAABAIfrTg</NodeID>
+    <URL>https://api.github.com/repos/kubernetes-sigs/kustomize/labels/area/yaml-upstream</URL>
+  </label>
+  <label>
+    <Name>cherry-pick-approved</Name>
+    <Description>Indicates a cherry-pick PR into a release branch has been approved by the release branch manager.</Description>
+    <Color>fef2c0</Color>
+    <Default>false</Default>
+    <ID>952071139</ID>
+    <NodeID>MDU6TGFiZWw5NTIwNzExMzk=</NodeID>
+    <URL>https://api.github.com/repos/kubernetes-sigs/kustomize/labels/cherry-pick-approved</URL>
+  </label>
+  <label>
+    <Name>cncf-cla: no</Name>
+    <Description>Indicates the PR&#39;s author has not signed the CNCF CLA.</Description>
+    <Color>e11d21</Color>
+    <Default>false</Default>
+    <ID>952071135</ID>
+    <NodeID>MDU6TGFiZWw5NTIwNzExMzU=</NodeID>
+    <URL>https://api.github.com/repos/kubernetes-sigs/kustomize/labels/cncf-cla:%20no</URL>
+  </label>
+  <label>
+    <Name>cncf-cla: yes</Name>
+    <Description>Indicates the PR&#39;s author has signed the CNCF CLA.</Description>
+    <Color>bfe5bf</Color>
+    <Default>false</Default>
+    <ID>930398993</ID>
+    <NodeID>MDU6TGFiZWw5MzAzOTg5OTM=</NodeID>
+    <URL>https://api.github.com/repos/kubernetes-sigs/kustomize/labels/cncf-cla:%20yes</URL>
+  </label>
+  <label>
+    <Name>committee/code-of-conduct</Name>
+    <Description>Denotes an issue or PR intended to be handled by the code of conduct committee.</Description>
+    <Color>c0ff4a</Color>
+    <Default>false</Default>
+    <ID>952071076</ID>
+    <NodeID>MDU6TGFiZWw5NTIwNzEwNzY=</NodeID>
+    <URL>https://api.github.com/repos/kubernetes-sigs/kustomize/labels/committee/code-of-conduct</URL>
+  </label>
+  <label>
+    <Name>committee/security-response</Name>
+    <Description>Denotes an issue or PR intended to be handled by the product security committee.</Description>
+    <Color>c0ff4a</Color>
+    <Default>false</Default>
+    <ID>1208608865</ID>
+    <NodeID>MDU6TGFiZWwxMjA4NjA4ODY1</NodeID>
+    <URL>https://api.github.com/repos/kubernetes-sigs/kustomize/labels/committee/security-response</URL>
+  </label>
+  <label>
+    <Name>committee/steering</Name>
+    <Description>Denotes an issue or PR intended to be handled by the steering committee.</Description>
+    <Color>c0ff4a</Color>
+    <Default>false</Default>
+    <ID>952071115</ID>
+    <NodeID>MDU6TGFiZWw5NTIwNzExMTU=</NodeID>
+    <URL>https://api.github.com/repos/kubernetes-sigs/kustomize/labels/committee/steering</URL>
+  </label>
+  <label>
+    <Name>dependencies</Name>
+    <Description>Pull requests that update a dependency file</Description>
+    <Color>0366d6</Color>
+    <Default>false</Default>
+    <ID>2188447576</ID>
+    <NodeID>MDU6TGFiZWwyMTg4NDQ3NTc2</NodeID>
+    <URL>https://api.github.com/repos/kubernetes-sigs/kustomize/labels/dependencies</URL>
+  </label>
+  <label>
+    <Name>do-not-merge</Name>
+    <Description>DEPRECATED. Indicates that a PR should not merge. Label can only be manually applied/removed.</Description>
+    <Color>e11d21</Color>
+    <Default>false</Default>
+    <ID>952071104</ID>
+    <NodeID>MDU6TGFiZWw5NTIwNzExMDQ=</NodeID>
+    <URL>https://api.github.com/repos/kubernetes-sigs/kustomize/labels/do-not-merge</URL>
+  </label>
+  <label>
+    <Name>do-not-merge/blocked-paths</Name>
+    <Description>Indicates that a PR should not merge because it touches files in blocked paths.</Description>
+    <Color>e11d21</Color>
+    <Default>false</Default>
+    <ID>952071088</ID>
+    <NodeID>MDU6TGFiZWw5NTIwNzEwODg=</NodeID>
+    <URL>https://api.github.com/repos/kubernetes-sigs/kustomize/labels/do-not-merge/blocked-paths</URL>
+  </label>
+  <label>
+    <Name>do-not-merge/cherry-pick-not-approved</Name>
+    <Description>Indicates that a PR is not yet approved to merge into a release branch.</Description>
+    <Color>e11d21</Color>
+    <Default>false</Default>
+    <ID>952071142</ID>
+    <NodeID>MDU6TGFiZWw5NTIwNzExNDI=</NodeID>
+    <URL>https://api.github.com/repos/kubernetes-sigs/kustomize/labels/do-not-merge/cherry-pick-not-approved</URL>
+  </label>
+  <label>
+    <Name>do-not-merge/hold</Name>
+    <Description>Indicates that a PR should not merge because someone has issued a /hold command.</Description>
+    <Color>e11d21</Color>
+    <Default>false</Default>
+    <ID>952071121</ID>
+    <NodeID>MDU6TGFiZWw5NTIwNzExMjE=</NodeID>
+    <URL>https://api.github.com/repos/kubernetes-sigs/kustomize/labels/do-not-merge/hold</URL>
+  </label>
+  <label>
+    <Name>do-not-merge/invalid-commit-message</Name>
+    <Description>Indicates that a PR should not merge because it has an invalid commit message.</Description>
+    <Color>e11d21</Color>
+    <Default>false</Default>
+    <ID>1322587022</ID>
+    <NodeID>MDU6TGFiZWwxMzIyNTg3MDIy</NodeID>
+    <URL>https://api.github.com/repos/kubernetes-sigs/kustomize/labels/do-not-merge/invalid-commit-message</URL>
+  </label>
+  <label>
+    <Name>do-not-merge/invalid-owners-file</Name>
+    <Description>Indicates that a PR should not merge because it has an invalid OWNERS file in it.</Description>
+    <Color>e11d21</Color>
+    <Default>false</Default>
+    <ID>969567369</ID>
+    <NodeID>MDU6TGFiZWw5Njk1NjczNjk=</NodeID>
+    <URL>https://api.github.com/repos/kubernetes-sigs/kustomize/labels/do-not-merge/invalid-owners-file</URL>
+  </label>
+  <label>
+    <Name>do-not-merge/release-note-label-needed</Name>
+    <Description>Indicates that a PR should not merge because it&#39;s missing one of the release note labels.</Description>
+    <Color>e11d21</Color>
+    <Default>false</Default>
+    <ID>952071147</ID>
+    <NodeID>MDU6TGFiZWw5NTIwNzExNDc=</NodeID>
+    <URL>https://api.github.com/repos/kubernetes-sigs/kustomize/labels/do-not-merge/release-note-label-needed</URL>
+  </label>
+  <label>
+    <Name>do-not-merge/work-in-progress</Name>
+    <Description>Indicates that a PR should not merge because it is a work in progress.</Description>
+    <Color>e11d21</Color>
+    <Default>false</Default>
+    <ID>952071082</ID>
+    <NodeID>MDU6TGFiZWw5NTIwNzEwODI=</NodeID>
+    <URL>https://api.github.com/repos/kubernetes-sigs/kustomize/labels/do-not-merge/work-in-progress</URL>
+  </label>
+  <label>
+    <Name>github_actions</Name>
+    <Description>Pull requests that update GitHub Actions code</Description>
+    <Color>000000</Color>
+    <Default>false</Default>
+    <ID>5286043583</ID>
+    <NodeID>LA_kwDOB-5y6s8AAAABOxKfvw</NodeID>
+    <URL>https://api.github.com/repos/kubernetes-sigs/kustomize/labels/github_actions</URL>
+  </label>
+  <label>
+    <Name>go</Name>
+    <Description>Pull requests that update Go code</Description>
+    <Color>16e2e2</Color>
+    <Default>false</Default>
+    <ID>5167692819</ID>
+    <NodeID>LA_kwDOB-5y6s8AAAABNAS8Ew</NodeID>
+    <URL>https://api.github.com/repos/kubernetes-sigs/kustomize/labels/go</URL>
+  </label>
+  <label>
+    <Name>good first issue</Name>
+    <Description>Denotes an issue ready for a new contributor, according to the &#34;help wanted&#34; guidelines.</Description>
+    <Color>7057ff</Color>
+    <Default>true</Default>
+    <ID>930208022</ID>
+    <NodeID>MDU6TGFiZWw5MzAyMDgwMjI=</NodeID>
+    <URL>https://api.github.com/repos/kubernetes-sigs/kustomize/labels/good%20first%20issue</URL>
+  </label>
+  <label>
+    <Name>hacktoberfest-accepted</Name>
+    <Description></Description>
+    <Color>d32688</Color>
+    <Default>false</Default>
+    <ID>2439403741</ID>
+    <NodeID>MDU6TGFiZWwyNDM5NDAzNzQx</NodeID>
+    <URL>https://api.github.com/repos/kubernetes-sigs/kustomize/labels/hacktoberfest-accepted</URL>
+  </label>
+  <label>
+    <Name>help wanted</Name>
+    <Description>Denotes an issue that needs help from a contributor. Must meet &#34;help wanted&#34; guidelines.</Description>
+    <Color>006b75</Color>
+    <Default>true</Default>
+    <ID>930208019</ID>
+    <NodeID>MDU6TGFiZWw5MzAyMDgwMTk=</NodeID>
+    <URL>https://api.github.com/repos/kubernetes-sigs/kustomize/labels/help%20wanted</URL>
+  </label>
+  <label>
+    <Name>kind/api-change</Name>
+    <Description>Categorizes issue or PR as related to adding, removing, or otherwise changing an API</Description>
+    <Color>e11d21</Color>
+    <Default>false</Default>
+    <ID>1032282897</ID>
+    <NodeID>MDU6TGFiZWwxMDMyMjgyODk3</NodeID>
+    <URL>https://api.github.com/repos/kubernetes-sigs/kustomize/labels/kind/api-change</URL>
+  </label>
+  <label>
+    <Name>kind/bug</Name>
+    <Description>Categorizes issue or PR as related to a bug.</Description>
+    <Color>e11d21</Color>
+    <Default>false</Default>
+    <ID>952071125</ID>
+    <NodeID>MDU6TGFiZWw5NTIwNzExMjU=</NodeID>
+    <URL>https://api.github.com/repos/kubernetes-sigs/kustomize/labels/kind/bug</URL>
+  </label>
+  <label>
+    <Name>kind/cleanup</Name>
+    <Description>Categorizes issue or PR as related to cleaning up code, process, or technical debt.</Description>
+    <Color>c7def8</Color>
+    <Default>false</Default>
+    <ID>955801537</ID>
+    <NodeID>MDU6TGFiZWw5NTU4MDE1Mzc=</NodeID>
+    <URL>https://api.github.com/repos/kubernetes-sigs/kustomize/labels/kind/cleanup</URL>
+  </label>
+  <label>
+    <Name>kind/deprecation</Name>
+    <Description>Categorizes issue or PR as related to a feature/enhancement marked for deprecation.</Description>
+    <Color>e11d21</Color>
+    <Default>false</Default>
+    <ID>1740296298</ID>
+    <NodeID>MDU6TGFiZWwxNzQwMjk2Mjk4</NodeID>
+    <URL>https://api.github.com/repos/kubernetes-sigs/kustomize/labels/kind/deprecation</URL>
+  </label>
+  <label>
+    <Name>kind/design</Name>
+    <Description>Categorizes issue or PR as related to design.</Description>
+    <Color>c7def8</Color>
+    <Default>false</Default>
+    <ID>955801746</ID>
+    <NodeID>MDU6TGFiZWw5NTU4MDE3NDY=</NodeID>
+    <URL>https://api.github.com/repos/kubernetes-sigs/kustomize/labels/kind/design</URL>
+  </label>
+  <label>
+    <Name>kind/documentation</Name>
+    <Description>Categorizes issue or PR as related to documentation.</Description>
+    <Color>c7def8</Color>
+    <Default>false</Default>
+    <ID>952071102</ID>
+    <NodeID>MDU6TGFiZWw5NTIwNzExMDI=</NodeID>
+    <URL>https://api.github.com/repos/kubernetes-sigs/kustomize/labels/kind/documentation</URL>
+  </label>
+  <label>
+    <Name>kind/failing-test</Name>
+    <Description>Categorizes issue or PR as related to a consistently or frequently failing test.</Description>
+    <Color>e11d21</Color>
+    <Default>false</Default>
+    <ID>4589464254</ID>
+    <NodeID>LA_kwDOB-5y6s8AAAABEY2qvg</NodeID>
+    <URL>https://api.github.com/repos/kubernetes-sigs/kustomize/labels/kind/failing-test</URL>
+  </label>
+  <label>
+    <Name>kind/feature</Name>
+    <Description>Categorizes issue or PR as related to a new feature.</Description>
+    <Color>c7def8</Color>
+    <Default>false</Default>
+    <ID>952071118</ID>
+    <NodeID>MDU6TGFiZWw5NTIwNzExMTg=</NodeID>
+    <URL>https://api.github.com/repos/kubernetes-sigs/kustomize/labels/kind/feature</URL>
+  </label>
+  <label>
+    <Name>kind/flake</Name>
+    <Description>Categorizes issue or PR as related to a flaky test.</Description>
+    <Color>f7c6c7</Color>
+    <Default>false</Default>
+    <ID>955801480</ID>
+    <NodeID>MDU6TGFiZWw5NTU4MDE0ODA=</NodeID>
+    <URL>https://api.github.com/repos/kubernetes-sigs/kustomize/labels/kind/flake</URL>
+  </label>
+  <label>
+    <Name>kind/regression</Name>
+    <Description>Categorizes issue or PR as related to a regression from a prior release.</Description>
+    <Color>e11d21</Color>
+    <Default>false</Default>
+    <ID>1967292032</ID>
+    <NodeID>MDU6TGFiZWwxOTY3MjkyMDMy</NodeID>
+    <URL>https://api.github.com/repos/kubernetes-sigs/kustomize/labels/kind/regression</URL>
+  </label>
+  <label>
+    <Name>kind/releasing</Name>
+    <Description>issues related to releasing</Description>
+    <Color>76A6D3</Color>
+    <Default>false</Default>
+    <ID>3070521183</ID>
+    <NodeID>MDU6TGFiZWwzMDcwNTIxMTgz</NodeID>
+    <URL>https://api.github.com/repos/kubernetes-sigs/kustomize/labels/kind/releasing</URL>
+  </label>
+  <label>
+    <Name>kind/support</Name>
+    <Description>Categorizes issue or PR as a support question.</Description>
+    <Color>d455d0</Color>
+    <Default>false</Default>
+    <ID>930208026</ID>
+    <NodeID>MDU6TGFiZWw5MzAyMDgwMjY=</NodeID>
+    <URL>https://api.github.com/repos/kubernetes-sigs/kustomize/labels/kind/support</URL>
+  </label>
+  <label>
+    <Name>kind/test-coverage</Name>
+    <Description>Categorizes issue or PR as related to a gap in or problem with our test coverage.</Description>
+    <Color>e11d21</Color>
+    <Default>false</Default>
+    <ID>952071149</ID>
+    <NodeID>MDU6TGFiZWw5NTIwNzExNDk=</NodeID>
+    <URL>https://api.github.com/repos/kubernetes-sigs/kustomize/labels/kind/test-coverage</URL>
+  </label>
+  <label>
+    <Name>lgtm</Name>
+    <Description>Indicates that a PR is ready to be merged.</Description>
+    <Color>15dd18</Color>
+    <Default>false</Default>
+    <ID>952071134</ID>
+    <NodeID>MDU6TGFiZWw5NTIwNzExMzQ=</NodeID>
+    <URL>https://api.github.com/repos/kubernetes-sigs/kustomize/labels/lgtm</URL>
+  </label>
+  <label>
+    <Name>lifecycle/active</Name>
+    <Description>Indicates that an issue or PR is actively being worked on by a contributor.</Description>
+    <Color>8fc951</Color>
+    <Default>false</Default>
+    <ID>1007214497</ID>
+    <NodeID>MDU6TGFiZWwxMDA3MjE0NDk3</NodeID>
+    <URL>https://api.github.com/repos/kubernetes-sigs/kustomize/labels/lifecycle/active</URL>
+  </label>
+  <label>
+    <Name>lifecycle/frozen</Name>
+    <Description>Indicates that an issue or PR should not be auto-closed due to staleness.</Description>
+    <Color>d3e2f0</Color>
+    <Default>false</Default>
+    <ID>952071131</ID>
+    <NodeID>MDU6TGFiZWw5NTIwNzExMzE=</NodeID>
+    <URL>https://api.github.com/repos/kubernetes-sigs/kustomize/labels/lifecycle/frozen</URL>
+  </label>
+  <label>
+    <Name>lifecycle/rotten</Name>
+    <Description>Denotes an issue or PR that has aged beyond stale and will be auto-closed.</Description>
+    <Color>604460</Color>
+    <Default>false</Default>
+    <ID>952071107</ID>
+    <NodeID>MDU6TGFiZWw5NTIwNzExMDc=</NodeID>
+    <URL>https://api.github.com/repos/kubernetes-sigs/kustomize/labels/lifecycle/rotten</URL>
+  </label>
+  <label>
+    <Name>lifecycle/stale</Name>
+    <Description>Denotes an issue or PR has remained open with no activity and has become stale.</Description>
+    <Color>795548</Color>
+    <Default>false</Default>
+    <ID>952071111</ID>
+    <NodeID>MDU6TGFiZWw5NTIwNzExMTE=</NodeID>
+    <URL>https://api.github.com/repos/kubernetes-sigs/kustomize/labels/lifecycle/stale</URL>
+  </label>
+  <label>
+    <Name>needs-kind</Name>
+    <Description>Indicates a PR lacks a `kind/foo` label and requires one.</Description>
+    <Color>ededed</Color>
+    <Default>false</Default>
+    <ID>1047248632</ID>
+    <NodeID>MDU6TGFiZWwxMDQ3MjQ4NjMy</NodeID>
+    <URL>https://api.github.com/repos/kubernetes-sigs/kustomize/labels/needs-kind</URL>
+  </label>
+  <label>
+    <Name>needs-ok-to-test</Name>
+    <Description>Indicates a PR that requires an org member to verify it is safe to test.</Description>
+    <Color>b60205</Color>
+    <Default>false</Default>
+    <ID>952071090</ID>
+    <NodeID>MDU6TGFiZWw5NTIwNzEwOTA=</NodeID>
+    <URL>https://api.github.com/repos/kubernetes-sigs/kustomize/labels/needs-ok-to-test</URL>
+  </label>
+  <label>
+    <Name>needs-priority</Name>
+    <Description>Indicates an issue or PR lacks a `priority/foo` label and requires one.</Description>
+    <Color>ededed</Color>
+    <Default>false</Default>
+    <ID>5298478130</ID>
+    <NodeID>LA_kwDOB-5y6s8AAAABO9BcMg</NodeID>
+    <URL>https://api.github.com/repos/kubernetes-sigs/kustomize/labels/needs-priority</URL>
+  </label>
+  <label>
+    <Name>needs-rebase</Name>
+    <Description>Indicates a PR cannot be merged because it has merge conflicts with HEAD.</Description>
+    <Color>e11d21</Color>
+    <Default>false</Default>
+    <ID>952071083</ID>
+    <NodeID>MDU6TGFiZWw5NTIwNzEwODM=</NodeID>
+    <URL>https://api.github.com/repos/kubernetes-sigs/kustomize/labels/needs-rebase</URL>
+  </label>
+  <label>
+    <Name>needs-sig</Name>
+    <Description>Indicates an issue or PR lacks a `sig/foo` label and requires one.</Description>
+    <Color>ededed</Color>
+    <Default>false</Default>
+    <ID>952071154</ID>
+    <NodeID>MDU6TGFiZWw5NTIwNzExNTQ=</NodeID>
+    <URL>https://api.github.com/repos/kubernetes-sigs/kustomize/labels/needs-sig</URL>
+  </label>
+  <label>
+    <Name>needs-triage</Name>
+    <Description>Indicates an issue or PR lacks a `triage/foo` label and requires one.</Description>
+    <Color>ededed</Color>
+    <Default>false</Default>
+    <ID>2390353964</ID>
+    <NodeID>MDU6TGFiZWwyMzkwMzUzOTY0</NodeID>
+    <URL>https://api.github.com/repos/kubernetes-sigs/kustomize/labels/needs-triage</URL>
+  </label>
+  <label>
+    <Name>ok-to-test</Name>
+    <Description>Indicates a non-member PR verified by an org member that is safe to test.</Description>
+    <Color>15dd18</Color>
+    <Default>false</Default>
+    <ID>1086815217</ID>
+    <NodeID>MDU6TGFiZWwxMDg2ODE1MjE3</NodeID>
+    <URL>https://api.github.com/repos/kubernetes-sigs/kustomize/labels/ok-to-test</URL>
+  </label>
+  <label>
+    <Name>priority/awaiting-more-evidence</Name>
+    <Description>Lowest priority. Possibly useful, but not yet enough support to actually get it done.</Description>
+    <Color>fef2c0</Color>
+    <Default>false</Default>
+    <ID>952071127</ID>
+    <NodeID>MDU6TGFiZWw5NTIwNzExMjc=</NodeID>
+    <URL>https://api.github.com/repos/kubernetes-sigs/kustomize/labels/priority/awaiting-more-evidence</URL>
+  </label>
+  <label>
+    <Name>priority/backlog</Name>
+    <Description>Higher priority than priority/awaiting-more-evidence.</Description>
+    <Color>fbca04</Color>
+    <Default>false</Default>
+    <ID>952071153</ID>
+    <NodeID>MDU6TGFiZWw5NTIwNzExNTM=</NodeID>
+    <URL>https://api.github.com/repos/kubernetes-sigs/kustomize/labels/priority/backlog</URL>
+  </label>
+  <label>
+    <Name>priority/critical-urgent</Name>
+    <Description>Highest priority. Must be actively worked on as someone&#39;s top priority right now.</Description>
+    <Color>e11d21</Color>
+    <Default>false</Default>
+    <ID>952071089</ID>
+    <NodeID>MDU6TGFiZWw5NTIwNzEwODk=</NodeID>
+    <URL>https://api.github.com/repos/kubernetes-sigs/kustomize/labels/priority/critical-urgent</URL>
+  </label>
+  <label>
+    <Name>priority/important-longterm</Name>
+    <Description>Important over the long term, but may not be staffed and/or may need multiple releases to complete.</Description>
+    <Color>eb6420</Color>
+    <Default>false</Default>
+    <ID>952071138</ID>
+    <NodeID>MDU6TGFiZWw5NTIwNzExMzg=</NodeID>
+    <URL>https://api.github.com/repos/kubernetes-sigs/kustomize/labels/priority/important-longterm</URL>
+  </label>
+  <label>
+    <Name>priority/important-soon</Name>
+    <Description>Must be staffed and worked on either currently, or very soon, ideally in time for the next release.</Description>
+    <Color>eb6420</Color>
+    <Default>false</Default>
+    <ID>952071144</ID>
+    <NodeID>MDU6TGFiZWw5NTIwNzExNDQ=</NodeID>
+    <URL>https://api.github.com/repos/kubernetes-sigs/kustomize/labels/priority/important-soon</URL>
+  </label>
+  <label>
+    <Name>release-blocker</Name>
+    <Description></Description>
+    <Color>e99695</Color>
+    <Default>false</Default>
+    <ID>2287679445</ID>
+    <NodeID>MDU6TGFiZWwyMjg3Njc5NDQ1</NodeID>
+    <URL>https://api.github.com/repos/kubernetes-sigs/kustomize/labels/release-blocker</URL>
+  </label>
+  <label>
+    <Name>release-note</Name>
+    <Description>Denotes a PR that will be considered when it comes time to generate release notes.</Description>
+    <Color>c2e0c6</Color>
+    <Default>false</Default>
+    <ID>952071123</ID>
+    <NodeID>MDU6TGFiZWw5NTIwNzExMjM=</NodeID>
+    <URL>https://api.github.com/repos/kubernetes-sigs/kustomize/labels/release-note</URL>
+  </label>
+  <label>
+    <Name>release-note-action-required</Name>
+    <Description>Denotes a PR that introduces potentially breaking changes that require user action.</Description>
+    <Color>c2e0c6</Color>
+    <Default>false</Default>
+    <ID>952071140</ID>
+    <NodeID>MDU6TGFiZWw5NTIwNzExNDA=</NodeID>
+    <URL>https://api.github.com/repos/kubernetes-sigs/kustomize/labels/release-note-action-required</URL>
+  </label>
+  <label>
+    <Name>release-note-none</Name>
+    <Description>Denotes a PR that doesn&#39;t merit a release note.</Description>
+    <Color>c2e0c6</Color>
+    <Default>false</Default>
+    <ID>952071150</ID>
+    <NodeID>MDU6TGFiZWw5NTIwNzExNTA=</NodeID>
+    <URL>https://api.github.com/repos/kubernetes-sigs/kustomize/labels/release-note-none</URL>
+  </label>
+  <label>
+    <Name>sig/api-machinery</Name>
+    <Description>Categorizes an issue or PR as relevant to SIG API Machinery.</Description>
+    <Color>d2b48c</Color>
+    <Default>false</Default>
+    <ID>952071100</ID>
+    <NodeID>MDU6TGFiZWw5NTIwNzExMDA=</NodeID>
+    <URL>https://api.github.com/repos/kubernetes-sigs/kustomize/labels/sig/api-machinery</URL>
+  </label>
+  <label>
+    <Name>sig/apps</Name>
+    <Description>Categorizes an issue or PR as relevant to SIG Apps.</Description>
+    <Color>d2b48c</Color>
+    <Default>false</Default>
+    <ID>952071124</ID>
+    <NodeID>MDU6TGFiZWw5NTIwNzExMjQ=</NodeID>
+    <URL>https://api.github.com/repos/kubernetes-sigs/kustomize/labels/sig/apps</URL>
+  </label>
+  <label>
+    <Name>sig/architecture</Name>
+    <Description>Categorizes an issue or PR as relevant to SIG Architecture.</Description>
+    <Color>d2b48c</Color>
+    <Default>false</Default>
+    <ID>952071091</ID>
+    <NodeID>MDU6TGFiZWw5NTIwNzEwOTE=</NodeID>
+    <URL>https://api.github.com/repos/kubernetes-sigs/kustomize/labels/sig/architecture</URL>
+  </label>
+  <label>
+    <Name>sig/auth</Name>
+    <Description>Categorizes an issue or PR as relevant to SIG Auth.</Description>
+    <Color>d2b48c</Color>
+    <Default>false</Default>
+    <ID>952071141</ID>
+    <NodeID>MDU6TGFiZWw5NTIwNzExNDE=</NodeID>
+    <URL>https://api.github.com/repos/kubernetes-sigs/kustomize/labels/sig/auth</URL>
+  </label>
+  <label>
+    <Name>sig/autoscaling</Name>
+    <Description>Categorizes an issue or PR as relevant to SIG Autoscaling.</Description>
+    <Color>d2b48c</Color>
+    <Default>false</Default>
+    <ID>952071137</ID>
+    <NodeID>MDU6TGFiZWw5NTIwNzExMzc=</NodeID>
+    <URL>https://api.github.com/repos/kubernetes-sigs/kustomize/labels/sig/autoscaling</URL>
+  </label>
+  <label>
+    <Name>sig/cli</Name>
+    <Description>Categorizes an issue or PR as relevant to SIG CLI.</Description>
+    <Color>d2b48c</Color>
+    <Default>false</Default>
+    <ID>952071085</ID>
+    <NodeID>MDU6TGFiZWw5NTIwNzEwODU=</NodeID>
+    <URL>https://api.github.com/repos/kubernetes-sigs/kustomize/labels/sig/cli</URL>
+  </label>
+  <label>
+    <Name>sig/cloud-provider</Name>
+    <Description>Categorizes an issue or PR as relevant to SIG Cloud Provider.</Description>
+    <Color>d2b48c</Color>
+    <Default>false</Default>
+    <ID>958179776</ID>
+    <NodeID>MDU6TGFiZWw5NTgxNzk3NzY=</NodeID>
+    <URL>https://api.github.com/repos/kubernetes-sigs/kustomize/labels/sig/cloud-provider</URL>
+  </label>
+  <label>
+    <Name>sig/cluster-lifecycle</Name>
+    <Description>Categorizes an issue or PR as relevant to SIG Cluster Lifecycle.</Description>
+    <Color>d2b48c</Color>
+    <Default>false</Default>
+    <ID>952071114</ID>
+    <NodeID>MDU6TGFiZWw5NTIwNzExMTQ=</NodeID>
+    <URL>https://api.github.com/repos/kubernetes-sigs/kustomize/labels/sig/cluster-lifecycle</URL>
+  </label>
+  <label>
+    <Name>sig/contributor-experience</Name>
+    <Description>Categorizes an issue or PR as relevant to SIG Contributor Experience.</Description>
+    <Color>d2b48c</Color>
+    <Default>false</Default>
+    <ID>952071094</ID>
+    <NodeID>MDU6TGFiZWw5NTIwNzEwOTQ=</NodeID>
+    <URL>https://api.github.com/repos/kubernetes-sigs/kustomize/labels/sig/contributor-experience</URL>
+  </label>
+  <label>
+    <Name>sig/docs</Name>
+    <Description>Categorizes an issue or PR as relevant to SIG Docs.</Description>
+    <Color>d2b48c</Color>
+    <Default>false</Default>
+    <ID>952071108</ID>
+    <NodeID>MDU6TGFiZWw5NTIwNzExMDg=</NodeID>
+    <URL>https://api.github.com/repos/kubernetes-sigs/kustomize/labels/sig/docs</URL>
+  </label>
+  <label>
+    <Name>sig/instrumentation</Name>
+    <Description>Categorizes an issue or PR as relevant to SIG Instrumentation.</Description>
+    <Color>d2b48c</Color>
+    <Default>false</Default>
+    <ID>952071163</ID>
+    <NodeID>MDU6TGFiZWw5NTIwNzExNjM=</NodeID>
+    <URL>https://api.github.com/repos/kubernetes-sigs/kustomize/labels/sig/instrumentation</URL>
+  </label>
+  <label>
+    <Name>sig/k8s-infra</Name>
+    <Description>Categorizes an issue or PR as relevant to SIG K8s Infra.</Description>
+    <Color>d2b48c</Color>
+    <Default>false</Default>
+    <ID>3373535784</ID>
+    <NodeID>LA_kwDOB-5y6s7JFBIo</NodeID>
+    <URL>https://api.github.com/repos/kubernetes-sigs/kustomize/labels/sig/k8s-infra</URL>
+  </label>
+  <label>
+    <Name>sig/multicluster</Name>
+    <Description>Categorizes an issue or PR as relevant to SIG Multicluster.</Description>
+    <Color>d2b48c</Color>
+    <Default>false</Default>
+    <ID>952071103</ID>
+    <NodeID>MDU6TGFiZWw5NTIwNzExMDM=</NodeID>
+    <URL>https://api.github.com/repos/kubernetes-sigs/kustomize/labels/sig/multicluster</URL>
+  </label>
+  <label>
+    <Name>sig/network</Name>
+    <Description>Categorizes an issue or PR as relevant to SIG Network.</Description>
+    <Color>d2b48c</Color>
+    <Default>false</Default>
+    <ID>952071112</ID>
+    <NodeID>MDU6TGFiZWw5NTIwNzExMTI=</NodeID>
+    <URL>https://api.github.com/repos/kubernetes-sigs/kustomize/labels/sig/network</URL>
+  </label>
+  <label>
+    <Name>sig/node</Name>
+    <Description>Categorizes an issue or PR as relevant to SIG Node.</Description>
+    <Color>d2b48c</Color>
+    <Default>false</Default>
+    <ID>952071143</ID>
+    <NodeID>MDU6TGFiZWw5NTIwNzExNDM=</NodeID>
+    <URL>https://api.github.com/repos/kubernetes-sigs/kustomize/labels/sig/node</URL>
+  </label>
+  <label>
+    <Name>sig/release</Name>
+    <Description>Categorizes an issue or PR as relevant to SIG Release.</Description>
+    <Color>d2b48c</Color>
+    <Default>false</Default>
+    <ID>952071151</ID>
+    <NodeID>MDU6TGFiZWw5NTIwNzExNTE=</NodeID>
+    <URL>https://api.github.com/repos/kubernetes-sigs/kustomize/labels/sig/release</URL>
+  </label>
+  <label>
+    <Name>sig/scalability</Name>
+    <Description>Categorizes an issue or PR as relevant to SIG Scalability.</Description>
+    <Color>d2b48c</Color>
+    <Default>false</Default>
+    <ID>952071105</ID>
+    <NodeID>MDU6TGFiZWw5NTIwNzExMDU=</NodeID>
+    <URL>https://api.github.com/repos/kubernetes-sigs/kustomize/labels/sig/scalability</URL>
+  </label>
+  <label>
+    <Name>sig/scheduling</Name>
+    <Description>Categorizes an issue or PR as relevant to SIG Scheduling.</Description>
+    <Color>d2b48c</Color>
+    <Default>false</Default>
+    <ID>952071130</ID>
+    <NodeID>MDU6TGFiZWw5NTIwNzExMzA=</NodeID>
+    <URL>https://api.github.com/repos/kubernetes-sigs/kustomize/labels/sig/scheduling</URL>
+  </label>
+  <label>
+    <Name>sig/security</Name>
+    <Description>Categorizes an issue or PR as relevant to SIG Security.</Description>
+    <Color>d2b48c</Color>
+    <Default>false</Default>
+    <ID>2315035310</ID>
+    <NodeID>MDU6TGFiZWwyMzE1MDM1MzEw</NodeID>
+    <URL>https://api.github.com/repos/kubernetes-sigs/kustomize/labels/sig/security</URL>
+  </label>
+  <label>
+    <Name>sig/service-catalog</Name>
+    <Description>Categorizes an issue or PR as relevant to SIG Service Catalog.</Description>
+    <Color>d2b48c</Color>
+    <Default>false</Default>
+    <ID>952071117</ID>
+    <NodeID>MDU6TGFiZWw5NTIwNzExMTc=</NodeID>
+    <URL>https://api.github.com/repos/kubernetes-sigs/kustomize/labels/sig/service-catalog</URL>
+  </label>
+  <label>
+    <Name>sig/storage</Name>
+    <Description>Categorizes an issue or PR as relevant to SIG Storage.</Description>
+    <Color>d2b48c</Color>
+    <Default>false</Default>
+    <ID>952071116</ID>
+    <NodeID>MDU6TGFiZWw5NTIwNzExMTY=</NodeID>
+    <URL>https://api.github.com/repos/kubernetes-sigs/kustomize/labels/sig/storage</URL>
+  </label>
+  <label>
+    <Name>sig/testing</Name>
+    <Description>Categorizes an issue or PR as relevant to SIG Testing.</Description>
+    <Color>d2b48c</Color>
+    <Default>false</Default>
+    <ID>952071086</ID>
+    <NodeID>MDU6TGFiZWw5NTIwNzEwODY=</NodeID>
+    <URL>https://api.github.com/repos/kubernetes-sigs/kustomize/labels/sig/testing</URL>
+  </label>
+  <label>
+    <Name>sig/ui</Name>
+    <Description>Categorizes an issue or PR as relevant to SIG UI.</Description>
+    <Color>d2b48c</Color>
+    <Default>false</Default>
+    <ID>952071152</ID>
+    <NodeID>MDU6TGFiZWw5NTIwNzExNTI=</NodeID>
+    <URL>https://api.github.com/repos/kubernetes-sigs/kustomize/labels/sig/ui</URL>
+  </label>
+  <label>
+    <Name>sig/usability</Name>
+    <Description>Categorizes an issue or PR as relevant to SIG Usability.</Description>
+    <Color>d2b48c</Color>
+    <Default>false</Default>
+    <ID>1476762153</ID>
+    <NodeID>MDU6TGFiZWwxNDc2NzYyMTUz</NodeID>
+    <URL>https://api.github.com/repos/kubernetes-sigs/kustomize/labels/sig/usability</URL>
+  </label>
+  <label>
+    <Name>sig/windows</Name>
+    <Description>Categorizes an issue or PR as relevant to SIG Windows.</Description>
+    <Color>d2b48c</Color>
+    <Default>false</Default>
+    <ID>952071122</ID>
+    <NodeID>MDU6TGFiZWw5NTIwNzExMjI=</NodeID>
+    <URL>https://api.github.com/repos/kubernetes-sigs/kustomize/labels/sig/windows</URL>
+  </label>
+  <label>
+    <Name>size/L</Name>
+    <Description>Denotes a PR that changes 100-499 lines, ignoring generated files.</Description>
+    <Color>ee9900</Color>
+    <Default>false</Default>
+    <ID>936746286</ID>
+    <NodeID>MDU6TGFiZWw5MzY3NDYyODY=</NodeID>
+    <URL>https://api.github.com/repos/kubernetes-sigs/kustomize/labels/size/L</URL>
+  </label>
+  <label>
+    <Name>size/M</Name>
+    <Description>Denotes a PR that changes 30-99 lines, ignoring generated files.</Description>
+    <Color>eebb00</Color>
+    <Default>false</Default>
+    <ID>934259944</ID>
+    <NodeID>MDU6TGFiZWw5MzQyNTk5NDQ=</NodeID>
+    <URL>https://api.github.com/repos/kubernetes-sigs/kustomize/labels/size/M</URL>
+  </label>
+  <label>
+    <Name>size/S</Name>
+    <Description>Denotes a PR that changes 10-29 lines, ignoring generated files.</Description>
+    <Color>77bb00</Color>
+    <Default>false</Default>
+    <ID>935471860</ID>
+    <NodeID>MDU6TGFiZWw5MzU0NzE4NjA=</NodeID>
+    <URL>https://api.github.com/repos/kubernetes-sigs/kustomize/labels/size/S</URL>
+  </label>
+  <label>
+    <Name>size/XL</Name>
+    <Description>Denotes a PR that changes 500-999 lines, ignoring generated files.</Description>
+    <Color>ee5500</Color>
+    <Default>false</Default>
+    <ID>952071119</ID>
+    <NodeID>MDU6TGFiZWw5NTIwNzExMTk=</NodeID>
+    <URL>https://api.github.com/repos/kubernetes-sigs/kustomize/labels/size/XL</URL>
+  </label>
+  <label>
+    <Name>size/XS</Name>
+    <Description>Denotes a PR that changes 0-9 lines, ignoring generated files.</Description>
+    <Color>009900</Color>
+    <Default>false</Default>
+    <ID>930399082</ID>
+    <NodeID>MDU6TGFiZWw5MzAzOTkwODI=</NodeID>
+    <URL>https://api.github.com/repos/kubernetes-sigs/kustomize/labels/size/XS</URL>
+  </label>
+  <label>
+    <Name>size/XXL</Name>
+    <Description>Denotes a PR that changes 1000+ lines, ignoring generated files.</Description>
+    <Color>ee0000</Color>
+    <Default>false</Default>
+    <ID>951214946</ID>
+    <NodeID>MDU6TGFiZWw5NTEyMTQ5NDY=</NodeID>
+    <URL>https://api.github.com/repos/kubernetes-sigs/kustomize/labels/size/XXL</URL>
+  </label>
+  <label>
+    <Name>tide/merge-blocker</Name>
+    <Description>Denotes an issue that blocks the tide merge queue for a branch while it is open.</Description>
+    <Color>e11d21</Color>
+    <Default>false</Default>
+    <ID>1313655559</ID>
+    <NodeID>MDU6TGFiZWwxMzEzNjU1NTU5</NodeID>
+    <URL>https://api.github.com/repos/kubernetes-sigs/kustomize/labels/tide/merge-blocker</URL>
+  </label>
+  <label>
+    <Name>tide/merge-method-merge</Name>
+    <Description>Denotes a PR that should use a standard merge by tide when it merges.</Description>
+    <Color>ffaa00</Color>
+    <Default>false</Default>
+    <ID>1299782720</ID>
+    <NodeID>MDU6TGFiZWwxMjk5NzgyNzIw</NodeID>
+    <URL>https://api.github.com/repos/kubernetes-sigs/kustomize/labels/tide/merge-method-merge</URL>
+  </label>
+  <label>
+    <Name>tide/merge-method-rebase</Name>
+    <Description>Denotes a PR that should be rebased by tide when it merges.</Description>
+    <Color>ffaa00</Color>
+    <Default>false</Default>
+    <ID>1299782563</ID>
+    <NodeID>MDU6TGFiZWwxMjk5NzgyNTYz</NodeID>
+    <URL>https://api.github.com/repos/kubernetes-sigs/kustomize/labels/tide/merge-method-rebase</URL>
+  </label>
+  <label>
+    <Name>tide/merge-method-squash</Name>
+    <Description>Denotes a PR that should be squashed by tide when it merges.</Description>
+    <Color>ffaa00</Color>
+    <Default>false</Default>
+    <ID>1049655806</ID>
+    <NodeID>MDU6TGFiZWwxMDQ5NjU1ODA2</NodeID>
+    <URL>https://api.github.com/repos/kubernetes-sigs/kustomize/labels/tide/merge-method-squash</URL>
+  </label>
+  <label>
+    <Name>triage/accepted</Name>
+    <Description>Indicates an issue or PR is ready to be actively worked on.</Description>
+    <Color>8fc951</Color>
+    <Default>false</Default>
+    <ID>2390353576</ID>
+    <NodeID>MDU6TGFiZWwyMzkwMzUzNTc2</NodeID>
+    <URL>https://api.github.com/repos/kubernetes-sigs/kustomize/labels/triage/accepted</URL>
+  </label>
+  <label>
+    <Name>triage/duplicate</Name>
+    <Description>Indicates an issue is a duplicate of other open issue.</Description>
+    <Color>d455d0</Color>
+    <Default>false</Default>
+    <ID>952071128</ID>
+    <NodeID>MDU6TGFiZWw5NTIwNzExMjg=</NodeID>
+    <URL>https://api.github.com/repos/kubernetes-sigs/kustomize/labels/triage/duplicate</URL>
+  </label>
+  <label>
+    <Name>triage/needs-information</Name>
+    <Description>Indicates an issue needs more information in order to work on it.</Description>
+    <Color>d455d0</Color>
+    <Default>false</Default>
+    <ID>952071098</ID>
+    <NodeID>MDU6TGFiZWw5NTIwNzEwOTg=</NodeID>
+    <URL>https://api.github.com/repos/kubernetes-sigs/kustomize/labels/triage/needs-information</URL>
+  </label>
+  <label>
+    <Name>triage/not-an-issue</Name>
+    <Description></Description>
+    <Color>BC137E</Color>
+    <Default>false</Default>
+    <ID>2763366142</ID>
+    <NodeID>MDU6TGFiZWwyNzYzMzY2MTQy</NodeID>
+    <URL>https://api.github.com/repos/kubernetes-sigs/kustomize/labels/triage/not-an-issue</URL>
+  </label>
+  <label>
+    <Name>triage/not-reproducible</Name>
+    <Description>Indicates an issue can not be reproduced as described.</Description>
+    <Color>d455d0</Color>
+    <Default>false</Default>
+    <ID>952071110</ID>
+    <NodeID>MDU6TGFiZWw5NTIwNzExMTA=</NodeID>
+    <URL>https://api.github.com/repos/kubernetes-sigs/kustomize/labels/triage/not-reproducible</URL>
+  </label>
+  <label>
+    <Name>triage/out-of-scope</Name>
+    <Description>Indicates an issue or PR is not a fit for Kustomize&#39;s scope and/or principles</Description>
+    <Color>BC137E</Color>
+    <Default>false</Default>
+    <ID>4365739498</ID>
+    <NodeID>LA_kwDOB-5y6s8AAAABBDfl6g</NodeID>
+    <URL>https://api.github.com/repos/kubernetes-sigs/kustomize/labels/triage/out-of-scope</URL>
+  </label>
+  <label>
+    <Name>triage/resolved</Name>
+    <Description>Indicates an issue has been resolved or doesn&#39;t need to be resolved.</Description>
+    <Color>12ed42</Color>
+    <Default>false</Default>
+    <ID>2462383385</ID>
+    <NodeID>MDU6TGFiZWwyNDYyMzgzMzg1</NodeID>
+    <URL>https://api.github.com/repos/kubernetes-sigs/kustomize/labels/triage/resolved</URL>
+  </label>
+  <label>
+    <Name>triage/under-consideration</Name>
+    <Description></Description>
+    <Color>cfdb72</Color>
+    <Default>false</Default>
+    <ID>2568007435</ID>
+    <NodeID>MDU6TGFiZWwyNTY4MDA3NDM1</NodeID>
+    <URL>https://api.github.com/repos/kubernetes-sigs/kustomize/labels/triage/under-consideration</URL>
+  </label>
+  <label>
+    <Name>triage/unresolved</Name>
+    <Description>Indicates an issue that can not or will not be resolved.</Description>
+    <Color>d455d0</Color>
+    <Default>false</Default>
+    <ID>952071095</ID>
+    <NodeID>MDU6TGFiZWw5NTIwNzEwOTU=</NodeID>
+    <URL>https://api.github.com/repos/kubernetes-sigs/kustomize/labels/triage/unresolved</URL>
+  </label>
+  <label>
+    <Name>ug/big-data</Name>
+    <Description>Categorizes an issue or PR as relevant to ug-big-data.</Description>
+    <Color>d2b48c</Color>
+    <Default>false</Default>
+    <ID>952071106</ID>
+    <NodeID>MDU6TGFiZWw5NTIwNzExMDY=</NodeID>
+    <URL>https://api.github.com/repos/kubernetes-sigs/kustomize/labels/ug/big-data</URL>
+  </label>
+  <label>
+    <Name>ug/vmware</Name>
+    <Description>Categorizes an issue or PR as relevant to ug-vmware.</Description>
+    <Color>d2b48c</Color>
+    <Default>false</Default>
+    <ID>1596580993</ID>
+    <NodeID>MDU6TGFiZWwxNTk2NTgwOTkz</NodeID>
+    <URL>https://api.github.com/repos/kubernetes-sigs/kustomize/labels/ug/vmware</URL>
+  </label>
+  <label>
+    <Name>vars-related</Name>
+    <Description></Description>
+    <Color>d4c5f9</Color>
+    <Default>false</Default>
+    <ID>2103345733</ID>
+    <NodeID>MDU6TGFiZWwyMTAzMzQ1NzMz</NodeID>
+    <URL>https://api.github.com/repos/kubernetes-sigs/kustomize/labels/vars-related</URL>
+  </label>
+  <label>
+    <Name>wg/api-expression</Name>
+    <Description>Categorizes an issue or PR as relevant to WG API Expression.</Description>
+    <Color>d2b48c</Color>
+    <Default>false</Default>
+    <ID>1985767920</ID>
+    <NodeID>MDU6TGFiZWwxOTg1NzY3OTIw</NodeID>
+    <URL>https://api.github.com/repos/kubernetes-sigs/kustomize/labels/wg/api-expression</URL>
+  </label>
+  <label>
+    <Name>wg/batch</Name>
+    <Description>Categorizes an issue or PR as relevant to WG Batch.</Description>
+    <Color>d2b48c</Color>
+    <Default>false</Default>
+    <ID>3984893769</ID>
+    <NodeID>LA_kwDOB-5y6s7thKdJ</NodeID>
+    <URL>https://api.github.com/repos/kubernetes-sigs/kustomize/labels/wg/batch</URL>
+  </label>
+  <label>
+    <Name>wg/cluster-api</Name>
+    <Description>Categorizes an issue or PR as relevant to wg-cluster-api.</Description>
+    <Color>d2b48c</Color>
+    <Default>false</Default>
+    <ID>971854270</ID>
+    <NodeID>MDU6TGFiZWw5NzE4NTQyNzA=</NodeID>
+    <URL>https://api.github.com/repos/kubernetes-sigs/kustomize/labels/wg/cluster-api</URL>
+  </label>
+  <label>
+    <Name>wg/component-standard</Name>
+    <Description>Categorizes an issue or PR as relevant to WG Component Standard.</Description>
+    <Color>d2b48c</Color>
+    <Default>false</Default>
+    <ID>1208608861</ID>
+    <NodeID>MDU6TGFiZWwxMjA4NjA4ODYx</NodeID>
+    <URL>https://api.github.com/repos/kubernetes-sigs/kustomize/labels/wg/component-standard</URL>
+  </label>
+  <label>
+    <Name>wg/data-protection</Name>
+    <Description>Categorizes an issue or PR as relevant to WG Data Protection.</Description>
+    <Color>d2b48c</Color>
+    <Default>false</Default>
+    <ID>3959519843</ID>
+    <NodeID>LA_kwDOB-5y6s7sAXpj</NodeID>
+    <URL>https://api.github.com/repos/kubernetes-sigs/kustomize/labels/wg/data-protection</URL>
+  </label>
+  <label>
+    <Name>wg/iot-edge</Name>
+    <Description>Categorizes an issue or PR as relevant to WG IOT Edge.</Description>
+    <Color>d2b48c</Color>
+    <Default>false</Default>
+    <ID>971854554</ID>
+    <NodeID>MDU6TGFiZWw5NzE4NTQ1NTQ=</NodeID>
+    <URL>https://api.github.com/repos/kubernetes-sigs/kustomize/labels/wg/iot-edge</URL>
+  </label>
+  <label>
+    <Name>wg/lts</Name>
+    <Description>Categorizes an issue or PR as relevant to WG LTS.</Description>
+    <Color>d2b48c</Color>
+    <Default>false</Default>
+    <ID>1246963123</ID>
+    <NodeID>MDU6TGFiZWwxMjQ2OTYzMTIz</NodeID>
+    <URL>https://api.github.com/repos/kubernetes-sigs/kustomize/labels/wg/lts</URL>
+  </label>
+  <label>
+    <Name>wg/machine-learning</Name>
+    <Description>Categorizes an issue or PR as relevant to WG Machine Learning.</Description>
+    <Color>d2b48c</Color>
+    <Default>false</Default>
+    <ID>971855386</ID>
+    <NodeID>MDU6TGFiZWw5NzE4NTUzODY=</NodeID>
+    <URL>https://api.github.com/repos/kubernetes-sigs/kustomize/labels/wg/machine-learning</URL>
+  </label>
+  <label>
+    <Name>wg/multitenancy</Name>
+    <Description>Categorizes an issue or PR as relevant to WG Multitenancy.</Description>
+    <Color>d2b48c</Color>
+    <Default>false</Default>
+    <ID>971854797</ID>
+    <NodeID>MDU6TGFiZWw5NzE4NTQ3OTc=</NodeID>
+    <URL>https://api.github.com/repos/kubernetes-sigs/kustomize/labels/wg/multitenancy</URL>
+  </label>
+  <label>
+    <Name>wg/naming</Name>
+    <Description>Categorizes an issue or PR as relevant to WG Naming.</Description>
+    <Color>d2b48c</Color>
+    <Default>false</Default>
+    <ID>2175217882</ID>
+    <NodeID>MDU6TGFiZWwyMTc1MjE3ODgy</NodeID>
+    <URL>https://api.github.com/repos/kubernetes-sigs/kustomize/labels/wg/naming</URL>
+  </label>
+  <label>
+    <Name>wg/policy</Name>
+    <Description>Categorizes an issue or PR as relevant to WG Policy.</Description>
+    <Color>d2b48c</Color>
+    <Default>false</Default>
+    <ID>971854352</ID>
+    <NodeID>MDU6TGFiZWw5NzE4NTQzNTI=</NodeID>
+    <URL>https://api.github.com/repos/kubernetes-sigs/kustomize/labels/wg/policy</URL>
+  </label>
+  <label>
+    <Name>wg/reliability</Name>
+    <Description>Categorizes an issue or PR as relevant to WG Reliability</Description>
+    <Color>d2b48c</Color>
+    <Default>false</Default>
+    <ID>2681781848</ID>
+    <NodeID>MDU6TGFiZWwyNjgxNzgxODQ4</NodeID>
+    <URL>https://api.github.com/repos/kubernetes-sigs/kustomize/labels/wg/reliability</URL>
+  </label>
+  <label>
+    <Name>wg/security-audit</Name>
+    <Description>Categorizes an issue or PR as relevant to WG Security Audit.</Description>
+    <Color>d2b48c</Color>
+    <Default>false</Default>
+    <ID>1086815354</ID>
+    <NodeID>MDU6TGFiZWwxMDg2ODE1MzU0</NodeID>
+    <URL>https://api.github.com/repos/kubernetes-sigs/kustomize/labels/wg/security-audit</URL>
+  </label>
+  <label>
+    <Name>wg/structured-logging</Name>
+    <Description>Categorizes an issue or PR as relevant to WG Structured Logging.</Description>
+    <Color>d2b48c</Color>
+    <Default>false</Default>
+    <ID>3025138579</ID>
+    <NodeID>MDU6TGFiZWwzMDI1MTM4NTc5</NodeID>
+    <URL>https://api.github.com/repos/kubernetes-sigs/kustomize/labels/wg/structured-logging</URL>
+  </label>
+</labels>

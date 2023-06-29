@@ -1,0 +1,1337 @@
+- color: f9d0c4
+  default: false
+  description: ¯\\\_(ツ)_/¯
+  id: 521200414
+  name: ¯\_(ツ)_/¯
+  node_id: MDU6TGFiZWw1MjEyMDA0MTQ=
+  url: https://api.github.com/repos/kubernetes/test-infra/labels/%C2%AF%5C_(%E3%83%84)_/%C2%AF
+- color: e11d21
+  default: false
+  description: Categorizes an issue or PR as actively needing an API review.
+  id: 1243050915
+  name: api-review
+  node_id: MDU6TGFiZWwxMjQzMDUwOTE1
+  url: https://api.github.com/repos/kubernetes/test-infra/labels/api-review
+- color: 0ffa16
+  default: false
+  description: Indicates a PR has been approved by an approver from all required OWNERS
+    files.
+  id: 705940018
+  name: approved
+  node_id: MDU6TGFiZWw3MDU5NDAwMTg=
+  url: https://api.github.com/repos/kubernetes/test-infra/labels/approved
+- color: 0052cc
+  default: false
+  description: Issues or PRs related to the hosting of release artifacts for subprojects
+  id: 2554671200
+  name: area/artifacts
+  node_id: MDU6TGFiZWwyNTU0NjcxMjAw
+  url: https://api.github.com/repos/kubernetes/test-infra/labels/area/artifacts
+- color: 0052cc
+  default: false
+  description: ""
+  id: 703787713
+  name: area/bazel
+  node_id: MDU6TGFiZWw3MDM3ODc3MTM=
+  url: https://api.github.com/repos/kubernetes/test-infra/labels/area/bazel
+- color: 0052cc
+  default: false
+  description: ""
+  id: 641650269
+  name: area/bootstrap
+  node_id: MDU6TGFiZWw2NDE2NTAyNjk=
+  url: https://api.github.com/repos/kubernetes/test-infra/labels/area/bootstrap
+- color: 0052cc
+  default: false
+  description: Issues or PRs related to code in /boskos
+  id: 670184912
+  name: area/boskos
+  node_id: MDU6TGFiZWw2NzAxODQ5MTI=
+  url: https://api.github.com/repos/kubernetes/test-infra/labels/area/boskos
+- color: 0052cc
+  default: false
+  description: Issues or PRs related to kubernetes code organization
+  id: 1315281637
+  name: area/code-organization
+  node_id: MDU6TGFiZWwxMzE1MjgxNjM3
+  url: https://api.github.com/repos/kubernetes/test-infra/labels/area/code-organization
+- color: 0052cc
+  default: false
+  description: Issues or PRs that should potentially be discussed in a Kubernetes
+    community meeting.
+  id: 4582490446
+  name: area/community-meeting
+  node_id: LA_kwDOA2rXzc8AAAABESNBTg
+  url: https://api.github.com/repos/kubernetes/test-infra/labels/area/community-meeting
+- color: 0052cc
+  default: false
+  description: Issues or PRs related to code in /config
+  id: 1016669578
+  name: area/config
+  node_id: MDU6TGFiZWwxMDE2NjY5NTc4
+  url: https://api.github.com/repos/kubernetes/test-infra/labels/area/config
+- color: 0052cc
+  default: false
+  description: Issues or PRs related to kubernetes conformance tests
+  id: 1065230758
+  name: area/conformance
+  node_id: MDU6TGFiZWwxMDY1MjMwNzU4
+  url: https://api.github.com/repos/kubernetes/test-infra/labels/area/conformance
+- color: 0052cc
+  default: false
+  description: Issues or PRs related to deflaking kubernetes tests
+  id: 1180665203
+  name: area/deflake
+  node_id: MDU6TGFiZWwxMTgwNjY1MjAz
+  url: https://api.github.com/repos/kubernetes/test-infra/labels/area/deflake
+- color: 0052cc
+  default: false
+  description: Issues or PRs related to dependency changes
+  id: 1305786971
+  name: area/dependency
+  node_id: MDU6TGFiZWwxMzA1Nzg2OTcx
+  url: https://api.github.com/repos/kubernetes/test-infra/labels/area/dependency
+- color: 0052cc
+  default: false
+  description: Issues or PRs related to refactoring the kubernetes e2e test framework
+  id: 1285569326
+  name: area/e2e-test-framework
+  node_id: MDU6TGFiZWwxMjg1NTY5MzI2
+  url: https://api.github.com/repos/kubernetes/test-infra/labels/area/e2e-test-framework
+- color: 0052cc
+  default: false
+  description: Issues or PRs related to the Enhancements subproject
+  id: 1988935283
+  name: area/enhancements
+  node_id: MDU6TGFiZWwxOTg4OTM1Mjgz
+  url: https://api.github.com/repos/kubernetes/test-infra/labels/area/enhancements
+- color: 0052cc
+  default: false
+  description: ""
+  id: 776358880
+  name: area/experiment
+  node_id: MDU6TGFiZWw3NzYzNTg4ODA=
+  url: https://api.github.com/repos/kubernetes/test-infra/labels/area/experiment
+- color: 0052cc
+  default: false
+  description: Issues or PRs related to code in /ghproxy
+  id: 1016669763
+  name: area/ghproxy
+  node_id: MDU6TGFiZWwxMDE2NjY5NzYz
+  url: https://api.github.com/repos/kubernetes/test-infra/labels/area/ghproxy
+- color: 0052cc
+  default: false
+  description: Issues or PRs related to GitHub Management subproject
+  id: 1467601184
+  name: area/github-management
+  node_id: MDU6TGFiZWwxNDY3NjAxMTg0
+  url: https://api.github.com/repos/kubernetes/test-infra/labels/area/github-management
+- color: 0052cc
+  default: false
+  description: Issues or PRs related to code in /gopherage
+  id: 1094830529
+  name: area/gopherage
+  node_id: MDU6TGFiZWwxMDk0ODMwNTI5
+  url: https://api.github.com/repos/kubernetes/test-infra/labels/area/gopherage
+- color: 0052cc
+  default: false
+  description: Issues or PRs related to code in /greenhouse (our remote bazel cache)
+  id: 845780525
+  name: area/greenhouse
+  node_id: MDU6TGFiZWw4NDU3ODA1MjU=
+  url: https://api.github.com/repos/kubernetes/test-infra/labels/area/greenhouse
+- color: 0052cc
+  default: false
+  description: Issues or PRs related to code in /gubernator
+  id: 397634775
+  name: area/gubernator
+  node_id: MDU6TGFiZWwzOTc2MzQ3NzU=
+  url: https://api.github.com/repos/kubernetes/test-infra/labels/area/gubernator
+- color: 0052cc
+  default: false
+  description: ""
+  id: 735575317
+  name: area/images
+  node_id: MDU6TGFiZWw3MzU1NzUzMTc=
+  url: https://api.github.com/repos/kubernetes/test-infra/labels/area/images
+- color: 0052cc
+  default: false
+  description: ""
+  id: 397634910
+  name: area/jenkins
+  node_id: MDU6TGFiZWwzOTc2MzQ5MTA=
+  url: https://api.github.com/repos/kubernetes/test-infra/labels/area/jenkins
+- color: 2a4ad6
+  default: false
+  description: ""
+  id: 726062701
+  name: area/jobs
+  node_id: MDU6TGFiZWw3MjYwNjI3MDE=
+  url: https://api.github.com/repos/kubernetes/test-infra/labels/area/jobs
+- color: 0052cc
+  default: false
+  description: ""
+  id: 732491914
+  name: area/kettle
+  node_id: MDU6TGFiZWw3MzI0OTE5MTQ=
+  url: https://api.github.com/repos/kubernetes/test-infra/labels/area/kettle
+- color: 0052cc
+  default: false
+  description: Issues or PRs related to code in /kind
+  id: 1038274939
+  name: area/kind
+  node_id: MDU6TGFiZWwxMDM4Mjc0OTM5
+  url: https://api.github.com/repos/kubernetes/test-infra/labels/area/kind
+- color: 0052cc
+  default: false
+  description: ""
+  id: 640915921
+  name: area/kubetest
+  node_id: MDU6TGFiZWw2NDA5MTU5MjE=
+  url: https://api.github.com/repos/kubernetes/test-infra/labels/area/kubetest
+- color: 0052cc
+  default: false
+  description: Issues or PRs related to code in /label_sync
+  id: 1017736598
+  name: area/label_sync
+  node_id: MDU6TGFiZWwxMDE3NzM2NTk4
+  url: https://api.github.com/repos/kubernetes/test-infra/labels/area/label_sync
+- color: 0052cc
+  default: false
+  description: ""
+  id: 640958637
+  name: area/metrics
+  node_id: MDU6TGFiZWw2NDA5NTg2Mzc=
+  url: https://api.github.com/repos/kubernetes/test-infra/labels/area/metrics
+- color: 0052cc
+  default: false
+  description: Issues or PRs related to code in /mungegithub
+  id: 1179667400
+  name: area/mungegithub
+  node_id: MDU6TGFiZWwxMTc5NjY3NDAw
+  url: https://api.github.com/repos/kubernetes/test-infra/labels/area/mungegithub
+- color: 0052cc
+  default: false
+  description: Issues or PRs related to code in /planter
+  id: 705796913
+  name: area/planter
+  node_id: MDU6TGFiZWw3MDU3OTY5MTM=
+  url: https://api.github.com/repos/kubernetes/test-infra/labels/area/planter
+- color: 0052cc
+  default: false
+  description: Issues or PRs related to aws provider
+  id: 718255946
+  name: area/provider/aws
+  node_id: MDU6TGFiZWw3MTgyNTU5NDY=
+  url: https://api.github.com/repos/kubernetes/test-infra/labels/area/provider/aws
+- color: 0052cc
+  default: false
+  description: Issues or PRs related to azure provider
+  id: 718255527
+  name: area/provider/azure
+  node_id: MDU6TGFiZWw3MTgyNTU1Mjc=
+  url: https://api.github.com/repos/kubernetes/test-infra/labels/area/provider/azure
+- color: 0052cc
+  default: false
+  description: Issues or PRs related to digitalocean provider
+  id: 1946559232
+  name: area/provider/digitalocean
+  node_id: MDU6TGFiZWwxOTQ2NTU5MjMy
+  url: https://api.github.com/repos/kubernetes/test-infra/labels/area/provider/digitalocean
+- color: 0052cc
+  default: false
+  description: Issues or PRs related to gcp provider
+  id: 718255528
+  name: area/provider/gcp
+  node_id: MDU6TGFiZWw3MTgyNTU1Mjg=
+  url: https://api.github.com/repos/kubernetes/test-infra/labels/area/provider/gcp
+- color: 0052cc
+  default: false
+  description: Issues or PRs related to ibmcloud provider
+  id: 884249234
+  name: area/provider/ibmcloud
+  node_id: MDU6TGFiZWw4ODQyNDkyMzQ=
+  url: https://api.github.com/repos/kubernetes/test-infra/labels/area/provider/ibmcloud
+- color: 0052cc
+  default: false
+  description: Issues or PRs related to openstack provider
+  id: 718255497
+  name: area/provider/openstack
+  node_id: MDU6TGFiZWw3MTgyNTU0OTc=
+  url: https://api.github.com/repos/kubernetes/test-infra/labels/area/provider/openstack
+- color: 0052cc
+  default: false
+  description: Issues or PRs related to vmware provider
+  id: 874097123
+  name: area/provider/vmware
+  node_id: MDU6TGFiZWw4NzQwOTcxMjM=
+  url: https://api.github.com/repos/kubernetes/test-infra/labels/area/provider/vmware
+- color: 0052cc
+  default: false
+  description: Issues or PRs related to prow
+  id: 412127043
+  name: area/prow
+  node_id: MDU6TGFiZWw0MTIxMjcwNDM=
+  url: https://api.github.com/repos/kubernetes/test-infra/labels/area/prow
+- color: 0052cc
+  default: false
+  description: Issues or PRs related to prow's artifact-uploader component
+  id: 1039751048
+  name: area/prow/artifact-uploader
+  node_id: MDU6TGFiZWwxMDM5NzUxMDQ4
+  url: https://api.github.com/repos/kubernetes/test-infra/labels/area/prow/artifact-uploader
+- color: 0937CE
+  default: false
+  description: ""
+  id: 3773734944
+  name: area/prow/bazel-deprecation
+  node_id: LA_kwDOA2rXzc7g7qAg
+  url: https://api.github.com/repos/kubernetes/test-infra/labels/area/prow/bazel-deprecation
+- color: 0052cc
+  default: false
+  description: Issues or PRs related to prow's branchprotector component
+  id: 1039750822
+  name: area/prow/branchprotector
+  node_id: MDU6TGFiZWwxMDM5NzUwODIy
+  url: https://api.github.com/repos/kubernetes/test-infra/labels/area/prow/branchprotector
+- color: 0052cc
+  default: false
+  description: Updates to the k8s prow cluster
+  id: 1143780190
+  name: area/prow/bump
+  node_id: MDU6TGFiZWwxMTQzNzgwMTkw
+  url: https://api.github.com/repos/kubernetes/test-infra/labels/area/prow/bump
+- color: 0052cc
+  default: false
+  description: Issues or PRs related to prow's clonerefs component
+  id: 1039749804
+  name: area/prow/clonerefs
+  node_id: MDU6TGFiZWwxMDM5NzQ5ODA0
+  url: https://api.github.com/repos/kubernetes/test-infra/labels/area/prow/clonerefs
+- color: 0052cc
+  default: false
+  description: Issues or PRs related to prow's config-bootstrapper utility
+  id: 1282674265
+  name: area/prow/config-bootstrapper
+  node_id: MDU6TGFiZWwxMjgyNjc0MjY1
+  url: https://api.github.com/repos/kubernetes/test-infra/labels/area/prow/config-bootstrapper
+- color: 0052cc
+  default: false
+  description: Issues or PRs related to prow's crier component
+  id: 1364943339
+  name: area/prow/crier
+  node_id: MDU6TGFiZWwxMzY0OTQzMzM5
+  url: https://api.github.com/repos/kubernetes/test-infra/labels/area/prow/crier
+- color: 0052cc
+  default: false
+  description: Issues or PRs related to prow's deck component
+  id: 1039749392
+  name: area/prow/deck
+  node_id: MDU6TGFiZWwxMDM5NzQ5Mzky
+  url: https://api.github.com/repos/kubernetes/test-infra/labels/area/prow/deck
+- color: 0052cc
+  default: false
+  description: Issues or PRs related to prow's entrypoint component
+  id: 1039748891
+  name: area/prow/entrypoint
+  node_id: MDU6TGFiZWwxMDM5NzQ4ODkx
+  url: https://api.github.com/repos/kubernetes/test-infra/labels/area/prow/entrypoint
+- color: 0052cc
+  default: false
+  description: Issues or PRs related to prow's gcsupload component
+  id: 1039750554
+  name: area/prow/gcsupload
+  node_id: MDU6TGFiZWwxMDM5NzUwNTU0
+  url: https://api.github.com/repos/kubernetes/test-infra/labels/area/prow/gcsupload
+- color: 0052cc
+  default: false
+  description: Issues or PRs related to prow's gerrit component
+  id: 1039749069
+  name: area/prow/gerrit
+  node_id: MDU6TGFiZWwxMDM5NzQ5MDY5
+  url: https://api.github.com/repos/kubernetes/test-infra/labels/area/prow/gerrit
+- color: 0052cc
+  default: false
+  description: Issues or PRs related to prow's hook component
+  id: 1039748815
+  name: area/prow/hook
+  node_id: MDU6TGFiZWwxMDM5NzQ4ODE1
+  url: https://api.github.com/repos/kubernetes/test-infra/labels/area/prow/hook
+- color: 0052cc
+  default: false
+  description: Issues or PRs related to prow's horologium component
+  id: 1039750660
+  name: area/prow/horologium
+  node_id: MDU6TGFiZWwxMDM5NzUwNjYw
+  url: https://api.github.com/repos/kubernetes/test-infra/labels/area/prow/horologium
+- color: 0052cc
+  default: false
+  description: Issues or PRs related to prow's initupload component
+  id: 1039748996
+  name: area/prow/initupload
+  node_id: MDU6TGFiZWwxMDM5NzQ4OTk2
+  url: https://api.github.com/repos/kubernetes/test-infra/labels/area/prow/initupload
+- color: 0052cc
+  default: false
+  description: Issues or PRs related to prow's jenkins-operator component
+  id: 1039750920
+  name: area/prow/jenkins-operator
+  node_id: MDU6TGFiZWwxMDM5NzUwOTIw
+  url: https://api.github.com/repos/kubernetes/test-infra/labels/area/prow/jenkins-operator
+- color: 0052cc
+  default: false
+  description: Issues or PRs related to prow's knative-build controller component
+  id: 1205648128
+  name: area/prow/knative-build
+  node_id: MDU6TGFiZWwxMjA1NjQ4MTI4
+  url: https://api.github.com/repos/kubernetes/test-infra/labels/area/prow/knative-build
+- color: 0052cc
+  default: false
+  description: Issues or PRs related to prow's mkbuild-cluster component
+  id: 1039749190
+  name: area/prow/mkbuild-cluster
+  node_id: MDU6TGFiZWwxMDM5NzQ5MTkw
+  url: https://api.github.com/repos/kubernetes/test-infra/labels/area/prow/mkbuild-cluster
+- color: 0052cc
+  default: false
+  description: Issues or PRs related to prow's mkpj component
+  id: 1039749941
+  name: area/prow/mkpj
+  node_id: MDU6TGFiZWwxMDM5NzQ5OTQx
+  url: https://api.github.com/repos/kubernetes/test-infra/labels/area/prow/mkpj
+- color: 0052cc
+  default: false
+  description: Issues or PRs related to prow's mkpod component
+  id: 1039749707
+  name: area/prow/mkpod
+  node_id: MDU6TGFiZWwxMDM5NzQ5NzA3
+  url: https://api.github.com/repos/kubernetes/test-infra/labels/area/prow/mkpod
+- color: 0052cc
+  default: false
+  description: Issues or PRs related to prow's peribolos component
+  id: 1039750344
+  name: area/prow/peribolos
+  node_id: MDU6TGFiZWwxMDM5NzUwMzQ0
+  url: https://api.github.com/repos/kubernetes/test-infra/labels/area/prow/peribolos
+- color: 0052cc
+  default: false
+  description: Issues or PRs related to prow's phony component
+  id: 1039751185
+  name: area/prow/phony
+  node_id: MDU6TGFiZWwxMDM5NzUxMTg1
+  url: https://api.github.com/repos/kubernetes/test-infra/labels/area/prow/phony
+- color: 0052cc
+  default: false
+  description: Issues or PRs related to prow's plank component
+  id: 1039749481
+  name: area/prow/plank
+  node_id: MDU6TGFiZWwxMDM5NzQ5NDgx
+  url: https://api.github.com/repos/kubernetes/test-infra/labels/area/prow/plank
+- color: 0052cc
+  default: false
+  description: Issues or PRs related to prow's plugins for the hook component
+  id: 1913949741
+  name: area/prow/plugins
+  node_id: MDU6TGFiZWwxOTEzOTQ5NzQx
+  url: https://api.github.com/repos/kubernetes/test-infra/labels/area/prow/plugins
+- color: 0052cc
+  default: false
+  description: Issues or PRs related to prow's pod-utilities component
+  id: 1039749263
+  name: area/prow/pod-utilities
+  node_id: MDU6TGFiZWwxMDM5NzQ5MjYz
+  url: https://api.github.com/repos/kubernetes/test-infra/labels/area/prow/pod-utilities
+- color: 0052cc
+  default: false
+  description: Issues or PRs related to prow's pubsub reporter component
+  id: 1065230564
+  name: area/prow/pubsub
+  node_id: MDU6TGFiZWwxMDY1MjMwNTY0
+  url: https://api.github.com/repos/kubernetes/test-infra/labels/area/prow/pubsub
+- color: 0052cc
+  default: false
+  description: Issues or PRs related to prow's sidecar component
+  id: 1039750449
+  name: area/prow/sidecar
+  node_id: MDU6TGFiZWwxMDM5NzUwNDQ5
+  url: https://api.github.com/repos/kubernetes/test-infra/labels/area/prow/sidecar
+- color: 0052cc
+  default: false
+  description: Issues or PRs related to prow's sinker component
+  id: 1039748712
+  name: area/prow/sinker
+  node_id: MDU6TGFiZWwxMDM5NzQ4NzEy
+  url: https://api.github.com/repos/kubernetes/test-infra/labels/area/prow/sinker
+- color: 0052cc
+  default: false
+  description: Issues or PRs related to prow's splice component
+  id: 1039749602
+  name: area/prow/splice
+  node_id: MDU6TGFiZWwxMDM5NzQ5NjAy
+  url: https://api.github.com/repos/kubernetes/test-infra/labels/area/prow/splice
+- color: 0052cc
+  default: false
+  description: Issues or PRs related to prow's spyglass UI
+  id: 1065230669
+  name: area/prow/spyglass
+  node_id: MDU6TGFiZWwxMDY1MjMwNjY5
+  url: https://api.github.com/repos/kubernetes/test-infra/labels/area/prow/spyglass
+- color: 0052cc
+  default: false
+  description: Issues or PRs related to reconciling status when jobs change
+  id: 2007217254
+  name: area/prow/status-reconciler
+  node_id: MDU6TGFiZWwyMDA3MjE3MjU0
+  url: https://api.github.com/repos/kubernetes/test-infra/labels/area/prow/status-reconciler
+- color: 0052cc
+  default: false
+  description: Issues or PRs related to prow's tide component
+  id: 1039750215
+  name: area/prow/tide
+  node_id: MDU6TGFiZWwxMDM5NzUwMjE1
+  url: https://api.github.com/repos/kubernetes/test-infra/labels/area/prow/tide
+- color: 0052cc
+  default: false
+  description: Issues or PRs related to prow's tot component
+  id: 1039750014
+  name: area/prow/tot
+  node_id: MDU6TGFiZWwxMDM5NzUwMDE0
+  url: https://api.github.com/repos/kubernetes/test-infra/labels/area/prow/tot
+- color: 0052cc
+  default: false
+  description: Issues or PRs related to the Release Engineering subproject
+  id: 1202603318
+  name: area/release-eng
+  node_id: MDU6TGFiZWwxMjAyNjAzMzE4
+  url: https://api.github.com/repos/kubernetes/test-infra/labels/area/release-eng
+- color: 0052cc
+  default: false
+  description: Issues or PRs related to code in /robots
+  id: 2203826694
+  name: area/robots
+  node_id: MDU6TGFiZWwyMjAzODI2Njk0
+  url: https://api.github.com/repos/kubernetes/test-infra/labels/area/robots
+- color: 0052cc
+  default: false
+  description: ""
+  id: 640962868
+  name: area/scenarios
+  node_id: MDU6TGFiZWw2NDA5NjI4Njg=
+  url: https://api.github.com/repos/kubernetes/test-infra/labels/area/scenarios
+- color: 0052cc
+  default: false
+  description: ""
+  id: 767091499
+  name: area/so-crazy-it-just-might-work
+  node_id: MDU6TGFiZWw3NjcwOTE0OTk=
+  url: https://api.github.com/repos/kubernetes/test-infra/labels/area/so-crazy-it-just-might-work
+- color: 0052cc
+  default: false
+  description: ""
+  id: 397634853
+  name: area/testgrid
+  node_id: MDU6TGFiZWwzOTc2MzQ4NTM=
+  url: https://api.github.com/repos/kubernetes/test-infra/labels/area/testgrid
+- color: 0052cc
+  default: false
+  description: ""
+  id: 446458475
+  name: area/triage
+  node_id: MDU6TGFiZWw0NDY0NTg0NzU=
+  url: https://api.github.com/repos/kubernetes/test-infra/labels/area/triage
+- color: 0052cc
+  default: false
+  description: ""
+  id: 670184955
+  name: area/velodrome
+  node_id: MDU6TGFiZWw2NzAxODQ5NTU=
+  url: https://api.github.com/repos/kubernetes/test-infra/labels/area/velodrome
+- color: fef2c0
+  default: false
+  description: Indicates a cherry-pick PR into a release branch has been approved
+    by the release branch manager.
+  id: 718255766
+  name: cherry-pick-approved
+  node_id: MDU6TGFiZWw3MTgyNTU3NjY=
+  url: https://api.github.com/repos/kubernetes/test-infra/labels/cherry-pick-approved
+- color: e11d21
+  default: false
+  description: Indicates the PR's author has not signed the CNCF CLA.
+  id: 484584314
+  name: 'cncf-cla: no'
+  node_id: MDU6TGFiZWw0ODQ1ODQzMTQ=
+  url: https://api.github.com/repos/kubernetes/test-infra/labels/cncf-cla:%20no
+- color: bfe5bf
+  default: false
+  description: Indicates the PR's author has signed the CNCF CLA.
+  id: 484580953
+  name: 'cncf-cla: yes'
+  node_id: MDU6TGFiZWw0ODQ1ODA5NTM=
+  url: https://api.github.com/repos/kubernetes/test-infra/labels/cncf-cla:%20yes
+- color: c0ff4a
+  default: false
+  description: Denotes an issue or PR intended to be handled by the code of conduct
+    committee.
+  id: 815656725
+  name: committee/code-of-conduct
+  node_id: MDU6TGFiZWw4MTU2NTY3MjU=
+  url: https://api.github.com/repos/kubernetes/test-infra/labels/committee/code-of-conduct
+- color: c0ff4a
+  default: false
+  description: Denotes an issue or PR intended to be handled by the product security
+    committee.
+  id: 1199277522
+  name: committee/security-response
+  node_id: MDU6TGFiZWwxMTk5Mjc3NTIy
+  url: https://api.github.com/repos/kubernetes/test-infra/labels/committee/security-response
+- color: c0ff4a
+  default: false
+  description: Denotes an issue or PR intended to be handled by the steering committee.
+  id: 815656595
+  name: committee/steering
+  node_id: MDU6TGFiZWw4MTU2NTY1OTU=
+  url: https://api.github.com/repos/kubernetes/test-infra/labels/committee/steering
+- color: 0366d6
+  default: false
+  description: Pull requests that update a dependency file
+  id: 1393676720
+  name: dependencies
+  node_id: MDU6TGFiZWwxMzkzNjc2NzIw
+  url: https://api.github.com/repos/kubernetes/test-infra/labels/dependencies
+- color: e11d21
+  default: false
+  description: DEPRECATED. Indicates that a PR should not merge. Label can only be
+    manually applied/removed.
+  id: 718255934
+  name: do-not-merge
+  node_id: MDU6TGFiZWw3MTgyNTU5MzQ=
+  url: https://api.github.com/repos/kubernetes/test-infra/labels/do-not-merge
+- color: e11d21
+  default: false
+  description: Indicates that a PR should not merge because it touches files in blocked
+    paths.
+  id: 718255472
+  name: do-not-merge/blocked-paths
+  node_id: MDU6TGFiZWw3MTgyNTU0NzI=
+  url: https://api.github.com/repos/kubernetes/test-infra/labels/do-not-merge/blocked-paths
+- color: e11d21
+  default: false
+  description: Indicates that a PR is not yet approved to merge into a release branch.
+  id: 718255484
+  name: do-not-merge/cherry-pick-not-approved
+  node_id: MDU6TGFiZWw3MTgyNTU0ODQ=
+  url: https://api.github.com/repos/kubernetes/test-infra/labels/do-not-merge/cherry-pick-not-approved
+- color: e11d21
+  default: false
+  description: Indicates that a PR should not merge because someone has issued a /hold
+    command.
+  id: 682002555
+  name: do-not-merge/hold
+  node_id: MDU6TGFiZWw2ODIwMDI1NTU=
+  url: https://api.github.com/repos/kubernetes/test-infra/labels/do-not-merge/hold
+- color: e11d21
+  default: false
+  description: Indicates that a PR should not merge because it has an invalid commit
+    message.
+  id: 1322574361
+  name: do-not-merge/invalid-commit-message
+  node_id: MDU6TGFiZWwxMzIyNTc0MzYx
+  url: https://api.github.com/repos/kubernetes/test-infra/labels/do-not-merge/invalid-commit-message
+- color: e11d21
+  default: false
+  description: Indicates that a PR should not merge because it has an invalid OWNERS
+    file in it.
+  id: 969562419
+  name: do-not-merge/invalid-owners-file
+  node_id: MDU6TGFiZWw5Njk1NjI0MTk=
+  url: https://api.github.com/repos/kubernetes/test-infra/labels/do-not-merge/invalid-owners-file
+- color: e11d21
+  default: false
+  description: Indicates that a PR should not merge because it's missing one of the
+    release note labels.
+  id: 718255732
+  name: do-not-merge/release-note-label-needed
+  node_id: MDU6TGFiZWw3MTgyNTU3MzI=
+  url: https://api.github.com/repos/kubernetes/test-infra/labels/do-not-merge/release-note-label-needed
+- color: e11d21
+  default: false
+  description: Indicates that a PR should not merge because it is a work in progress.
+  id: 687190615
+  name: do-not-merge/work-in-progress
+  node_id: MDU6TGFiZWw2ODcxOTA2MTU=
+  url: https://api.github.com/repos/kubernetes/test-infra/labels/do-not-merge/work-in-progress
+- color: 7057ff
+  default: true
+  description: Denotes an issue ready for a new contributor, according to the "help
+    wanted" guidelines.
+  id: 954633417
+  name: good first issue
+  node_id: MDU6TGFiZWw5NTQ2MzM0MTc=
+  url: https://api.github.com/repos/kubernetes/test-infra/labels/good%20first%20issue
+- color: 006b75
+  default: true
+  description: Denotes an issue that needs help from a contributor. Must meet "help
+    wanted" guidelines.
+  id: 365879807
+  name: help wanted
+  node_id: MDU6TGFiZWwzNjU4Nzk4MDc=
+  url: https://api.github.com/repos/kubernetes/test-infra/labels/help%20wanted
+- color: e3e3e3
+  default: false
+  description: ""
+  id: 675168396
+  name: hold
+  node_id: MDU6TGFiZWw2NzUxNjgzOTY=
+  url: https://api.github.com/repos/kubernetes/test-infra/labels/hold
+- color: e11d21
+  default: false
+  description: Categorizes issue or PR as related to adding, removing, or otherwise
+    changing an API
+  id: 1031437159
+  name: kind/api-change
+  node_id: MDU6TGFiZWwxMDMxNDM3MTU5
+  url: https://api.github.com/repos/kubernetes/test-infra/labels/kind/api-change
+- color: e11d21
+  default: false
+  description: Categorizes issue or PR as related to a bug.
+  id: 522887185
+  name: kind/bug
+  node_id: MDU6TGFiZWw1MjI4ODcxODU=
+  url: https://api.github.com/repos/kubernetes/test-infra/labels/kind/bug
+- color: c7def8
+  default: false
+  description: Categorizes issue or PR as related to cleaning up code, process, or
+    technical debt.
+  id: 954632369
+  name: kind/cleanup
+  node_id: MDU6TGFiZWw5NTQ2MzIzNjk=
+  url: https://api.github.com/repos/kubernetes/test-infra/labels/kind/cleanup
+- color: e11d21
+  default: false
+  description: Categorizes issue or PR as related to a feature/enhancement marked
+    for deprecation.
+  id: 1740258309
+  name: kind/deprecation
+  node_id: MDU6TGFiZWwxNzQwMjU4MzA5
+  url: https://api.github.com/repos/kubernetes/test-infra/labels/kind/deprecation
+- color: c7def8
+  default: false
+  description: Categorizes issue or PR as related to design.
+  id: 741938201
+  name: kind/design
+  node_id: MDU6TGFiZWw3NDE5MzgyMDE=
+  url: https://api.github.com/repos/kubernetes/test-infra/labels/kind/design
+- color: c7def8
+  default: false
+  description: Categorizes issue or PR as related to documentation.
+  id: 644971952
+  name: kind/documentation
+  node_id: MDU6TGFiZWw2NDQ5NzE5NTI=
+  url: https://api.github.com/repos/kubernetes/test-infra/labels/kind/documentation
+- color: e11d21
+  default: false
+  description: Categorizes issue or PR as related to a consistently or frequently
+    failing test.
+  id: 718255840
+  name: kind/failing-test
+  node_id: MDU6TGFiZWw3MTgyNTU4NDA=
+  url: https://api.github.com/repos/kubernetes/test-infra/labels/kind/failing-test
+- color: c7def8
+  default: false
+  description: Categorizes issue or PR as related to a new feature.
+  id: 718255965
+  name: kind/feature
+  node_id: MDU6TGFiZWw3MTgyNTU5NjU=
+  url: https://api.github.com/repos/kubernetes/test-infra/labels/kind/feature
+- color: f7c6c7
+  default: false
+  description: Categorizes issue or PR as related to a flaky test.
+  id: 954632780
+  name: kind/flake
+  node_id: MDU6TGFiZWw5NTQ2MzI3ODA=
+  url: https://api.github.com/repos/kubernetes/test-infra/labels/kind/flake
+- color: fafa50
+  default: false
+  description: ""
+  id: 776399241
+  name: "kind/kanarynetes \U0001F426"
+  node_id: MDU6TGFiZWw3NzYzOTkyNDE=
+  url: https://api.github.com/repos/kubernetes/test-infra/labels/kind/kanarynetes%20%F0%9F%90%A6
+- color: f7c6c7
+  default: false
+  description: Categorizes issue or PR as tracked by test-infra oncall.
+  id: 1554942147
+  name: kind/oncall-hotlist
+  node_id: MDU6TGFiZWwxNTU0OTQyMTQ3
+  url: https://api.github.com/repos/kubernetes/test-infra/labels/kind/oncall-hotlist
+- color: e11d21
+  default: false
+  description: Categorizes issue or PR as related to a regression from a prior release.
+  id: 1967276502
+  name: kind/regression
+  node_id: MDU6TGFiZWwxOTY3Mjc2NTAy
+  url: https://api.github.com/repos/kubernetes/test-infra/labels/kind/regression
+- color: d455d0
+  default: false
+  description: Categorizes issue or PR as a support question.
+  id: 954633304
+  name: kind/support
+  node_id: MDU6TGFiZWw5NTQ2MzMzMDQ=
+  url: https://api.github.com/repos/kubernetes/test-infra/labels/kind/support
+- color: c5def5
+  default: false
+  description: ""
+  id: 469648584
+  name: kind/velocity-improvement
+  node_id: MDU6TGFiZWw0Njk2NDg1ODQ=
+  url: https://api.github.com/repos/kubernetes/test-infra/labels/kind/velocity-improvement
+- color: fafa50
+  default: false
+  description: All puppers are good puppers.
+  id: 1033271511
+  name: "kind/\U0001F436"
+  node_id: MDU6TGFiZWwxMDMzMjcxNTEx
+  url: https://api.github.com/repos/kubernetes/test-infra/labels/kind/%F0%9F%90%B6
+- color: 15dd18
+  default: false
+  description: Indicates that a PR is ready to be merged.
+  id: 366393439
+  name: lgtm
+  node_id: MDU6TGFiZWwzNjYzOTM0Mzk=
+  url: https://api.github.com/repos/kubernetes/test-infra/labels/lgtm
+- color: 8fc951
+  default: false
+  description: Indicates that an issue or PR is actively being worked on by a contributor.
+  id: 1007209924
+  name: lifecycle/active
+  node_id: MDU6TGFiZWwxMDA3MjA5OTI0
+  url: https://api.github.com/repos/kubernetes/test-infra/labels/lifecycle/active
+- color: d3e2f0
+  default: false
+  description: Indicates that an issue or PR should not be auto-closed due to staleness.
+  id: 772067738
+  name: lifecycle/frozen
+  node_id: MDU6TGFiZWw3NzIwNjc3Mzg=
+  url: https://api.github.com/repos/kubernetes/test-infra/labels/lifecycle/frozen
+- color: "604460"
+  default: false
+  description: Denotes an issue or PR that has aged beyond stale and will be auto-closed.
+  id: 772065586
+  name: lifecycle/rotten
+  node_id: MDU6TGFiZWw3NzIwNjU1ODY=
+  url: https://api.github.com/repos/kubernetes/test-infra/labels/lifecycle/rotten
+- color: "795548"
+  default: false
+  description: Denotes an issue or PR has remained open with no activity and has become
+    stale.
+  id: 772065100
+  name: lifecycle/stale
+  node_id: MDU6TGFiZWw3NzIwNjUxMDA=
+  url: https://api.github.com/repos/kubernetes/test-infra/labels/lifecycle/stale
+- color: ededed
+  default: false
+  description: Indicates a PR lacks a `kind/foo` label and requires one.
+  id: 1047215978
+  name: needs-kind
+  node_id: MDU6TGFiZWwxMDQ3MjE1OTc4
+  url: https://api.github.com/repos/kubernetes/test-infra/labels/needs-kind
+- color: b60205
+  default: false
+  description: Indicates a PR that requires an org member to verify it is safe to
+    test.
+  id: 582641099
+  name: needs-ok-to-test
+  node_id: MDU6TGFiZWw1ODI2NDEwOTk=
+  url: https://api.github.com/repos/kubernetes/test-infra/labels/needs-ok-to-test
+- color: e11d21
+  default: false
+  description: Indicates a PR cannot be merged because it has merge conflicts with
+    HEAD.
+  id: 718255935
+  name: needs-rebase
+  node_id: MDU6TGFiZWw3MTgyNTU5MzU=
+  url: https://api.github.com/repos/kubernetes/test-infra/labels/needs-rebase
+- color: ededed
+  default: false
+  description: Indicates an issue or PR lacks a `sig/foo` label and requires one.
+  id: 718255804
+  name: needs-sig
+  node_id: MDU6TGFiZWw3MTgyNTU4MDQ=
+  url: https://api.github.com/repos/kubernetes/test-infra/labels/needs-sig
+- color: ededed
+  default: false
+  description: Indicates an issue or PR lacks a `triage/foo` label and requires one.
+  id: 2389856580
+  name: needs-triage
+  node_id: MDU6TGFiZWwyMzg5ODU2NTgw
+  url: https://api.github.com/repos/kubernetes/test-infra/labels/needs-triage
+- color: 15dd18
+  default: false
+  description: Indicates a non-member PR verified by an org member that is safe to
+    test.
+  id: 1086786497
+  name: ok-to-test
+  node_id: MDU6TGFiZWwxMDg2Nzg2NDk3
+  url: https://api.github.com/repos/kubernetes/test-infra/labels/ok-to-test
+- color: fef2c0
+  default: false
+  description: Lowest priority. Possibly useful, but not yet enough support to actually
+    get it done.
+  id: 718255485
+  name: priority/awaiting-more-evidence
+  node_id: MDU6TGFiZWw3MTgyNTU0ODU=
+  url: https://api.github.com/repos/kubernetes/test-infra/labels/priority/awaiting-more-evidence
+- color: fbca04
+  default: false
+  description: Higher priority than priority/awaiting-more-evidence.
+  id: 718255767
+  name: priority/backlog
+  node_id: MDU6TGFiZWw3MTgyNTU3Njc=
+  url: https://api.github.com/repos/kubernetes/test-infra/labels/priority/backlog
+- color: e11d21
+  default: false
+  description: Highest priority. Must be actively worked on as someone's top priority
+    right now.
+  id: 718255516
+  name: priority/critical-urgent
+  node_id: MDU6TGFiZWw3MTgyNTU1MTY=
+  url: https://api.github.com/repos/kubernetes/test-infra/labels/priority/critical-urgent
+- color: eb6420
+  default: false
+  description: Important over the long term, but may not be staffed and/or may need
+    multiple releases to complete.
+  id: 718255829
+  name: priority/important-longterm
+  node_id: MDU6TGFiZWw3MTgyNTU4Mjk=
+  url: https://api.github.com/repos/kubernetes/test-infra/labels/priority/important-longterm
+- color: eb6420
+  default: false
+  description: Must be staffed and worked on either currently, or very soon, ideally
+    in time for the next release.
+  id: 718255944
+  name: priority/important-soon
+  node_id: MDU6TGFiZWw3MTgyNTU5NDQ=
+  url: https://api.github.com/repos/kubernetes/test-infra/labels/priority/important-soon
+- color: c2e0c6
+  default: false
+  description: Denotes a PR that will be considered when it comes time to generate
+    release notes.
+  id: 718255869
+  name: release-note
+  node_id: MDU6TGFiZWw3MTgyNTU4Njk=
+  url: https://api.github.com/repos/kubernetes/test-infra/labels/release-note
+- color: c2e0c6
+  default: false
+  description: Denotes a PR that introduces potentially breaking changes that require
+    user action.
+  id: 718255769
+  name: release-note-action-required
+  node_id: MDU6TGFiZWw3MTgyNTU3Njk=
+  url: https://api.github.com/repos/kubernetes/test-infra/labels/release-note-action-required
+- color: c2e0c6
+  default: false
+  description: Denotes a PR that doesn't merit a release note.
+  id: 718255474
+  name: release-note-none
+  node_id: MDU6TGFiZWw3MTgyNTU0NzQ=
+  url: https://api.github.com/repos/kubernetes/test-infra/labels/release-note-none
+- color: d2b48c
+  default: false
+  description: Categorizes an issue or PR as relevant to SIG API Machinery.
+  id: 718255517
+  name: sig/api-machinery
+  node_id: MDU6TGFiZWw3MTgyNTU1MTc=
+  url: https://api.github.com/repos/kubernetes/test-infra/labels/sig/api-machinery
+- color: d2b48c
+  default: false
+  description: Categorizes an issue or PR as relevant to SIG Apps.
+  id: 718255519
+  name: sig/apps
+  node_id: MDU6TGFiZWw3MTgyNTU1MTk=
+  url: https://api.github.com/repos/kubernetes/test-infra/labels/sig/apps
+- color: d2b48c
+  default: false
+  description: Categorizes an issue or PR as relevant to SIG Architecture.
+  id: 718255870
+  name: sig/architecture
+  node_id: MDU6TGFiZWw3MTgyNTU4NzA=
+  url: https://api.github.com/repos/kubernetes/test-infra/labels/sig/architecture
+- color: d2b48c
+  default: false
+  description: Categorizes an issue or PR as relevant to SIG Auth.
+  id: 718255945
+  name: sig/auth
+  node_id: MDU6TGFiZWw3MTgyNTU5NDU=
+  url: https://api.github.com/repos/kubernetes/test-infra/labels/sig/auth
+- color: d2b48c
+  default: false
+  description: Categorizes an issue or PR as relevant to SIG Autoscaling.
+  id: 718255483
+  name: sig/autoscaling
+  node_id: MDU6TGFiZWw3MTgyNTU0ODM=
+  url: https://api.github.com/repos/kubernetes/test-infra/labels/sig/autoscaling
+- color: d2b48c
+  default: false
+  description: Categorizes an issue or PR as relevant to SIG CLI.
+  id: 718255495
+  name: sig/cli
+  node_id: MDU6TGFiZWw3MTgyNTU0OTU=
+  url: https://api.github.com/repos/kubernetes/test-infra/labels/sig/cli
+- color: d2b48c
+  default: false
+  description: Categorizes an issue or PR as relevant to SIG Cloud Provider.
+  id: 958175276
+  name: sig/cloud-provider
+  node_id: MDU6TGFiZWw5NTgxNzUyNzY=
+  url: https://api.github.com/repos/kubernetes/test-infra/labels/sig/cloud-provider
+- color: d2b48c
+  default: false
+  description: Categorizes an issue or PR as relevant to SIG Cluster Lifecycle.
+  id: 718255841
+  name: sig/cluster-lifecycle
+  node_id: MDU6TGFiZWw3MTgyNTU4NDE=
+  url: https://api.github.com/repos/kubernetes/test-infra/labels/sig/cluster-lifecycle
+- color: d2b48c
+  default: false
+  description: Categorizes an issue or PR as relevant to SIG Contributor Experience.
+  id: 718255970
+  name: sig/contributor-experience
+  node_id: MDU6TGFiZWw3MTgyNTU5NzA=
+  url: https://api.github.com/repos/kubernetes/test-infra/labels/sig/contributor-experience
+- color: d2b48c
+  default: false
+  description: Categorizes an issue or PR as relevant to SIG Docs.
+  id: 718255920
+  name: sig/docs
+  node_id: MDU6TGFiZWw3MTgyNTU5MjA=
+  url: https://api.github.com/repos/kubernetes/test-infra/labels/sig/docs
+- color: d2b48c
+  default: false
+  description: Categorizes an issue or PR as relevant to SIG Instrumentation.
+  id: 718255882
+  name: sig/instrumentation
+  node_id: MDU6TGFiZWw3MTgyNTU4ODI=
+  url: https://api.github.com/repos/kubernetes/test-infra/labels/sig/instrumentation
+- color: d2b48c
+  default: false
+  description: Categorizes an issue or PR as relevant to SIG K8s Infra.
+  id: 3373472808
+  name: sig/k8s-infra
+  node_id: LA_kwDOA2rXzc7JExwo
+  url: https://api.github.com/repos/kubernetes/test-infra/labels/sig/k8s-infra
+- color: d2b48c
+  default: false
+  description: Categorizes an issue or PR as relevant to SIG Multicluster.
+  id: 718260642
+  name: sig/multicluster
+  node_id: MDU6TGFiZWw3MTgyNjA2NDI=
+  url: https://api.github.com/repos/kubernetes/test-infra/labels/sig/multicluster
+- color: d2b48c
+  default: false
+  description: Categorizes an issue or PR as relevant to SIG Network.
+  id: 718255496
+  name: sig/network
+  node_id: MDU6TGFiZWw3MTgyNTU0OTY=
+  url: https://api.github.com/repos/kubernetes/test-infra/labels/sig/network
+- color: d2b48c
+  default: false
+  description: Categorizes an issue or PR as relevant to SIG Node.
+  id: 718255879
+  name: sig/node
+  node_id: MDU6TGFiZWw3MTgyNTU4Nzk=
+  url: https://api.github.com/repos/kubernetes/test-infra/labels/sig/node
+- color: d2b48c
+  default: false
+  description: Categorizes an issue or PR as relevant to SIG Release.
+  id: 718255933
+  name: sig/release
+  node_id: MDU6TGFiZWw3MTgyNTU5MzM=
+  url: https://api.github.com/repos/kubernetes/test-infra/labels/sig/release
+- color: d2b48c
+  default: false
+  description: Categorizes an issue or PR as relevant to SIG Scalability.
+  id: 718255901
+  name: sig/scalability
+  node_id: MDU6TGFiZWw3MTgyNTU5MDE=
+  url: https://api.github.com/repos/kubernetes/test-infra/labels/sig/scalability
+- color: d2b48c
+  default: false
+  description: Categorizes an issue or PR as relevant to SIG Scheduling.
+  id: 718255953
+  name: sig/scheduling
+  node_id: MDU6TGFiZWw3MTgyNTU5NTM=
+  url: https://api.github.com/repos/kubernetes/test-infra/labels/sig/scheduling
+- color: d2b48c
+  default: false
+  description: Categorizes an issue or PR as relevant to SIG Security.
+  id: 2315011129
+  name: sig/security
+  node_id: MDU6TGFiZWwyMzE1MDExMTI5
+  url: https://api.github.com/repos/kubernetes/test-infra/labels/sig/security
+- color: d2b48c
+  default: false
+  description: Categorizes an issue or PR as relevant to SIG Service Catalog.
+  id: 718255843
+  name: sig/service-catalog
+  node_id: MDU6TGFiZWw3MTgyNTU4NDM=
+  url: https://api.github.com/repos/kubernetes/test-infra/labels/sig/service-catalog
+- color: d2b48c
+  default: false
+  description: Categorizes an issue or PR as relevant to SIG Storage.
+  id: 718255976
+  name: sig/storage
+  node_id: MDU6TGFiZWw3MTgyNTU5NzY=
+  url: https://api.github.com/repos/kubernetes/test-infra/labels/sig/storage
+- color: d2b48c
+  default: false
+  description: Categorizes an issue or PR as relevant to SIG Testing.
+  id: 718255721
+  name: sig/testing
+  node_id: MDU6TGFiZWw3MTgyNTU3MjE=
+  url: https://api.github.com/repos/kubernetes/test-infra/labels/sig/testing
+- color: d2b48c
+  default: false
+  description: Categorizes an issue or PR as relevant to SIG UI.
+  id: 718255794
+  name: sig/ui
+  node_id: MDU6TGFiZWw3MTgyNTU3OTQ=
+  url: https://api.github.com/repos/kubernetes/test-infra/labels/sig/ui
+- color: d2b48c
+  default: false
+  description: Categorizes an issue or PR as relevant to SIG Usability.
+  id: 1476698243
+  name: sig/usability
+  node_id: MDU6TGFiZWwxNDc2Njk4MjQz
+  url: https://api.github.com/repos/kubernetes/test-infra/labels/sig/usability
+- color: d2b48c
+  default: false
+  description: Categorizes an issue or PR as relevant to SIG Windows.
+  id: 718255964
+  name: sig/windows
+  node_id: MDU6TGFiZWw3MTgyNTU5NjQ=
+  url: https://api.github.com/repos/kubernetes/test-infra/labels/sig/windows
+- color: ee9900
+  default: false
+  description: Denotes a PR that changes 100-499 lines, ignoring generated files.
+  id: 671133125
+  name: size/L
+  node_id: MDU6TGFiZWw2NzExMzMxMjU=
+  url: https://api.github.com/repos/kubernetes/test-infra/labels/size/L
+- color: eebb00
+  default: false
+  description: Denotes a PR that changes 30-99 lines, ignoring generated files.
+  id: 671126262
+  name: size/M
+  node_id: MDU6TGFiZWw2NzExMjYyNjI=
+  url: https://api.github.com/repos/kubernetes/test-infra/labels/size/M
+- color: 77bb00
+  default: false
+  description: Denotes a PR that changes 10-29 lines, ignoring generated files.
+  id: 671132825
+  name: size/S
+  node_id: MDU6TGFiZWw2NzExMzI4MjU=
+  url: https://api.github.com/repos/kubernetes/test-infra/labels/size/S
+- color: ee5500
+  default: false
+  description: Denotes a PR that changes 500-999 lines, ignoring generated files.
+  id: 671133252
+  name: size/XL
+  node_id: MDU6TGFiZWw2NzExMzMyNTI=
+  url: https://api.github.com/repos/kubernetes/test-infra/labels/size/XL
+- color: "009900"
+  default: false
+  description: Denotes a PR that changes 0-9 lines, ignoring generated files.
+  id: 671133328
+  name: size/XS
+  node_id: MDU6TGFiZWw2NzExMzMzMjg=
+  url: https://api.github.com/repos/kubernetes/test-infra/labels/size/XS
+- color: ee0000
+  default: false
+  description: Denotes a PR that changes 1000+ lines, ignoring generated files.
+  id: 671133413
+  name: size/XXL
+  node_id: MDU6TGFiZWw2NzExMzM0MTM=
+  url: https://api.github.com/repos/kubernetes/test-infra/labels/size/XXL
+- color: 0ffa16
+  default: false
+  description: Indicates a PR is trusted, used by tide for auto-merging PRs.
+  id: 2817101880
+  name: skip-review
+  node_id: MDU6TGFiZWwyODE3MTAxODgw
+  url: https://api.github.com/repos/kubernetes/test-infra/labels/skip-review
+- color: e11d21
+  default: false
+  description: Denotes an issue that blocks the tide merge queue for a branch while
+    it is open.
+  id: 1025576053
+  name: tide/merge-blocker
+  node_id: MDU6TGFiZWwxMDI1NTc2MDUz
+  url: https://api.github.com/repos/kubernetes/test-infra/labels/tide/merge-blocker
+- color: ffaa00
+  default: false
+  description: Denotes a PR that should use a standard merge by tide when it merges.
+  id: 1299697206
+  name: tide/merge-method-merge
+  node_id: MDU6TGFiZWwxMjk5Njk3MjA2
+  url: https://api.github.com/repos/kubernetes/test-infra/labels/tide/merge-method-merge
+- color: ffaa00
+  default: false
+  description: Denotes a PR that should be rebased by tide when it merges.
+  id: 1299697351
+  name: tide/merge-method-rebase
+  node_id: MDU6TGFiZWwxMjk5Njk3MzUx
+  url: https://api.github.com/repos/kubernetes/test-infra/labels/tide/merge-method-rebase
+- color: ffaa00
+  default: false
+  description: Denotes a PR that should be squashed by tide when it merges.
+  id: 1049593072
+  name: tide/merge-method-squash
+  node_id: MDU6TGFiZWwxMDQ5NTkzMDcy
+  url: https://api.github.com/repos/kubernetes/test-infra/labels/tide/merge-method-squash
+- color: 8fc951
+  default: false
+  description: Indicates an issue or PR is ready to be actively worked on.
+  id: 2389856570
+  name: triage/accepted
+  node_id: MDU6TGFiZWwyMzg5ODU2NTcw
+  url: https://api.github.com/repos/kubernetes/test-infra/labels/triage/accepted
+- color: d455d0
+  default: false
+  description: Indicates an issue is a duplicate of other open issue.
+  id: 862100496
+  name: triage/duplicate
+  node_id: MDU6TGFiZWw4NjIxMDA0OTY=
+  url: https://api.github.com/repos/kubernetes/test-infra/labels/triage/duplicate
+- color: d455d0
+  default: false
+  description: Indicates an issue needs more information in order to work on it.
+  id: 862100618
+  name: triage/needs-information
+  node_id: MDU6TGFiZWw4NjIxMDA2MTg=
+  url: https://api.github.com/repos/kubernetes/test-infra/labels/triage/needs-information
+- color: d455d0
+  default: false
+  description: Indicates an issue can not be reproduced as described.
+  id: 862100376
+  name: triage/not-reproducible
+  node_id: MDU6TGFiZWw4NjIxMDAzNzY=
+  url: https://api.github.com/repos/kubernetes/test-infra/labels/triage/not-reproducible
+- color: d455d0
+  default: false
+  description: Indicates an issue that can not or will not be resolved.
+  id: 862100421
+  name: triage/unresolved
+  node_id: MDU6TGFiZWw4NjIxMDA0MjE=
+  url: https://api.github.com/repos/kubernetes/test-infra/labels/triage/unresolved
+- color: d2b48c
+  default: false
+  description: Categorizes an issue or PR as relevant to ug-big-data.
+  id: 718255785
+  name: ug/big-data
+  node_id: MDU6TGFiZWw3MTgyNTU3ODU=
+  url: https://api.github.com/repos/kubernetes/test-infra/labels/ug/big-data
+- color: d2b48c
+  default: false
+  description: Categorizes an issue or PR as relevant to ug-vmware.
+  id: 1596573726
+  name: ug/vmware
+  node_id: MDU6TGFiZWwxNTk2NTczNzI2
+  url: https://api.github.com/repos/kubernetes/test-infra/labels/ug/vmware
+- color: d2b48c
+  default: false
+  description: Categorizes an issue or PR as relevant to WG API Expression.
+  id: 1985744554
+  name: wg/api-expression
+  node_id: MDU6TGFiZWwxOTg1NzQ0NTU0
+  url: https://api.github.com/repos/kubernetes/test-infra/labels/wg/api-expression
+- color: d2b48c
+  default: false
+  description: Categorizes an issue or PR as relevant to WG Batch.
+  id: 3984789998
+  name: wg/batch
+  node_id: LA_kwDOA2rXzc7tgxHu
+  url: https://api.github.com/repos/kubernetes/test-infra/labels/wg/batch
+- color: d2b48c
+  default: false
+  description: Categorizes an issue or PR as relevant to wg-cluster-api.
+  id: 971799041
+  name: wg/cluster-api
+  node_id: MDU6TGFiZWw5NzE3OTkwNDE=
+  url: https://api.github.com/repos/kubernetes/test-infra/labels/wg/cluster-api
+- color: d2b48c
+  default: false
+  description: Categorizes an issue or PR as relevant to WG Component Standard.
+  id: 1188409012
+  name: wg/component-standard
+  node_id: MDU6TGFiZWwxMTg4NDA5MDEy
+  url: https://api.github.com/repos/kubernetes/test-infra/labels/wg/component-standard
+- color: d2b48c
+  default: false
+  description: Categorizes an issue or PR as relevant to WG Data Protection.
+  id: 3959367166
+  name: wg/data-protection
+  node_id: LA_kwDOA2rXzc7r_yX-
+  url: https://api.github.com/repos/kubernetes/test-infra/labels/wg/data-protection
+- color: d2b48c
+  default: false
+  description: Categorizes an issue or PR as relevant to WG IOT Edge.
+  id: 971798975
+  name: wg/iot-edge
+  node_id: MDU6TGFiZWw5NzE3OTg5NzU=
+  url: https://api.github.com/repos/kubernetes/test-infra/labels/wg/iot-edge
+- color: d2b48c
+  default: false
+  description: Categorizes an issue or PR as relevant to WG LTS.
+  id: 1246930963
+  name: wg/lts
+  node_id: MDU6TGFiZWwxMjQ2OTMwOTYz
+  url: https://api.github.com/repos/kubernetes/test-infra/labels/wg/lts
+- color: d2b48c
+  default: false
+  description: Categorizes an issue or PR as relevant to WG Machine Learning.
+  id: 971799350
+  name: wg/machine-learning
+  node_id: MDU6TGFiZWw5NzE3OTkzNTA=
+  url: https://api.github.com/repos/kubernetes/test-infra/labels/wg/machine-learning
+- color: d2b48c
+  default: false
+  description: Categorizes an issue or PR as relevant to WG Multitenancy.
+  id: 971799595
+  name: wg/multitenancy
+  node_id: MDU6TGFiZWw5NzE3OTk1OTU=
+  url: https://api.github.com/repos/kubernetes/test-infra/labels/wg/multitenancy
+- color: d2b48c
+  default: false
+  description: Categorizes an issue or PR as relevant to WG Naming.
+  id: 2175214408
+  name: wg/naming
+  node_id: MDU6TGFiZWwyMTc1MjE0NDA4
+  url: https://api.github.com/repos/kubernetes/test-infra/labels/wg/naming
+- color: d2b48c
+  default: false
+  description: Categorizes an issue or PR as relevant to WG Policy.
+  id: 971799239
+  name: wg/policy
+  node_id: MDU6TGFiZWw5NzE3OTkyMzk=
+  url: https://api.github.com/repos/kubernetes/test-infra/labels/wg/policy
+- color: d2b48c
+  default: false
+  description: Categorizes an issue or PR as relevant to WG Reliability
+  id: 2681759672
+  name: wg/reliability
+  node_id: MDU6TGFiZWwyNjgxNzU5Njcy
+  url: https://api.github.com/repos/kubernetes/test-infra/labels/wg/reliability
+- color: d2b48c
+  default: false
+  description: Categorizes an issue or PR as relevant to WG Security Audit.
+  id: 1086786328
+  name: wg/security-audit
+  node_id: MDU6TGFiZWwxMDg2Nzg2MzI4
+  url: https://api.github.com/repos/kubernetes/test-infra/labels/wg/security-audit
+- color: d2b48c
+  default: false
+  description: Categorizes an issue or PR as relevant to WG Structured Logging.
+  id: 3025055769
+  name: wg/structured-logging
+  node_id: MDU6TGFiZWwzMDI1MDU1NzY5
+  url: https://api.github.com/repos/kubernetes/test-infra/labels/wg/structured-logging

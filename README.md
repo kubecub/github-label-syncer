@@ -124,20 +124,77 @@ Args:
 
 ❯ ./_output/bin/platforms/linux/amd64/exporter kubernetes kubernetes --yaml -f ./_output/tmp/kubernetes_labels.yaml
 ❯ tree _output/
+root@kubecub# tree _output/
 _output/
 ├── bin
 │   └── platforms
 │       └── linux
 │           └── amd64
 │               ├── exporter
+│               ├── merged-binary
 │               └── syncer
 ├── tmp
 │   └── kubernetes_labels.yaml
 └── tools
     ├── addlicense
-    └── go-gitlint
+    ├── git-chglog
+    ├── github-release
+    ├── go-gitlint
+    └── gsemver
 
 ❯ ./syncer --help
+```
+
+#### labels template
+
+```bash
+### kubernetes
+❯ ./_output/bin/platforms/linux/amd64/exporter kubernetes kubernetes --yaml -f ./labels-templates/kubernetes-yaml.yaml
+❯ ./_output/bin/platforms/linux/amd64/exporter kubernetes kubernetes --table -f ./labels-templates/kubernetes-table.md
+❯ ./_output/bin/platforms/linux/amd64/exporter kubernetes kubernetes --json -f ./labels-templates/kubernetes-json.json
+❯ ./_output/bin/platforms/linux/amd64/exporter kubernetes kubernetes --xml -f ./labels-templates/kubernetes-xml.xml
+
+### openim OpenIMSDK/Open-IM-Server
+❯ ./_output/bin/platforms/linux/amd64/exporter OpenIMSDK Open-IM-Server --yaml -f ./labels-templates/openim-yaml.yaml
+❯ ./_output/bin/platforms/linux/amd64/exporter OpenIMSDK Open-IM-Server --table -f ./labels-templates/openim-table.md
+❯ ./_output/bin/platforms/linux/amd64/exporter OpenIMSDK Open-IM-Server --json -f ./labels-templates/openim-json.json
+❯ ./_output/bin/platforms/linux/amd64/exporter OpenIMSDK Open-IM-Server --xml -f ./labels-templates/openim-xml.xml
+
+### sealos labring/sealos
+❯ ./_output/bin/platforms/linux/amd64/exporter labring sealos --yaml -f ./labels-templates/sealos-yaml.yaml
+❯ ./_output/bin/platforms/linux/amd64/exporter labring sealos --table -f ./labels-templates/sealos-table.md
+❯ ./_output/bin/platforms/linux/amd64/exporter labring sealos --json -f ./labels-templates/sealos-json.json
+❯ ./_output/bin/platforms/linux/amd64/exporter labring sealos --xml -f ./labels-templates/sealos-xml.xml
+
+### vscode microsoft/vscode
+❯ ./_output/bin/platforms/linux/amd64/exporter microsoft vscode --yaml -f ./labels-templates/vscode-yaml.yaml
+❯ ./_output/bin/platforms/linux/amd64/exporter microsoft vscode --table -f ./labels-templates/vscode-table.md
+❯ ./_output/bin/platforms/linux/amd64/exporter microsoft vscode --json -f ./labels-templates/vscode-json.json
+❯ ./_output/bin/platforms/linux/amd64/exporter microsoft vscode --xml -f ./labels-templates/vscode-xml.xml
+
+### kubernetes-sigs kustomize
+❯ ./_output/bin/platforms/linux/amd64/exporter kubernetes-sigs kustomize --yaml -f ./labels-templates/kustomize-yaml.yaml
+❯ ./_output/bin/platforms/linux/amd64/exporter kubernetes-sigs kustomize --table -f ./labels-templates/kustomize-table.md
+❯ ./_output/bin/platforms/linux/amd64/exporter kubernetes-sigs kustomize --json -f ./labels-templates/kustomize-json.json
+❯ ./_output/bin/platforms/linux/amd64/exporter kubernetes-sigs kustomize --xml -f ./labels-templates/kustomize-xml.xml
+
+### prometheus prometheus
+❯ ./_output/bin/platforms/linux/amd64/exporter prometheus prometheus --yaml -f ./labels-templates/prometheus-yaml.yaml
+❯ ./_output/bin/platforms/linux/amd64/exporter prometheus prometheus --table -f ./labels-templates/prometheus-table.md
+❯ ./_output/bin/platforms/linux/amd64/exporter prometheus prometheus --json -f ./labels-templates/prometheus-json.json
+❯ ./_output/bin/platforms/linux/amd64/exporter prometheus prometheus --xml -f ./labels-templates/prometheus-xml.xml
+
+### prow kubernetes/test-infra
+❯ ./_output/bin/platforms/linux/amd64/exporter kubernetes test-infra --yaml -f ./labels-templates/test-infra-yaml.yaml
+❯ ./_output/bin/platforms/linux/amd64/exporter kubernetes test-infra --table -f ./labels-templates/test-infra-table.md
+❯ ./_output/bin/platforms/linux/amd64/exporter kubernetes test-infra --json -f ./labels-templates/test-infra-json.json
+❯ ./_output/bin/platforms/linux/amd64/exporter kubernetes test-infra --xml -f ./labels-templates/test-infra-xml.xml
+
+### redis redis
+❯ ./_output/bin/platforms/linux/amd64/exporter redis redis --yaml -f ./labels-templates/redis-yaml.yaml
+❯ ./_output/bin/platforms/linux/amd64/exporter redis redis --table -f ./labels-templates/redis-table.md
+❯ ./_output/bin/platforms/linux/amd64/exporter redis redis --json -f ./labels-templates/redis-json.json
+❯ ./_output/bin/platforms/linux/amd64/exporter redis redis --xml -f ./labels-templates/redis-xml.xml
 ```
 
 

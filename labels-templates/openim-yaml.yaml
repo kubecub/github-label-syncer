@@ -1,0 +1,296 @@
+- color: FB4E16
+  default: false
+  description: ""
+  id: 5497499097
+  name: API
+  node_id: LA_kwDOFhyqls8AAAABR60t2Q
+  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/API
+- color: 0366d6
+  default: false
+  description: Pull requests that update a dependency file
+  id: 5195755799
+  name: dependencies
+  node_id: LA_kwDOFhyqls8AAAABNbDxFw
+  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/dependencies
+- color: D93F0B
+  default: false
+  description: Indicates a PR lacks a `kind/foo` label and requires one.
+  id: 5497486393
+  name: do-not-merge/needs-kind
+  node_id: LA_kwDOFhyqls8AAAABR6z8OQ
+  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/do-not-merge/needs-kind
+- color: a2eeef
+  default: true
+  description: New feature or request
+  id: 3032551175
+  name: enhancement
+  node_id: MDU6TGFiZWwzMDMyNTUxMTc1
+  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/enhancement
+- color: 0E8A16
+  default: false
+  description: ""
+  id: 5595489210
+  name: gitlink2023
+  node_id: LA_kwDOFhyqls8AAAABTYRjug
+  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/gitlink2023
+- color: 7057ff
+  default: true
+  description: Good for newcomers
+  id: 3032551177
+  name: good first issue
+  node_id: MDU6TGFiZWwzMDMyNTUxMTc3
+  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/good%20first%20issue
+- color: "008672"
+  default: true
+  description: Extra attention is needed
+  id: 3032551179
+  name: help wanted
+  node_id: MDU6TGFiZWwzMDMyNTUxMTc5
+  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/help%20wanted
+- color: e4e669
+  default: true
+  description: This doesn't seem right
+  id: 3032551181
+  name: invalid
+  node_id: MDU6TGFiZWwzMDMyNTUxMTgx
+  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/invalid
+- color: d73a4a
+  default: false
+  description: Something isn't working
+  id: 3032551172
+  name: kind/bug
+  node_id: MDU6TGFiZWwzMDMyNTUxMTcy
+  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/kind/bug
+- color: 006b75
+  default: false
+  description: Categorizes issue or PR as related to cleaning up code, process, or
+    technical debt.
+  id: 5497479585
+  name: kind/cleanup
+  node_id: LA_kwDOFhyqls8AAAABR6zhoQ
+  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/kind/cleanup
+- color: 0075ca
+  default: false
+  description: Improvements or additions to documentation
+  id: 3032551173
+  name: kind/documentation
+  node_id: MDU6TGFiZWwzMDMyNTUxMTcz
+  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/kind/documentation
+- color: B60205
+  default: false
+  description: Report failed tests in OpenIM
+  id: 5497719639
+  name: kind/failing-test
+  node_id: LA_kwDOFhyqls8AAAABR7CLVw
+  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/kind/failing-test
+- color: 03AF64
+  default: false
+  description: ""
+  id: 5440198764
+  name: kind/feature
+  node_id: LA_kwDOFhyqls8AAAABRELYbA
+  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/kind/feature
+- color: BFDADC
+  default: false
+  description: Categorizes issue or PR as a support question.
+  id: 5497487384
+  name: kind/support
+  node_id: LA_kwDOFhyqls8AAAABR60AGA
+  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/kind/support
+- color: 0E8A16
+  default: false
+  description: Indicates that a PR is ready to be merged.
+  id: 5497502953
+  name: lgtm
+  node_id: LA_kwDOFhyqls8AAAABR6086Q
+  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/lgtm
+- color: B60205
+  default: false
+  description: Problem 90 days without activity
+  id: 5497523618
+  name: lifecycle/stale
+  node_id: LA_kwDOFhyqls8AAAABR62Nog
+  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/lifecycle/stale
+- color: FBCA04
+  default: false
+  description: ""
+  id: 5497499585
+  name: log
+  node_id: LA_kwDOFhyqls8AAAABR60vwQ
+  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/log
+- color: C5DEF5
+  default: false
+  description: Indicates an issue or PR lacks a `triage/foo` label and requires one.
+  id: 5497489962
+  name: needs-triage
+  node_id: LA_kwDOFhyqls8AAAABR60KKg
+  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/needs-triage
+- color: 006B75
+  default: false
+  description: Categorizes an issue or PR as relevant to Network.
+  id: 5497504624
+  name: network
+  node_id: LA_kwDOFhyqls8AAAABR61DcA
+  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/network
+- color: b60205
+  default: false
+  description: User information, template information, important information, never
+    expired and closed.
+  id: 5487958651
+  name: openim
+  node_id: LA_kwDOFhyqls8AAAABRxuaew
+  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/openim
+- color: 0E8A16
+  default: false
+  description: ""
+  id: 5497500315
+  name: proposal
+  node_id: LA_kwDOFhyqls8AAAABR60ymw
+  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/proposal
+- color: d876e3
+  default: true
+  description: Further information is requested
+  id: 3032551184
+  name: question
+  node_id: MDU6TGFiZWwzMDMyNTUxMTg0
+  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/question
+- color: 0E8A16
+  default: false
+  description: ""
+  id: 5497496026
+  name: release/2.0.0
+  node_id: LA_kwDOFhyqls8AAAABR60h2g
+  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/release/2.0.0
+- color: 0E8A16
+  default: false
+  description: ""
+  id: 5497495379
+  name: release/3.0.0
+  node_id: LA_kwDOFhyqls8AAAABR60fUw
+  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/release/3.0.0
+- color: 0E8A16
+  default: false
+  description: ""
+  id: 5497495718
+  name: release/4.0.0
+  node_id: LA_kwDOFhyqls8AAAABR60gpg
+  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/release/4.0.0
+- color: D93F0B
+  default: false
+  description: Some labels for the CICD automation report
+  id: 5503298850
+  name: report
+  node_id: LA_kwDOFhyqls8AAAABSAWtIg
+  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/report
+- color: B60205
+  default: false
+  description: ""
+  id: 5497493449
+  name: response-expired
+  node_id: LA_kwDOFhyqls8AAAABR60XyQ
+  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/response-expired
+- color: 0E8A16
+  default: false
+  description: Project design proposal
+  id: 5440200813
+  name: RFC
+  node_id: LA_kwDOFhyqls8AAAABRELgbQ
+  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/RFC
+- color: 0E8A16
+  default: false
+  description: Roadmap-related labels
+  id: 5497494568
+  name: roadmap
+  node_id: LA_kwDOFhyqls8AAAABR60cKA
+  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/roadmap
+- color: D93F99
+  default: false
+  description: Denotes a PR that changes 100-499 lines, ignoring generated files.
+  id: 5498033148
+  name: size/L
+  node_id: LA_kwDOFhyqls8AAAABR7VT_A
+  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/size/L
+- color: C2E0C6
+  default: false
+  description: Denotes a PR that changes 30-99 lines, ignoring generated files.
+  id: 5498031304
+  name: size/M
+  node_id: LA_kwDOFhyqls8AAAABR7VMyA
+  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/size/M
+- color: 6ED999
+  default: false
+  description: Denotes a PR that changes 10-29 lines, ignoring generated files.
+  id: 5498030094
+  name: size/S
+  node_id: LA_kwDOFhyqls8AAAABR7VIDg
+  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/size/S
+- color: D93F66
+  default: false
+  description: Denotes a PR that changes 500-999 lines, ignoring generated files.
+  id: 5498033991
+  name: size/XL
+  node_id: LA_kwDOFhyqls8AAAABR7VXRw
+  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/size/XL
+- color: 0E8A16
+  default: false
+  description: Denotes a PR that changes 0-9 lines, ignoring generated files.
+  id: 5498028868
+  name: size/XS
+  node_id: LA_kwDOFhyqls8AAAABR7VDRA
+  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/size/XS
+- color: D93F0B
+  default: false
+  description: Denotes a PR that changes 1000+ lines, ignoring generated files.
+  id: 5498037828
+  name: size/XXL
+  node_id: LA_kwDOFhyqls8AAAABR7VmRA
+  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/size/XXL
+- color: FBCA04
+  default: false
+  description: Test related issues go here
+  id: 5497497448
+  name: test
+  node_id: LA_kwDOFhyqls8AAAABR60naA
+  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/test
+- color: 0E8A16
+  default: false
+  description: Indicates an issue or PR is ready to be actively worked on.
+  id: 5497488800
+  name: triage/accepted
+  node_id: LA_kwDOFhyqls8AAAABR60FoA
+  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/triage/accepted
+- color: C001BC
+  default: false
+  description: Indicates an issue is a duplicate of other open issue.
+  id: 5500268174
+  name: triage/duplicate
+  node_id: LA_kwDOFhyqls8AAAABR9dujg
+  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/triage/duplicate
+- color: C001BC
+  default: false
+  description: Indicates an issue needs more information in order to work on it.
+  id: 5500271781
+  name: triage/needs-information
+  node_id: LA_kwDOFhyqls8AAAABR9d8pQ
+  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/triage/needs-information
+- color: C001BC
+  default: false
+  description: Indicates an issue can not be reproduced as described.
+  id: 5500272163
+  name: triage/not-reproducible
+  node_id: LA_kwDOFhyqls8AAAABR9d-Iw
+  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/triage/not-reproducible
+- color: C001BC
+  default: false
+  description: Indicates an issue that can not or will not be resolved.
+  id: 5500267848
+  name: triage/unresolved
+  node_id: LA_kwDOFhyqls8AAAABR9dtSA
+  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/triage/unresolved
+- color: ffffff
+  default: true
+  description: This will not be worked on
+  id: 3032551187
+  name: wontfix
+  node_id: MDU6TGFiZWwzMDMyNTUxMTg3
+  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/wontfix
