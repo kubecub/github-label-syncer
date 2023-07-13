@@ -1,7 +1,3 @@
-# Copyright © 2023 KubeCub open source community. All rights reserved.
-# Licensed under the MIT License (the "License");
-# you may not use this file except in compliance with the License.
-
 name: Test repository spelling check
 on:
     push:
@@ -23,9 +19,23 @@ jobs:
     - name: Check spelling of md
       uses: crate-ci/typos@master
       with: 
-        files: ./CONTIRIBUTING.md
-
+        files: 
+            ./CONTIRIBUTING.md
+            ./README.md
+            
     - name: Use custom config file
       uses: crate-ci/typos@master
       with: 
-        files: ./README.md
+        files: ./file.txt
+        config: ./myconfig.toml
+
+    - name: Ignore implicit configuration file
+      uses: crate-ci/typos@master
+      with: 
+        files: ./file.txt
+        isolated: true
+
+    - name: Writes changes in the local checkout
+      uses: crate-ci/typos@master
+      with: 
+        write_changes: true
