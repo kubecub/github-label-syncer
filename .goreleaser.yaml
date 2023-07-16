@@ -7,25 +7,18 @@ before:
     # you may remove this if you don't need go generate
     - go generate ./...
 
-# The lines beneath this are called `modelines`. See `:help modeline`
-# Feel free to remove those if you don't want/use them.
-# yaml-language-server: $schema=https://goreleaser.com/static/schema.json
-# vim: set ts=2 sw=2 tw=0 fo=cnqoj
-
-# Default: './dist'
-dist: _output/dist
 
 builds:
   - binary: syncer
     id: syncer
     main: ./cmd/syncer/main.go
     goos:
-      - windows
-      - darwin
+      # - windows
+      # - darwin
       - linux
     goarch:
       - amd64
-      - arm
+      # - arm
       - arm64
     goarm:
       - 6
@@ -34,11 +27,11 @@ builds:
     id: exporter
     main: ./cmd/exporter/main.go
     goos:
-      - darwin
+      # - darwin
       - linux
     goarch:
       - amd64
-      - arm
+      # - arm
       - arm64
     goarm:
       - 6
@@ -103,3 +96,11 @@ nfpms:
     maintainer: fanux (https://github.com/fanux)
     description: Cloud OS distribution with Kubernetes as kernel
     license: Apach
+
+# The lines beneath this are called `modelines`. See `:help modeline`
+# Feel free to remove those if you don't want/use them.
+# yaml-language-server: $schema=https://goreleaser.com/static/schema.json
+# vim: set ts=2 sw=2 tw=0 fo=cnqoj
+
+# Default: './dist'
+dist: _output/dist
