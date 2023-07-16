@@ -47,6 +47,7 @@
   name: help wanted
   node_id: MDU6TGFiZWwzMDMyNTUxMTc5
   url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/help%20wanted
+
 - color: e4e669
   default: true
   description: This doesn't seem right
@@ -104,6 +105,35 @@
   name: lgtm
   node_id: LA_kwDOFhyqls8AAAABR6086Q
   url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/lgtm
+- color: 8fc951
+  default: false
+  description: Indicates that an issue or PR is actively being worked on by a contributor.
+  id: 1007207688
+  name: lifecycle/active
+  node_id: MDU6TGFiZWwxMDA3MjA3Njg4
+  url: https://api.github.com/repos/kubernetes/kubernetes/labels/lifecycle/active
+- color: d3e2f0
+  default: false
+  description: Indicates that an issue or PR should not be auto-closed due to staleness.
+  id: 778118403
+  name: lifecycle/frozen
+  node_id: MDU6TGFiZWw3NzgxMTg0MDM=
+  url: https://api.github.com/repos/kubernetes/kubernetes/labels/lifecycle/frozen
+- color: "604460"
+  default: false
+  description: Denotes an issue or PR that has aged beyond stale and will be auto-closed.
+  id: 778118402
+  name: lifecycle/rotten
+  node_id: MDU6TGFiZWw3NzgxMTg0MDI=
+  url: https://api.github.com/repos/kubernetes/kubernetes/labels/lifecycle/rotten
+- color: "795548"
+  default: false
+  description: Denotes an issue or PR has remained open with no activity and has become
+    stale.
+  id: 778118404
+  name: lifecycle/stale
+  node_id: MDU6TGFiZWw3NzgxMTg0MDQ=
+  url: https://api.github.com/repos/kubernetes/kubernetes/labels/lifecycle/stale
 - color: B60205
   default: false
   description: Problem 90 days without activity
