@@ -1,31 +1,37 @@
-# Copyright © 2023 KubeCub & Xinwei Xiong(cubxxw). All rights reserved.
-# Licensed under the MIT License (the "License");
-# you may not use this file except in compliance with the License.
+name: github labels syncer release
 
-
-name: release
 on:
-  pull_request:
   push:
+    # run only against tags
     tags:
-    - "v[0-9]+.[0-9]+.[0-9]+"
+      - '*'
+
+permissions:
+  contents: write
+  packages: write
+  issues: write
 
 jobs:
   goreleaser:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
-        uses: actions/checkout@v2
-      - name: Unshallow
-        run: git fetch --prune --unshallow
-      - name: Set up Go
-        uses: actions/setup-go@v2
+      - uses: actions/checkout@v3
         with:
-          go-version: "1.20"
-      - name: Run GoReleaser
-        uses: goreleaser/goreleaser-action@v1
+          fetch-depth: 0
+      - run: git fetch --force --tags
+      - uses: actions/setup-go@v4
         with:
+          go-version: stable
+      # More assembly might be required: Docker logins, GPG, etc. It all depends
+      # on your needs.
+      - uses: goreleaser/goreleaser-action@v4
+        with:
+          # either 'goreleaser' (default) or 'goreleaser-pro':
+          distribution: goreleaser
           version: latest
-          args: release --rm-dist
+          args: release --clean
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.BOT_GITHUB_TOKEN }}
+          # Your GoReleaser Pro key, if you are using the 'goreleaser-pro'
+          # distribution:
+          # GORELEASER_KEY: ${{ secrets.GORELEASER_KEY }}

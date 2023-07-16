@@ -1,6 +1,16 @@
-# Copyright 2020 Lingfei Kong <colin404@foxmail.com>. All rights reserved.
-# Use of this source code is governed by a MIT style
-# license that can be found in the LICENSE file.
+# Copyright © 2023 OpenIMSDK open source community. All rights reserved.
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#     http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
 
 # This file contains all available configuration options
 # with their default values.
@@ -33,6 +43,7 @@ run:
     - util
     - .*~
     - api/swagger/docs
+    - server/docs
 
   # default is true. Enables skipping of directories:
   #   vendor$, third_party$, testdata$, examples$, Godeps$, builtin$
@@ -149,15 +160,15 @@ linters-settings:
       - '*.Embedded'
       - '*.External'
 
-  forbidigo:
-    # Forbid the following identifiers (identifiers are written using regexp):
-    forbid:
-      - ^print.*$
-      - 'fmt\.Print.*'
-      - fmt.Println.* # too much log noise
-      - ginkgo\\.F.* # these are used just for local development
-    # Exclude godoc examples from forbidigo checks.  Default is true.
-    exclude_godoc_examples: false
+  # forbidigo:
+  #   # Forbid the following identifiers (identifiers are written using regexp):
+  #   forbid:
+  #     - ^print.*$
+  #     - 'fmt\.Print.*'
+  #     - fmt.Println.* # too much log noise
+  #     - ginkgo\\.F.* # these are used just for local development
+  #   # Exclude godoc examples from forbidigo checks.  Default is true.
+  #   exclude_godoc_examples: false
   funlen:
     lines: 150
     statements: 50
@@ -165,7 +176,7 @@ linters-settings:
     # put imports beginning with prefix after 3rd-party packages;
     # only support one prefix
     # if not set, use goimports.local-prefixes
-    prefix: github.com/marmotedu/kubecub
+    prefix: github.com/OpenIMSDK/OpenKF
   gocognit:
     # minimal code complexity to report, 30 by default (but we recommend 10-20)
     min-complexity: 30
@@ -284,8 +295,8 @@ linters-settings:
     simplify: true
 
   gofumpt:
-    # Select the Go version to target. The default is `1.15`.
-    lang-version: "1.15"
+    # Select the Go version to target. The default is `1.18`.
+    lang-version: "1.20"
 
     # Choose whether or not to use the extra rules that are disabled
     # by default
@@ -322,7 +333,7 @@ linters-settings:
   goimports:
     # put imports beginning with prefix after 3rd-party packages;
     # it's a comma-separated list of prefixes
-    local-prefixes: github.com/marmotedu/kubecub
+    local-prefixes: github.com/OpenIMSDK/OpenKF
   golint:
     # minimal confidence for issues, default is 0.8
     min-confidence: 0.9
@@ -340,9 +351,6 @@ linters-settings:
     # List of allowed `replace` directives. Default is empty.
     replace-allow-list:
       - google.golang.org/grpc
-      - github.com/marmotedu/api
-      - github.com/marmotedu/component-base
-      - github.com/marmotedu/marmotedu-sdk-go
 
     # Allow to not explain why the version has been retracted in the `retract` directives. Default is false.
     retract-allow-no-explanation: false
@@ -350,7 +358,8 @@ linters-settings:
     exclude-forbidden: false
   gomodguard:
     allowed:
-      modules:                                                        # List of allowed modules
+      modules:    
+        - gorm.io/gen                                                    # List of allowed modules
         - gorm.io/gorm
         - gorm.io/driver/mysql
         - k8s.io/klog
@@ -363,11 +372,6 @@ linters-settings:
         - go.uber.org
         - go.etcd.io
     blocked:
-      modules:
-        - github.com/pkg/errors:
-            recommendations:
-              - github.com/marmotedu/errors
-            reason: "`github.com/marmotedu/errors` is the log package used by marmotedu projects."
       versions:
         - github.com/MakeNowJust/heredoc:
             version: "> 2.0.9"
@@ -406,7 +410,7 @@ linters-settings:
 
   gosimple:
     # Select the Go version to target. The default is '1.13'.
-    go: "1.15"
+    go: "1.20"
     # https://staticcheck.io/docs/options#checks
     checks: [ "all" ]
 
@@ -430,14 +434,14 @@ linters-settings:
     disable:
       - shadow
     disable-all: false
-  depguard:
-    list-type: blacklist
-    include-go-root: false
-    packages:
-      - github.com/Sirupsen/logrus
-    packages-with-error-message:
-      # specify an error message to output when a blacklisted package is used
-      - github.com/Sirupsen/logrus: "logging is allowed only by logutils.Log"
+  # depguard:
+  #   list-type: blacklist
+  #   include-go-root: false
+  #   packages:
+  #     - github.com/Sirupsen/logrus
+  #   packages-with-error-message:
+  #     # specify an error message to output when a blacklisted package is used
+  #     - github.com/Sirupsen/logrus: "logging is allowed only by logutils.Log"
   ifshort:
     # Maximum length of variable declaration measured in number of lines, after which linter won't suggest using short syntax.
     # Has higher priority than max-decl-chars.
@@ -463,8 +467,6 @@ linters-settings:
         alias: $1$2
     # using `jwt` alias for `github.com/appleboy/gin-jwt/v2` package
     jwt: github.com/appleboy/gin-jwt/v2
-    # using `metav1` alias for `github.com/marmotedu/component-base/pkg/meta/v1` package
-    metav1: github.com/marmotedu/component-base/pkg/meta/v1
 
   ireturn:
     # ireturn allows using `allow` and `reject` settings at the same time.
@@ -721,7 +723,7 @@ linters:
     - bodyclose
     - cyclop
     - deadcode
-    - depguard
+    # - depguard
     - dogsled
     - dupl
     - durationcheck
@@ -729,10 +731,10 @@ linters:
     - errorlint
     - exhaustive
     - exportloopref
-    - forbidigo
+    # - forbidigo
     - funlen
-      #- gci
-    - gochecknoinits
+    # - gci
+    # - gochecknoinits
     - gocognit
     - goconst
     - gocyclo
@@ -812,8 +814,9 @@ issues:
   # Excluding configuration per-path, per-linter, per-text and per-source
   exclude-rules:
     - linters:
-      - errorlint
-      path: (pkg/validator/.*)\.go
+      - golint
+      path: (internal/api/.*)\.go # exclude golint for internal/api/... files
+
     - linters:
       - revive
       path: (log/.*)\.go
