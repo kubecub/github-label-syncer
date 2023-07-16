@@ -115,3 +115,23 @@ nfpms:
       - rpm
       - termux.deb # Since: v1.11
       - archlinux # Since: v1.13
+    dependencies:
+      - git
+    recommends:
+      - golang
+
+snapcrafts:
+  - name_template: "{{ .ProjectName }}_{{ .Arch }}{{ if .Arm }}v{{ .Arm }}{{ end }}"
+    summary: sync labels
+    description: |
+      sync labels
+    grade: stable
+    confinement: classic
+    publish: true
+
+sboms:
+  - artifacts: archive
+
+checksum:
+  name_template: "{{ .ProjectName }}_checksums.txt"
+  algorithm: sha256
