@@ -7,18 +7,27 @@ before:
     # you may remove this if you don't need go generate
     - go generate ./...
 
+# The lines beneath this are called `modelines`. See `:help modeline`
+# Feel free to remove those if you don't want/use them.
+# yaml-language-server: $schema=https://goreleaser.com/static/schema.json
+# vim: set ts=2 sw=2 tw=0 fo=cnqoj
+
+# Default: './dist'
+dist: _output/dist
 
 builds:
   - binary: syncer
     id: syncer
     main: ./cmd/syncer/main.go
     goos:
-      # - windows
-      # - darwin
+      - windows
+      - darwin
       - linux
+      - freebsd
     goarch:
       - amd64
-      # - arm
+      - 386
+      - arm
       - arm64
     goarm:
       - 6
@@ -27,11 +36,14 @@ builds:
     id: exporter
     main: ./cmd/exporter/main.go
     goos:
-      # - darwin
+      - windows
+      - darwin
       - linux
+      - freebsd
     goarch:
       - amd64
-      # - arm
+      - 386
+      - arm
       - arm64
     goarm:
       - 6
@@ -49,7 +61,7 @@ archives:
       {{- if .Arm }}v{{ .Arm }}{{ end }}
     # use zip for windows archives
     files:
-      - LICENSE.txt
+      - LICENSE
       - README_{{.Os}}.md
       - README-{{.Os}}.md
       - CHANGELOG.md
@@ -91,16 +103,9 @@ nfpms:
   - id: packages
     builds:
       - syncer
-    vendor: labring
-    homepage: https://github.com/labring/sealos
-    maintainer: fanux (https://github.com/fanux)
-    description: Cloud OS distribution with Kubernetes as kernel
+    # Your app's vendor.
+    vendor: kubecub
+    homepage: https://github.com/kubecub/github-label-syncer
+    maintainer: fanux (https://github.com/kubbot)
+    description: Auto sync github labels
     license: Apach
-
-# The lines beneath this are called `modelines`. See `:help modeline`
-# Feel free to remove those if you don't want/use them.
-# yaml-language-server: $schema=https://goreleaser.com/static/schema.json
-# vim: set ts=2 sw=2 tw=0 fo=cnqoj
-
-# Default: './dist'
-dist: _output/dist
