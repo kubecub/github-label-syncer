@@ -351,3 +351,4 @@ dist
 .note.md
 
 # config files, may contain sensitive information
+dist/
