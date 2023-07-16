@@ -8,6 +8,7 @@ before:
     - go generate ./...
 builds:
   - binary: syncer
+    id: syncer
     main: ./cmd/syncer/main.go
     goos:
       - windows
@@ -23,6 +24,7 @@ builds:
       - 6
       - 7
   - binary: exporter
+    id: exporter
     main: ./cmd/exporter/main.go
     goos:
       - windows
