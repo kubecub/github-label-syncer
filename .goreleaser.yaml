@@ -6,6 +6,15 @@ before:
     - go mod tidy
     # you may remove this if you don't need go generate
     - go generate ./...
+
+# The lines beneath this are called `modelines`. See `:help modeline`
+# Feel free to remove those if you don't want/use them.
+# yaml-language-server: $schema=https://goreleaser.com/static/schema.json
+# vim: set ts=2 sw=2 tw=0 fo=cnqoj
+
+# Default: './dist'
+dist: _output/dist
+
 builds:
   - binary: syncer
     id: syncer
@@ -39,17 +48,6 @@ builds:
     goarm:
       - 6
       - 7
-# archive:
-#   name_template: "{{ .ProjectName }}_{{ .Os }}_{{ .Arch }}{{ if .Arm }}v{{ .Arm }}{{ end }}"
-#   replacements:
-#     darwin: Darwin
-#     linux: Linux
-#     windows: Windows
-#     386: i386
-#     amd64: x86_64
-#   format_overrides:
-#     - goos: windows
-#       format: zip
 
 archives:
   - format: tar.gz
@@ -62,24 +60,41 @@ archives:
       {{- else }}{{ .Arch }}{{ end }}
       {{- if .Arm }}v{{ .Arm }}{{ end }}
     # use zip for windows archives
+    files:
+      - LICENSE.txt
+      - README_{{.Os}}.md
+      - README-{{.Os}}.md
+      - CHANGELOG.md
+      - CHANGELOG/*
+      - docs/*
+      - src: "*.md"
+        dst: docs
+      # a more complete example, check the globbing deep dive below
+      - src: "*.md"
+        dst: docs
+
+        # Strip parent folders when adding files to the archive.
+        strip_parent: true
+
+        # File info.
+        # Not all fields are supported by all formats available formats.
+        #
+        # Default: copied from the source file
+        info:
+          # Templates: allowed (since v1.14)
+          owner: root
+
+          # Templates: allowed (since v1.14)
+          group: root
+
+          # Must be in time.RFC3339Nano format.
+          #
+          # Templates: allowed (since v1.14)
+          mtime: "{{ .CommitDate }}"
+
+          # File mode.
+          mode: 0644
+
     format_overrides:
     - goos: windows
       format: zip
-checksum:
-  name_template: 'checksums.txt'
-snapshot:
-  name_template: "{{ incpatch .Version }}-next"
-changelog:
-  sort: asc
-  filters:
-    exclude:
-      - '^docs:'
-      - '^test:'
-
-# The lines beneath this are called `modelines`. See `:help modeline`
-# Feel free to remove those if you don't want/use them.
-# yaml-language-server: $schema=https://goreleaser.com/static/schema.json
-# vim: set ts=2 sw=2 tw=0 fo=cnqoj
-
-# Default: './dist'
-dist: _output/dist
