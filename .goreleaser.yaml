@@ -62,9 +62,7 @@ archives:
     # use zip for windows archives
     files:
       - LICENSE
-      - README_{{.Os}}.md
-      - README-{{.Os}}.md
-      - CHANGELOG.md
+      - README.md
       - CHANGELOG/*
       - docs/*
       - src: "*.md"
@@ -106,6 +104,14 @@ nfpms:
     # Your app's vendor.
     vendor: kubecub
     homepage: https://github.com/kubecub/github-label-syncer
-    maintainer: fanux (https://github.com/kubbot)
-    description: Auto sync github labels
-    license: Apach
+    maintainer: kubbot <https://github.com/kubbot>
+    description: |-
+      Auto sync github labels
+      Kubecub && cubxxw
+    license: MIT
+    formats:
+      - apk
+      - deb
+      - rpm
+      - termux.deb # Since: v1.11
+      - archlinux # Since: v1.13
