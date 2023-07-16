@@ -47,7 +47,6 @@
   name: help wanted
   node_id: MDU6TGFiZWwzMDMyNTUxMTc5
   url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/help%20wanted
-
 - color: e4e669
   default: true
   description: This doesn't seem right
