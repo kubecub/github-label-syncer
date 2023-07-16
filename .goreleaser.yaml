@@ -23,10 +23,8 @@ builds:
       - windows
       - darwin
       - linux
-      - freebsd
     goarch:
       - amd64
-      - 386
       - arm
       - arm64
     goarm:
@@ -36,13 +34,10 @@ builds:
     id: exporter
     main: ./cmd/exporter/main.go
     goos:
-      - windows
       - darwin
       - linux
-      - freebsd
     goarch:
       - amd64
-      - 386
       - arm
       - arm64
     goarm:
@@ -98,3 +93,13 @@ archives:
     format_overrides:
     - goos: windows
       format: zip
+
+nfpms:
+  - id: packages
+    builds:
+      - syncer
+    vendor: labring
+    homepage: https://github.com/labring/sealos
+    maintainer: fanux (https://github.com/fanux)
+    description: Cloud OS distribution with Kubernetes as kernel
+    license: Apach
