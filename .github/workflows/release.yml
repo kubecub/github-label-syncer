@@ -68,9 +68,9 @@ jobs:
       - uses: actions/cache@88522ab9f39a2ea568f7027eddc7d8d8bc9d59c8 # v3
         with:
           path: |
-            ./dist/*.deb
-            ./dist/*.rpm
-            ./dist/*.apk
+            ./_output/dist/*.deb
+            ./_output/dist/*.rpm
+            ./_output/dist/*.apk
           key: ${{ github.ref }}
       - uses: sigstore/cosign-installer@v3.1.1
       - uses: anchore/sbom-action/download-syft@v0.14.3
