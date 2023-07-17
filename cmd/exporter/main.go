@@ -48,7 +48,6 @@ var (
 )
 
 func main() {
-
 	exporters := exporter.Labels{}
 	// var exporters exporter.LabelsToObject
 	if buildInfo, available := debug.ReadBuildInfo(); available {
@@ -77,7 +76,7 @@ func main() {
 			log.Fatal(err)
 		}
 		if *file != "" {
-			err = os.WriteFile(*file, b, 0644)
+			err = os.WriteFile(*file, b, 0o644)
 			if err != nil {
 				log.Fatal(err)
 			}
@@ -94,7 +93,7 @@ func main() {
 			log.Fatal(err)
 		}
 		if *file != "" {
-			err = os.WriteFile(*file, b, 0644)
+			err = os.WriteFile(*file, b, 0o644)
 			if err != nil {
 				log.Fatal(err)
 			}
@@ -111,7 +110,7 @@ func main() {
 			log.Fatal(err)
 		}
 		if *file != "" {
-			err = os.WriteFile(*file, b, 0644)
+			err = os.WriteFile(*file, b, 0o644)
 			if err != nil {
 				log.Fatal(err)
 			}
@@ -128,7 +127,7 @@ func main() {
 			log.Fatal(err)
 		}
 		if *file != "" {
-			err = os.WriteFile(*file, b, 0644)
+			err = os.WriteFile(*file, b, 0o644)
 			if err != nil {
 				log.Fatal(err)
 			}
@@ -165,5 +164,4 @@ func main() {
 		fmt.Println(string(b))
 		return
 	}
-
 }

@@ -20,7 +20,6 @@ type Client struct {
 	token        string
 }
 
-//
 type Label struct {
 	// The name of the label.
 	Name string `json:"name"`

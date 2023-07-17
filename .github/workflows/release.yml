@@ -1,19 +1,27 @@
+# Copyright © 2023 KubeCub open source community. All rights reserved.
+# Licensed under the MIT License (the "License");
+# you may not use this file except in compliance with the License.
+
 name: github labels syncer release
 
 on:
   push:
-    # run only against tags
+    branches:
+      - 'main'
     tags:
-      - '*'
+      - 'v*'
 
 permissions:
   contents: write
   packages: write
   issues: write
+  id-token: write
 
 jobs:
   goreleaser:
     runs-on: ubuntu-latest
+    env:
+      DOCKER_CLI_EXPERIMENTAL: "enabled"
     steps:
       - uses: actions/checkout@v3
         with:
