@@ -1,15 +1,24 @@
-FROM golang:1.20-alpine
-# docker build -t exporter:1.0 -f ./Dockerfile.exporter .
+# 构建阶段1：构建二进制文件
+FROM golang:1.20 as builder
+
+# 设置工作目录
 WORKDIR /app
 
-COPY . .
+# 复制项目文件到容器中
+COPY cmd/exporter/main.go go.mod go.sum /app/
 
-RUN apk update && apk add make
+# 构建二进制文件
+RUN CGO_ENABLED=0 GOOS=linux go build -o exporter main.go
 
-RUN make exporter
 
+# 构建阶段2：生成最终镜像
 FROM alpine:latest
 
-COPY --from=0 /app/_output/bin/platforms/linux/amd64/exporter /app/exporter
+# 设置工作目录
+WORKDIR /app
 
-ENTRYPOINT ["/app/exporter"]
+# 从构建阶段1中复制二进制文件到容器中
+COPY --from=builder /app/exporter /app/exporter
+
+# 运行二进制文件
+CMD ["/app/exporter --help"]
