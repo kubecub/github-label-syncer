@@ -1,4 +1,4 @@
-_output/
+<!-- _output/
 cmd/exporter/dist/
 cmd/syncer/dist/
 configs/
@@ -17,4 +17,4 @@ Dockerfile
 LICENSE
 Makefile
 README.md
-README_zh-CN.md
+README_zh-CN.md -->

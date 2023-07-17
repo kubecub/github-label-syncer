@@ -1,24 +1,23 @@
-# 构建阶段1：构建二进制文件
-FROM golang:1.20 as builder
+# 设置基础镜像
+FROM golang AS builder
 
 # 设置工作目录
 WORKDIR /app
 
-# 复制项目文件到容器中
-COPY cmd/exporter/main.go go.mod go.sum /app/
+ENV GOPROXY=https://goproxy.cn
 
-# 构建二进制文件
-RUN CGO_ENABLED=0 GOOS=linux go build -o exporter main.go
+# 将当前目录的所有文件复制到工作目录
+COPY . .
 
+# 构建 Go 程序
+RUN go build -o exporter cmd/exporter/main.go
+RUN go get -d -v ./...
 
-# 构建阶段2：生成最终镜像
-FROM alpine:latest
+# 第二阶段
+FROM scratch
 
-# 设置工作目录
-WORKDIR /app
+# 从构建阶段复制二进制文件
+COPY --from=builder /app/exporter /
 
-# 从构建阶段1中复制二进制文件到容器中
-COPY --from=builder /app/exporter /app/exporter
-
-# 运行二进制文件
-CMD ["/app/exporter --help"]
+# 设置容器启动命令
+CMD ["/exporter"]
