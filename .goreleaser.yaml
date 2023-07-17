@@ -120,6 +120,7 @@ nfpms:
     recommends:
       - golang
 
+# semantization
 snapcrafts:
   - name_template: "{{ .ProjectName }}_{{ .Arch }}{{ if .Arm }}v{{ .Arm }}{{ end }}"
     summary: sync labels
@@ -132,6 +133,84 @@ snapcrafts:
 sboms:
   - artifacts: archive
 
+signs:
+  - artifacts: checksum
+
 checksum:
   name_template: "{{ .ProjectName }}_checksums.txt"
   algorithm: sha256
+
+dockers:
+  - use: buildx
+    ids:
+      - syncer
+    goos: linux
+    goarch: amd64
+    image_templates:
+      - ghcr.io/{{ .Env.USERNAME }}/syncer:{{ .Tag }}-amd64
+    dockerfile: docker/syncer/Dockerfile.release
+    build_flag_templates:
+      - --pull
+      - --platform=linux/amd64
+      - --label=io.sealos.image.created={{.Date}}
+      - --label=io.sealos.image.title=syncer
+      - --label=io.sealos.image.revision={{.ShortCommit}}
+      - --label=io.sealos.image.version={{.Tag }}
+      - --label=io.sealos.image.auth={{ .Env.USERNAME }}
+  - use: buildx
+    ids:
+      - syncer
+    goos: linux
+    goarch: arm64
+    image_templates:
+      - ghcr.io/{{ .Env.USERNAME }}/syncer:{{ .Tag }}-arm64
+    dockerfile: docker/syncer/Dockerfile.release
+    build_flag_templates:
+      - --pull
+      - --platform=linux/arm64
+      - --label=io.sealos.image.created={{.Date}}
+      - --label=io.sealos.image.title=lvscare
+      - --label=io.sealos.image.revision={{.ShortCommit}}
+      - --label=io.sealos.image.version={{.Tag }}
+      - --label=io.sealos.image.auth={{ .Env.USERNAME }}
+  - use: buildx
+    ids:
+      - sealos
+    goos: linux
+    goarch: amd64
+    image_templates:
+      - ghcr.io/{{ .Env.USERNAME }}/sealos:{{ .Tag }}-amd64
+    dockerfile: docker/sealos/Dockerfile.release
+    build_flag_templates:
+      - --pull
+      - --platform=linux/amd64
+      - --label=io.sealos.image.created={{.Date}}
+      - --label=io.sealos.image.title=sealos
+      - --label=io.sealos.image.revision={{.ShortCommit}}
+      - --label=io.sealos.image.version={{.Tag }}
+      - --label=io.sealos.image.auth={{ .Env.USERNAME }}
+  - use: buildx
+    ids:
+      - sealos
+    goos: linux
+    goarch: arm64
+    image_templates:
+      - ghcr.io/{{ .Env.USERNAME }}/sealos:{{ .Tag }}-arm64
+    dockerfile: docker/sealos/Dockerfile.release
+    build_flag_templates:
+      - --pull
+      - --platform=linux/arm64
+      - --label=io.sealos.image.created={{.Date}}
+      - --label=io.sealos.image.title=sealos
+      - --label=io.sealos.image.revision={{.ShortCommit}}
+      - --label=io.sealos.image.version={{.Tag }}
+      - --label=io.sealos.image.auth={{ .Env.USERNAME }}
+docker_manifests:
+  - name_template: ghcr.io/{{ .Env.USERNAME }}/lvscare:{{ .Tag }}
+    image_templates:
+      - ghcr.io/{{ .Env.USERNAME }}/lvscare:{{ .Tag }}-amd64
+      - ghcr.io/{{ .Env.USERNAME }}/lvscare:{{ .Tag }}-arm64
+  - name_template: ghcr.io/{{ .Env.USERNAME }}/sealos:{{ .Tag }}
+    image_templates:
+      - ghcr.io/{{ .Env.USERNAME }}/sealos:{{ .Tag }}-amd64
+      - ghcr.io/{{ .Env.USERNAME }}/sealos:{{ .Tag }}-arm64
