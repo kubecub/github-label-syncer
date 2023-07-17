@@ -57,6 +57,9 @@ jobs:
 
       - name: Check out code into the Go module directory
         uses: actions/checkout@v2
+        with:
+            ref: ${{ github.head_ref }}
+            token: ${{ secrets.BOT_GITHUB_TOKEN }}
 
       - name: Run go modules tidy
         run: |

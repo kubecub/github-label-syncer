@@ -130,11 +130,11 @@ nfpms:
 #     confinement: classic
 #     publish: true
 
-sboms:
-  - artifacts: archive
+# sboms:
+  # - artifacts: archive
 
-signs:
-  - artifacts: checksum
+# signs:
+  # - artifacts: checksum
 
 checksum:
   name_template: "{{ .ProjectName }}_checksums.txt"
