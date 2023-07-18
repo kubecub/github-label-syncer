@@ -1,0 +1,14 @@
+# 设置基础镜像
+FROM golang 
+
+# 设置工作目录
+WORKDIR /app
+
+ENV GOPROXY=https://goproxy.cn
+
+COPY . /app/
+
+RUN make build
+
+# 设置容器启动命令
+CMD ["/app/_output/bin/platforms/linux/amd64/exporter --help"]

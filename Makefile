@@ -277,6 +277,10 @@ copyright-add: tools.verify.addlicense
 	@$(TOOLS_DIR)/addlicense -y $(shell date +"%Y") -v -c "KubeCub open source community." -f $(LICENSE_TEMPLATE) $(CODE_DIRS)
 	@echo "===========> End the copyright is added..."
 
+## tools: Install a must tools
+.PHONY: tools
+tools: $(addprefix tools.verify., $(BUILD_TOOLS))
+
 ## clean: Clean all builds.
 .PHONY: clean
 clean:
@@ -302,40 +306,43 @@ tools.verify.%:
 	@if [ ! -f $(TOOLS_DIR)/$* ]; then GOBIN=$(TOOLS_DIR) $(MAKE) tools.install.$*; fi
 	@echo "===========> $* is install in $(TOOLS_DIR)/$*"
 
-# tools: Install a must tools
-.PHONY: tools
-tools: $(addprefix tools.verify., $(BUILD_TOOLS))
-
-# tools.install.%: Install a single tool in $GOBIN/
+## tools.install.%: Install a single tool in $GOBIN/
 .PHONY: tools.install.%
 tools.install.%:
 	@echo "===========> Installing $,The default installation path is $(GOBIN)/$*"
 	@$(MAKE) install.$*
 
+## install: Install all tools
 .PHONY: install.golangci-lint
 install.golangci-lint:
 	@$(GO) install github.com/golangci/golangci-lint/cmd/golangci-lint@latest
 
+## install.goimports: Install goimports, used to format go source files
 .PHONY: install.goimports
 install.goimports:
 	@$(GO) install golang.org/x/tools/cmd/goimports@latest
 
+## install.addlicense: Install addlicense, used to add license header to source files
 .PHONY: install.addlicense
 install.addlicense:
 	@$(GO) install github.com/google/addlicense@latest
 
+## install.deepcopy-gen: Install deepcopy-gen, used to generate deepcopy functions
 .PHONY: install.deepcopy-gen
 install.deepcopy-gen:
 	@$(GO) install k8s.io/code-generator/cmd/deepcopy-gen@latest
 
+## install.conversion-gen: Install conversion-gen, used to generate conversion functions
 .PHONY: install.conversion-gen
 install.conversion-gen:
 	@$(GO) install k8s.io/code-generator/cmd/conversion-gen@latest
 
+## install.ginkgo: Install ginkgo, used to run go tests
 .PHONY: install.ginkgo
 install.ginkgo:
 	@$(GO) install github.com/onsi/ginkgo/ginkgo@v1.16.2
 
+## install.go-junit-report: Install go-junit-report, used to generate junit report
 .PHONY: install.go-gitlint
 # wget -P _output/tools/ https://openim-1306374445.cos.ap-guangzhou.myqcloud.com/openim/tools/go-gitlint
 # go install github.com/antham/go-gitlint/cmd/gitlint@latest
@@ -343,6 +350,7 @@ install.go-gitlint:
 	@wget -q https://openim-1306374445.cos.ap-guangzhou.myqcloud.com/openim/tools/go-gitlint -O ${TOOLS_DIR}/go-gitlint
 	@chmod +x ${TOOLS_DIR}/go-gitlint
 
+## install.go-junit-report: Install go-junit-report, used to generate junit report
 .PHONY: install.go-junit-report
 install.go-junit-report:
 	@$(GO) install github.com/jstemmer/go-junit-report@latest
@@ -445,6 +453,11 @@ install.cfssl:
 .PHONY: install.depth
 install.depth:
 	@$(GO) install github.com/KyleBanks/depth/cmd/depth@latest
+
+## install.ko: Install ko, used to build go program into container images
+.PHONY: install.ko
+install.ko:
+	@$(GO) install github.com/google/ko@latest
 
 ## install.go-callvis: Install go-callvis, used to visualize call graph
 .PHONY: install.go-callvis

@@ -58,9 +58,20 @@ The labels are designed semantic and standard. We provide labels for priority, t
 **github actions
 
 
+
 ## 🛫 Quick start
 
 > **Note**: You can get started quickly with github-label-syncer.
+
+### 📦 Installation
+
+```bash
+git clone https://github.com/kubecub/github-label-syncer/release syncer && export syncer=$(pwd)/syncer && cd $syncer && make
+```
+
+**Install from github release**
+
+Install from [GitHub Releases](https://github.com/kubecub/github-label-syncer/release)
 
 
 #### Work with Makefile

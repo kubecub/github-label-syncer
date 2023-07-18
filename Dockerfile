@@ -6,10 +6,12 @@ FROM golang AS build
 ENV GOPROXY=https://goproxy.cn
 
 WORKDIR /go/src/app
+
 COPY . /go/src/app
+
 # RUN go build -o /go/bin/app cmd/exporter/main.go
-RUN go build -o /go/bin/app cmd/syncer/main.go
+RUN make build
 
 FROM alpine
-COPY --from=build /go/bin/app /
+COPY --from=build /go/bin/app/_output /
 CMD ["/app"]
