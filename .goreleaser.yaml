@@ -194,11 +194,27 @@ changelog:
 
 
 kos:
-  - repository: ghcr.io/kubecub/github-label-syncer
+  - repository: ghcr.io/kubecub/syncer
+    id: syncer
     tags:
     - '{{.Version}}'
     - latest
     bare: true
+    main: ./cmd/syncer/main.go
+    preserve_import_paths: false
+    base_image: alpine
+    platforms:
+    - linux/amd64
+    - linux/arm64
+
+  - repository: ghcr.io/kubecub/exporter
+    id: exporter
+    tags:
+    - '{{.Version}}'
+    - latest
+    bare: true
+    main: ./cmd/exporter/main.go
+    base_image: alpine
     preserve_import_paths: false
     platforms:
     - linux/amd64
@@ -224,6 +240,19 @@ milestones:
     #
     # Default: '{{ .Tag }}'
     name_template: "Current Release"
+
+publishers:
+  - name: "fury.io"
+    ids:
+      - packages
+    dir: "{{ dir .ArtifactPath }}"
+    cmd: |
+      bash -c '
+      if [[ "{{ .Tag }}" =~ ^v[0-9]+\.[0-9]+\.[0-9]+$ ]]; then
+        curl -F package=@{{ .ArtifactName }} https://{{ .Env.FURY_TOKEN }}@push.fury.io/{{ .Env.USERNAME }}/
+      else
+        echo "Skipping deployment: Non-production release detected"
+      fi'
 
 checksum:
   name_template: "{{ .ProjectName }}_checksums.txt"
@@ -314,3 +343,21 @@ docker_signs:
       - "sign"
       - "${artifact}@${digest}"
       - --yes
+
+release:
+  footer: |
+    **Full Changelog**: https://github.com/kubecub/goreleaser/compare/{{ .PreviousTag }}...{{ .Tag }}
+
+    ## Helping out
+
+    This release is only possible thanks to **all** the support of some **awesome people**!
+
+    Want to be one of them?
+    You can [sponsor](https://goreleaser.com/sponsors/), get a [Pro License](https://goreleaser.com/pro) or [contribute with code](https://goreleaser.com/contributing).
+
+    ## Where to go next?
+
+    * Find examples and commented usage of all options in our [website](https://goreleaser.com/intro/).
+    * Reach out on [Discord](https://discord.gg/RGEBtg8vQ6) and [Twitter](https://twitter.com/goreleaser)!
+
+    <a href="https://goreleaser.com"><img src="https://raw.githubusercontent.com/goreleaser/artwork/master/opencollective-header.png" with="100%" alt="GoReleaser logo"></a>
