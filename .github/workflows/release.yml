@@ -93,7 +93,6 @@ jobs:
           path: |
             ./_output/dist/*.deb
             ./_output/dist/*.rpm
-            ./_output/dist/*.apk
           key: ${{ github.ref }}
       - uses: sigstore/cosign-installer@v3.1.1
       - uses: anchore/sbom-action/download-syft@v0.14.3
@@ -122,16 +121,5 @@ jobs:
       - name: goreleaser-release
         env:
           GITHUB_TOKEN: ${{ secrets.BOT_GITHUB_TOKEN }}
-          TWITTER_CONSUMER_KEY: ${{ secrets.TWITTER_CONSUMER_KEY }}
-          TWITTER_CONSUMER_SECRET: ${{ secrets.TWITTER_CONSUMER_SECRET }}
-          TWITTER_ACCESS_TOKEN: ${{ secrets.TWITTER_ACCESS_TOKEN }}
-          TWITTER_ACCESS_TOKEN_SECRET: ${{ secrets.TWITTER_ACCESS_TOKEN_SECRET }}
-          MASTODON_CLIENT_ID: ${{ secrets.MASTODON_CLIENT_ID }}
-          MASTODON_CLIENT_SECRET: ${{ secrets.MASTODON_CLIENT_SECRET }}
-          MASTODON_ACCESS_TOKEN: ${{ secrets.MASTODON_ACCESS_TOKEN }}
-          COSIGN_PWD: ${{ secrets.COSIGN_PWD }}
           FURY_TOKEN: ${{ secrets.FURY_TOKEN }}
-          DISCORD_WEBHOOK_ID: ${{ secrets.DISCORD_WEBHOOK_ID }}
-          DISCORD_WEBHOOK_TOKEN: ${{ secrets.DISCORD_WEBHOOK_TOKEN }}
-          AUR_KEY: ${{ secrets.AUR_KEY }}
         run: task goreleaser
