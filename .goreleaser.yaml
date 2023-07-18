@@ -204,6 +204,27 @@ changelog:
 #     - linux/amd64
 #     - linux/arm64
 
+# .goreleaser.yaml
+milestones:
+  # You can have multiple milestone configs
+  -
+    # Repository for the milestone
+    # Default is extracted from the origin remote URL
+    repo:
+      owner: user
+      name: repo
+
+    # Whether to close the milestone
+    close: true
+
+    # Fail release on errors, such as missing milestone.
+    fail_on_error: false
+
+    # Name of the milestone
+    #
+    # Default: '{{ .Tag }}'
+    name_template: "Current Release"
+
 checksum:
   name_template: "{{ .ProjectName }}_checksums.txt"
   algorithm: sha256

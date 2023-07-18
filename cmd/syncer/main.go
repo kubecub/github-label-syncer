@@ -14,7 +14,7 @@ import (
 
 	"github.com/joho/godotenv"
 	"github.com/kubecub/github-label-syncer/pkg/github"
-	"go.uber.org/multierr"
+	// "go.uber.org/multierr"
 )
 
 func main() {
@@ -69,12 +69,12 @@ func run(ctx context.Context) error {
 
 		s := strings.Split(r, "/")
 		if len(s) != 2 {
-			err = multierr.Append(err, fmt.Errorf("invalid repository: %s", repository))
+			// err = multierr.Append(err, fmt.Errorf("invalid repository: %s", repository))
 		}
 		owner, repo := s[0], s[1]
 
 		if err := client.SyncLabels(ctx, owner, repo, labels, prune); err != nil {
-			err = multierr.Append(err, fmt.Errorf("unable to sync labels: %w", err))
+			// err = multierr.Append(err, fmt.Errorf("unable to sync labels: %w", err))
 		}
 	}
 
