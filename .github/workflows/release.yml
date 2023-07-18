@@ -2,7 +2,7 @@
 # Licensed under the MIT License (the "License");
 # you may not use this file except in compliance with the License.
 
-name: github labels syncer release
+name: Github labels syncer release
 
 on:
   push:

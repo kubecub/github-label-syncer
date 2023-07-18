@@ -179,19 +179,28 @@ changelog:
 # sboms:
   # - artifacts: archive
 
-# signs:
-  # - artifacts: checksum
+signs:
+- cmd: cosign
+  stdin: '{{ .Env.COSIGN_PWD }}'
+  args:
+  - "sign-blob"
+  - "--key=cosign.key"
+  - "--output-signature=${signature}"
+  - "${artifact}"
+  - "--yes" # needed on cosign 2.0.0+
+  artifacts: all
 
-kos:
-  - repository: ghcr.io/kubecub/github-label-syncer
-    tags:
-    - '{{.Version}}'
-    - latest
-    bare: true
-    preserve_import_paths: false
-    platforms:
-    - linux/amd64
-    - linux/arm64
+
+# kos:
+#   - repository: ghcr.io/kubecub/github-label-syncer
+#     tags:
+#     - '{{.Version}}'
+#     - latest
+#     bare: true
+#     preserve_import_paths: false
+#     platforms:
+#     - linux/amd64
+#     - linux/arm64
 
 checksum:
   name_template: "{{ .ProjectName }}_checksums.txt"
