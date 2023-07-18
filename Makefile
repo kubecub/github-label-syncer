@@ -402,6 +402,11 @@ install.coscli:
 install.coscmd:
 	@if which pip &>/dev/null; then pip install coscmd; else pip3 install coscmd; fi
 
+## install.minio: Install minio, used to upload files to minio
+.PHONY: install.minio
+install.minio:
+	@$(GO) install github.com/minio/minio@latest
+
 ## install.delve: Install delve, used to debug go program
 .PHONY: install.delve
 install.delve:

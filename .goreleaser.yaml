@@ -190,6 +190,8 @@ changelog:
 #   - "--yes" # needed on cosign 2.0.0+
 #   artifacts: all
 
+docker_signs:
+
 
 # kos:
 #   - repository: ghcr.io/kubecub/github-label-syncer
