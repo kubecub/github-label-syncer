@@ -193,16 +193,16 @@ changelog:
 # docker_signs:
 
 
-# kos:
-#   - repository: ghcr.io/kubecub/github-label-syncer
-#     tags:
-#     - '{{.Version}}'
-#     - latest
-#     bare: true
-#     preserve_import_paths: false
-#     platforms:
-#     - linux/amd64
-#     - linux/arm64
+kos:
+  - repository: ghcr.io/kubecub/github-label-syncer
+    tags:
+    - '{{.Version}}'
+    - latest
+    bare: true
+    preserve_import_paths: false
+    platforms:
+    - linux/amd64
+    - linux/arm64
 
 # .goreleaser.yaml
 milestones:
