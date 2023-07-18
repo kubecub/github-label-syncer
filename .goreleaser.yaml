@@ -179,16 +179,16 @@ changelog:
 # sboms:
   # - artifacts: archive
 
-signs:
-- cmd: cosign
-  stdin: '{{ .Env.COSIGN_PWD }}'
-  args:
-  - "sign-blob"
-  - "--key=cosign.key"
-  - "--output-signature=${signature}"
-  - "${artifact}"
-  - "--yes" # needed on cosign 2.0.0+
-  artifacts: all
+# signs:
+# - cmd: cosign
+#   stdin: '{{ .Env.COSIGN_PWD }}'
+#   args:
+#   - "sign-blob"
+#   - "--key=cosign.key"
+#   - "--output-signature=${signature}"
+#   - "${artifact}"
+#   - "--yes" # needed on cosign 2.0.0+
+#   artifacts: all
 
 
 # kos:
@@ -282,3 +282,12 @@ docker_manifests:
     image_templates:
       - ghcr.io/{{ .Env.USERNAME }}/syncer:{{ .Tag }}-amd64
       - ghcr.io/{{ .Env.USERNAME }}/syncer:{{ .Tag }}-arm64
+
+docker_signs:
+  - cmd: cosign
+    artifacts: manifests
+    output: true
+    args:
+      - "sign"
+      - "${artifact}@${digest}"
+      - --yes
