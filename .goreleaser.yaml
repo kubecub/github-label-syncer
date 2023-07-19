@@ -77,8 +77,6 @@ archives:
       - README.md
       - CHANGELOG/*
       - docs/*
-      - src: "*.md"
-        dst: docs
       # a more complete example, check the globbing deep dive below
       - src: "*.md"
         dst: docs

@@ -1,0 +1,34 @@
+# .dockerignore
+
+### Backup ###
+*.bak
+*.gho
+*.ori
+*.orig
+*.tmp
+
+# ...
+# （省略其他内容）
+
+# log
+*.log
+
+# Output of backend and frontend
+/_output
+/_debug
+
+# Misc
+.DS_Store
+# *.env
+# .env
+dist
+
+# files used by the developer
+.idea.md
+.todo.md
+.note.md
+
+.idea/
+
+# config files, may contain sensitive information
+dist/
