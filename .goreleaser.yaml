@@ -273,22 +273,7 @@ dockers:
       - --label=io.syncer.image.revision={{.ShortCommit}}
       - --label=io.syncer.image.version={{.Tag }}
       - --label=io.syncer.image.auth={{ .Env.USERNAME }}
-  - use: buildx
-    ids:
-      - exporter
-    goos: linux
-    goarch: amd64
-    image_templates:
-      - ghcr.io/{{ .Env.USERNAME }}/exporter:{{ .Tag }}-amd64
-    dockerfile: deploy/exporter/Dockerfile.exporter
-    build_flag_templates:
-      - --pull
-      - --platform=linux/amd64
-      - --label=io.exporter.image.created={{.Date}}
-      - --label=io.exporter.image.title=exporter
-      - --label=io.exporter.image.revision={{.ShortCommit}}
-      - --label=io.exporter.image.version={{.Tag }}
-      - --label=io.exporter.image.auth={{ .Env.USERNAME }}
+
   - use: buildx
     ids:
       - syncer
@@ -305,6 +290,24 @@ dockers:
       - --label=io.syncer.image.revision={{.ShortCommit}}
       - --label=io.syncer.image.version={{.Tag }}
       - --label=io.syncer.image.auth={{ .Env.USERNAME }}
+
+  - use: buildx
+    ids:
+      - exporter
+    goos: linux
+    goarch: amd64
+    image_templates:
+      - ghcr.io/{{ .Env.USERNAME }}/exporter:{{ .Tag }}-amd64
+    dockerfile: deploy/exporter/Dockerfile.exporter
+    build_flag_templates:
+      - --pull
+      - --platform=linux/amd64
+      - --label=io.exporter.image.created={{.Date}}
+      - --label=io.exporter.image.title=exporter
+      - --label=io.exporter.image.revision={{.ShortCommit}}
+      - --label=io.exporter.image.version={{.Tag }}
+      - --label=io.exporter.image.auth={{ .Env.USERNAME }}
+
   - use: buildx
     ids:
       - exporter
@@ -329,6 +332,15 @@ docker_manifests:
       - ghcr.io/{{ .Env.USERNAME }}/exporter:{{ .Tag }}-amd64
       - ghcr.io/{{ .Env.USERNAME }}/exporter:{{ .Tag }}-arm64
   - name_template: ghcr.io/{{ .Env.USERNAME }}/syncer:{{ .Tag }}
+    image_templates:
+      - ghcr.io/{{ .Env.USERNAME }}/syncer:{{ .Tag }}-amd64
+      - ghcr.io/{{ .Env.USERNAME }}/syncer:{{ .Tag }}-arm64
+
+  - name_template: ghcr.io/{{ .Env.USERNAME }}/exporter:latest
+    image_templates:
+      - ghcr.io/{{ .Env.USERNAME }}/exporter:{{ .Tag }}-amd64
+      - ghcr.io/{{ .Env.USERNAME }}/exporter:{{ .Tag }}-arm64
+  - name_template: ghcr.io/{{ .Env.USERNAME }}/syncer:latest
     image_templates:
       - ghcr.io/{{ .Env.USERNAME }}/syncer:{{ .Tag }}-amd64
       - ghcr.io/{{ .Env.USERNAME }}/syncer:{{ .Tag }}-arm64
