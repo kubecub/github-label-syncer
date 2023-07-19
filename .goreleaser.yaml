@@ -256,74 +256,74 @@ checksum:
   name_template: "{{ .ProjectName }}_checksums.txt"
   algorithm: sha256
 
-dockers:
-  - use: buildx
-    ids:
-      - syncer
-    goos: linux
-    goarch: amd64
-    image_templates:
-      - ghcr.io/{{ .Env.USERNAME }}/syncer:{{ .Tag }}-amd64
-    dockerfile: deploy/syncer/Dockerfile.syncer
-    build_flag_templates:
-      - --pull
-      - --platform=linux/amd64
-      - --label=io.syncer.image.created={{.Date}}
-      - --label=io.syncer.image.title=syncer
-      - --label=io.syncer.image.revision={{.ShortCommit}}
-      - --label=io.syncer.image.version={{.Tag }}
-      - --label=io.syncer.image.auth={{ .Env.USERNAME }}
+# dockers:
+#   - use: buildx
+#     ids:
+#       - syncer
+#     goos: linux
+#     goarch: amd64
+#     image_templates:
+#       - ghcr.io/{{ .Env.USERNAME }}/syncer:{{ .Tag }}-amd64
+#     dockerfile: deploy/syncer/Dockerfile.syncer
+#     build_flag_templates:
+#       - --pull
+#       - --platform=linux/amd64
+#       - --label=io.syncer.image.created={{.Date}}
+#       - --label=io.syncer.image.title=syncer
+#       - --label=io.syncer.image.revision={{.ShortCommit}}
+#       - --label=io.syncer.image.version={{.Tag }}
+#       - --label=io.syncer.image.auth={{ .Env.USERNAME }}
 
-  - use: buildx
-    ids:
-      - syncer
-    goos: linux
-    goarch: arm64
-    image_templates:
-      - ghcr.io/{{ .Env.USERNAME }}/syncer:{{ .Tag }}-amd64
-    dockerfile: docker/syncer/Dockerfile.syncer
-    build_flag_templates:
-      - --pull
-      - --platform=linux/amd64
-      - --label=io.syncer.image.created={{.Date}}
-      - --label=io.syncer.image.title=syncer
-      - --label=io.syncer.image.revision={{.ShortCommit}}
-      - --label=io.syncer.image.version={{.Tag }}
-      - --label=io.syncer.image.auth={{ .Env.USERNAME }}
+#   - use: buildx
+#     ids:
+#       - syncer
+#     goos: linux
+#     goarch: arm64
+#     image_templates:
+#       - ghcr.io/{{ .Env.USERNAME }}/syncer:{{ .Tag }}-amd64
+#     dockerfile: docker/syncer/Dockerfile.syncer
+#     build_flag_templates:
+#       - --pull
+#       - --platform=linux/amd64
+#       - --label=io.syncer.image.created={{.Date}}
+#       - --label=io.syncer.image.title=syncer
+#       - --label=io.syncer.image.revision={{.ShortCommit}}
+#       - --label=io.syncer.image.version={{.Tag }}
+#       - --label=io.syncer.image.auth={{ .Env.USERNAME }}
 
-  - use: buildx
-    ids:
-      - exporter
-    goos: linux
-    goarch: amd64
-    image_templates:
-      - ghcr.io/{{ .Env.USERNAME }}/exporter:{{ .Tag }}-amd64
-    dockerfile: deploy/exporter/Dockerfile.exporter
-    build_flag_templates:
-      - --pull
-      - --platform=linux/amd64
-      - --label=io.exporter.image.created={{.Date}}
-      - --label=io.exporter.image.title=exporter
-      - --label=io.exporter.image.revision={{.ShortCommit}}
-      - --label=io.exporter.image.version={{.Tag }}
-      - --label=io.exporter.image.auth={{ .Env.USERNAME }}
+#   - use: buildx
+#     ids:
+#       - exporter
+#     goos: linux
+#     goarch: amd64
+#     image_templates:
+#       - ghcr.io/{{ .Env.USERNAME }}/exporter:{{ .Tag }}-amd64
+#     dockerfile: deploy/exporter/Dockerfile.exporter
+#     build_flag_templates:
+#       - --pull
+#       - --platform=linux/amd64
+#       - --label=io.exporter.image.created={{.Date}}
+#       - --label=io.exporter.image.title=exporter
+#       - --label=io.exporter.image.revision={{.ShortCommit}}
+#       - --label=io.exporter.image.version={{.Tag }}
+#       - --label=io.exporter.image.auth={{ .Env.USERNAME }}
 
-  - use: buildx
-    ids:
-      - exporter
-    goos: linux
-    goarch: arm64
-    image_templates:
-      - ghcr.io/{{ .Env.USERNAME }}/exporter:{{ .Tag }}-arm64
-    dockerfile: docker/exporter/Dockerfile.exporter
-    build_flag_templates:
-      - --pull
-      - --platform=linux/arm64
-      - --label=io.exporter.image.created={{.Date}}
-      - --label=io.exporter.image.title=exporter
-      - --label=io.exporter.image.revision={{.ShortCommit}}
-      - --label=io.exporter.image.version={{.Tag }}
-      - --label=io.exporter.image.auth={{ .Env.USERNAME }}
+#   - use: buildx
+#     ids:
+#       - exporter
+#     goos: linux
+#     goarch: arm64
+#     image_templates:
+#       - ghcr.io/{{ .Env.USERNAME }}/exporter:{{ .Tag }}-arm64
+#     dockerfile: docker/exporter/Dockerfile.exporter
+#     build_flag_templates:
+#       - --pull
+#       - --platform=linux/arm64
+#       - --label=io.exporter.image.created={{.Date}}
+#       - --label=io.exporter.image.title=exporter
+#       - --label=io.exporter.image.revision={{.ShortCommit}}
+#       - --label=io.exporter.image.version={{.Tag }}
+#       - --label=io.exporter.image.auth={{ .Env.USERNAME }}
 
 
 docker_manifests:
@@ -345,14 +345,14 @@ docker_manifests:
       - ghcr.io/{{ .Env.USERNAME }}/syncer:{{ .Tag }}-amd64
       - ghcr.io/{{ .Env.USERNAME }}/syncer:{{ .Tag }}-arm64
 
-docker_signs:
-  - cmd: cosign
-    artifacts: manifests
-    output: true
-    args:
-      - "sign"
-      - "${artifact}@${digest}"
-      - --yes
+# docker_signs:
+#   - cmd: cosign
+#     artifacts: manifests
+#     output: true
+#     args:
+#       - "sign"
+#       - "${artifact}@${digest}"
+#       - --yes
 
 release:
   footer: |
