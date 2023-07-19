@@ -1,5 +1,5 @@
 # 设置基础镜像
-FROM golang 
+FROM golang AS builder
 
 # 设置工作目录
 WORKDIR /app
@@ -10,5 +10,6 @@ COPY . /app/
 
 RUN go build -o /app/_output/bin/syncer /app/cmd/syncer/main.go
 
-# 设置容器启动命令
-CMD ["/app/_output/bin/syncer --help"]
+FROM scratch
+COPY --from=builder /app/_output/bin/syncer /app
+ENTRYPOINT ["/app/syncer --help"]
