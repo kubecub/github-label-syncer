@@ -326,24 +326,24 @@ checksum:
 #       - --label=io.exporter.image.auth={{ .Env.USERNAME }}
 
 
-docker_manifests:
-  - name_template: ghcr.io/{{ .Env.USERNAME }}/exporter:{{ .Tag }}
-    image_templates:
-      - ghcr.io/{{ .Env.USERNAME }}/exporter:{{ .Tag }}-amd64
-      - ghcr.io/{{ .Env.USERNAME }}/exporter:{{ .Tag }}-arm64
-  - name_template: ghcr.io/{{ .Env.USERNAME }}/syncer:{{ .Tag }}
-    image_templates:
-      - ghcr.io/{{ .Env.USERNAME }}/syncer:{{ .Tag }}-amd64
-      - ghcr.io/{{ .Env.USERNAME }}/syncer:{{ .Tag }}-arm64
+# docker_manifests:
+#   - name_template: ghcr.io/{{ .Env.USERNAME }}/exporter:{{ .Tag }}
+#     image_templates:
+#       - ghcr.io/{{ .Env.USERNAME }}/exporter:{{ .Tag }}-amd64
+#       - ghcr.io/{{ .Env.USERNAME }}/exporter:{{ .Tag }}-arm64
+#   - name_template: ghcr.io/{{ .Env.USERNAME }}/syncer:{{ .Tag }}
+#     image_templates:
+#       - ghcr.io/{{ .Env.USERNAME }}/syncer:{{ .Tag }}-amd64
+#       - ghcr.io/{{ .Env.USERNAME }}/syncer:{{ .Tag }}-arm64
 
-  - name_template: ghcr.io/{{ .Env.USERNAME }}/exporter:latest
-    image_templates:
-      - ghcr.io/{{ .Env.USERNAME }}/exporter:{{ .Tag }}-amd64
-      - ghcr.io/{{ .Env.USERNAME }}/exporter:{{ .Tag }}-arm64
-  - name_template: ghcr.io/{{ .Env.USERNAME }}/syncer:latest
-    image_templates:
-      - ghcr.io/{{ .Env.USERNAME }}/syncer:{{ .Tag }}-amd64
-      - ghcr.io/{{ .Env.USERNAME }}/syncer:{{ .Tag }}-arm64
+#   - name_template: ghcr.io/{{ .Env.USERNAME }}/exporter:latest
+#     image_templates:
+#       - ghcr.io/{{ .Env.USERNAME }}/exporter:{{ .Tag }}-amd64
+#       - ghcr.io/{{ .Env.USERNAME }}/exporter:{{ .Tag }}-arm64
+#   - name_template: ghcr.io/{{ .Env.USERNAME }}/syncer:latest
+#     image_templates:
+#       - ghcr.io/{{ .Env.USERNAME }}/syncer:{{ .Tag }}-amd64
+#       - ghcr.io/{{ .Env.USERNAME }}/syncer:{{ .Tag }}-arm64
 
 # docker_signs:
 #   - cmd: cosign
