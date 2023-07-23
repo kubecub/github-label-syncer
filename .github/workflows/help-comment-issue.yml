@@ -18,7 +18,7 @@ jobs:
           gh issue edit ${{ github.event.issue.number }} --add-label "triage/accepted"
           gh issue comment $ISSUE --body "@${{ github.event.comment.user.login }}, this issue has been assigned to you. We are looking forward to your PR!"
         env:
-          GH_TOKEN: ${{ secrets.BOT_GITHUB_TOKEN }}
+          GH_TOKEN: ${{ secrets.REDBOT_GITHUB_TOKEN }}
           ISSUE: ${{ github.event.issue.html_url }}
           OWNER: ${{ github.repository_owner }}
           REPO: ${{ github.event.repository.name }}
