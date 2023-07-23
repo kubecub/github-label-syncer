@@ -5,14 +5,15 @@ on:
 
 jobs:
   assign-issue:
-    if: contains(github.event.comment.body, '/accept') || contains(github.event.comment.body, 'accept')
+    if: contains(github.event.comment.body, '/assign') || contains(github.event.comment.body, '/accept')
     runs-on: ubuntu-latest
     permissions:
       issues: write
     steps:
       - name: Assign the issue
         run: |
-          gh issue edit ${{ github.event.issue.number }} --assignee "${{ github.event.comment.user.login }}"
+          gh issue edit ${{ github.event.issue.number }} --add-assignee "${{ github.event.comment.user.login }}"
+          gh issue edit ${{ github.event.issue.number }} --add-label "triage/accepted"
         env:
           GH_TOKEN: ${{ secrets.BOT_GITHUB_TOKEN }}
 
