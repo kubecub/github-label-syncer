@@ -15,7 +15,7 @@ jobs:
 
       - name: Assign the issue
         run: |
-          echo "LETASE_MILESTONES=$(curl "https://api.github.com/repos/openimsdk/openkf/milestones" -H "Authorization: token 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" | jq -r 'last(.[]).title') >> $GITHUB_ENV
+          echo "LETASE_MILESTONES=$(curl "https://api.github.com/repos/$OWNER/$REPO/milestones" -H "Authorization: token $GH_TOKEN" | jq -r 'last(.[]).title') >> $GITHUB_ENV
           gh issue edit ${{ github.event.issue.number }} --add-assignee "${{ github.event.comment.user.login }}"
           gh issue edit ${{ github.event.issue.number }} --add-label "triage/accepted"
           gh issue edit ${{ github.event.issue.number }} --milestone "$LETASE_MILESTONES"
