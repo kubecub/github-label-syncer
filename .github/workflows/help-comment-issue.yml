@@ -11,13 +11,13 @@ jobs:
       issues: write
     steps:
       - name: Checkout code
-        uses: actions/checkout@v3
+        uses: actions/checkout@v2
 
       - name: Assign the issue
         run: |
           gh issue edit ${{ github.event.issue.number }} --add-assignee "${{ github.event.comment.user.login }}"
           gh issue edit ${{ github.event.issue.number }} --add-label "triage/accepted"
-          gh issue comment $ISSUE --body "@${{ github.event.comment.user.login }} Glad to see you accepted this issue🤲, this issue has been assigned to you.  We are looking forward to your PR!"
+          gh issue comment $ISSUE --body "@${{ github.event.comment.user.login }}, this issue has been assigned to you. We are looking forward to your PR!"
         env:
           GH_TOKEN: ${{ secrets.BOT_GITHUB_TOKEN }}
           ISSUE: ${{ github.event.issue.html_url }}
