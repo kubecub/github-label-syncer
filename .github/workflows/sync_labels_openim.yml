@@ -24,10 +24,15 @@ jobs:
             token: ${{ secrets.BOT_GITHUB_TOKEN }}
             repository: |
                 OpenIMSDK/Open-IM-Server
+                OpenIMSDK/OpenKF
+                OpenIMSDK/docs
+                OpenIMSDK/community
+                OpenIMSDK/openim-sdk-core
+                OpenIMSDK/chat
+                openim-sigs/cla
                 OpenIMSDK/Open-IM-SDK-iOS
                 OpenIMSDK/Open-IM-SDK-Android
                 OpenIMSDK/Open-IM-SDK-Flutter
-                OpenIMSDK/openim-sdk-core
                 OpenIMSDK/Open-IM-Uniapp-Demo
                 OpenIMSDK/Open-IM-iOS-Demo
                 OpenIMSDK/Open-IM-Android-Demo
@@ -49,9 +54,7 @@ jobs:
                 OpenIMSDK/Open-IM-SDK-Core-IndexDB-Doc
                 OpenIMSDK/rockscache
                 OpenIMSDK/Open-IM-Server-k8s-deploy
-                OpenIMSDK/community
                 OpenIMSDK/.github
                 OpenIMSDK/automation
-                OpenIMSDK/OpenKF
           env:
-            GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+            GITHUB_TOKEN: ${{ secrets.BOT_GITHUB_TOKEN }}
