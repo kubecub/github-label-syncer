@@ -1,25 +1,9 @@
-name: Good frist issue add comment
+name: Assign issue to comment author
 on:
-  issues:
-    types:
-      - labeled
-jobs:
-  add-comment:
-    if: github.event.label.name == 'help wanted' || github.event.label.name == 'good first issue'
-    runs-on: ubuntu-latest
-    permissions:
-      issues: write
-    steps:
-      - name: Add comment
-        uses: peter-evans/create-or-update-comment@v3
-        with:
-          issue-number: ${{ github.event.issue.number }}
-          token: ${{ secrets.BOT_GITHUB_TOKEN }}
-          body: |
-            This issue is available for anyone to work on. **Make sure to reference this issue in your pull request.** :sparkles: Thank you for your contribution! :sparkles:
-            [Join slack 🤖](https://join.slack.com/t/openimsdk/shared_invite/zt-1tmoj26uf-_FDy3dowVHBiGvLk9e5Xkg) to connect and communicate with our developers.
-            If you wish to accept this assignment, please leave a comment in the comments section: `/accept`.🎯
+  issue_comment:
+    types: [created]
 
+jobs:
   assign-issue:
     if: contains(github.event.comment.body, '/assign') || contains(github.event.comment.body, '/accept')
     runs-on: ubuntu-latest
@@ -35,7 +19,7 @@ jobs:
           gh issue edit ${{ github.event.issue.number }} --add-assignee "${{ github.event.comment.user.login }}"
           gh issue edit ${{ github.event.issue.number }} --add-label "triage/accepted"
           gh issue edit ${{ github.event.issue.number }} --milestone "$LETASE_MILESTONES"
-          gh issue comment $ISSUE --body "@${{ github.event.comment.user.login }} Glad to see you accepted this issue🤲, this issue has been assigned to you. And I've set this as the default milestone. $LETASE_MILESTONES, We are looking forward to your PR!"
+          gh issue comment $ISSUE --body "@${{ github.event.comment.user.login }} Glad to see you accepted this issue🤲, this issue has been assigned to you. And I've set this as the default milestone. $LETASE_MILESTONESWe are looking forward to your PR!"
         env:
           GH_TOKEN: ${{ secrets.BOT_GITHUB_TOKEN }}
           ISSUE: ${{ github.event.issue.html_url }}
