@@ -15,13 +15,13 @@ jobs:
 
       - name: Assign the issue
         run: |
-          echo "LETASE_MILESTONES=$(curl "https://api.github.com/repos/$OWNER/$REPO/milestones" -H "Authorization: token ${{ secrets.BOT_GITHUB_TOKEN }}" | jq -r 'last(.[]).title') >> $GITHUB_ENV
+          echo "LETASE_MILESTONES=$(curl "https://api.github.com/repos/$OWNER/$REPO/milestones" -H "Authorization: token ${{ secrets.BOT_GITHUB_TOKEN }}" | jq -r 'last(.[]).title') >> $GITHUB_ENV &
           gh issue edit ${{ github.event.issue.number }} --add-assignee "${{ github.event.comment.user.login }}"
           gh issue edit ${{ github.event.issue.number }} --add-label "triage/accepted"
-          gh issue edit ${{ github.event.issue.number }} --milestone "$LETASE_MILESTONES"
-          gh issue comment $ISSUE --body "@${{ github.event.comment.user.login }} Glad to see you accepted this issue🤲, this issue has been assigned to you. And I've set this as the default milestone. $LETASE_MILESTONESWe are looking forward to your PR!"
+          gh issue edit ${{ github.event.issue.number }} --milestone "$LETASE_MILESTONES" &
+          gh issue comment $ISSUE --body "@${{ github.event.comment.user.login }} Glad to see you accepted this issue🤲, this issue has been assigned to you.  We are looking forward to your PR!"
         env:
-          GH_TOKEN: ${{ secrets.BOT_GITHUB_TOKEN }}
+          GH_TOKEN: ${{ secrets.REDBOT_GITHUB_TOKEN }}
           ISSUE: ${{ github.event.issue.html_url }}
           OWNER: ${{ github.repository_owner }}
           REPO: ${{ github.event.repository.name }}
