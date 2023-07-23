@@ -12,7 +12,7 @@ jobs:
     steps:
       - name: Assign the issue
         run: |
-          gh issue update ${{ github.event.issue.number }} --assignee "${{ github.event.comment.user.login }}"
+          gh issue edit ${{ github.event.issue.number }} --assignee "${{ github.event.comment.user.login }}"
         env:
           GH_TOKEN: ${{ secrets.BOT_GITHUB_TOKEN }}
 
