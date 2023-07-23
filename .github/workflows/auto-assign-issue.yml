@@ -1,0 +1,25 @@
+name: Assign issue to comment author
+on:
+  issue_comment:
+    types: [created]
+
+jobs:
+  assign-issue:
+    if: contains(github.event.comment.body, '/accept') || contains(github.event.comment.body, 'accept')
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+    steps:
+      - name: Assign the issue
+        run: |
+          gh issue update ${{ github.event.issue.number }} --assignee "${{ github.event.comment.user.login }}"
+        env:
+          GH_TOKEN: ${{ secrets.BOT_GITHUB_TOKEN }}
+
+      - name: Comment on the issue
+        uses: peter-evans/create-or-update-comment@v3
+        with:
+          issue-number: ${{ github.event.issue.number }}
+          token: ${{ secrets.BOT_GITHUB_TOKEN }}
+          body: |
+            @${{ github.event.comment.user.login }}, this issue has been assigned to you. We are looking forward to your PR!
