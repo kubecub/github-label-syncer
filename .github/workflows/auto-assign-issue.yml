@@ -12,15 +12,10 @@ jobs:
     steps:
       - name: Assign the issue
         run: |
-          gh issue edit ${{ github.event.issue.number }} --add-assignee "${{ github.event.comment.user.login }}"
           gh issue edit ${{ github.event.issue.number }} --add-label "triage/accepted"
+          gh issue comment $ISSUE --body "@${{ github.event.comment.user.login }}, this issue has been assigned to you. We are looking forward to your PR!"
         env:
           GH_TOKEN: ${{ secrets.BOT_GITHUB_TOKEN }}
-
-      - name: Comment on the issue
-        uses: peter-evans/create-or-update-comment@v3
-        with:
-          issue-number: ${{ github.event.issue.number }}
-          token: ${{ secrets.BOT_GITHUB_TOKEN }}
-          body: |
-            @${{ github.event.comment.user.login }}, this issue has been assigned to you. We are looking forward to your PR!
+          ISSUE: ${{ github.event.issue.html_url }}
+          OWNER: ${{ github.repository_owner }}
+          REPO: ${{ github.event.repository.name }}
