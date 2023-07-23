@@ -2,7 +2,6 @@ name: Assign issue to comment author
 on:
   issue_comment:
     types: [created]
-
 jobs:
   assign-issue:
     if: contains(github.event.comment.body, '/assign') || contains(github.event.comment.body, '/accept')
