@@ -20,7 +20,6 @@ env:
   OPEN_IM_SERVER_SIGNATURES_PATH: signatures/${{ github.event.repository.name }}/cla.json
 
   OPEN_IM_SERVER_ALLOWLIST: kubbot,bot* 
-  REMOTE_ORGANIZATION: open-im-server
 
 jobs:
   CLAAssistant:
