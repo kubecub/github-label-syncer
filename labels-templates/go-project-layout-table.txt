@@ -22,6 +22,7 @@
 | report             |                                | 0E8A16 |
 | RFC                |                                | 10C590 |
 | roadmap            |                                | 0E8A16 |
+| size/XS            |                                | 3CBF00 |
 | triage/accepted    |                                | 0E8A16 |
 | triage/duplicate   | This issue or pull request     | C001BC |
 |                    | already exists                 |        |

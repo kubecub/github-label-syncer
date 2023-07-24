@@ -1,9 +1,3 @@
-<!--
- Copyright © 2023 KubeCub open source community. All rights reserved.
- Licensed under the MIT License (the "License");
- you may not use this file except in compliance with the License.
--->
-
 <labels>
   <label>
     <Name>API</Name>
@@ -157,6 +151,15 @@
     <ID>5520223432</ID>
     <NodeID>LA_kwDOJk4SXM8AAAABSQfsyA</NodeID>
     <URL>https://api.github.com/repos/kubecub/go-project-layout/labels/roadmap</URL>
+  </label>
+  <label>
+    <Name>size/XS</Name>
+    <Description></Description>
+    <Color>3CBF00</Color>
+    <Default>false</Default>
+    <ID>5766082794</ID>
+    <NodeID>LA_kwDOJk4SXM8AAAABV69w6g</NodeID>
+    <URL>https://api.github.com/repos/kubecub/go-project-layout/labels/size/XS</URL>
   </label>
   <label>
     <Name>triage/accepted</Name>

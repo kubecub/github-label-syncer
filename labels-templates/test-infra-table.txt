@@ -8,76 +8,57 @@
 | approved                               | Indicates a PR has been          | 0ffa16 |
 |                                        | approved by an approver from     |        |
 |                                        | all required OWNERS files.       |        |
-| area/admin                             | Indicates an issue on admin      | 0052cc |
-|                                        | area.                            |        |
-| area/admission-control                 |                                  | 0052cc |
-| area/api                               | Indicates an issue on api        | 0052cc |
-|                                        | area.                            |        |
-| area/apiserver                         |                                  | 0052cc |
-| area/app-lifecycle                     |                                  | 0052cc |
 | area/artifacts                         | Issues or PRs related to the     | 0052cc |
 |                                        | hosting of release artifacts     |        |
 |                                        | for subprojects                  |        |
-| area/audit                             |                                  | 0052cc |
-| area/batch                             |                                  | 0052cc |
-| area/build-release                     |                                  | 0052cc |
-| area/cadvisor                          |                                  | 0052cc |
-| area/client-libraries                  |                                  | 0052cc |
-| area/cloudprovider                     |                                  | 0052cc |
-| area/code-generation                   |                                  | 0052cc |
+| area/bazel                             |                                  | 0052cc |
+| area/bootstrap                         |                                  | 0052cc |
+| area/boskos                            | Issues or PRs related to code    | 0052cc |
+|                                        | in /boskos                       |        |
 | area/code-organization                 | Issues or PRs related to         | 0052cc |
 |                                        | kubernetes code organization     |        |
 | area/community-meeting                 | Issues or PRs that should        | 0052cc |
 |                                        | potentially be discussed in a    |        |
 |                                        | Kubernetes community meeting.    |        |
-| area/configmap-api                     |                                  | 0052cc |
+| area/config                            | Issues or PRs related to code    | 0052cc |
+|                                        | in /config                       |        |
 | area/conformance                       | Issues or PRs related to         | 0052cc |
 |                                        | kubernetes conformance tests     |        |
-| area/controller-manager                |                                  | 0052cc |
-| area/custom-resources                  |                                  | 0052cc |
-| area/declarative-configuration         |                                  | 0052cc |
 | area/deflake                           | Issues or PRs related to         | 0052cc |
 |                                        | deflaking kubernetes tests       |        |
 | area/dependency                        | Issues or PRs related to         | 0052cc |
 |                                        | dependency changes               |        |
-| area/dns                               |                                  | 0052cc |
-| area/docker                            |                                  | 0052cc |
-| area/downward-api                      |                                  | 0052cc |
 | area/e2e-test-framework                | Issues or PRs related to         | 0052cc |
 |                                        | refactoring the kubernetes e2e   |        |
 |                                        | test framework                   |        |
-| area/ecosystem                         |                                  | 0052cc |
-| area/etcd                              |                                  | 0052cc |
-| area/example                           |                                  | 0052cc |
-| area/example/cassandra                 |                                  | 0052cc |
-| area/extensibility                     |                                  | 0052cc |
-| area/federation                        |                                  | 0052cc |
-| area/HA                                |                                  | 0052cc |
-| area/hw-accelerators                   |                                  | 0052cc |
-| area/images-registry                   |                                  | 0052cc |
-| area/ingress                           |                                  | 0052cc |
-| area/introspection                     |                                  | 0052cc |
-| area/ipv6                              |                                  | 0052cc |
-| area/ipvs                              |                                  | 0052cc |
-| area/isolation                         |                                  | 0052cc |
-| area/kube-proxy                        |                                  | 0052cc |
-| area/kubeadm                           |                                  | 0052cc |
-| area/kubectl                           |                                  | 0052cc |
-| area/kubelet                           |                                  | 0052cc |
-| area/kubelet-api                       |                                  | 0052cc |
-| area/logging                           |                                  | 0052cc |
-| area/monitoring                        |                                  | 0052cc |
-| area/network-policy                    | Issues or PRs related to         | 0052cc |
-|                                        | Network Policy subproject        |        |
-| area/node-e2e                          |                                  | 0052cc |
-| area/node-lifecycle                    |                                  | 0052cc |
-| area/nodecontroller                    |                                  | 0052cc |
-| area/os/coreos                         |                                  | d4c5f9 |
-| area/os/fedora                         |                                  | d4c5f9 |
-| area/os/ubuntu                         |                                  | d4c5f9 |
-| area/platform/gce                      |                                  | d4c5f9 |
-| area/platform/mesos                    |                                  | d4c5f9 |
-| area/platform/vagrant                  |                                  | d4c5f9 |
+| area/enhancements                      | Issues or PRs related to the     | 0052cc |
+|                                        | Enhancements subproject          |        |
+| area/experiment                        |                                  | 0052cc |
+| area/ghproxy                           | Issues or PRs related to code    | 0052cc |
+|                                        | in /ghproxy                      |        |
+| area/github-management                 | Issues or PRs related to         | 0052cc |
+|                                        | GitHub Management subproject     |        |
+| area/gopherage                         | Issues or PRs related to code    | 0052cc |
+|                                        | in /gopherage                    |        |
+| area/greenhouse                        | Issues or PRs related to code    | 0052cc |
+|                                        | in /greenhouse (our remote       |        |
+|                                        | bazel cache)                     |        |
+| area/gubernator                        | Issues or PRs related to code    | 0052cc |
+|                                        | in /gubernator                   |        |
+| area/images                            |                                  | 0052cc |
+| area/jenkins                           |                                  | 0052cc |
+| area/jobs                              |                                  | 2a4ad6 |
+| area/kettle                            |                                  | 0052cc |
+| area/kind                              | Issues or PRs related to code    | 0052cc |
+|                                        | in /kind                         |        |
+| area/kubetest                          |                                  | 0052cc |
+| area/label_sync                        | Issues or PRs related to code    | 0052cc |
+|                                        | in /label_sync                   |        |
+| area/metrics                           |                                  | 0052cc |
+| area/mungegithub                       | Issues or PRs related to code    | 0052cc |
+|                                        | in /mungegithub                  |        |
+| area/planter                           | Issues or PRs related to code    | 0052cc |
+|                                        | in /planter                      |        |
 | area/provider/aws                      | Issues or PRs related to aws     | 0052cc |
 |                                        | provider                         |        |
 | area/provider/azure                    | Issues or PRs related to azure   | 0052cc |
@@ -92,28 +73,88 @@
 |                                        | openstack provider               |        |
 | area/provider/vmware                   | Issues or PRs related to         | 0052cc |
 |                                        | vmware provider                  |        |
+| area/prow                              | Issues or PRs related to prow    | 0052cc |
+| area/prow/artifact-uploader            | Issues or PRs related to         | 0052cc |
+|                                        | prow's artifact-uploader         |        |
+|                                        | component                        |        |
+| area/prow/bazel-deprecation            |                                  | 0937CE |
+| area/prow/branchprotector              | Issues or PRs related to         | 0052cc |
+|                                        | prow's branchprotector           |        |
+|                                        | component                        |        |
+| area/prow/bump                         | Updates to the k8s prow          | 0052cc |
+|                                        | cluster                          |        |
+| area/prow/clonerefs                    | Issues or PRs related to         | 0052cc |
+|                                        | prow's clonerefs component       |        |
+| area/prow/config-bootstrapper          | Issues or PRs related to         | 0052cc |
+|                                        | prow's config-bootstrapper       |        |
+|                                        | utility                          |        |
+| area/prow/crier                        | Issues or PRs related to         | 0052cc |
+|                                        | prow's crier component           |        |
+| area/prow/deck                         | Issues or PRs related to         | 0052cc |
+|                                        | prow's deck component            |        |
+| area/prow/entrypoint                   | Issues or PRs related to         | 0052cc |
+|                                        | prow's entrypoint component      |        |
+| area/prow/gcsupload                    | Issues or PRs related to         | 0052cc |
+|                                        | prow's gcsupload component       |        |
+| area/prow/gerrit                       | Issues or PRs related to         | 0052cc |
+|                                        | prow's gerrit component          |        |
+| area/prow/hook                         | Issues or PRs related to         | 0052cc |
+|                                        | prow's hook component            |        |
+| area/prow/horologium                   | Issues or PRs related to         | 0052cc |
+|                                        | prow's horologium component      |        |
+| area/prow/initupload                   | Issues or PRs related to         | 0052cc |
+|                                        | prow's initupload component      |        |
+| area/prow/jenkins-operator             | Issues or PRs related to         | 0052cc |
+|                                        | prow's jenkins-operator          |        |
+|                                        | component                        |        |
+| area/prow/knative-build                | Issues or PRs related            | 0052cc |
+|                                        | to prow's knative-build          |        |
+|                                        | controller component             |        |
+| area/prow/mkbuild-cluster              | Issues or PRs related to         | 0052cc |
+|                                        | prow's mkbuild-cluster           |        |
+|                                        | component                        |        |
+| area/prow/mkpj                         | Issues or PRs related to         | 0052cc |
+|                                        | prow's mkpj component            |        |
+| area/prow/mkpod                        | Issues or PRs related to         | 0052cc |
+|                                        | prow's mkpod component           |        |
+| area/prow/peribolos                    | Issues or PRs related to         | 0052cc |
+|                                        | prow's peribolos component       |        |
+| area/prow/phony                        | Issues or PRs related to         | 0052cc |
+|                                        | prow's phony component           |        |
+| area/prow/plank                        | Issues or PRs related to         | 0052cc |
+|                                        | prow's plank component           |        |
+| area/prow/plugins                      | Issues or PRs related to         | 0052cc |
+|                                        | prow's plugins for the hook      |        |
+|                                        | component                        |        |
+| area/prow/pod-utilities                | Issues or PRs related to         | 0052cc |
+|                                        | prow's pod-utilities component   |        |
+| area/prow/pubsub                       | Issues or PRs related to         | 0052cc |
+|                                        | prow's pubsub reporter           |        |
+|                                        | component                        |        |
+| area/prow/sidecar                      | Issues or PRs related to         | 0052cc |
+|                                        | prow's sidecar component         |        |
+| area/prow/sinker                       | Issues or PRs related to         | 0052cc |
+|                                        | prow's sinker component          |        |
+| area/prow/splice                       | Issues or PRs related to         | 0052cc |
+|                                        | prow's splice component          |        |
+| area/prow/spyglass                     | Issues or PRs related to         | 0052cc |
+|                                        | prow's spyglass UI               |        |
+| area/prow/status-reconciler            | Issues or PRs related to         | 0052cc |
+|                                        | reconciling status when jobs     |        |
+|                                        | change                           |        |
+| area/prow/tide                         | Issues or PRs related to         | 0052cc |
+|                                        | prow's tide component            |        |
+| area/prow/tot                          | Issues or PRs related to         | 0052cc |
+|                                        | prow's tot component             |        |
 | area/release-eng                       | Issues or PRs related to the     | 0052cc |
 |                                        | Release Engineering subproject   |        |
-| area/reliability                       |                                  | 0052cc |
-| area/rkt                               |                                  | 0052cc |
-| area/secret-api                        |                                  | 0052cc |
-| area/security                          |                                  | d93f0b |
-| area/stable-metrics                    | Issues or PRs involving stable   | 0052cc |
-|                                        | metrics                          |        |
-| area/stateful-apps                     |                                  | 0052cc |
-| area/swagger                           |                                  | 0052cc |
-| area/system-requirement                |                                  | 0052cc |
-| area/teardown                          |                                  | 0052cc |
-| area/test                              |                                  | 0052cc |
-| area/test-infra                        |                                  | 0052cc |
-| area/ui                                |                                  | 0052cc |
-| area/upgrade                           |                                  | 0052cc |
-| area/usability                         |                                  | 0052cc |
-| area/workload-api/cronjob              |                                  | 0052cc |
-| area/workload-api/daemonset            |                                  | 0052cc |
-| area/workload-api/deployment           |                                  | 0052cc |
-| area/workload-api/job                  |                                  | 0052cc |
-| area/workload-api/replicaset           |                                  | 0052cc |
+| area/robots                            | Issues or PRs related to code    | 0052cc |
+|                                        | in /robots                       |        |
+| area/scenarios                         |                                  | 0052cc |
+| area/so-crazy-it-just-might-work       |                                  | 0052cc |
+| area/testgrid                          |                                  | 0052cc |
+| area/triage                            |                                  | 0052cc |
+| area/velodrome                         |                                  | 0052cc |
 | cherry-pick-approved                   | Indicates a cherry-pick PR       | fef2c0 |
 |                                        | into a release branch has been   |        |
 |                                        | approved by the release branch   |        |
@@ -143,8 +184,6 @@
 | do-not-merge/cherry-pick-not-approved  | Indicates that a PR is not       | e11d21 |
 |                                        | yet approved to merge into a     |        |
 |                                        | release branch.                  |        |
-| do-not-merge/contains-merge-commits    | Indicates a PR which contains    | e11d21 |
-|                                        | merge commits.                   |        |
 | do-not-merge/hold                      | Indicates that a PR should       | e11d21 |
 |                                        | not merge because someone has    |        |
 |                                        | issued a /hold command.          |        |
@@ -154,12 +193,6 @@
 | do-not-merge/invalid-owners-file       | Indicates that a PR should       | e11d21 |
 |                                        | not merge because it has an      |        |
 |                                        | invalid OWNERS file in it.       |        |
-| do-not-merge/needs-kind                | Indicates a PR lacks a           | e11d21 |
-|                                        | `kind/foo` label and requires    |        |
-|                                        | one.                             |        |
-| do-not-merge/needs-sig                 | Indicates an issue or PR lacks   | e11d21 |
-|                                        | a `sig/foo` label and requires   |        |
-|                                        | one.                             |        |
 | do-not-merge/release-note-label-needed | Indicates that a PR should not   | e11d21 |
 |                                        | merge because it's missing one   |        |
 |                                        | of the release note labels.      |        |
@@ -172,6 +205,7 @@
 | help wanted                            | Denotes an issue that needs      | 006b75 |
 |                                        | help from a contributor. Must    |        |
 |                                        | meet "help wanted" guidelines.   |        |
+| hold                                   |                                  | e3e3e3 |
 | kind/api-change                        | Categorizes issue or PR as       | e11d21 |
 |                                        | related to adding, removing,     |        |
 |                                        | or otherwise changing an API     |        |
@@ -195,11 +229,16 @@
 |                                        | related to a new feature.        |        |
 | kind/flake                             | Categorizes issue or PR as       | f7c6c7 |
 |                                        | related to a flaky test.         |        |
+| kind/kanarynetes 🐦                    |                                  | fafa50 |
+| kind/oncall-hotlist                    | Categorizes issue or PR as       | f7c6c7 |
+|                                        | tracked by test-infra oncall.    |        |
 | kind/regression                        | Categorizes issue or PR as       | e11d21 |
 |                                        | related to a regression from a   |        |
 |                                        | prior release.                   |        |
 | kind/support                           | Categorizes issue or PR as a     | d455d0 |
 |                                        | support question.                |        |
+| kind/velocity-improvement              |                                  | c5def5 |
+| kind/🐶                                | All puppers are good puppers.    | fafa50 |
 | lgtm                                   | "Looks good to me", indicates    | 15dd18 |
 |                                        | that a PR is ready to be         |        |
 |                                        | merged.                          |        |
@@ -215,19 +254,12 @@
 | lifecycle/stale                        | Denotes an issue or PR has       | 795548 |
 |                                        | remained open with no activity   |        |
 |                                        | and has become stale.            |        |
-| milestone/incomplete-labels            |                                  | ededed |
-| milestone/needs-approval               |                                  | ededed |
-| milestone/needs-attention              |                                  | ededed |
-| milestone/removed                      |                                  | ededed |
 | needs-kind                             | Indicates a PR lacks a           | ededed |
 |                                        | `kind/foo` label and requires    |        |
 |                                        | one.                             |        |
 | needs-ok-to-test                       | Indicates a PR that requires     | b60205 |
 |                                        | an org member to verify it is    |        |
 |                                        | safe to test.                    |        |
-| needs-priority                         | Indicates a PR lacks a           | ededed |
-|                                        | `priority/foo` label and         |        |
-|                                        | requires one.                    |        |
 | needs-rebase                           | Indicates a PR cannot be         | e11d21 |
 |                                        | merged because it has merge      |        |
 |                                        | conflicts with HEAD.             |        |
@@ -237,10 +269,6 @@
 | needs-triage                           | Indicates an issue or PR         | ededed |
 |                                        | lacks a `triage/foo` label and   |        |
 |                                        | requires one.                    |        |
-| official-cve-feed                      | Issues or PRs related to         | 0052cc |
-|                                        | CVEs officially announced by     |        |
-|                                        | Security Response Committee      |        |
-|                                        | (SRC)                            |        |
 | ok-to-test                             | Indicates a non-member PR        | 15dd18 |
 |                                        | verified by an org member that   |        |
 |                                        | is safe to test.                 |        |
@@ -262,7 +290,6 @@
 |                                        | on either currently, or very     |        |
 |                                        | soon, ideally in time for the    |        |
 |                                        | next release.                    |        |
-| release-blocker                        |                                  | d93f0b |
 | release-note                           | Denotes a PR that will be        | c2e0c6 |
 |                                        | considered when it comes time    |        |
 |                                        | to generate release notes.       |        |
@@ -344,7 +371,9 @@
 | size/XXL                               | Denotes a PR that changes        | ee0000 |
 |                                        | 1000+ lines, ignoring            |        |
 |                                        | generated files.                 |        |
-| status/approved-for-milestone          |                                  | ededed |
+| skip-review                            | Indicates a PR is trusted,       | 0ffa16 |
+|                                        | used by tide for auto-merging    |        |
+|                                        | PRs.                             |        |
 | tide/merge-blocker                     | Denotes an issue that blocks     | e11d21 |
 |                                        | the tide merge queue for a       |        |
 |                                        | branch while it is open.         |        |

@@ -1,9 +1,3 @@
-<!--
- Copyright © 2023 KubeCub open source community. All rights reserved.
- Licensed under the MIT License (the "License");
- you may not use this file except in compliance with the License.
--->
-
 <labels>
   <label>
     <Name>:apple: si</Name>
@@ -863,7 +857,7 @@
   <label>
     <Name>editor-sticky-scroll-decorations</Name>
     <Description>Bugs in relation to adding decorations to sticky scroll</Description>
-    <Color>21B847</Color>
+    <Color>c5def5</Color>
     <Default>false</Default>
     <ID>5204121456</ID>
     <NodeID>LA_kwDOAn8RLM8AAAABNjCXcA</NodeID>
@@ -1066,6 +1060,15 @@
     <ID>291663988</ID>
     <NodeID>MDU6TGFiZWwyOTE2NjM5ODg=</NodeID>
     <URL>https://api.github.com/repos/microsoft/vscode/labels/error-telemetry</URL>
+  </label>
+  <label>
+    <Name>exploration</Name>
+    <Description></Description>
+    <Color>888BFC</Color>
+    <Default>false</Default>
+    <ID>5718817332</ID>
+    <NodeID>LA_kwDOAn8RLM8AAAABVN46NA</NodeID>
+    <URL>https://api.github.com/repos/microsoft/vscode/labels/exploration</URL>
   </label>
   <label>
     <Name>extension-activation</Name>
@@ -1736,7 +1739,7 @@
   <label>
     <Name>json-sorting</Name>
     <Description></Description>
-    <Color>4D64EA</Color>
+    <Color>c5def5</Color>
     <Default>false</Default>
     <ID>5217503823</ID>
     <NodeID>LA_kwDOAn8RLM8AAAABNvzKTw</NodeID>
@@ -2033,7 +2036,7 @@
   <label>
     <Name>multi-monitor</Name>
     <Description>Issues with multiple display setups</Description>
-    <Color>2FB165</Color>
+    <Color>c5def5</Color>
     <Default>false</Default>
     <ID>4902227369</ID>
     <NodeID>LA_kwDOAn8RLM8AAAABJDINqQ</NodeID>
@@ -2636,7 +2639,7 @@
   <label>
     <Name>quickpick-chat</Name>
     <Description></Description>
-    <Color>349D13</Color>
+    <Color>c5def5</Color>
     <Default>false</Default>
     <ID>5643644131</ID>
     <NodeID>LA_kwDOAn8RLM8AAAABUGMs4w</NodeID>
@@ -2735,7 +2738,7 @@
   <label>
     <Name>runCommands</Name>
     <Description>Issues related to command &#39;runCommands&#39;</Description>
-    <Color>FC0151</Color>
+    <Color>c5def5</Color>
     <Default>false</Default>
     <ID>5296468590</ID>
     <NodeID>LA_kwDOAn8RLM8AAAABO7Gybg</NodeID>

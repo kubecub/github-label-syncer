@@ -1,7 +1,3 @@
-# Copyright © 2023 KubeCub open source community. All rights reserved.
-# Licensed under the MIT License (the "License");
-# you may not use this file except in compliance with the License.
-
 - color: e99695
   default: false
   description: Issues related to apple silicon
@@ -669,7 +665,7 @@
   name: editor-sticky-scroll
   node_id: LA_kwDOAn8RLM8AAAABBFfgVw
   url: https://api.github.com/repos/microsoft/vscode/labels/editor-sticky-scroll
-- color: 21B847
+- color: c5def5
   default: false
   description: Bugs in relation to adding decorations to sticky scroll
   id: 5204121456
@@ -830,6 +826,13 @@
   name: error-telemetry
   node_id: MDU6TGFiZWwyOTE2NjM5ODg=
   url: https://api.github.com/repos/microsoft/vscode/labels/error-telemetry
+- color: 888BFC
+  default: false
+  description: ""
+  id: 5718817332
+  name: exploration
+  node_id: LA_kwDOAn8RLM8AAAABVN46NA
+  url: https://api.github.com/repos/microsoft/vscode/labels/exploration
 - color: c5def5
   default: false
   description: ""
@@ -1350,7 +1353,7 @@
   name: json
   node_id: MDU6TGFiZWwyOTM0MTc4MDY=
   url: https://api.github.com/repos/microsoft/vscode/labels/json
-- color: 4D64EA
+- color: c5def5
   default: false
   description: ""
   id: 5217503823
@@ -1582,7 +1585,7 @@
   name: monaco-editor
   node_id: LA_kwDOAn8RLM7N2gwR
   url: https://api.github.com/repos/microsoft/vscode/labels/monaco-editor
-- color: 2FB165
+- color: c5def5
   default: false
   description: Issues with multiple display setups
   id: 4902227369
@@ -2052,7 +2055,7 @@
   name: quick-pick
   node_id: MDU6TGFiZWw1MjcwMDU0NTM=
   url: https://api.github.com/repos/microsoft/vscode/labels/quick-pick
-- color: 349D13
+- color: c5def5
   default: false
   description: ""
   id: 5643644131
@@ -2129,7 +2132,7 @@
   name: rpm
   node_id: MDU6TGFiZWwzMDM2MDc0OTIz
   url: https://api.github.com/repos/microsoft/vscode/labels/rpm
-- color: FC0151
+- color: c5def5
   default: false
   description: Issues related to command 'runCommands'
   id: 5296468590

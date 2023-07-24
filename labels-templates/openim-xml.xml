@@ -1,9 +1,3 @@
-<!--
- Copyright © 2023 KubeCub open source community. All rights reserved.
- Licensed under the MIT License (the "License");
- you may not use this file except in compliance with the License.
--->
-
 <labels>
   <label>
     <Name>API</Name>
@@ -141,9 +135,36 @@
     <URL>https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/lgtm</URL>
   </label>
   <label>
+    <Name>lifecycle/active</Name>
+    <Description>Indicates that an issue or PR is actively being worked on by a contributor.</Description>
+    <Color>8fc951</Color>
+    <Default>false</Default>
+    <ID>5740527145</ID>
+    <NodeID>LA_kwDOFhyqls8AAAABVil-KQ</NodeID>
+    <URL>https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/lifecycle/active</URL>
+  </label>
+  <label>
+    <Name>lifecycle/frozen</Name>
+    <Description>Indicates that an issue or PR should not be auto-closed due to staleness.</Description>
+    <Color>d3e2f0</Color>
+    <Default>false</Default>
+    <ID>5740527149</ID>
+    <NodeID>LA_kwDOFhyqls8AAAABVil-LQ</NodeID>
+    <URL>https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/lifecycle/frozen</URL>
+  </label>
+  <label>
+    <Name>lifecycle/rotten</Name>
+    <Description>Denotes an issue or PR that has aged beyond stale and will be auto-closed.</Description>
+    <Color>604460</Color>
+    <Default>false</Default>
+    <ID>5740527139</ID>
+    <NodeID>LA_kwDOFhyqls8AAAABVil-Iw</NodeID>
+    <URL>https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/lifecycle/rotten</URL>
+  </label>
+  <label>
     <Name>lifecycle/stale</Name>
-    <Description>Problem 90 days without activity</Description>
-    <Color>B60205</Color>
+    <Description>Denotes an issue or PR has remained open with no activity and has become stale.</Description>
+    <Color>795548</Color>
     <Default>false</Default>
     <ID>5497523618</ID>
     <NodeID>LA_kwDOFhyqls8AAAABR62Nog</NodeID>

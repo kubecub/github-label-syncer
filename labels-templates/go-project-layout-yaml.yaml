@@ -1,7 +1,3 @@
-# Copyright © 2023 KubeCub open source community. All rights reserved.
-# Licensed under the MIT License (the "License");
-# you may not use this file except in compliance with the License.
-
 - color: FBCA04
   default: false
   description: Issues and PR about the API
@@ -121,6 +117,13 @@
   name: roadmap
   node_id: LA_kwDOJk4SXM8AAAABSQfsyA
   url: https://api.github.com/repos/kubecub/go-project-layout/labels/roadmap
+- color: 3CBF00
+  default: false
+  description: ""
+  id: 5766082794
+  name: size/XS
+  node_id: LA_kwDOJk4SXM8AAAABV69w6g
+  url: https://api.github.com/repos/kubecub/go-project-layout/labels/size/XS
 - color: 0E8A16
   default: false
   description: ""

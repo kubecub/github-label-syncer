@@ -1,7 +1,3 @@
-# Copyright © 2023 KubeCub open source community. All rights reserved.
-# Licensed under the MIT License (the "License");
-# you may not use this file except in compliance with the License.
-
 - color: FB4E16
   default: false
   description: ""
@@ -111,35 +107,28 @@
 - color: 8fc951
   default: false
   description: Indicates that an issue or PR is actively being worked on by a contributor.
-  id: 1007207688
+  id: 5740527145
   name: lifecycle/active
-  node_id: MDU6TGFiZWwxMDA3MjA3Njg4
-  url: https://api.github.com/repos/kubernetes/kubernetes/labels/lifecycle/active
+  node_id: LA_kwDOFhyqls8AAAABVil-KQ
+  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/lifecycle/active
 - color: d3e2f0
   default: false
   description: Indicates that an issue or PR should not be auto-closed due to staleness.
-  id: 778118403
+  id: 5740527149
   name: lifecycle/frozen
-  node_id: MDU6TGFiZWw3NzgxMTg0MDM=
-  url: https://api.github.com/repos/kubernetes/kubernetes/labels/lifecycle/frozen
+  node_id: LA_kwDOFhyqls8AAAABVil-LQ
+  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/lifecycle/frozen
 - color: "604460"
   default: false
   description: Denotes an issue or PR that has aged beyond stale and will be auto-closed.
-  id: 778118402
+  id: 5740527139
   name: lifecycle/rotten
-  node_id: MDU6TGFiZWw3NzgxMTg0MDI=
-  url: https://api.github.com/repos/kubernetes/kubernetes/labels/lifecycle/rotten
+  node_id: LA_kwDOFhyqls8AAAABVil-Iw
+  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/lifecycle/rotten
 - color: "795548"
   default: false
   description: Denotes an issue or PR has remained open with no activity and has become
     stale.
-  id: 778118404
-  name: lifecycle/stale
-  node_id: MDU6TGFiZWw3NzgxMTg0MDQ=
-  url: https://api.github.com/repos/kubernetes/kubernetes/labels/lifecycle/stale
-- color: B60205
-  default: false
-  description: Problem 90 days without activity
   id: 5497523618
   name: lifecycle/stale
   node_id: LA_kwDOFhyqls8AAAABR62Nog
