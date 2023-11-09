@@ -23,10 +23,12 @@ jobs:
             manifest: labels-templates/openim-yaml.yaml
             token: ${{ secrets.BOT_GITHUB_TOKEN }}
             repository: |
-                OpenIMSDK/Open-IM-Server
-                OpenIMSDK/OpenKF
+                openimsdk/open-im-server
+                openimsdk/openkf
+                openim-sigs/oimws
                 OpenIMSDK/docs
                 OpenIMSDK/community
+                openimsdk/helm-charts
                 OpenIMSDK/openim-sdk-core
                 OpenIMSDK/chat
                 openim-sigs/cla
