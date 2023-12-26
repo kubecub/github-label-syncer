@@ -297,7 +297,7 @@ help: Makefile
 ######################################=> common tools<= ############################################
 # tools
 
-BUILD_TOOLS ?= go-gitlint golangci-lint goimports addlicense deepcopy-gen conversion-gen ginkgo go-junit-report 
+BUILD_TOOLS ?= go-gitlint golangci-lint goimports addlicense deepcopy-gen conversion-gen ginkgo go-junit-report typos 
 
 ## tools.verify.%: Check if a tool is installed and install it
 .PHONY: tools.verify.%
@@ -478,6 +478,13 @@ install.gothanks:
 .PHONY: install.richgo
 install.richgo:
 	@$(GO) install github.com/kyoh86/richgo@latest
+
+## install.typos: Install typos
+.PHONY: install.typos
+install.typos:
+	@wget -O $(GOBIN)/typos https://github.com/crate-ci/typos/releases/download/v1.3.3/typos-v1.3.3-x86_64-unknown-linux-gnu.tar.gz
+	@tar -xzf $(GOBIN)/typos -C $(GOBIN)
+	@chmod +x $(GOBIN)/typos
 
 ## install.rts: Install rts
 .PHONY: install.rts
