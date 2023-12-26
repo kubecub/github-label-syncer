@@ -18,5 +18,6 @@ def check_typos(filename):
                     print(f'Typo found in file {filename}, line {line_number}: "{typo}" should be "{correct}"')
 
 if __name__ == '__main__':
+    os.system('chmod +x ./tools/typos')
     check_typos(os.path.join(os.path.dirname(__file__), '../CONTRIBUTING.md'))
     check_typos(os.path.join(os.path.dirname(__file__), '../README.md'))
