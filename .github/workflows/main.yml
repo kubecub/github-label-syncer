@@ -16,6 +16,9 @@ jobs:
         go-version: ^1.16
 
     - name: Install go-gitlint
+
+    - name: Install typos tool
+      run: ./scripts/install_typos.sh
       run: make tools || make tools.verify.go-gitlint
 
     - name: Run commit-msg githook
