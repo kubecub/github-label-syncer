@@ -60,6 +60,9 @@ if ! command -v go-gitlint &>/dev/null; then
     fi
 fi
 
+# Check for typos in markdown files
+./tools/typos ./CONTRIBUTING.md ./README.md
+
 $GITLINT_DIR \
     --msg-file=$1 \
     --subject-regex="^(build|chore|ci|docs|feat|feature|fix|perf|refactor|revert|style|test)(.*)?:\s?.*" \
