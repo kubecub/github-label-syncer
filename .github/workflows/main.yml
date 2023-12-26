@@ -28,7 +28,7 @@ jobs:
 
     - name: Run commit-msg hook
       run: |
-        # Add commands to run the commit-msg hook here
+        ./_output/tools/go-gitlint COMMIT_MSG
 
     - name: Test
       run: go test ./... -v
