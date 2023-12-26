@@ -51,6 +51,15 @@ test "" = "$(grep '^Signed-off-by: ' "$1" |
 # TODO: go-gitlint dir set
 GITLINT_DIR="./_output/tools/go-gitlint"
 
+if ! command -v go-gitlint &>/dev/null; then
+    printMessage "go-gitlint not found. Installing it..."
+    go get github.com/streem/go-gitlint
+    if ! command -v go-gitlint &>/dev/null; then
+        printError "Failed to install go-gitlint."
+        exit 1
+    fi
+fi
+
 $GITLINT_DIR \
     --msg-file=$1 \
     --subject-regex="^(build|chore|ci|docs|feat|feature|fix|perf|refactor|revert|style|test)(.*)?:\s?.*" \
