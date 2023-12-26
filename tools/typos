@@ -1,0 +1,22 @@
+#!/usr/bin/env python3
+
+import os
+import re
+
+def check_typos(filename):
+    typos = [
+        ('teh', 'the'),
+        ('thier', 'their'),
+        ('recieve', 'receive'),
+        # Add more common typos as needed
+    ]
+
+    with open(filename, 'r') as file:
+        for line_number, line in enumerate(file, start=1):
+            for typo, correct in typos:
+                if re.search(r'\b' + typo + r'\b', line):
+                    print(f'Typo found in file {filename}, line {line_number}: "{typo}" should be "{correct}"')
+
+if __name__ == '__main__':
+    check_typos(os.path.join(os.path.dirname(__file__), '../CONTRIBUTING.md'))
+    check_typos(os.path.join(os.path.dirname(__file__), '../README.md'))
