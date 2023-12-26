@@ -1,0 +1,37 @@
+name: CI
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Set up Go 1.x
+      uses: actions/setup-go@v2
+      with:
+        go-version: ^1.13
+
+    - name: Install go-gitlint
+      run: |
+        mkdir -p ./_output/tools
+        wget -O ./_output/tools/go-gitlint https://github.com/stevvooe/go-gitlint/releases/download/v0.1.0/go-gitlint-linux-amd64
+        chmod +x ./_output/tools/go-gitlint
+
+    - name: Run commit-msg hook
+      run: |
+        # Add commands to run the commit-msg hook here
+
+    - name: Test
+      run: go test ./... -v
+
+    - name: Build
+      run: go build -v .
