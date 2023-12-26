@@ -19,7 +19,12 @@ jobs:
 
     - name: Install typos tool
       run: ./scripts/install_typos.sh
+
+    - name: Install or Verify go-gitlint
       run: make tools || make tools.verify.go-gitlint
+
+    - name: Check for typos
+      run: typos --write-changes
 
     - name: Run commit-msg githook
       run: ./.git/hooks/commit-msg
