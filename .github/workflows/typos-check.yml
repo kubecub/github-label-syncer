@@ -8,6 +8,11 @@ jobs:
     steps:
     - name: Checkout code
       uses: actions/checkout@v2
+    - name: Install typos tool
+      run: |
+        curl -L https://github.com/crate-ci/typos/releases/download/v1.3.3/typos-v1.3.3-x86_64-unknown-linux-gnu.tar.gz | tar xz
+        mv typos ./tools/
+        chmod +x ./tools/typos
     - name: Check for typos
       run: ./tools/typos ./CONTRIBUTING.md ./README.md
       working-directory: ./
