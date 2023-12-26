@@ -312,7 +312,13 @@ Please obey the following rules to better format the docs, which would greatly i
 5. Please use the correct case for technical terms, such as using `HTTP` instead of http, `MySQL` rather than mysql, `Kubernetes` instead of kubernetes, etc.
 6. Please check if there's any typos in the docs before submitting PRs.
 
-## Typo Checker Tool\n\n`typos` is a fast source code spell checker that helps to identify and correct typos in your source code. It is integrated into the GitHub Actions workflow to ensure the quality of contributions by automatically detecting typographical errors.\n\n### Installing `typos`\n\nTo install the `typos` tool on your local machine, run the `install_typos.sh` script located in the `scripts` directory. This script will download the tool and place it in the `tools` directory for use.\n\n```bash\n./scripts/install_typos.sh\n```\n\nPlease make sure to run the typo checker before submitting your pull request as any typographical errors detected by the tool will result in a failed check.\n\n## Engage to help anything
+## Typo Checker Tool
+
+`typos` is a fast source code spell checker that helps to identify and correct typos in your source code. It is integrated into the GitHub Actions workflow to ensure the quality of contributions by automatically detecting typographical errors. It is integrated into the GitHub Actions workflow to ensure the quality of contributions by automatically detecting typographical errors.\n\n### Installing `typos`
+
+To install the `typos` tool on your local machine, run the `install_typos.sh` script located in the `scripts` directory. This script will download the tool and place it in the `tools` directory for use. This script will download the tool and place it in the `tools` directory for use.\n\n```bash
+./scripts/install_typos.sh
+```\n\nPlease make sure to run the typo checker before submitting your pull request as any typographical errors detected by the tool will result in a failed check.\n\n## Engage to help anything
 
 We choose GitHub as the primary place for github-label-syncer to collaborate. So the latest updates of github-label-syncer are always here. Although contributions via PR is an explicit way to help, we still call for any other ways.
 
