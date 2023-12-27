@@ -1,0 +1,11 @@
+#!/bin/bash
+
+# Install aspell
+apt-get install -y aspell
+
+# Iterate over all file paths passed as arguments
+for file in "$@"
+do
+  # Check for typos in the current file
+  aspell check $file
+done
