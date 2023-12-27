@@ -59,11 +59,25 @@ $GITLINT_DIR \
     --body-regex=".*" \
     --max-parents=1
 
-if [ $? -ne 0 ]
-then
-    if ! command -v $GITLINT_DIR &>/dev/null; then
-        printError "$GITLINT_DIR not found. Please run 'make tools' OR 'make tools.verify.go-gitlint' make verto install it."
+if ! command -v $GITLINT_DIR &>/dev/null; then
+    printMessage "$GITLINT_DIR not found. Attempting to download and install go-gitlint."
+    mkdir -p $(dirname $GITLINT_DIR)
+    curl -L https://github.com/gitlint/gitlint/releases/download/v0.15.0/gitlint-0.15.0.tar.gz | tar xz -C $(dirname $GITLINT_DIR)
+    if [ $? -ne 0 ]; then
+        printError "Failed to download and install go-gitlint. Please manually install it and try again."
+        exit 1
     fi
+fi
+
+$GITLINT_DIR \
+    --msg-file=$1 \
+    --subject-regex="^(build|chore|ci|docs|feat|feature|fix|perf|refactor|revert|style|test)(.*)?:\s?.*" \
+    --subject-maxlen=150 \
+    --subject-minlen=10 \
+    --body-regex=".*" \
+    --max-parents=1
+
+if [ $? -ne 0 ]; then
     printError "Please fix your commit message to match kubecub coding standards"
     printError "https://gist.github.com/cubxxw/126b72104ac0b0ca484c9db09c3e5694#file-githook-md"
     exit 1
