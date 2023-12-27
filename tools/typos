@@ -1,0 +1,12 @@
+#!/bin/bash
+
+# Install necessary dependencies
+sudo apt-get update
+sudo apt-get install -y aspell
+
+# Loop over all input arguments
+for file in "$@"
+do
+    # Check for typos using aspell
+    aspell check "$file"
+done
