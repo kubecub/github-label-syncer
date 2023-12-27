@@ -252,6 +252,15 @@
     <URL>https://api.github.com/repos/labring/sealos/labels/automated%20issue</URL>
   </label>
   <label>
+    <Name>cherry-pick</Name>
+    <Description></Description>
+    <Color>D5F8BC</Color>
+    <Default>false</Default>
+    <ID>5837058238</ID>
+    <NodeID>LA_kwDOCKI7Xc8AAAABW-pwvg</NodeID>
+    <URL>https://api.github.com/repos/labring/sealos/labels/cherry-pick</URL>
+  </label>
+  <label>
     <Name>cloud roadmap</Name>
     <Description></Description>
     <Color>1D6C8E</Color>
@@ -493,6 +502,15 @@
     <ID>4288843647</ID>
     <NodeID>LA_kwDOCKI7Xc7_oo9_</NodeID>
     <URL>https://api.github.com/repos/labring/sealos/labels/status:%20needs%20information</URL>
+  </label>
+  <label>
+    <Name>sweep</Name>
+    <Description>Assigns Sweep to an issue or pull request.</Description>
+    <Color>5320E7</Color>
+    <Default>false</Default>
+    <ID>5842151715</ID>
+    <NodeID>LA_kwDOCKI7Xc8AAAABXDgpIw</NodeID>
+    <URL>https://api.github.com/repos/labring/sealos/labels/sweep</URL>
   </label>
   <label>
     <Name>type: question</Name>

@@ -1,1700 +1,1475 @@
-- color: 0366d6
-  default: false
-  description: Pull requests that update a dependency file
-  id: 5195755799
-  name: dependencies
-  node_id: LA_kwDOFhyqls8AAAABNbDxFw
-  url: https://api.github.com/repos/kubecub/go-project-layout/labels/dependencies
-- color: D93F0B
-  default: false
-  description: Indicates a PR lacks a `kind/foo` label and requires one.
-  id: 5497486393
-  name: do-not-merge/needs-kind
-  node_id: LA_kwDOFhyqls8AAAABR6z8OQ
-  url: https://api.github.com/repos/kubecub/go-project-layout/labels/do-not-merge/needs-kind
-- color: a2eeef
-  default: true
-  description: New feature or request
-  id: 3032551175
-  name: enhancement
-  node_id: MDU6TGFiZWwzMDMyNTUxMTc1
-  url: https://api.github.com/repos/kubecub/go-project-layout/labels/enhancement
-- color: 0E8A16
-  default: false
-  description: "gitlink2023"
-  id: 5595489210
-  name: gitlink2023
-  node_id: LA_kwDOFhyqls8AAAABTYRjug
-  url: https://api.github.com/repos/kubecub/go-project-layout/labels/gitlink2023
-- color: 0E8A16
-  default: false
-  description: "gsoc2023"
-  id: 5595489210
-  name: gsoc2023
-  node_id: LA_kwDOFhyqls8AAAABTYRjug
-  url: https://api.github.com/repos/kubecub/go-project-layout/labels/gitlink2023
-- color: 0E8A16
-  default: false
-  description: "ospp2023"
-  id: 5595489210
-  name: gsoc2023
-  node_id: LA_kwDOFhyqls8AAAABTYRjug
-  url: https://api.github.com/repos/kubecub/go-project-layout/labels/gitlink2023
-- color: 0E8A16
-  default: false
-  description: "gitlink2024"
-  id: 5595489210
-  name: gitlink2023
-  node_id: LA_kwDOFhyqls8AAAABTYRjug
-  url: https://api.github.com/repos/kubecub/go-project-layout/labels/gitlink2023
-- color: 0E8A16
-  default: false
-  description: "gsoc2024"
-  id: 5595489210
-  name: gsoc2023
-  node_id: LA_kwDOFhyqls8AAAABTYRjug
-  url: https://api.github.com/repos/kubecub/go-project-layout/labels/gitlink2023
-- color: 0E8A16
-  default: false
-  description: "ospp2024"
-  id: 5595489210
-  name: gsoc2023
-  node_id: LA_kwDOFhyqls8AAAABTYRjug
-  url: https://api.github.com/repos/kubecub/go-project-layout/labels/gitlink2023
-- color: 7057ff
-  default: true
-  description: Good for newcomers
-  id: 3032551177
-  name: good first issue
-  node_id: MDU6TGFiZWwzMDMyNTUxMTc3
-  url: https://api.github.com/repos/kubecub/go-project-layout/labels/good%20first%20issue
-- color: "008672"
-  default: true
-  description: Extra attention is needed
-  id: 3032551179
-  name: help wanted
-  node_id: MDU6TGFiZWwzMDMyNTUxMTc5
-  url: https://api.github.com/repos/kubecub/go-project-layout/labels/help%20wanted
-- color: e4e669
-  default: true
-  description: This doesn't seem right
-  id: 3032551181
-  name: invalid
-  node_id: MDU6TGFiZWwzMDMyNTUxMTgx
-  url: https://api.github.com/repos/kubecub/go-project-layout/labels/invalid
-- color: d73a4a
-  default: false
-  description: Something isn't working
-  id: 3032551172
-  name: kind/bug
-  node_id: MDU6TGFiZWwzMDMyNTUxMTcy
-  url: https://api.github.com/repos/kubecub/go-project-layout/labels/kind/bug
-- color: 006b75
-  default: false
-  description: Categorizes issue or PR as related to cleaning up code, process, or
-    technical debt.
-  id: 5497479585
-  name: kind/cleanup
-  node_id: LA_kwDOFhyqls8AAAABR6zhoQ
-  url: https://api.github.com/repos/kubecub/go-project-layout/labels/kind/cleanup
-- color: 0075ca
-  default: false
-  description: Improvements or additions to documentation
-  id: 3032551173
-  name: kind/documentation
-  node_id: MDU6TGFiZWwzMDMyNTUxMTcz
-  url: https://api.github.com/repos/kubecub/go-project-layout/labels/kind/documentation
-- color: B60205
-  default: false
-  description: Report failed tests in kubecub
-  id: 5497719639
-  name: kind/failing-test
-  node_id: LA_kwDOFhyqls8AAAABR7CLVw
-  url: https://api.github.com/repos/kubecub/go-project-layout/labels/kind/failing-test
-- color: 03AF64
-  default: false
-  description: ""
-  id: 5440198764
-  name: kind/feature
-  node_id: LA_kwDOFhyqls8AAAABRELYbA
-  url: https://api.github.com/repos/kubecub/go-project-layout/labels/kind/feature
-- color: BFDADC
-  default: false
-  description: Categorizes issue or PR as a support question.
-  id: 5497487384
-  name: kind/support
-  node_id: LA_kwDOFhyqls8AAAABR60AGA
-  url: https://api.github.com/repos/kubecub/go-project-layout/labels/kind/support
-- color: 0E8A16
-  default: false
-  description: Indicates that a PR is ready to be merged.
-  id: 5497502953
-  name: lgtm
-  node_id: LA_kwDOFhyqls8AAAABR6086Q
-  url: https://api.github.com/repos/kubecub/go-project-layout/labels/lgtm
-- color: 8fc951
-  default: false
-  description: Indicates that an issue or PR is actively being worked on by a contributor.
-  id: 5740527145
-  name: lifecycle/active
-  node_id: LA_kwDOFhyqls8AAAABVil-KQ
-  url: https://api.github.com/repos/kubecub/go-project-layout/labels/lifecycle/active
-- color: d3e2f0
-  default: false
-  description: Indicates that an issue or PR should not be auto-closed due to staleness.
-  id: 5740527149
-  name: lifecycle/frozen
-  node_id: LA_kwDOFhyqls8AAAABVil-LQ
-  url: https://api.github.com/repos/kubecub/go-project-layout/labels/lifecycle/frozen
-- color: "604460"
-  default: false
-  description: Denotes an issue or PR that has aged beyond stale and will be auto-closed.
-  id: 5740527139
-  name: lifecycle/rotten
-  node_id: LA_kwDOFhyqls8AAAABVil-Iw
-  url: https://api.github.com/repos/kubecub/go-project-layout/labels/lifecycle/rotten
-- color: "795548"
-  default: false
-  description: Denotes an issue or PR has remained open with no activity and has become
-    stale.
-  id: 5497523618
-  name: lifecycle/stale
-  node_id: LA_kwDOFhyqls8AAAABR62Nog
-  url: https://api.github.com/repos/kubecub/go-project-layout/labels/lifecycle/stale
-- color: FBCA04
-  default: false
-  description: ""
-  id: 5497499585
-  name: log
-  node_id: LA_kwDOFhyqls8AAAABR60vwQ
-  url: https://api.github.com/repos/kubecub/go-project-layout/labels/log
-- color: C5DEF5
-  default: false
-  description: Indicates an issue or PR lacks a `triage/foo` label and requires one.
-  id: 5497489962
-  name: needs-triage
-  node_id: LA_kwDOFhyqls8AAAABR60KKg
-  url: https://api.github.com/repos/kubecub/go-project-layout/labels/needs-triage
-- color: 006B75
-  default: false
-  description: Categorizes an issue or PR as relevant to Network.
-  id: 5497504624
-  name: network
-  node_id: LA_kwDOFhyqls8AAAABR61DcA
-  url: https://api.github.com/repos/kubecub/go-project-layout/labels/network
-- color: b60205
-  default: false
-  description: User information, template information, important information, never
-    expired and closed.
-  id: 5487958651
-  name: kubecub
-  node_id: LA_kwDOFhyqls8AAAABRxuaew
-  url: https://api.github.com/repos/kubecub/go-project-layout/labels/kubecub
-- color: 0E8A16
-  default: false
-  description: ""
-  id: 5497500315
-  name: proposal
-  node_id: LA_kwDOFhyqls8AAAABR60ymw
-  url: https://api.github.com/repos/kubecub/go-project-layout/labels/proposal
-- color: d876e3
-  default: true
-  description: Further information is requested
-  id: 3032551184
-  name: question
-  node_id: MDU6TGFiZWwzMDMyNTUxMTg0
-  url: https://api.github.com/repos/kubecub/go-project-layout/labels/question
-- color: 0E8A16
-  default: false
-  description: "Issues and pull requests related to version 2.0 of the release. This version is not maintained anymore."
-  id: 5497496026
-  name: release/v2.0
-  node_id: LA_kwDOFhyqls8AAAABR60h2g
-  url: https://api.github.com/repos/kubecub/go-project-layout/labels/release/v2.0
-- color: 0E8A16
-  default: false
-  description: "Issues and pull requests related to version 3.0 of the release. This is the current version."
-  id: 5497495379
-  name: release/v3.0
-  node_id: LA_kwDOFhyqls8AAAABR60fUw
-  url: https://api.github.com/repos/kubecub/go-project-layout/labels/release/v3.0
-- color: 0E8A16
-  default: false
-  description: "Issues and pull requests related to version 4.0 of the release. This version is in development."
-  id: 5497495718
-  name: release/v4.0
-  node_id: LA_kwDOFhyqls8AAAABR60gpg
-  url: https://api.github.com/repos/kubecub/go-project-layout/labels/release/v4.0.0
-- color: 0E8A16
-  default: false
-  description: "Issues and pull requests related to version 1.0 of the release. This version is not maintained anymore."
-  id: id_needed
-  name: release/v1.0
-  node_id: node_id_needed
-  url: https://api.github.com/repos/kubecub/go-project-layout/labels/release/v1.0
-- color: 0E8A16
-  default: false
-  description: "Issues and pull requests related to version 5.0 of the release. This version is in planning stage."
-  id: id_needed
-  name: release/v5.0
-  node_id: node_id_needed
-  url: https://api.github.com/repos/kubecub/go-project-layout/labels/release/v5.0
-- color: D93F0B
-  default: false
-  description: Some labels for the CICD automation report
-  id: 5503298850
-  name: report
-  node_id: LA_kwDOFhyqls8AAAABSAWtIg
-  url: https://api.github.com/repos/kubecub/go-project-layout/labels/report
-- color: B60205
-  default: false
-  description: ""
-  id: 5497493449
-  name: response-expired
-  node_id: LA_kwDOFhyqls8AAAABR60XyQ
-  url: https://api.github.com/repos/kubecub/go-project-layout/labels/response-expired
-- color: 0E8A16
-  default: false
-  description: Project design proposal
-  id: 5440200813
-  name: RFC
-  node_id: LA_kwDOFhyqls8AAAABRELgbQ
-  url: https://api.github.com/repos/kubecub/go-project-layout/labels/RFC
-- color: 0E8A16
-  default: false
-  description: Roadmap-related labels
-  id: 5497494568
-  name: roadmap
-  node_id: LA_kwDOFhyqls8AAAABR60cKA
-  url: https://api.github.com/repos/kubecub/go-project-layout/labels/roadmap
-- color: D93F99
-  default: false
-  description: Denotes a PR that changes 100-499 lines, ignoring generated files.
-  id: 5498033148
-  name: size/L
-  node_id: LA_kwDOFhyqls8AAAABR7VT_A
-  url: https://api.github.com/repos/kubecub/go-project-layout/labels/size/L
-- color: C2E0C6
-  default: false
-  description: Denotes a PR that changes 30-99 lines, ignoring generated files.
-  id: 5498031304
-  name: size/M
-  node_id: LA_kwDOFhyqls8AAAABR7VMyA
-  url: https://api.github.com/repos/kubecub/go-project-layout/labels/size/M
-- color: 6ED999
-  default: false
-  description: Denotes a PR that changes 10-29 lines, ignoring generated files.
-  id: 5498030094
-  name: size/S
-  node_id: LA_kwDOFhyqls8AAAABR7VIDg
-  url: https://api.github.com/repos/kubecub/go-project-layout/labels/size/S
-- color: D93F66
-  default: false
-  description: Denotes a PR that changes 500-999 lines, ignoring generated files.
-  id: 5498033991
-  name: size/XL
-  node_id: LA_kwDOFhyqls8AAAABR7VXRw
-  url: https://api.github.com/repos/kubecub/go-project-layout/labels/size/XL
-- color: 0E8A16
-  default: false
-  description: Denotes a PR that changes 0-9 lines, ignoring generated files.
-  id: 5498028868
-  name: size/XS
-  node_id: LA_kwDOFhyqls8AAAABR7VDRA
-  url: https://api.github.com/repos/kubecub/go-project-layout/labels/size/XS
-- color: D93F0B
-  default: false
-  description: Denotes a PR that changes 1000+ lines, ignoring generated files.
-  id: 5498037828
-  name: size/XXL
-  node_id: LA_kwDOFhyqls8AAAABR7VmRA
-  url: https://api.github.com/repos/kubecub/go-project-layout/labels/size/XXL
-- color: C001BC
-  default: false
-  description: Indicates an issue is a duplicate of other open issue.
-  id: 5500268174
-  name: triage/duplicate
-  node_id: LA_kwDOFhyqls8AAAABR9dujg
-  url: https://api.github.com/repos/kubecub/go-project-layout/labels/triage/duplicate
-- color: C001BC
-  default: false
-  description: Indicates an issue needs more information in order to work on it.
-  id: 5500271781
-  name: triage/needs-information
-  node_id: LA_kwDOFhyqls8AAAABR9d8pQ
-  url: https://api.github.com/repos/kubecub/go-project-layout/labels/triage/needs-information
-- color: C001BC
-  default: false
-  description: Indicates an issue can not be reproduced as described.
-  id: 5500272163
-  name: triage/not-reproducible
-  node_id: LA_kwDOFhyqls8AAAABR9d-Iw
-  url: https://api.github.com/repos/kubecub/go-project-layout/labels/triage/not-reproducible
-- color: C001BC
-  default: false
-  description: Indicates an issue that can not or will not be resolved.
-  id: 5500267848
-  name: triage/unresolved
-  node_id: LA_kwDOFhyqls8AAAABR9dtSA
-  url: https://api.github.com/repos/kubecub/go-project-layout/labels/triage/unresolved
-- color: ffffff
-  default: true
-  description: This will not be worked on
-  id: 3032551187
-  name: wontfix
-  node_id: MDU6TGFiZWwzMDMyNTUxMTg3
-  url: https://api.github.com/repos/kubecub/go-project-layout/labels/wontfix
 - color: e11d21
   default: false
   description: Categorizes an issue or PR as actively needing an API review.
-  id: 1242861616
+  id: 5781339257
   name: api-review
-  node_id: MDU6TGFiZWwxMjQyODYxNjE2
+  node_id: LA_kwDOJk4SXM8AAAABWJg8eQ
   url: https://api.github.com/repos/kubecub/go-project-layout/labels/api-review
 - color: 0ffa16
   default: false
   description: Indicates a PR has been approved by an approver from all required OWNERS
     files.
-  id: 414883982
+  id: 5781339373
   name: approved
-  node_id: MDU6TGFiZWw0MTQ4ODM5ODI=
+  node_id: LA_kwDOJk4SXM8AAAABWJg87Q
   url: https://api.github.com/repos/kubecub/go-project-layout/labels/approved
 - color: 0052cc
   default: false
   description: Indicates an issue on admin area.
-  id: 286411323
+  id: 5781339381
   name: area/admin
-  node_id: MDU6TGFiZWwyODY0MTEzMjM=
+  node_id: LA_kwDOJk4SXM8AAAABWJg89Q
   url: https://api.github.com/repos/kubecub/go-project-layout/labels/area/admin
 - color: 0052cc
   default: false
-  description: "Issues or PRs related to admission control aspect of kubecub."
-  id: 486445796
+  description: Issues or PRs related to admission control aspect of kubecub.
+  id: 5781339345
   name: area/admission-control
-  node_id: MDU6TGFiZWw0ODY0NDU3OTY=
+  node_id: LA_kwDOJk4SXM8AAAABWJg80Q
   url: https://api.github.com/repos/kubecub/go-project-layout/labels/area/admission-control
 - color: 0052cc
   default: false
-  description: "Issues or PRs related to the APIs server of kubecub."
-  id: 136601536
+  description: Issues or PRs related to the APIs server of kubecub.
+  id: 5781339301
   name: area/apiserver
-  node_id: MDU6TGFiZWwxMzY2MDE1MzY=
+  node_id: LA_kwDOJk4SXM8AAAABWJg8pQ
   url: https://api.github.com/repos/kubecub/go-project-layout/labels/area/apiserver
 - color: 0052cc
   default: false
-  description: "Issues or PRs related to the app lifecycle management in kubecub."
-  id: 126701924
+  description: Issues or PRs related to the app lifecycle management in kubecub.
+  id: 5781339414
   name: area/app-lifecycle
-  node_id: MDU6TGFiZWwxMjY3MDE5MjQ=
+  node_id: LA_kwDOJk4SXM8AAAABWJg9Fg
   url: https://api.github.com/repos/kubecub/go-project-layout/labels/area/app-lifecycle
 - color: 0052cc
   default: false
-  description: "Issues or PRs related to audit logging within kubecub."
-  id: 680704582
+  description: Issues or PRs related to audit logging within kubecub.
+  id: 5781339243
   name: area/audit
-  node_id: MDU6TGFiZWw2ODA3MDQ1ODI=
+  node_id: LA_kwDOJk4SXM8AAAABWJg8aw
   url: https://api.github.com/repos/kubecub/go-project-layout/labels/area/audit
 - color: 0052cc
   default: false
-  description: "Issues or PRs related to batch job processing within kubecub."
-  id: 136892195
+  description: Issues or PRs related to batch job processing within kubecub.
+  id: 5781339259
   name: area/batch
-  node_id: MDU6TGFiZWwxMzY4OTIxOTU=
+  node_id: LA_kwDOJk4SXM8AAAABWJg8ew
   url: https://api.github.com/repos/kubecub/go-project-layout/labels/area/batch
 - color: 0052cc
   default: false
-  description: "Issues or PRs related to build and release processes of kubecub."
-  id: 125299793
+  description: Issues or PRs related to build and release processes of kubecub.
+  id: 5781339293
   name: area/build-release
-  node_id: MDU6TGFiZWwxMjUyOTk3OTM=
+  node_id: LA_kwDOJk4SXM8AAAABWJg8nQ
   url: https://api.github.com/repos/kubecub/go-project-layout/labels/area/build-release
 - color: 0052cc
   default: false
-  description: "Issues or PRs related to cAdvisor (Container Advisor) within kubecub."
-  id: 148734898
+  description: Issues or PRs related to cAdvisor (Container Advisor) within kubecub.
+  id: 5781339411
   name: area/cadvisor
-  node_id: MDU6TGFiZWwxNDg3MzQ4OTg=
+  node_id: LA_kwDOJk4SXM8AAAABWJg9Ew
   url: https://api.github.com/repos/kubecub/go-project-layout/labels/area/cadvisor
 - color: 0052cc
   default: false
-  description: "Issues or PRs related to the client libraries of kubecub."
-  id: 127257422
+  description: Issues or PRs related to the client libraries of kubecub.
+  id: 5781339266
   name: area/client-libraries
-  node_id: MDU6TGFiZWwxMjcyNTc0MjI=
+  node_id: LA_kwDOJk4SXM8AAAABWJg8gg
   url: https://api.github.com/repos/kubecub/go-project-layout/labels/area/client-libraries
 - color: 0052cc
   default: false
-  description: "Issues or PRs related to the integration of kubecub with cloud providers."
-  id: 154660912
+  description: Issues or PRs related to the integration of kubecub with cloud providers.
+  id: 5781339267
   name: area/cloudprovider
-  node_id: MDU6TGFiZWwxNTQ2NjA5MTI=
+  node_id: LA_kwDOJk4SXM8AAAABWJg8gw
   url: https://api.github.com/repos/kubecub/go-project-layout/labels/area/cloudprovider
 - color: 0052cc
   default: false
-  description: "Issues or PRs related to code generation within kubecub."
-  id: 732478758
+  description: Issues or PRs related to code generation within kubecub.
+  id: 5781339388
   name: area/code-generation
-  node_id: MDU6TGFiZWw3MzI0Nzg3NTg=
+  node_id: LA_kwDOJk4SXM8AAAABWJg8_A
   url: https://api.github.com/repos/kubecub/go-project-layout/labels/area/code-generation
 - color: 0052cc
   default: false
   description: Issues or PRs related to kubecub code organization
-  id: 1315281643
+  id: 5781339337
   name: area/code-organization
-  node_id: MDU6TGFiZWwxMzE1MjgxNjQz
+  node_id: LA_kwDOJk4SXM8AAAABWJg8yQ
   url: https://api.github.com/repos/kubecub/go-project-layout/labels/area/code-organization
 - color: 0052cc
   default: false
-  description: Issues or PRs that should potentially be discussed in a kubecub
-    community meeting.
-  id: 4582490420
+  description: Issues or PRs that should potentially be discussed in a kubecub community
+    meeting.
+  id: 5781339306
   name: area/community-meeting
-  node_id: LA_kwDOAToIks8AAAABESNBNA
+  node_id: LA_kwDOJk4SXM8AAAABWJg8qg
   url: https://api.github.com/repos/kubecub/go-project-layout/labels/area/community-meeting
 - color: 0052cc
   default: false
   description: ""
-  id: 433825251
+  id: 5781339258
   name: area/configmap-api
-  node_id: MDU6TGFiZWw0MzM4MjUyNTE=
+  node_id: LA_kwDOJk4SXM8AAAABWJg8eg
   url: https://api.github.com/repos/kubecub/go-project-layout/labels/area/configmap-api
 - color: 0052cc
   default: false
   description: Issues or PRs related to kubecub conformance tests
-  id: 717986501
+  id: 5781339407
   name: area/conformance
-  node_id: MDU6TGFiZWw3MTc5ODY1MDE=
+  node_id: LA_kwDOJk4SXM8AAAABWJg9Dw
   url: https://api.github.com/repos/kubecub/go-project-layout/labels/area/conformance
 - color: 0052cc
   default: false
   description: ""
-  id: 136601472
+  id: 5781339421
   name: area/controller-manager
-  node_id: MDU6TGFiZWwxMzY2MDE0NzI=
+  node_id: LA_kwDOJk4SXM8AAAABWJg9HQ
   url: https://api.github.com/repos/kubecub/go-project-layout/labels/area/controller-manager
 - color: 0052cc
   default: false
   description: ""
-  id: 556590057
+  id: 5781339272
   name: area/custom-resources
-  node_id: MDU6TGFiZWw1NTY1OTAwNTc=
+  node_id: LA_kwDOJk4SXM8AAAABWJg8iA
   url: https://api.github.com/repos/kubecub/go-project-layout/labels/area/custom-resources
 - color: 0052cc
   default: false
   description: ""
-  id: 496768026
+  id: 5781339327
   name: area/declarative-configuration
-  node_id: MDU6TGFiZWw0OTY3NjgwMjY=
+  node_id: LA_kwDOJk4SXM8AAAABWJg8vw
   url: https://api.github.com/repos/kubecub/go-project-layout/labels/area/declarative-configuration
 - color: 0052cc
   default: false
   description: Issues or PRs related to deflaking kubecub tests
-  id: 1180678886
+  id: 5781339391
   name: area/deflake
-  node_id: MDU6TGFiZWwxMTgwNjc4ODg2
+  node_id: LA_kwDOJk4SXM8AAAABWJg8_w
   url: https://api.github.com/repos/kubecub/go-project-layout/labels/area/deflake
 - color: 0052cc
   default: false
   description: Issues or PRs related to dependency changes
-  id: 1305786977
+  id: 5781339273
   name: area/dependency
-  node_id: MDU6TGFiZWwxMzA1Nzg2OTc3
+  node_id: LA_kwDOJk4SXM8AAAABWJg8iQ
   url: https://api.github.com/repos/kubecub/go-project-layout/labels/area/dependency
 - color: 0052cc
   default: false
   description: ""
-  id: 390273825
+  id: 5781339429
   name: area/dns
-  node_id: MDU6TGFiZWwzOTAyNzM4MjU=
+  node_id: LA_kwDOJk4SXM8AAAABWJg9JQ
   url: https://api.github.com/repos/kubecub/go-project-layout/labels/area/dns
 - color: 0052cc
   default: false
   description: ""
-  id: 116712229
+  id: 5781339389
   name: area/docker
-  node_id: MDU6TGFiZWwxMTY3MTIyMjk=
+  node_id: LA_kwDOJk4SXM8AAAABWJg8_Q
   url: https://api.github.com/repos/kubecub/go-project-layout/labels/area/docker
 - color: 0052cc
   default: false
   description: ""
-  id: 130978978
+  id: 5781339325
   name: area/downward-api
-  node_id: MDU6TGFiZWwxMzA5Nzg5Nzg=
+  node_id: LA_kwDOJk4SXM8AAAABWJg8vQ
   url: https://api.github.com/repos/kubecub/go-project-layout/labels/area/downward-api
 - color: 0052cc
   default: false
   description: Issues or PRs related to refactoring the kubecub e2e test framework
-  id: 1285569325
+  id: 5781339403
   name: area/e2e-test-framework
-  node_id: MDU6TGFiZWwxMjg1NTY5MzI1
+  node_id: LA_kwDOJk4SXM8AAAABWJg9Cw
   url: https://api.github.com/repos/kubecub/go-project-layout/labels/area/e2e-test-framework
 - color: 0052cc
   default: false
   description: ""
-  id: 335282747
+  id: 5781339432
   name: area/ecosystem
-  node_id: MDU6TGFiZWwzMzUyODI3NDc=
+  node_id: LA_kwDOJk4SXM8AAAABWJg9KA
   url: https://api.github.com/repos/kubecub/go-project-layout/labels/area/ecosystem
 - color: 0052cc
   default: false
   description: ""
-  id: 127257343
+  id: 5781339440
   name: area/etcd
-  node_id: MDU6TGFiZWwxMjcyNTczNDM=
+  node_id: LA_kwDOJk4SXM8AAAABWJg9MA
   url: https://api.github.com/repos/kubecub/go-project-layout/labels/area/etcd
 - color: 0052cc
   default: false
   description: ""
-  id: 134675059
+  id: 5781339255
   name: area/example
-  node_id: MDU6TGFiZWwxMzQ2NzUwNTk=
+  node_id: LA_kwDOJk4SXM8AAAABWJg8dw
   url: https://api.github.com/repos/kubecub/go-project-layout/labels/area/example
 - color: 0052cc
   default: false
   description: ""
-  id: 358362557
+  id: 5781339290
   name: area/example/cassandra
-  node_id: MDU6TGFiZWwzNTgzNjI1NTc=
+  node_id: LA_kwDOJk4SXM8AAAABWJg8mg
   url: https://api.github.com/repos/kubecub/go-project-layout/labels/area/example/cassandra
 - color: 0052cc
   default: false
   description: ""
-  id: 138151954
+  id: 5781339316
   name: area/extensibility
-  node_id: MDU6TGFiZWwxMzgxNTE5NTQ=
+  node_id: LA_kwDOJk4SXM8AAAABWJg8tA
   url: https://api.github.com/repos/kubecub/go-project-layout/labels/area/extensibility
 - color: 0052cc
   default: false
   description: ""
-  id: 715868252
+  id: 5781339430
   name: area/federation
-  node_id: MDU6TGFiZWw3MTU4NjgyNTI=
+  node_id: LA_kwDOJk4SXM8AAAABWJg9Jg
   url: https://api.github.com/repos/kubecub/go-project-layout/labels/area/federation
 - color: 0052cc
   default: false
   description: ""
-  id: 136908839
+  id: 5781339419
   name: area/HA
-  node_id: MDU6TGFiZWwxMzY5MDg4Mzk=
+  node_id: LA_kwDOJk4SXM8AAAABWJg9Gw
   url: https://api.github.com/repos/kubecub/go-project-layout/labels/area/HA
 - color: 0052cc
   default: false
   description: ""
-  id: 644163893
+  id: 5781339233
   name: area/hw-accelerators
-  node_id: MDU6TGFiZWw2NDQxNjM4OTM=
+  node_id: LA_kwDOJk4SXM8AAAABWJg8YQ
   url: https://api.github.com/repos/kubecub/go-project-layout/labels/area/hw-accelerators
 - color: 0052cc
   default: false
   description: ""
-  id: 135360517
+  id: 5781339260
   name: area/images-registry
-  node_id: MDU6TGFiZWwxMzUzNjA1MTc=
+  node_id: LA_kwDOJk4SXM8AAAABWJg8fA
   url: https://api.github.com/repos/kubecub/go-project-layout/labels/area/images-registry
 - color: 0052cc
   default: false
   description: ""
-  id: 500254090
+  id: 5781339413
   name: area/ingress
-  node_id: MDU6TGFiZWw1MDAyNTQwOTA=
+  node_id: LA_kwDOJk4SXM8AAAABWJg9FQ
   url: https://api.github.com/repos/kubecub/go-project-layout/labels/area/ingress
 - color: 0052cc
   default: false
   description: ""
-  id: 125010631
+  id: 5781339268
   name: area/introspection
-  node_id: MDU6TGFiZWwxMjUwMTA2MzE=
+  node_id: LA_kwDOJk4SXM8AAAABWJg8hA
   url: https://api.github.com/repos/kubecub/go-project-layout/labels/area/introspection
 - color: 0052cc
   default: false
   description: ""
-  id: 608460743
+  id: 5781339271
   name: area/ipv6
-  node_id: MDU6TGFiZWw2MDg0NjA3NDM=
+  node_id: LA_kwDOJk4SXM8AAAABWJg8hw
   url: https://api.github.com/repos/kubecub/go-project-layout/labels/area/ipv6
 - color: 0052cc
   default: false
   description: ""
-  id: 755527763
+  id: 5781339237
   name: area/ipvs
-  node_id: MDU6TGFiZWw3NTU1Mjc3NjM=
+  node_id: LA_kwDOJk4SXM8AAAABWJg8ZQ
   url: https://api.github.com/repos/kubecub/go-project-layout/labels/area/ipvs
 - color: 0052cc
   default: false
   description: ""
-  id: 125550324
+  id: 5781339264
   name: area/isolation
-  node_id: MDU6TGFiZWwxMjU1NTAzMjQ=
+  node_id: LA_kwDOJk4SXM8AAAABWJg8gA
   url: https://api.github.com/repos/kubecub/go-project-layout/labels/area/isolation
 - color: 0052cc
   default: false
   description: ""
-  id: 148734819
+  id: 5781339304
   name: area/logging
-  node_id: MDU6TGFiZWwxNDg3MzQ4MTk=
+  node_id: LA_kwDOJk4SXM8AAAABWJg8qA
   url: https://api.github.com/repos/kubecub/go-project-layout/labels/area/logging
 - color: 0052cc
   default: false
   description: ""
-  id: 148734755
+  id: 5781339338
   name: area/monitoring
-  node_id: MDU6TGFiZWwxNDg3MzQ3NTU=
+  node_id: LA_kwDOJk4SXM8AAAABWJg8yg
   url: https://api.github.com/repos/kubecub/go-project-layout/labels/area/monitoring
 - color: 0052cc
   default: false
   description: Issues or PRs related to Network Policy subproject
-  id: 2873200929
+  id: 5781339355
   name: area/network-policy
-  node_id: MDU6TGFiZWwyODczMjAwOTI5
+  node_id: LA_kwDOJk4SXM8AAAABWJg82w
   url: https://api.github.com/repos/kubecub/go-project-layout/labels/area/network-policy
 - color: 0052cc
   default: false
   description: ""
-  id: 381925990
+  id: 5781339358
   name: area/node-e2e
-  node_id: MDU6TGFiZWwzODE5MjU5OTA=
+  node_id: LA_kwDOJk4SXM8AAAABWJg83g
   url: https://api.github.com/repos/kubecub/go-project-layout/labels/area/node-e2e
 - color: 0052cc
   default: false
   description: ""
-  id: 567844235
+  id: 5781339295
   name: area/node-lifecycle
-  node_id: MDU6TGFiZWw1Njc4NDQyMzU=
+  node_id: LA_kwDOJk4SXM8AAAABWJg8nw
   url: https://api.github.com/repos/kubecub/go-project-layout/labels/area/node-lifecycle
 - color: 0052cc
   default: false
   description: ""
-  id: 140091046
+  id: 5781339276
   name: area/nodecontroller
-  node_id: MDU6TGFiZWwxNDAwOTEwNDY=
+  node_id: LA_kwDOJk4SXM8AAAABWJg8jA
   url: https://api.github.com/repos/kubecub/go-project-layout/labels/area/nodecontroller
 - color: d4c5f9
   default: false
   description: ""
-  id: 134646924
+  id: 5781339240
   name: area/os/coreos
-  node_id: MDU6TGFiZWwxMzQ2NDY5MjQ=
+  node_id: LA_kwDOJk4SXM8AAAABWJg8aA
   url: https://api.github.com/repos/kubecub/go-project-layout/labels/area/os/coreos
 - color: d4c5f9
   default: false
   description: ""
-  id: 134646888
+  id: 5781339285
   name: area/os/fedora
-  node_id: MDU6TGFiZWwxMzQ2NDY4ODg=
+  node_id: LA_kwDOJk4SXM8AAAABWJg8lQ
   url: https://api.github.com/repos/kubecub/go-project-layout/labels/area/os/fedora
 - color: d4c5f9
   default: false
   description: ""
-  id: 130317730
+  id: 5781339412
   name: area/os/ubuntu
-  node_id: MDU6TGFiZWwxMzAzMTc3MzA=
+  node_id: LA_kwDOJk4SXM8AAAABWJg9FA
   url: https://api.github.com/repos/kubecub/go-project-layout/labels/area/os/ubuntu
 - color: d4c5f9
   default: false
   description: ""
-  id: 134646230
+  id: 5781339236
   name: area/platform/gce
-  node_id: MDU6TGFiZWwxMzQ2NDYyMzA=
+  node_id: LA_kwDOJk4SXM8AAAABWJg8ZA
   url: https://api.github.com/repos/kubecub/go-project-layout/labels/area/platform/gce
 - color: d4c5f9
   default: false
   description: ""
-  id: 189591106
+  id: 5781339350
   name: area/platform/mesos
-  node_id: MDU6TGFiZWwxODk1OTExMDY=
+  node_id: LA_kwDOJk4SXM8AAAABWJg81g
   url: https://api.github.com/repos/kubecub/go-project-layout/labels/area/platform/mesos
 - color: d4c5f9
   default: false
   description: ""
-  id: 134646415
+  id: 5781339335
   name: area/platform/vagrant
-  node_id: MDU6TGFiZWwxMzQ2NDY0MTU=
+  node_id: LA_kwDOJk4SXM8AAAABWJg8xw
   url: https://api.github.com/repos/kubecub/go-project-layout/labels/area/platform/vagrant
 - color: 0052cc
   default: false
   description: Issues or PRs related to aws provider
-  id: 852130657
+  id: 5781339283
   name: area/provider/aws
-  node_id: MDU6TGFiZWw4NTIxMzA2NTc=
+  node_id: LA_kwDOJk4SXM8AAAABWJg8kw
   url: https://api.github.com/repos/kubecub/go-project-layout/labels/area/provider/aws
 - color: 0052cc
   default: false
   description: Issues or PRs related to azure provider
-  id: 852130786
+  id: 5781339409
   name: area/provider/azure
-  node_id: MDU6TGFiZWw4NTIxMzA3ODY=
+  node_id: LA_kwDOJk4SXM8AAAABWJg9EQ
   url: https://api.github.com/repos/kubecub/go-project-layout/labels/area/provider/azure
 - color: 0052cc
   default: false
   description: Issues or PRs related to digitalocean provider
-  id: 1946559194
+  id: 5781339269
   name: area/provider/digitalocean
-  node_id: MDU6TGFiZWwxOTQ2NTU5MTk0
+  node_id: LA_kwDOJk4SXM8AAAABWJg8hQ
   url: https://api.github.com/repos/kubecub/go-project-layout/labels/area/provider/digitalocean
 - color: 0052cc
   default: false
   description: Issues or PRs related to gcp provider
-  id: 158907408
+  id: 5781339368
   name: area/provider/gcp
-  node_id: MDU6TGFiZWwxNTg5MDc0MDg=
+  node_id: LA_kwDOJk4SXM8AAAABWJg86A
   url: https://api.github.com/repos/kubecub/go-project-layout/labels/area/provider/gcp
 - color: 0052cc
   default: false
   description: Issues or PRs related to ibmcloud provider
-  id: 884249241
+  id: 5781339313
   name: area/provider/ibmcloud
-  node_id: MDU6TGFiZWw4ODQyNDkyNDE=
+  node_id: LA_kwDOJk4SXM8AAAABWJg8sQ
   url: https://api.github.com/repos/kubecub/go-project-layout/labels/area/provider/ibmcloud
 - color: 0052cc
   default: false
   description: Issues or PRs related to openstack provider
-  id: 239914558
+  id: 5781339332
   name: area/provider/openstack
-  node_id: MDU6TGFiZWwyMzk5MTQ1NTg=
+  node_id: LA_kwDOJk4SXM8AAAABWJg8xA
   url: https://api.github.com/repos/kubecub/go-project-layout/labels/area/provider/openstack
 - color: 0052cc
   default: false
   description: Issues or PRs related to vmware provider
-  id: 874113778
+  id: 5781339251
   name: area/provider/vmware
-  node_id: MDU6TGFiZWw4NzQxMTM3Nzg=
+  node_id: LA_kwDOJk4SXM8AAAABWJg8cw
   url: https://api.github.com/repos/kubecub/go-project-layout/labels/area/provider/vmware
 - color: 0052cc
   default: false
   description: Issues or PRs related to the Release Engineering subproject
-  id: 268190668
+  id: 5781339324
   name: area/release-eng
-  node_id: MDU6TGFiZWwyNjgxOTA2Njg=
+  node_id: LA_kwDOJk4SXM8AAAABWJg8vA
   url: https://api.github.com/repos/kubecub/go-project-layout/labels/area/release-eng
 - color: 0052cc
   default: false
-  description: "Issues or PRs related to system reliability"
-  id: 159151142
+  description: Issues or PRs related to system reliability
+  id: 5781339311
   name: area/reliability
-  node_id: MDU6TGFiZWwxNTkxNTExNDI=
+  node_id: LA_kwDOJk4SXM8AAAABWJg8rw
   url: https://api.github.com/repos/kubecub/go-project-layout/labels/area/reliability
 - color: 0052cc
   default: false
-  description: "Issues or PRs related to rkt (a pod-native container engine)"
-  id: 203010486
+  description: Issues or PRs related to rkt (a pod-native container engine)
+  id: 5781339365
   name: area/rkt
-  node_id: MDU6TGFiZWwyMDMwMTA0ODY=
+  node_id: LA_kwDOJk4SXM8AAAABWJg85Q
   url: https://api.github.com/repos/kubecub/go-project-layout/labels/area/rkt
 - color: 0052cc
   default: false
-  description: "Issues or PRs related to Secret API"
-  id: 483309897
+  description: Issues or PRs related to Secret API
+  id: 5781339308
   name: area/secret-api
-  node_id: MDU6TGFiZWw0ODMzMDk4OTc=
+  node_id: LA_kwDOJk4SXM8AAAABWJg8rA
   url: https://api.github.com/repos/kubecub/go-project-layout/labels/area/secret-api
 - color: d93f0b
   default: false
-  description: "Issues or PRs related to security features or vulnerabilities"
-  id: 116712923
+  description: Issues or PRs related to security features or vulnerabilities
+  id: 5781339298
   name: area/security
-  node_id: MDU6TGFiZWwxMTY3MTI5MjM=
+  node_id: LA_kwDOJk4SXM8AAAABWJg8og
   url: https://api.github.com/repos/kubecub/go-project-layout/labels/area/security
 - color: 0052cc
   default: false
-  description: "Issues or PRs related to stateful applications"
-  id: 353400216
+  description: Issues or PRs related to stateful applications
+  id: 5781339410
   name: area/stateful-apps
-  node_id: MDU6TGFiZWwzNTM0MDAyMTY=
+  node_id: LA_kwDOJk4SXM8AAAABWJg9Eg
   url: https://api.github.com/repos/kubecub/go-project-layout/labels/area/stateful-apps
 - color: 0052cc
   default: false
-  description: "Issues or PRs related to Swagger API documentation"
-  id: 254871849
+  description: Issues or PRs related to Swagger API documentation
+  id: 5781339274
   name: area/swagger
-  node_id: MDU6TGFiZWwyNTQ4NzE4NDk=
+  node_id: LA_kwDOJk4SXM8AAAABWJg8ig
   url: https://api.github.com/repos/kubecub/go-project-layout/labels/area/swagger
 - color: 0052cc
   default: false
-  description: "Issues or PRs related to system requirements"
-  id: 269078649
+  description: Issues or PRs related to system requirements
+  id: 5781339242
   name: area/system-requirement
-  node_id: MDU6TGFiZWwyNjkwNzg2NDk=
+  node_id: LA_kwDOJk4SXM8AAAABWJg8ag
   url: https://api.github.com/repos/kubecub/go-project-layout/labels/area/system-requirement
 - color: 0052cc
   default: false
-  description: "Issues or PRs related to system teardown or cleanup"
-  id: 463533491
+  description: Issues or PRs related to system teardown or cleanup
+  id: 5781339245
   name: area/teardown
-  node_id: MDU6TGFiZWw0NjM1MzM0OTE=
+  node_id: LA_kwDOJk4SXM8AAAABWJg8bQ
   url: https://api.github.com/repos/kubecub/go-project-layout/labels/area/teardown
 - color: 0052cc
   default: false
-  description: "Issues or PRs related to tests or testing infrastructure"
-  id: 105152717
+  description: Issues or PRs related to tests or testing infrastructure
+  id: 5781339288
   name: area/test
-  node_id: MDU6TGFiZWwxMDUxNTI3MTc=
+  node_id: LA_kwDOJk4SXM8AAAABWJg8mA
   url: https://api.github.com/repos/kubecub/go-project-layout/labels/area/test
 - color: 0052cc
   default: false
-  description: "Issues or PRs related to test infrastructure"
-  id: 178071252
+  description: Issues or PRs related to test infrastructure
+  id: 5781339399
   name: area/test-infra
-  node_id: MDU6TGFiZWwxNzgwNzEyNTI=
+  node_id: LA_kwDOJk4SXM8AAAABWJg9Bw
   url: https://api.github.com/repos/kubecub/go-project-layout/labels/area/test-infra
 - color: 0052cc
   default: false
-  description: "Issues or PRs related to user interface"
-  id: 136601677
+  description: Issues or PRs related to user interface
+  id: 5781339336
   name: area/ui
-  node_id: MDU6TGFiZWwxMzY2MDE2Nzc=
+  node_id: LA_kwDOJk4SXM8AAAABWJg8yA
   url: https://api.github.com/repos/kubecub/go-project-layout/labels/area/ui
 - color: 0052cc
   default: false
-  description: "Issues or PRs related to system upgrades"
-  id: 192801498
+  description: Issues or PRs related to system upgrades
+  id: 5781339401
   name: area/upgrade
-  node_id: MDU6TGFiZWwxOTI4MDE0OTg=
+  node_id: LA_kwDOJk4SXM8AAAABWJg9CQ
   url: https://api.github.com/repos/kubecub/go-project-layout/labels/area/upgrade
 - color: 0052cc
   default: false
-  description: "Issues or PRs related to usability improvements or concerns"
-  id: 134645162
+  description: Issues or PRs related to usability improvements or concerns
+  id: 5781339329
   name: area/usability
-  node_id: MDU6TGFiZWwxMzQ2NDUxNjI=
+  node_id: LA_kwDOJk4SXM8AAAABWJg8wQ
   url: https://api.github.com/repos/kubecub/go-project-layout/labels/area/usability
 - color: 0052cc
   default: false
-  description: "Issues or PRs related to workload API's cronjob features"
-  id: 483268583
+  description: Issues or PRs related to workload API's cronjob features
+  id: 5781339362
   name: area/workload-api/cronjob
-  node_id: MDU6TGFiZWw0ODMyNjg1ODM=
+  node_id: LA_kwDOJk4SXM8AAAABWJg84g
   url: https://api.github.com/repos/kubecub/go-project-layout/labels/area/workload-api/cronjob
 - color: 0052cc
   default: false
-  description: "Issues or PRs related to workload API's daemonset features"
-  id: 410265116
+  description: Issues or PRs related to workload API's daemonset features
+  id: 5781339315
   name: area/workload-api/daemonset
-  node_id: MDU6TGFiZWw0MTAyNjUxMTY=
+  node_id: LA_kwDOJk4SXM8AAAABWJg8sw
   url: https://api.github.com/repos/kubecub/go-project-layout/labels/area/workload-api/daemonset
 - color: 0052cc
   default: false
-  description: "Issues or PRs related to workload API's deployment features"
-  id: 382474515
+  description: Issues or PRs related to workload API's deployment features
+  id: 5781339361
   name: area/workload-api/deployment
-  node_id: MDU6TGFiZWwzODI0NzQ1MTU=
+  node_id: LA_kwDOJk4SXM8AAAABWJg84Q
   url: https://api.github.com/repos/kubecub/go-project-layout/labels/area/workload-api/deployment
 - color: 0052cc
   default: false
-  description: "Issues or PRs related to workload API's job features"
-  id: 483268648
+  description: Issues or PRs related to workload API's job features
+  id: 5781339351
   name: area/workload-api/job
-  node_id: MDU6TGFiZWw0ODMyNjg2NDg=
+  node_id: LA_kwDOJk4SXM8AAAABWJg81w
   url: https://api.github.com/repos/kubecub/go-project-layout/labels/area/workload-api/job
-- color: 0052cc
-  default: false
 - color: fef2c0
   default: false
   description: Indicates a cherry-pick PR into a release branch has been approved
     by the release branch manager.
-  id: 339502903
+  id: 5781339323
   name: cherry-pick-approved
-  node_id: MDU6TGFiZWwzMzk1MDI5MDM=
+  node_id: LA_kwDOJk4SXM8AAAABWJg8uw
   url: https://api.github.com/repos/kubecub/go-project-layout/labels/cherry-pick-approved
 - color: e11d21
   default: false
   description: Indicates the PR's author has not signed the CNCF CLA.
-  id: 477397085
+  id: 5781339370
   name: 'cncf-cla: no'
-  node_id: MDU6TGFiZWw0NzczOTcwODU=
+  node_id: LA_kwDOJk4SXM8AAAABWJg86g
   url: https://api.github.com/repos/kubecub/go-project-layout/labels/cncf-cla:%20no
 - color: bfe5bf
   default: false
   description: Indicates the PR's author has signed the CNCF CLA.
-  id: 477397086
+  id: 5781339395
   name: 'cncf-cla: yes'
-  node_id: MDU6TGFiZWw0NzczOTcwODY=
+  node_id: LA_kwDOJk4SXM8AAAABWJg9Aw
   url: https://api.github.com/repos/kubecub/go-project-layout/labels/cncf-cla:%20yes
 - color: c0ff4a
   default: false
   description: Denotes an issue or PR intended to be handled by the code of conduct
     committee.
-  id: 815657036
+  id: 5781339405
   name: committee/code-of-conduct
-  node_id: MDU6TGFiZWw4MTU2NTcwMzY=
+  node_id: LA_kwDOJk4SXM8AAAABWJg9DQ
   url: https://api.github.com/repos/kubecub/go-project-layout/labels/committee/code-of-conduct
 - color: c0ff4a
   default: false
   description: Denotes an issue or PR intended to be handled by the product security
     committee.
-  id: 1199275492
+  id: 5781339371
   name: committee/security-response
-  node_id: MDU6TGFiZWwxMTk5Mjc1NDky
+  node_id: LA_kwDOJk4SXM8AAAABWJg86w
   url: https://api.github.com/repos/kubecub/go-project-layout/labels/committee/security-response
 - color: c0ff4a
   default: false
   description: Denotes an issue or PR intended to be handled by the steering committee.
-  id: 815656936
+  id: 5781339252
   name: committee/steering
-  node_id: MDU6TGFiZWw4MTU2NTY5MzY=
+  node_id: LA_kwDOJk4SXM8AAAABWJg8dA
   url: https://api.github.com/repos/kubecub/go-project-layout/labels/committee/steering
 - color: 0366d6
   default: false
   description: Pull requests that update a dependency file
-  id: 2207995975
+  id: 5781339241
   name: dependencies
-  node_id: MDU6TGFiZWwyMjA3OTk1OTc1
+  node_id: LA_kwDOJk4SXM8AAAABWJg8aQ
   url: https://api.github.com/repos/kubecub/go-project-layout/labels/dependencies
 - color: e11d21
   default: false
   description: DEPRECATED. Indicates that a PR should not merge. Label can only be
     manually applied/removed.
-  id: 335674843
+  id: 5781339375
   name: do-not-merge
-  node_id: MDU6TGFiZWwzMzU2NzQ4NDM=
+  node_id: LA_kwDOJk4SXM8AAAABWJg87w
   url: https://api.github.com/repos/kubecub/go-project-layout/labels/do-not-merge
 - color: e11d21
   default: false
   description: Indicates that a PR should not merge because it touches files in blocked
     paths.
-  id: 689109191
+  id: 5781339352
   name: do-not-merge/blocked-paths
-  node_id: MDU6TGFiZWw2ODkxMDkxOTE=
+  node_id: LA_kwDOJk4SXM8AAAABWJg82A
   url: https://api.github.com/repos/kubecub/go-project-layout/labels/do-not-merge/blocked-paths
 - color: e11d21
   default: false
   description: Indicates that a PR is not yet approved to merge into a release branch.
-  id: 680154135
+  id: 5781339275
   name: do-not-merge/cherry-pick-not-approved
-  node_id: MDU6TGFiZWw2ODAxNTQxMzU=
+  node_id: LA_kwDOJk4SXM8AAAABWJg8iw
   url: https://api.github.com/repos/kubecub/go-project-layout/labels/do-not-merge/cherry-pick-not-approved
 - color: e11d21
   default: false
   description: Indicates a PR which contains merge commits.
-  id: 1391972461
+  id: 5781339314
   name: do-not-merge/contains-merge-commits
-  node_id: MDU6TGFiZWwxMzkxOTcyNDYx
+  node_id: LA_kwDOJk4SXM8AAAABWJg8sg
   url: https://api.github.com/repos/kubecub/go-project-layout/labels/do-not-merge/contains-merge-commits
 - color: e11d21
   default: false
   description: Indicates that a PR should not merge because someone has issued a /hold
     command.
-  id: 687565804
+  id: 5781339396
   name: do-not-merge/hold
-  node_id: MDU6TGFiZWw2ODc1NjU4MDQ=
+  node_id: LA_kwDOJk4SXM8AAAABWJg9BA
   url: https://api.github.com/repos/kubecub/go-project-layout/labels/do-not-merge/hold
 - color: e11d21
   default: false
   description: Indicates that a PR should not merge because it has an invalid commit
     message.
-  id: 1322574295
+  id: 5781339277
   name: do-not-merge/invalid-commit-message
-  node_id: MDU6TGFiZWwxMzIyNTc0Mjk1
+  node_id: LA_kwDOJk4SXM8AAAABWJg8jQ
   url: https://api.github.com/repos/kubecub/go-project-layout/labels/do-not-merge/invalid-commit-message
 - color: e11d21
   default: false
   description: Indicates that a PR should not merge because it has an invalid OWNERS
     file in it.
-  id: 969564572
+  id: 5781339249
   name: do-not-merge/invalid-owners-file
-  node_id: MDU6TGFiZWw5Njk1NjQ1NzI=
+  node_id: LA_kwDOJk4SXM8AAAABWJg8cQ
   url: https://api.github.com/repos/kubecub/go-project-layout/labels/do-not-merge/invalid-owners-file
 - color: e11d21
   default: false
   description: Indicates a PR lacks a `kind/foo` label and requires one.
-  id: 2480789134
+  id: 5781339234
   name: do-not-merge/needs-kind
-  node_id: MDU6TGFiZWwyNDgwNzg5MTM0
+  node_id: LA_kwDOJk4SXM8AAAABWJg8Yg
   url: https://api.github.com/repos/kubecub/go-project-layout/labels/do-not-merge/needs-kind
 - color: e11d21
   default: false
   description: Indicates an issue or PR lacks a `sig/foo` label and requires one.
-  id: 2480789133
+  id: 5781339408
   name: do-not-merge/needs-sig
-  node_id: MDU6TGFiZWwyNDgwNzg5MTMz
+  node_id: LA_kwDOJk4SXM8AAAABWJg9EA
   url: https://api.github.com/repos/kubecub/go-project-layout/labels/do-not-merge/needs-sig
 - color: e11d21
   default: false
   description: Indicates that a PR should not merge because it's missing one of the
     release note labels.
-  id: 680152113
+  id: 5781339344
   name: do-not-merge/release-note-label-needed
-  node_id: MDU6TGFiZWw2ODAxNTIxMTM=
+  node_id: LA_kwDOJk4SXM8AAAABWJg80A
   url: https://api.github.com/repos/kubecub/go-project-layout/labels/do-not-merge/release-note-label-needed
 - color: e11d21
   default: false
   description: Indicates that a PR should not merge because it is a work in progress.
-  id: 687500047
+  id: 5781339279
   name: do-not-merge/work-in-progress
-  node_id: MDU6TGFiZWw2ODc1MDAwNDc=
+  node_id: LA_kwDOJk4SXM8AAAABWJg8jw
   url: https://api.github.com/repos/kubecub/go-project-layout/labels/do-not-merge/work-in-progress
+- color: a2eeef
+  default: true
+  description: New feature or request
+  id: 5781339231
+  name: enhancement
+  node_id: LA_kwDOJk4SXM8AAAABWJg8Xw
+  url: https://api.github.com/repos/kubecub/go-project-layout/labels/enhancement
+- color: 0E8A16
+  default: false
+  description: gitlink2024
+  id: 5781339228
+  name: gitlink2023
+  node_id: LA_kwDOJk4SXM8AAAABWJg8XA
+  url: https://api.github.com/repos/kubecub/go-project-layout/labels/gitlink2023
 - color: 7057ff
   default: true
-  description: Denotes an issue ready for a new contributor, according to the "help
-    wanted" guidelines.
-  id: 954672878
+  description: Good for newcomers
+  id: 5520223407
   name: good first issue
-  node_id: MDU6TGFiZWw5NTQ2NzI4Nzg=
+  node_id: LA_kwDOJk4SXM8AAAABSQfsrw
   url: https://api.github.com/repos/kubecub/go-project-layout/labels/good%20first%20issue
-- color: 006b75
+- color: 0E8A16
+  default: false
+  description: ospp2023
+  id: 5781339265
+  name: gsoc2023
+  node_id: LA_kwDOJk4SXM8AAAABWJg8gQ
+  url: https://api.github.com/repos/kubecub/go-project-layout/labels/gsoc2023
+- color: "008672"
   default: true
-  description: Denotes an issue that needs help from a contributor. Must meet "help
-    wanted" guidelines.
-  id: 433686790
+  description: Extra attention is needed
+  id: 5520223410
   name: help wanted
-  node_id: MDU6TGFiZWw0MzM2ODY3OTA=
+  node_id: LA_kwDOJk4SXM8AAAABSQfssg
   url: https://api.github.com/repos/kubecub/go-project-layout/labels/help%20wanted
+- color: e4e669
+  default: true
+  description: This doesn't seem right
+  id: 5520223414
+  name: invalid
+  node_id: LA_kwDOJk4SXM8AAAABSQfstg
+  url: https://api.github.com/repos/kubecub/go-project-layout/labels/invalid
 - color: e11d21
   default: false
   description: Categorizes issue or PR as related to adding, removing, or otherwise
     changing an API
-  id: 261005360
+  id: 5781339423
   name: kind/api-change
-  node_id: MDU6TGFiZWwyNjEwMDUzNjA=
+  node_id: LA_kwDOJk4SXM8AAAABWJg9Hw
   url: https://api.github.com/repos/kubecub/go-project-layout/labels/kind/api-change
-- color: e11d21
+- color: d73a4a
   default: false
-  description: Categorizes issue or PR as related to a bug.
-  id: 105146071
+  description: Something isn't working
+  id: 5520223417
   name: kind/bug
-  node_id: MDU6TGFiZWwxMDUxNDYwNzE=
+  node_id: LA_kwDOJk4SXM8AAAABSQfsuQ
   url: https://api.github.com/repos/kubecub/go-project-layout/labels/kind/bug
 - color: c7def8
   default: false
   description: Categorizes issue or PR as related to cleaning up code, process, or
     technical debt.
-  id: 122775691
+  id: 5781339248
   name: kind/cleanup
-  node_id: MDU6TGFiZWwxMjI3NzU2OTE=
+  node_id: LA_kwDOJk4SXM8AAAABWJg8cA
   url: https://api.github.com/repos/kubecub/go-project-layout/labels/kind/cleanup
 - color: e11d21
   default: false
   description: Categorizes issue or PR as related to a feature/enhancement marked
     for deprecation.
-  id: 1740258266
+  id: 5781339394
   name: kind/deprecation
-  node_id: MDU6TGFiZWwxNzQwMjU4MjY2
+  node_id: LA_kwDOJk4SXM8AAAABWJg9Ag
   url: https://api.github.com/repos/kubecub/go-project-layout/labels/kind/deprecation
 - color: c7def8
   default: false
   description: Categorizes issue or PR as related to design.
-  id: 114509261
+  id: 5781339443
   name: kind/design
-  node_id: MDU6TGFiZWwxMTQ1MDkyNjE=
+  node_id: LA_kwDOJk4SXM8AAAABWJg9Mw
   url: https://api.github.com/repos/kubecub/go-project-layout/labels/kind/design
-- color: c7def8
+- color: 0075ca
   default: false
-  description: Categorizes issue or PR as related to documentation.
-  id: 116801185
+  description: Improvements or additions to documentation
+  id: 5520223420
   name: kind/documentation
-  node_id: MDU6TGFiZWwxMTY4MDExODU=
+  node_id: LA_kwDOJk4SXM8AAAABSQfsvA
   url: https://api.github.com/repos/kubecub/go-project-layout/labels/kind/documentation
 - color: e11d21
   default: false
   description: Categorizes issue or PR as related to a consistently or frequently
     failing test.
-  id: 496752468
+  id: 5781339246
   name: kind/failing-test
-  node_id: MDU6TGFiZWw0OTY3NTI0Njg=
+  node_id: LA_kwDOJk4SXM8AAAABWJg8bg
   url: https://api.github.com/repos/kubecub/go-project-layout/labels/kind/failing-test
-- color: c7def8
+- color: 03AF64
   default: false
-  description: Categorizes issue or PR as related to a new feature.
-  id: 267761362
+  description: ""
+  id: 5520223425
   name: kind/feature
-  node_id: MDU6TGFiZWwyNjc3NjEzNjI=
+  node_id: LA_kwDOJk4SXM8AAAABSQfswQ
   url: https://api.github.com/repos/kubecub/go-project-layout/labels/kind/feature
 - color: f7c6c7
   default: false
   description: Categorizes issue or PR as related to a flaky test.
-  id: 264749912
+  id: 5781339353
   name: kind/flake
-  node_id: MDU6TGFiZWwyNjQ3NDk5MTI=
+  node_id: LA_kwDOJk4SXM8AAAABWJg82Q
   url: https://api.github.com/repos/kubecub/go-project-layout/labels/kind/flake
 - color: e11d21
   default: false
   description: Categorizes issue or PR as related to a regression from a prior release.
-  id: 1967276560
+  id: 5781339244
   name: kind/regression
-  node_id: MDU6TGFiZWwxOTY3Mjc2NTYw
+  node_id: LA_kwDOJk4SXM8AAAABWJg8bA
   url: https://api.github.com/repos/kubecub/go-project-layout/labels/kind/regression
 - color: d455d0
   default: false
   description: Categorizes issue or PR as a support question.
-  id: 130318610
+  id: 5781339261
   name: kind/support
-  node_id: MDU6TGFiZWwxMzAzMTg2MTA=
+  node_id: LA_kwDOJk4SXM8AAAABWJg8fQ
   url: https://api.github.com/repos/kubecub/go-project-layout/labels/kind/support
-- color: 15dd18
+- color: b60205
   default: false
-  description: '"Looks good to me", indicates that a PR is ready to be merged.'
-  id: 148225179
+  description: User information, template information, important information, never
+    expired and closed.
+  id: 5781339270
+  name: kubecub
+  node_id: LA_kwDOJk4SXM8AAAABWJg8hg
+  url: https://api.github.com/repos/kubecub/go-project-layout/labels/kubecub
+- color: 0E8A16
+  default: false
+  description: Indicates that a PR is ready to be merged.
+  id: 5520223428
   name: lgtm
-  node_id: MDU6TGFiZWwxNDgyMjUxNzk=
+  node_id: LA_kwDOJk4SXM8AAAABSQfsxA
   url: https://api.github.com/repos/kubecub/go-project-layout/labels/lgtm
 - color: 8fc951
   default: false
   description: Indicates that an issue or PR is actively being worked on by a contributor.
-  id: 1007207688
+  id: 5781339339
   name: lifecycle/active
-  node_id: MDU6TGFiZWwxMDA3MjA3Njg4
+  node_id: LA_kwDOJk4SXM8AAAABWJg8yw
   url: https://api.github.com/repos/kubecub/go-project-layout/labels/lifecycle/active
 - color: d3e2f0
   default: false
   description: Indicates that an issue or PR should not be auto-closed due to staleness.
-  id: 778118403
+  id: 5781339230
   name: lifecycle/frozen
-  node_id: MDU6TGFiZWw3NzgxMTg0MDM=
+  node_id: LA_kwDOJk4SXM8AAAABWJg8Xg
   url: https://api.github.com/repos/kubecub/go-project-layout/labels/lifecycle/frozen
 - color: "604460"
   default: false
   description: Denotes an issue or PR that has aged beyond stale and will be auto-closed.
-  id: 778118402
+  id: 5781339239
   name: lifecycle/rotten
-  node_id: MDU6TGFiZWw3NzgxMTg0MDI=
+  node_id: LA_kwDOJk4SXM8AAAABWJg8Zw
   url: https://api.github.com/repos/kubecub/go-project-layout/labels/lifecycle/rotten
 - color: "795548"
   default: false
   description: Denotes an issue or PR has remained open with no activity and has become
     stale.
-  id: 778118404
+  id: 5618487007
   name: lifecycle/stale
-  node_id: MDU6TGFiZWw3NzgxMTg0MDQ=
+  node_id: LA_kwDOJk4SXM8AAAABTuNO3w
   url: https://api.github.com/repos/kubecub/go-project-layout/labels/lifecycle/stale
+- color: FBCA04
+  default: false
+  description: ""
+  id: 5520223430
+  name: log
+  node_id: LA_kwDOJk4SXM8AAAABSQfsxg
+  url: https://api.github.com/repos/kubecub/go-project-layout/labels/log
 - color: ededed
   default: false
-  description: "Marks issues or pull requests where labels are incomplete or missing."
-  id: 711852570
+  description: Marks issues or pull requests where labels are incomplete or missing.
+  id: 5781339390
   name: milestone/incomplete-labels
-  node_id: MDU6TGFiZWw3MTE4NTI1NzA=
+  node_id: LA_kwDOJk4SXM8AAAABWJg8_g
   url: https://api.github.com/repos/kubecub/go-project-layout/labels/milestone/incomplete-labels
 - color: ededed
   default: false
-  description: "Marks issues or pull requests that need approval to be included in the milestone."
-  id: 711852621
+  description: Marks issues or pull requests that need approval to be included in
+    the milestone.
+  id: 5781339256
   name: milestone/needs-approval
-  node_id: MDU6TGFiZWw3MTE4NTI2MjE=
+  node_id: LA_kwDOJk4SXM8AAAABWJg8eA
   url: https://api.github.com/repos/kubecub/go-project-layout/labels/milestone/needs-approval
 - color: ededed
   default: false
-  description: "Marks issues or pull requests that need further attention or action to be included in the milestone."
-  id: 680168330
+  description: Marks issues or pull requests that need further attention or action
+    to be included in the milestone.
+  id: 5781339418
   name: milestone/needs-attention
-  node_id: MDU6TGFiZWw2ODAxNjgzMzA=
+  node_id: LA_kwDOJk4SXM8AAAABWJg9Gg
   url: https://api.github.com/repos/kubecub/go-project-layout/labels/milestone/needs-attention
 - color: ededed
   default: false
-  description: "Marks issues or pull requests that have been removed from the milestone."
-  id: 687345274
+  description: Marks issues or pull requests that have been removed from the milestone.
+  id: 5781339303
   name: milestone/removed
-  node_id: MDU6TGFiZWw2ODczNDUyNzQ=
+  node_id: LA_kwDOJk4SXM8AAAABWJg8pw
   url: https://api.github.com/repos/kubecub/go-project-layout/labels/milestone/removed
 - color: ededed
   default: false
   description: Indicates a PR lacks a `kind/foo` label and requires one.
-  id: 1047217136
+  id: 5781339305
   name: needs-kind
-  node_id: MDU6TGFiZWwxMDQ3MjE3MTM2
+  node_id: LA_kwDOJk4SXM8AAAABWJg8qQ
   url: https://api.github.com/repos/kubecub/go-project-layout/labels/needs-kind
 - color: b60205
   default: false
   description: Indicates a PR that requires an org member to verify it is safe to
     test.
-  id: 573014062
+  id: 5781339349
   name: needs-ok-to-test
-  node_id: MDU6TGFiZWw1NzMwMTQwNjI=
+  node_id: LA_kwDOJk4SXM8AAAABWJg81Q
   url: https://api.github.com/repos/kubecub/go-project-layout/labels/needs-ok-to-test
 - color: ededed
   default: false
   description: Indicates a PR lacks a `priority/foo` label and requires one.
-  id: 1111992057
+  id: 5781339319
   name: needs-priority
-  node_id: MDU6TGFiZWwxMTExOTkyMDU3
+  node_id: LA_kwDOJk4SXM8AAAABWJg8tw
   url: https://api.github.com/repos/kubecub/go-project-layout/labels/needs-priority
 - color: e11d21
   default: false
   description: Indicates a PR cannot be merged because it has merge conflicts with
     HEAD.
-  id: 240247879
+  id: 5781339406
   name: needs-rebase
-  node_id: MDU6TGFiZWwyNDAyNDc4Nzk=
+  node_id: LA_kwDOJk4SXM8AAAABWJg9Dg
   url: https://api.github.com/repos/kubecub/go-project-layout/labels/needs-rebase
 - color: ededed
   default: false
   description: Indicates an issue or PR lacks a `sig/foo` label and requires one.
-  id: 617149945
+  id: 5781339360
   name: needs-sig
-  node_id: MDU6TGFiZWw2MTcxNDk5NDU=
+  node_id: LA_kwDOJk4SXM8AAAABWJg84A
   url: https://api.github.com/repos/kubecub/go-project-layout/labels/needs-sig
 - color: ededed
   default: false
   description: Indicates an issue or PR lacks a `triage/foo` label and requires one.
-  id: 2389815605
+  id: 5781339253
   name: needs-triage
-  node_id: MDU6TGFiZWwyMzg5ODE1NjA1
+  node_id: LA_kwDOJk4SXM8AAAABWJg8dQ
   url: https://api.github.com/repos/kubecub/go-project-layout/labels/needs-triage
+- color: 006B75
+  default: false
+  description: Categorizes an issue or PR as relevant to Network.
+  id: 5781339372
+  name: network
+  node_id: LA_kwDOJk4SXM8AAAABWJg87A
+  url: https://api.github.com/repos/kubecub/go-project-layout/labels/network
 - color: 0052cc
   default: false
   description: Issues or PRs related to CVEs officially announced by Security Response
     Committee (SRC)
-  id: 3603068678
+  id: 5781339318
   name: official-cve-feed
-  node_id: LA_kwDOAToIks7WwncG
+  node_id: LA_kwDOJk4SXM8AAAABWJg8tg
   url: https://api.github.com/repos/kubecub/go-project-layout/labels/official-cve-feed
 - color: 15dd18
   default: false
   description: Indicates a non-member PR verified by an org member that is safe to
     test.
-  id: 1086787260
+  id: 5781339348
   name: ok-to-test
-  node_id: MDU6TGFiZWwxMDg2Nzg3MjYw
+  node_id: LA_kwDOJk4SXM8AAAABWJg81A
   url: https://api.github.com/repos/kubecub/go-project-layout/labels/ok-to-test
 - color: fef2c0
   default: false
   description: Lowest priority. Possibly useful, but not yet enough support to actually
     get it done.
-  id: 149621825
+  id: 5781339354
   name: priority/awaiting-more-evidence
-  node_id: MDU6TGFiZWwxNDk2MjE4MjU=
+  node_id: LA_kwDOJk4SXM8AAAABWJg82g
   url: https://api.github.com/repos/kubecub/go-project-layout/labels/priority/awaiting-more-evidence
 - color: fbca04
   default: false
   description: Higher priority than priority/awaiting-more-evidence.
-  id: 114528273
+  id: 5781339369
   name: priority/backlog
-  node_id: MDU6TGFiZWwxMTQ1MjgyNzM=
+  node_id: LA_kwDOJk4SXM8AAAABWJg86Q
   url: https://api.github.com/repos/kubecub/go-project-layout/labels/priority/backlog
 - color: e11d21
   default: false
   description: Highest priority. Must be actively worked on as someone's top priority
     right now.
-  id: 114528068
+  id: 5781339263
   name: priority/critical-urgent
-  node_id: MDU6TGFiZWwxMTQ1MjgwNjg=
+  node_id: LA_kwDOJk4SXM8AAAABWJg8fw
   url: https://api.github.com/repos/kubecub/go-project-layout/labels/priority/critical-urgent
 - color: eb6420
   default: false
   description: Important over the long term, but may not be staffed and/or may need
     multiple releases to complete.
-  id: 496752236
+  id: 5781339393
   name: priority/important-longterm
-  node_id: MDU6TGFiZWw0OTY3NTIyMzY=
+  node_id: LA_kwDOJk4SXM8AAAABWJg9AQ
   url: https://api.github.com/repos/kubecub/go-project-layout/labels/priority/important-longterm
 - color: eb6420
   default: false
   description: Must be staffed and worked on either currently, or very soon, ideally
     in time for the next release.
-  id: 114528223
+  id: 5781339297
   name: priority/important-soon
-  node_id: MDU6TGFiZWwxMTQ1MjgyMjM=
+  node_id: LA_kwDOJk4SXM8AAAABWJg8oQ
   url: https://api.github.com/repos/kubecub/go-project-layout/labels/priority/important-soon
+- color: 0E8A16
+  default: false
+  description: ""
+  id: 5781339364
+  name: proposal
+  node_id: LA_kwDOJk4SXM8AAAABWJg85A
+  url: https://api.github.com/repos/kubecub/go-project-layout/labels/proposal
+- color: d876e3
+  default: true
+  description: Further information is requested
+  id: 5520223431
+  name: question
+  node_id: LA_kwDOJk4SXM8AAAABSQfsxw
+  url: https://api.github.com/repos/kubecub/go-project-layout/labels/question
 - color: c2e0c6
   default: false
   description: Denotes a PR that will be considered when it comes time to generate
     release notes.
-  id: 200149833
+  id: 5781339320
   name: release-note
-  node_id: MDU6TGFiZWwyMDAxNDk4MzM=
+  node_id: LA_kwDOJk4SXM8AAAABWJg8uA
   url: https://api.github.com/repos/kubecub/go-project-layout/labels/release-note
 - color: c2e0c6
   default: false
   description: Denotes a PR that introduces potentially breaking changes that require
     user action.
-  id: 354968448
+  id: 5781339378
   name: release-note-action-required
-  node_id: MDU6TGFiZWwzNTQ5Njg0NDg=
+  node_id: LA_kwDOJk4SXM8AAAABWJg88g
   url: https://api.github.com/repos/kubecub/go-project-layout/labels/release-note-action-required
 - color: c2e0c6
   default: false
   description: Denotes a PR that doesn't merit a release note.
-  id: 349530249
+  id: 5781339397
   name: release-note-none
-  node_id: MDU6TGFiZWwzNDk1MzAyNDk=
+  node_id: LA_kwDOJk4SXM8AAAABWJg9BQ
   url: https://api.github.com/repos/kubecub/go-project-layout/labels/release-note-none
+- color: 0E8A16
+  default: false
+  description: Issues and pull requests related to version 3.0 of the release. This
+    is the current version.
+  id: 5781339238
+  name: release/v3.0
+  node_id: LA_kwDOJk4SXM8AAAABWJg8Zg
+  url: https://api.github.com/repos/kubecub/go-project-layout/labels/release/v3.0
+- color: 0E8A16
+  default: false
+  description: Issues and pull requests related to version 4.0 of the release. This
+    version is in development.
+  id: 5781339384
+  name: release/v4.0
+  node_id: LA_kwDOJk4SXM8AAAABWJg8-A
+  url: https://api.github.com/repos/kubecub/go-project-layout/labels/release/v4.0
+- color: 0E8A16
+  default: false
+  description: Issues and pull requests related to version 5.0 of the release. This
+    version is in planning stage.
+  id: 5781339343
+  name: release/v5.0
+  node_id: LA_kwDOJk4SXM8AAAABWJg8zw
+  url: https://api.github.com/repos/kubecub/go-project-layout/labels/release/v5.0
+- color: D93F0B
+  default: false
+  description: Some labels for the CICD automation report
+  id: 5520832656
+  name: report
+  node_id: LA_kwDOJk4SXM8AAAABSRE4kA
+  url: https://api.github.com/repos/kubecub/go-project-layout/labels/report
+- color: B60205
+  default: false
+  description: ""
+  id: 5781339289
+  name: response-expired
+  node_id: LA_kwDOJk4SXM8AAAABWJg8mQ
+  url: https://api.github.com/repos/kubecub/go-project-layout/labels/response-expired
+- color: 0E8A16
+  default: false
+  description: Project design proposal
+  id: 5520223404
+  name: RFC
+  node_id: LA_kwDOJk4SXM8AAAABSQfsrA
+  url: https://api.github.com/repos/kubecub/go-project-layout/labels/RFC
+- color: 0E8A16
+  default: false
+  description: Roadmap-related labels
+  id: 5520223432
+  name: roadmap
+  node_id: LA_kwDOJk4SXM8AAAABSQfsyA
+  url: https://api.github.com/repos/kubecub/go-project-layout/labels/roadmap
 - color: d2b48c
   default: false
   description: Categorizes an issue or PR as relevant to SIG API Machinery.
-  id: 173493835
+  id: 5781339363
   name: sig/api-machinery
-  node_id: MDU6TGFiZWwxNzM0OTM4MzU=
+  node_id: LA_kwDOJk4SXM8AAAABWJg84w
   url: https://api.github.com/repos/kubecub/go-project-layout/labels/sig/api-machinery
 - color: d2b48c
   default: false
   description: Categorizes an issue or PR as relevant to SIG Apps.
-  id: 404091735
+  id: 5781339359
   name: sig/apps
-  node_id: MDU6TGFiZWw0MDQwOTE3MzU=
+  node_id: LA_kwDOJk4SXM8AAAABWJg83w
   url: https://api.github.com/repos/kubecub/go-project-layout/labels/sig/apps
 - color: d2b48c
   default: false
   description: Categorizes an issue or PR as relevant to SIG Architecture.
-  id: 636152047
+  id: 5781339247
   name: sig/architecture
-  node_id: MDU6TGFiZWw2MzYxNTIwNDc=
+  node_id: LA_kwDOJk4SXM8AAAABWJg8bw
   url: https://api.github.com/repos/kubecub/go-project-layout/labels/sig/architecture
 - color: d2b48c
   default: false
   description: Categorizes an issue or PR as relevant to SIG Auth.
-  id: 357119284
+  id: 5781339374
   name: sig/auth
-  node_id: MDU6TGFiZWwzNTcxMTkyODQ=
+  node_id: LA_kwDOJk4SXM8AAAABWJg87g
   url: https://api.github.com/repos/kubecub/go-project-layout/labels/sig/auth
 - color: d2b48c
   default: false
   description: Categorizes an issue or PR as relevant to SIG Autoscaling.
-  id: 238245616
+  id: 5781339357
   name: sig/autoscaling
-  node_id: MDU6TGFiZWwyMzgyNDU2MTY=
+  node_id: LA_kwDOJk4SXM8AAAABWJg83Q
   url: https://api.github.com/repos/kubecub/go-project-layout/labels/sig/autoscaling
 - color: d2b48c
   default: false
   description: Categorizes an issue or PR as relevant to SIG CLI.
-  id: 450823910
+  id: 5781339387
   name: sig/cli
-  node_id: MDU6TGFiZWw0NTA4MjM5MTA=
+  node_id: LA_kwDOJk4SXM8AAAABWJg8-w
   url: https://api.github.com/repos/kubecub/go-project-layout/labels/sig/cli
 - color: d2b48c
   default: false
   description: Categorizes an issue or PR as relevant to SIG Cloud Provider.
-  id: 958178286
+  id: 5781339299
   name: sig/cloud-provider
-  node_id: MDU6TGFiZWw5NTgxNzgyODY=
+  node_id: LA_kwDOJk4SXM8AAAABWJg8ow
   url: https://api.github.com/repos/kubecub/go-project-layout/labels/sig/cloud-provider
 - color: d2b48c
   default: false
   description: Categorizes an issue or PR as relevant to SIG Cluster Lifecycle.
-  id: 173494222
+  id: 5781339376
   name: sig/cluster-lifecycle
-  node_id: MDU6TGFiZWwxNzM0OTQyMjI=
+  node_id: LA_kwDOJk4SXM8AAAABWJg88A
   url: https://api.github.com/repos/kubecub/go-project-layout/labels/sig/cluster-lifecycle
 - color: d2b48c
   default: false
   description: Categorizes an issue or PR as relevant to SIG Contributor Experience.
-  id: 261778410
+  id: 5781339415
   name: sig/contributor-experience
-  node_id: MDU6TGFiZWwyNjE3Nzg0MTA=
+  node_id: LA_kwDOJk4SXM8AAAABWJg9Fw
   url: https://api.github.com/repos/kubecub/go-project-layout/labels/sig/contributor-experience
 - color: d2b48c
   default: false
   description: Categorizes an issue or PR as relevant to SIG Docs.
-  id: 496761699
+  id: 5781339342
   name: sig/docs
-  node_id: MDU6TGFiZWw0OTY3NjE2OTk=
+  node_id: LA_kwDOJk4SXM8AAAABWJg8zg
   url: https://api.github.com/repos/kubecub/go-project-layout/labels/sig/docs
 - color: d2b48c
   default: false
   description: Categorizes an issue or PR as relevant to SIG Instrumentation.
-  id: 482207917
+  id: 5781339333
   name: sig/instrumentation
-  node_id: MDU6TGFiZWw0ODIyMDc5MTc=
+  node_id: LA_kwDOJk4SXM8AAAABWJg8xQ
   url: https://api.github.com/repos/kubecub/go-project-layout/labels/sig/instrumentation
 - color: d2b48c
   default: false
   description: Categorizes an issue or PR as relevant to SIG kubecub Infra.
-  id: 3373472731
+  id: 5781339417
   name: sig/kubecub-infra
-  node_id: LA_kwDOAToIks7JExvb
+  node_id: LA_kwDOJk4SXM8AAAABWJg9GQ
   url: https://api.github.com/repos/kubecub/go-project-layout/labels/sig/kubecub-infra
 - color: d2b48c
   default: false
   description: Categorizes an issue or PR as relevant to SIG Multicluster.
-  id: 711861754
+  id: 5781339300
   name: sig/multicluster
-  node_id: MDU6TGFiZWw3MTE4NjE3NTQ=
+  node_id: LA_kwDOJk4SXM8AAAABWJg8pA
   url: https://api.github.com/repos/kubecub/go-project-layout/labels/sig/multicluster
 - color: d2b48c
   default: false
   description: Categorizes an issue or PR as relevant to SIG Network.
-  id: 116712108
+  id: 5781339291
   name: sig/network
-  node_id: MDU6TGFiZWwxMTY3MTIxMDg=
+  node_id: LA_kwDOJk4SXM8AAAABWJg8mw
   url: https://api.github.com/repos/kubecub/go-project-layout/labels/sig/network
 - color: d2b48c
   default: false
   description: Categorizes an issue or PR as relevant to SIG Node.
-  id: 173493665
+  id: 5781339310
   name: sig/node
-  node_id: MDU6TGFiZWwxNzM0OTM2NjU=
+  node_id: LA_kwDOJk4SXM8AAAABWJg8rg
   url: https://api.github.com/repos/kubecub/go-project-layout/labels/sig/node
 - color: d2b48c
   default: false
   description: Categorizes an issue or PR as relevant to SIG Release.
-  id: 614023989
+  id: 5781339377
   name: sig/release
-  node_id: MDU6TGFiZWw2MTQwMjM5ODk=
+  node_id: LA_kwDOJk4SXM8AAAABWJg88Q
   url: https://api.github.com/repos/kubecub/go-project-layout/labels/sig/release
 - color: d2b48c
   default: false
   description: Categorizes an issue or PR as relevant to SIG Scalability.
-  id: 125010198
+  id: 5781339380
   name: sig/scalability
-  node_id: MDU6TGFiZWwxMjUwMTAxOTg=
+  node_id: LA_kwDOJk4SXM8AAAABWJg89A
   url: https://api.github.com/repos/kubecub/go-project-layout/labels/sig/scalability
 - color: d2b48c
   default: false
   description: Categorizes an issue or PR as relevant to SIG Scheduling.
-  id: 125550211
+  id: 5781339280
   name: sig/scheduling
-  node_id: MDU6TGFiZWwxMjU1NTAyMTE=
+  node_id: LA_kwDOJk4SXM8AAAABWJg8kA
   url: https://api.github.com/repos/kubecub/go-project-layout/labels/sig/scheduling
 - color: d2b48c
   default: false
   description: Categorizes an issue or PR as relevant to SIG Security.
-  id: 2315011126
+  id: 5781339346
   name: sig/security
-  node_id: MDU6TGFiZWwyMzE1MDExMTI2
+  node_id: LA_kwDOJk4SXM8AAAABWJg80g
   url: https://api.github.com/repos/kubecub/go-project-layout/labels/sig/security
 - color: d2b48c
   default: false
   description: Categorizes an issue or PR as relevant to SIG Service Catalog.
-  id: 433740132
+  id: 5781339400
   name: sig/service-catalog
-  node_id: MDU6TGFiZWw0MzM3NDAxMzI=
+  node_id: LA_kwDOJk4SXM8AAAABWJg9CA
   url: https://api.github.com/repos/kubecub/go-project-layout/labels/sig/service-catalog
 - color: d2b48c
   default: false
   description: Categorizes an issue or PR as relevant to SIG Storage.
-  id: 169428334
+  id: 5781339383
   name: sig/storage
-  node_id: MDU6TGFiZWwxNjk0MjgzMzQ=
+  node_id: LA_kwDOJk4SXM8AAAABWJg89w
   url: https://api.github.com/repos/kubecub/go-project-layout/labels/sig/storage
 - color: d2b48c
   default: false
   description: Categorizes an issue or PR as relevant to SIG Testing.
-  id: 483069764
+  id: 5781339312
   name: sig/testing
-  node_id: MDU6TGFiZWw0ODMwNjk3NjQ=
+  node_id: LA_kwDOJk4SXM8AAAABWJg8sA
   url: https://api.github.com/repos/kubecub/go-project-layout/labels/sig/testing
 - color: d2b48c
   default: false
   description: Categorizes an issue or PR as relevant to SIG UI.
-  id: 618574759
+  id: 5781339321
   name: sig/ui
-  node_id: MDU6TGFiZWw2MTg1NzQ3NTk=
+  node_id: LA_kwDOJk4SXM8AAAABWJg8uQ
   url: https://api.github.com/repos/kubecub/go-project-layout/labels/sig/ui
 - color: d2b48c
   default: false
   description: Categorizes an issue or PR as relevant to SIG Usability.
-  id: 1476695221
+  id: 5781339287
   name: sig/usability
-  node_id: MDU6TGFiZWwxNDc2Njk1MjIx
+  node_id: LA_kwDOJk4SXM8AAAABWJg8lw
   url: https://api.github.com/repos/kubecub/go-project-layout/labels/sig/usability
 - color: d2b48c
   default: false
   description: Categorizes an issue or PR as relevant to SIG Windows.
-  id: 422106010
+  id: 5781339292
   name: sig/windows
-  node_id: MDU6TGFiZWw0MjIxMDYwMTA=
+  node_id: LA_kwDOJk4SXM8AAAABWJg8nA
   url: https://api.github.com/repos/kubecub/go-project-layout/labels/sig/windows
 - color: ee9900
   default: false
   description: Denotes a PR that changes 100-499 lines, ignoring generated files.
-  id: 253450978
+  id: 5781339235
   name: size/L
-  node_id: MDU6TGFiZWwyNTM0NTA5Nzg=
+  node_id: LA_kwDOJk4SXM8AAAABWJg8Yw
   url: https://api.github.com/repos/kubecub/go-project-layout/labels/size/L
-- color: eebb00
+- color: C2E0C6
   default: false
   description: Denotes a PR that changes 30-99 lines, ignoring generated files.
-  id: 253450934
+  id: 5781339296
   name: size/M
-  node_id: MDU6TGFiZWwyNTM0NTA5MzQ=
+  node_id: LA_kwDOJk4SXM8AAAABWJg8oA
   url: https://api.github.com/repos/kubecub/go-project-layout/labels/size/M
-- color: 77bb00
+- color: 6ED999
   default: false
   description: Denotes a PR that changes 10-29 lines, ignoring generated files.
-  id: 253450895
+  id: 5781339250
   name: size/S
-  node_id: MDU6TGFiZWwyNTM0NTA4OTU=
+  node_id: LA_kwDOJk4SXM8AAAABWJg8cg
   url: https://api.github.com/repos/kubecub/go-project-layout/labels/size/S
-- color: ee5500
+- color: D93F66
   default: false
   description: Denotes a PR that changes 500-999 lines, ignoring generated files.
-  id: 253451057
+  id: 5781339232
   name: size/XL
-  node_id: MDU6TGFiZWwyNTM0NTEwNTc=
+  node_id: LA_kwDOJk4SXM8AAAABWJg8YA
   url: https://api.github.com/repos/kubecub/go-project-layout/labels/size/XL
-- color: "009900"
+- color: 0E8A16
   default: false
   description: Denotes a PR that changes 0-9 lines, ignoring generated files.
-  id: 253450793
+  id: 5766082794
   name: size/XS
-  node_id: MDU6TGFiZWwyNTM0NTA3OTM=
+  node_id: LA_kwDOJk4SXM8AAAABV69w6g
   url: https://api.github.com/repos/kubecub/go-project-layout/labels/size/XS
-- color: ee0000
+- color: D93F0B
   default: false
   description: Denotes a PR that changes 1000+ lines, ignoring generated files.
-  id: 253451093
+  id: 5781339284
   name: size/XXL
-  node_id: MDU6TGFiZWwyNTM0NTEwOTM=
+  node_id: LA_kwDOJk4SXM8AAAABWJg8lA
   url: https://api.github.com/repos/kubecub/go-project-layout/labels/size/XXL
 - color: e11d21
   default: false
   description: Denotes an issue that blocks the tide merge queue for a branch while
     it is open.
-  id: 1313645094
+  id: 5781339420
   name: tide/merge-blocker
-  node_id: MDU6TGFiZWwxMzEzNjQ1MDk0
+  node_id: LA_kwDOJk4SXM8AAAABWJg9HA
   url: https://api.github.com/repos/kubecub/go-project-layout/labels/tide/merge-blocker
 - color: ffaa00
   default: false
   description: Denotes a PR that should use a standard merge by tide when it merges.
-  id: 1299699582
+  id: 5781339262
   name: tide/merge-method-merge
-  node_id: MDU6TGFiZWwxMjk5Njk5NTgy
+  node_id: LA_kwDOJk4SXM8AAAABWJg8fg
   url: https://api.github.com/repos/kubecub/go-project-layout/labels/tide/merge-method-merge
 - color: ffaa00
   default: false
   description: Denotes a PR that should be rebased by tide when it merges.
-  id: 1299699756
+  id: 5781339392
   name: tide/merge-method-rebase
-  node_id: MDU6TGFiZWwxMjk5Njk5NzU2
+  node_id: LA_kwDOJk4SXM8AAAABWJg9AA
   url: https://api.github.com/repos/kubecub/go-project-layout/labels/tide/merge-method-rebase
 - color: ffaa00
   default: false
   description: Denotes a PR that should be squashed by tide when it merges.
-  id: 1049624783
+  id: 5781339340
   name: tide/merge-method-squash
-  node_id: MDU6TGFiZWwxMDQ5NjI0Nzgz
+  node_id: LA_kwDOJk4SXM8AAAABWJg8zA
   url: https://api.github.com/repos/kubecub/go-project-layout/labels/tide/merge-method-squash
 - color: 8fc951
   default: false
   description: Indicates an issue or PR is ready to be actively worked on.
-  id: 2389856656
+  id: 5520223434
   name: triage/accepted
-  node_id: MDU6TGFiZWwyMzg5ODU2NjU2
+  node_id: LA_kwDOJk4SXM8AAAABSQfsyg
   url: https://api.github.com/repos/kubecub/go-project-layout/labels/triage/accepted
-- color: d455d0
+- color: C001BC
   default: false
   description: Indicates an issue is a duplicate of other open issue.
-  id: 862108568
+  id: 5520223439
   name: triage/duplicate
-  node_id: MDU6TGFiZWw4NjIxMDg1Njg=
+  node_id: LA_kwDOJk4SXM8AAAABSQfszw
   url: https://api.github.com/repos/kubecub/go-project-layout/labels/triage/duplicate
 - color: d455d0
   default: false
   description: Indicates an issue needs more information in order to work on it.
-  id: 862108635
+  id: 5781339294
   name: triage/needs-information
-  node_id: MDU6TGFiZWw4NjIxMDg2MzU=
+  node_id: LA_kwDOJk4SXM8AAAABWJg8ng
   url: https://api.github.com/repos/kubecub/go-project-layout/labels/triage/needs-information
 - color: d455d0
   default: false
   description: Indicates an issue can not be reproduced as described.
-  id: 862108684
+  id: 5781339328
   name: triage/not-reproducible
-  node_id: MDU6TGFiZWw4NjIxMDg2ODQ=
+  node_id: LA_kwDOJk4SXM8AAAABWJg8wA
   url: https://api.github.com/repos/kubecub/go-project-layout/labels/triage/not-reproducible
 - color: d455d0
   default: false
   description: Indicates an issue that can not or will not be resolved.
-  id: 862108765
+  id: 5520832653
   name: triage/unresolved
-  node_id: MDU6TGFiZWw4NjIxMDg3NjU=
+  node_id: LA_kwDOJk4SXM8AAAABSRE4jQ
   url: https://api.github.com/repos/kubecub/go-project-layout/labels/triage/unresolved
 - color: d2b48c
   default: false
   description: Categorizes an issue or PR as relevant to ug-big-data.
-  id: 528770718
+  id: 5781339385
   name: ug/big-data
-  node_id: MDU6TGFiZWw1Mjg3NzA3MTg=
+  node_id: LA_kwDOJk4SXM8AAAABWJg8-Q
   url: https://api.github.com/repos/kubecub/go-project-layout/labels/ug/big-data
 - color: d2b48c
   default: false
   description: Categorizes an issue or PR as relevant to ug-vmware.
-  id: 1596573758
+  id: 5781339317
   name: ug/vmware
-  node_id: MDU6TGFiZWwxNTk2NTczNzU4
+  node_id: LA_kwDOJk4SXM8AAAABWJg8tQ
   url: https://api.github.com/repos/kubecub/go-project-layout/labels/ug/vmware
 - color: d2b48c
   default: false
   description: Categorizes an issue or PR as relevant to WG API Expression.
-  id: 1985744519
+  id: 5781339422
   name: wg/api-expression
-  node_id: MDU6TGFiZWwxOTg1NzQ0NTE5
+  node_id: LA_kwDOJk4SXM8AAAABWJg9Hg
   url: https://api.github.com/repos/kubecub/go-project-layout/labels/wg/api-expression
 - color: d2b48c
   default: false
   description: Categorizes an issue or PR as relevant to WG Batch.
-  id: 3984790042
+  id: 5781339334
   name: wg/batch
-  node_id: LA_kwDOAToIks7tgxIa
+  node_id: LA_kwDOJk4SXM8AAAABWJg8xg
   url: https://api.github.com/repos/kubecub/go-project-layout/labels/wg/batch
 - color: d2b48c
   default: false
   description: Categorizes an issue or PR as relevant to wg-cluster-api.
-  id: 971786582
+  id: 5781339282
   name: wg/cluster-api
-  node_id: MDU6TGFiZWw5NzE3ODY1ODI=
+  node_id: LA_kwDOJk4SXM8AAAABWJg8kg
   url: https://api.github.com/repos/kubecub/go-project-layout/labels/wg/cluster-api
 - color: d2b48c
   default: false
   description: Categorizes an issue or PR as relevant to WG Component Standard.
-  id: 1188415049
+  id: 5781339356
   name: wg/component-standard
-  node_id: MDU6TGFiZWwxMTg4NDE1MDQ5
+  node_id: LA_kwDOJk4SXM8AAAABWJg83A
   url: https://api.github.com/repos/kubecub/go-project-layout/labels/wg/component-standard
 - color: d2b48c
   default: false
   description: Categorizes an issue or PR as relevant to WG Data Protection.
-  id: 3959367156
+  id: 5781339341
   name: wg/data-protection
-  node_id: LA_kwDOAToIks7r_yX0
+  node_id: LA_kwDOJk4SXM8AAAABWJg8zQ
   url: https://api.github.com/repos/kubecub/go-project-layout/labels/wg/data-protection
 - color: d2b48c
   default: false
   description: Categorizes an issue or PR as relevant to WG IOT Edge.
-  id: 971786579
+  id: 5781339382
   name: wg/iot-edge
-  node_id: MDU6TGFiZWw5NzE3ODY1Nzk=
+  node_id: LA_kwDOJk4SXM8AAAABWJg89g
   url: https://api.github.com/repos/kubecub/go-project-layout/labels/wg/iot-edge
 - color: d2b48c
   default: false
   description: Categorizes an issue or PR as relevant to WG LTS.
-  id: 1246937041
+  id: 5781339326
   name: wg/lts
-  node_id: MDU6TGFiZWwxMjQ2OTM3MDQx
+  node_id: LA_kwDOJk4SXM8AAAABWJg8vg
   url: https://api.github.com/repos/kubecub/go-project-layout/labels/wg/lts
 - color: d2b48c
   default: false
   description: Categorizes an issue or PR as relevant to WG Machine Learning.
-  id: 971786592
+  id: 5781339322
   name: wg/machine-learning
-  node_id: MDU6TGFiZWw5NzE3ODY1OTI=
+  node_id: LA_kwDOJk4SXM8AAAABWJg8ug
   url: https://api.github.com/repos/kubecub/go-project-layout/labels/wg/machine-learning
 - color: d2b48c
   default: false
   description: Categorizes an issue or PR as relevant to WG Multitenancy.
-  id: 971786584
+  id: 5781339347
   name: wg/multitenancy
-  node_id: MDU6TGFiZWw5NzE3ODY1ODQ=
+  node_id: LA_kwDOJk4SXM8AAAABWJg80w
   url: https://api.github.com/repos/kubecub/go-project-layout/labels/wg/multitenancy
 - color: d2b48c
   default: false
   description: Categorizes an issue or PR as relevant to WG Naming.
-  id: 2175214396
+  id: 5781339302
   name: wg/naming
-  node_id: MDU6TGFiZWwyMTc1MjE0Mzk2
+  node_id: LA_kwDOJk4SXM8AAAABWJg8pg
   url: https://api.github.com/repos/kubecub/go-project-layout/labels/wg/naming
 - color: d2b48c
   default: false
   description: Categorizes an issue or PR as relevant to WG Policy.
-  id: 971786590
+  id: 5781339386
   name: wg/policy
-  node_id: MDU6TGFiZWw5NzE3ODY1OTA=
+  node_id: LA_kwDOJk4SXM8AAAABWJg8-g
   url: https://api.github.com/repos/kubecub/go-project-layout/labels/wg/policy
 - color: d2b48c
   default: false
   description: Categorizes an issue or PR as relevant to WG Reliability
-  id: 2681759667
+  id: 5781339379
   name: wg/reliability
-  node_id: MDU6TGFiZWwyNjgxNzU5NjY3
+  node_id: LA_kwDOJk4SXM8AAAABWJg88w
   url: https://api.github.com/repos/kubecub/go-project-layout/labels/wg/reliability
 - color: d2b48c
   default: false
   description: Categorizes an issue or PR as relevant to WG Security Audit.
-  id: 1086787146
+  id: 5781339398
   name: wg/security-audit
-  node_id: MDU6TGFiZWwxMDg2Nzg3MTQ2
+  node_id: LA_kwDOJk4SXM8AAAABWJg9Bg
   url: https://api.github.com/repos/kubecub/go-project-layout/labels/wg/security-audit
 - color: d2b48c
   default: false
   description: Categorizes an issue or PR as relevant to WG Structured Logging.
-  id: 3025055720
+  id: 5781339309
   name: wg/structured-logging
-  node_id: MDU6TGFiZWwzMDI1MDU1NzIw
+  node_id: LA_kwDOJk4SXM8AAAABWJg8rQ
   url: https://api.github.com/repos/kubecub/go-project-layout/labels/wg/structured-logging
+- color: ffffff
+  default: true
+  description: This will not be worked on
+  id: 5520223448
+  name: wontfix
+  node_id: LA_kwDOJk4SXM8AAAABSQfs2A
+  url: https://api.github.com/repos/kubecub/go-project-layout/labels/wontfix

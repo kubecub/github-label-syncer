@@ -96,6 +96,8 @@
 | help wanted                            | Denotes an issue that needs      | 006b75 |
 |                                        | help from a contributor. Must    |        |
 |                                        | meet "help wanted" guidelines.   |        |
+| javascript                             | Pull requests that update        | 168700 |
+|                                        | Javascript code                  |        |
 | kind/api-change                        | Categorizes issue or PR as       | e11d21 |
 |                                        | related to adding, removing,     |        |
 |                                        | or otherwise changing an API     |        |
@@ -214,6 +216,8 @@
 |                                        | Experience.                      |        |
 | sig/docs                               | Categorizes an issue or PR as    | d2b48c |
 |                                        | relevant to SIG Docs.            |        |
+| sig/etcd                               | Categorizes an issue or PR as    | d2b48c |
+|                                        | relevant to SIG Etcd.            |        |
 | sig/instrumentation                    | Categorizes an issue or          | d2b48c |
 |                                        | PR as relevant to SIG            |        |
 |                                        | Instrumentation.                 |        |

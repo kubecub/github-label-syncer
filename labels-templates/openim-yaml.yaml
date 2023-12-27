@@ -1,94 +1,743 @@
+- color: e11d21
+  default: false
+  description: Categorizes an issue or PR as actively needing an API review.
+  id: 5768838605
+  name: api-review
+  node_id: LA_kwDOFhyqls8AAAABV9l9zQ
+  url: https://api.github.com/repos/openimsdk/open-im-server/labels/api-review
+- color: 0ffa16
+  default: false
+  description: Indicates a PR has been approved by an approver from all required OWNERS
+    files.
+  id: 5768838577
+  name: approved
+  node_id: LA_kwDOFhyqls8AAAABV9l9sQ
+  url: https://api.github.com/repos/openimsdk/open-im-server/labels/approved
+- color: 0052cc
+  default: false
+  description: Indicates an issue on admin area.
+  id: 5768838565
+  name: area/admin
+  node_id: LA_kwDOFhyqls8AAAABV9l9pQ
+  url: https://api.github.com/repos/openimsdk/open-im-server/labels/area/admin
+- color: 0052cc
+  default: false
+  description: Issues or PRs related to admission control aspect of OpenIM.
+  id: 5768838594
+  name: area/admission-control
+  node_id: LA_kwDOFhyqls8AAAABV9l9wg
+  url: https://api.github.com/repos/openimsdk/open-im-server/labels/area/admission-control
+- color: 0052cc
+  default: false
+  description: Issues or PRs related to the APIs server of OpenIM.
+  id: 5768838641
+  name: area/apiserver
+  node_id: LA_kwDOFhyqls8AAAABV9l98Q
+  url: https://api.github.com/repos/openimsdk/open-im-server/labels/area/apiserver
+- color: 0052cc
+  default: false
+  description: Issues or PRs related to the app lifecycle management in OpenIM.
+  id: 5768838604
+  name: area/app-lifecycle
+  node_id: LA_kwDOFhyqls8AAAABV9l9zA
+  url: https://api.github.com/repos/openimsdk/open-im-server/labels/area/app-lifecycle
+- color: 0052cc
+  default: false
+  description: Issues or PRs related to audit logging within OpenIM.
+  id: 5768838581
+  name: area/audit
+  node_id: LA_kwDOFhyqls8AAAABV9l9tQ
+  url: https://api.github.com/repos/openimsdk/open-im-server/labels/area/audit
+- color: 0052cc
+  default: false
+  description: Issues or PRs related to batch job processing within OpenIM.
+  id: 5768838591
+  name: area/batch
+  node_id: LA_kwDOFhyqls8AAAABV9l9vw
+  url: https://api.github.com/repos/openimsdk/open-im-server/labels/area/batch
+- color: 0052cc
+  default: false
+  description: Issues or PRs related to build and release processes of OpenIM.
+  id: 5768838587
+  name: area/build-release
+  node_id: LA_kwDOFhyqls8AAAABV9l9uw
+  url: https://api.github.com/repos/openimsdk/open-im-server/labels/area/build-release
+- color: 0052cc
+  default: false
+  description: Issues or PRs related to cAdvisor (Container Advisor) within OpenIM.
+  id: 5768838643
+  name: area/cadvisor
+  node_id: LA_kwDOFhyqls8AAAABV9l98w
+  url: https://api.github.com/repos/openimsdk/open-im-server/labels/area/cadvisor
+- color: 0052cc
+  default: false
+  description: Issues or PRs related to the client libraries of OpenIM.
+  id: 5768838595
+  name: area/client-libraries
+  node_id: LA_kwDOFhyqls8AAAABV9l9ww
+  url: https://api.github.com/repos/openimsdk/open-im-server/labels/area/client-libraries
+- color: 0052cc
+  default: false
+  description: Issues or PRs related to the integration of OpenIM with cloud providers.
+  id: 5768838603
+  name: area/cloudprovider
+  node_id: LA_kwDOFhyqls8AAAABV9l9yw
+  url: https://api.github.com/repos/openimsdk/open-im-server/labels/area/cloudprovider
+- color: 0052cc
+  default: false
+  description: Issues or PRs related to code generation within OpenIM.
+  id: 5768838621
+  name: area/code-generation
+  node_id: LA_kwDOFhyqls8AAAABV9l93Q
+  url: https://api.github.com/repos/openimsdk/open-im-server/labels/area/code-generation
+- color: 0052cc
+  default: false
+  description: Issues or PRs related to OpenIM code organization
+  id: 5768838626
+  name: area/code-organization
+  node_id: LA_kwDOFhyqls8AAAABV9l94g
+  url: https://api.github.com/repos/openimsdk/open-im-server/labels/area/code-organization
+- color: 0052cc
+  default: false
+  description: Issues or PRs that should potentially be discussed in a OpenIM community
+    meeting.
+  id: 5768838592
+  name: area/community-meeting
+  node_id: LA_kwDOFhyqls8AAAABV9l9wA
+  url: https://api.github.com/repos/openimsdk/open-im-server/labels/area/community-meeting
+- color: 0052cc
+  default: false
+  description: ""
+  id: 5768838630
+  name: area/configmap-api
+  node_id: LA_kwDOFhyqls8AAAABV9l95g
+  url: https://api.github.com/repos/openimsdk/open-im-server/labels/area/configmap-api
+- color: 0052cc
+  default: false
+  description: Issues or PRs related to OpenIM conformance tests
+  id: 5768838585
+  name: area/conformance
+  node_id: LA_kwDOFhyqls8AAAABV9l9uQ
+  url: https://api.github.com/repos/openimsdk/open-im-server/labels/area/conformance
+- color: 0052cc
+  default: false
+  description: ""
+  id: 5768838622
+  name: area/controller-manager
+  node_id: LA_kwDOFhyqls8AAAABV9l93g
+  url: https://api.github.com/repos/openimsdk/open-im-server/labels/area/controller-manager
+- color: 0052cc
+  default: false
+  description: ""
+  id: 5768838576
+  name: area/custom-resources
+  node_id: LA_kwDOFhyqls8AAAABV9l9sA
+  url: https://api.github.com/repos/openimsdk/open-im-server/labels/area/custom-resources
+- color: 0052cc
+  default: false
+  description: ""
+  id: 5768838598
+  name: area/declarative-configuration
+  node_id: LA_kwDOFhyqls8AAAABV9l9xg
+  url: https://api.github.com/repos/openimsdk/open-im-server/labels/area/declarative-configuration
+- color: 0052cc
+  default: false
+  description: Issues or PRs related to deflaking OpenIM tests
+  id: 5768838636
+  name: area/deflake
+  node_id: LA_kwDOFhyqls8AAAABV9l97A
+  url: https://api.github.com/repos/openimsdk/open-im-server/labels/area/deflake
+- color: 0052cc
+  default: false
+  description: Issues or PRs related to dependency changes
+  id: 5768838645
+  name: area/dependency
+  node_id: LA_kwDOFhyqls8AAAABV9l99Q
+  url: https://api.github.com/repos/openimsdk/open-im-server/labels/area/dependency
+- color: 0052cc
+  default: false
+  description: ""
+  id: 5768838568
+  name: area/dns
+  node_id: LA_kwDOFhyqls8AAAABV9l9qA
+  url: https://api.github.com/repos/openimsdk/open-im-server/labels/area/dns
+- color: 0052cc
+  default: false
+  description: ""
+  id: 5768838589
+  name: area/docker
+  node_id: LA_kwDOFhyqls8AAAABV9l9vQ
+  url: https://api.github.com/repos/openimsdk/open-im-server/labels/area/docker
+- color: 0052cc
+  default: false
+  description: ""
+  id: 5768838569
+  name: area/downward-api
+  node_id: LA_kwDOFhyqls8AAAABV9l9qQ
+  url: https://api.github.com/repos/openimsdk/open-im-server/labels/area/downward-api
+- color: 0052cc
+  default: false
+  description: Issues or PRs related to refactoring the OpenIM e2e test framework
+  id: 5768838575
+  name: area/e2e-test-framework
+  node_id: LA_kwDOFhyqls8AAAABV9l9rw
+  url: https://api.github.com/repos/openimsdk/open-im-server/labels/area/e2e-test-framework
+- color: 0052cc
+  default: false
+  description: ""
+  id: 5768838609
+  name: area/ecosystem
+  node_id: LA_kwDOFhyqls8AAAABV9l90Q
+  url: https://api.github.com/repos/openimsdk/open-im-server/labels/area/ecosystem
+- color: 0052cc
+  default: false
+  description: ""
+  id: 5768838637
+  name: area/etcd
+  node_id: LA_kwDOFhyqls8AAAABV9l97Q
+  url: https://api.github.com/repos/openimsdk/open-im-server/labels/area/etcd
+- color: 0052cc
+  default: false
+  description: ""
+  id: 5768838625
+  name: area/example
+  node_id: LA_kwDOFhyqls8AAAABV9l94Q
+  url: https://api.github.com/repos/openimsdk/open-im-server/labels/area/example
+- color: 0052cc
+  default: false
+  description: ""
+  id: 5768838574
+  name: area/example/cassandra
+  node_id: LA_kwDOFhyqls8AAAABV9l9rg
+  url: https://api.github.com/repos/openimsdk/open-im-server/labels/area/example/cassandra
+- color: 0052cc
+  default: false
+  description: ""
+  id: 5768838618
+  name: area/extensibility
+  node_id: LA_kwDOFhyqls8AAAABV9l92g
+  url: https://api.github.com/repos/openimsdk/open-im-server/labels/area/extensibility
+- color: 0052cc
+  default: false
+  description: ""
+  id: 5768838582
+  name: area/federation
+  node_id: LA_kwDOFhyqls8AAAABV9l9tg
+  url: https://api.github.com/repos/openimsdk/open-im-server/labels/area/federation
+- color: 0052cc
+  default: false
+  description: ""
+  id: 5768838570
+  name: area/HA
+  node_id: LA_kwDOFhyqls8AAAABV9l9qg
+  url: https://api.github.com/repos/openimsdk/open-im-server/labels/area/HA
+- color: 0052cc
+  default: false
+  description: ""
+  id: 5768838610
+  name: area/hw-accelerators
+  node_id: LA_kwDOFhyqls8AAAABV9l90g
+  url: https://api.github.com/repos/openimsdk/open-im-server/labels/area/hw-accelerators
+- color: 0052cc
+  default: false
+  description: ""
+  id: 5768838635
+  name: area/images-registry
+  node_id: LA_kwDOFhyqls8AAAABV9l96w
+  url: https://api.github.com/repos/openimsdk/open-im-server/labels/area/images-registry
+- color: 0052cc
+  default: false
+  description: ""
+  id: 5768838593
+  name: area/ingress
+  node_id: LA_kwDOFhyqls8AAAABV9l9wQ
+  url: https://api.github.com/repos/openimsdk/open-im-server/labels/area/ingress
+- color: 0052cc
+  default: false
+  description: ""
+  id: 5768838567
+  name: area/introspection
+  node_id: LA_kwDOFhyqls8AAAABV9l9pw
+  url: https://api.github.com/repos/openimsdk/open-im-server/labels/area/introspection
+- color: 0052cc
+  default: false
+  description: ""
+  id: 5768838599
+  name: area/ipv6
+  node_id: LA_kwDOFhyqls8AAAABV9l9xw
+  url: https://api.github.com/repos/openimsdk/open-im-server/labels/area/ipv6
+- color: 0052cc
+  default: false
+  description: ""
+  id: 5768838573
+  name: area/ipvs
+  node_id: LA_kwDOFhyqls8AAAABV9l9rQ
+  url: https://api.github.com/repos/openimsdk/open-im-server/labels/area/ipvs
+- color: 0052cc
+  default: false
+  description: ""
+  id: 5768838578
+  name: area/isolation
+  node_id: LA_kwDOFhyqls8AAAABV9l9sg
+  url: https://api.github.com/repos/openimsdk/open-im-server/labels/area/isolation
+- color: 0052cc
+  default: false
+  description: ""
+  id: 5768838638
+  name: area/logging
+  node_id: LA_kwDOFhyqls8AAAABV9l97g
+  url: https://api.github.com/repos/openimsdk/open-im-server/labels/area/logging
+- color: 0052cc
+  default: false
+  description: ""
+  id: 5768838615
+  name: area/monitoring
+  node_id: LA_kwDOFhyqls8AAAABV9l91w
+  url: https://api.github.com/repos/openimsdk/open-im-server/labels/area/monitoring
+- color: 0052cc
+  default: false
+  description: Issues or PRs related to Network Policy subproject
+  id: 5768838620
+  name: area/network-policy
+  node_id: LA_kwDOFhyqls8AAAABV9l93A
+  url: https://api.github.com/repos/openimsdk/open-im-server/labels/area/network-policy
+- color: 0052cc
+  default: false
+  description: ""
+  id: 5768838601
+  name: area/node-e2e
+  node_id: LA_kwDOFhyqls8AAAABV9l9yQ
+  url: https://api.github.com/repos/openimsdk/open-im-server/labels/area/node-e2e
+- color: 0052cc
+  default: false
+  description: ""
+  id: 5768838579
+  name: area/node-lifecycle
+  node_id: LA_kwDOFhyqls8AAAABV9l9sw
+  url: https://api.github.com/repos/openimsdk/open-im-server/labels/area/node-lifecycle
+- color: 0052cc
+  default: false
+  description: ""
+  id: 5768838617
+  name: area/nodecontroller
+  node_id: LA_kwDOFhyqls8AAAABV9l92Q
+  url: https://api.github.com/repos/openimsdk/open-im-server/labels/area/nodecontroller
+- color: d4c5f9
+  default: false
+  description: ""
+  id: 5768838612
+  name: area/os/coreos
+  node_id: LA_kwDOFhyqls8AAAABV9l91A
+  url: https://api.github.com/repos/openimsdk/open-im-server/labels/area/os/coreos
+- color: d4c5f9
+  default: false
+  description: ""
+  id: 5768838629
+  name: area/os/fedora
+  node_id: LA_kwDOFhyqls8AAAABV9l95Q
+  url: https://api.github.com/repos/openimsdk/open-im-server/labels/area/os/fedora
+- color: d4c5f9
+  default: false
+  description: ""
+  id: 5768838596
+  name: area/os/ubuntu
+  node_id: LA_kwDOFhyqls8AAAABV9l9xA
+  url: https://api.github.com/repos/openimsdk/open-im-server/labels/area/os/ubuntu
+- color: d4c5f9
+  default: false
+  description: ""
+  id: 5768838600
+  name: area/platform/gce
+  node_id: LA_kwDOFhyqls8AAAABV9l9yA
+  url: https://api.github.com/repos/openimsdk/open-im-server/labels/area/platform/gce
+- color: d4c5f9
+  default: false
+  description: ""
+  id: 5768838607
+  name: area/platform/mesos
+  node_id: LA_kwDOFhyqls8AAAABV9l9zw
+  url: https://api.github.com/repos/openimsdk/open-im-server/labels/area/platform/mesos
+- color: d4c5f9
+  default: false
+  description: ""
+  id: 5768838614
+  name: area/platform/vagrant
+  node_id: LA_kwDOFhyqls8AAAABV9l91g
+  url: https://api.github.com/repos/openimsdk/open-im-server/labels/area/platform/vagrant
+- color: 0052cc
+  default: false
+  description: Issues or PRs related to aws provider
+  id: 5768838597
+  name: area/provider/aws
+  node_id: LA_kwDOFhyqls8AAAABV9l9xQ
+  url: https://api.github.com/repos/openimsdk/open-im-server/labels/area/provider/aws
+- color: 0052cc
+  default: false
+  description: Issues or PRs related to azure provider
+  id: 5768838640
+  name: area/provider/azure
+  node_id: LA_kwDOFhyqls8AAAABV9l98A
+  url: https://api.github.com/repos/openimsdk/open-im-server/labels/area/provider/azure
+- color: 0052cc
+  default: false
+  description: Issues or PRs related to digitalocean provider
+  id: 5768838616
+  name: area/provider/digitalocean
+  node_id: LA_kwDOFhyqls8AAAABV9l92A
+  url: https://api.github.com/repos/openimsdk/open-im-server/labels/area/provider/digitalocean
+- color: 0052cc
+  default: false
+  description: Issues or PRs related to gcp provider
+  id: 5768838606
+  name: area/provider/gcp
+  node_id: LA_kwDOFhyqls8AAAABV9l9zg
+  url: https://api.github.com/repos/openimsdk/open-im-server/labels/area/provider/gcp
+- color: 0052cc
+  default: false
+  description: Issues or PRs related to ibmcloud provider
+  id: 5768838580
+  name: area/provider/ibmcloud
+  node_id: LA_kwDOFhyqls8AAAABV9l9tA
+  url: https://api.github.com/repos/openimsdk/open-im-server/labels/area/provider/ibmcloud
+- color: 0052cc
+  default: false
+  description: Issues or PRs related to openstack provider
+  id: 5768838634
+  name: area/provider/openstack
+  node_id: LA_kwDOFhyqls8AAAABV9l96g
+  url: https://api.github.com/repos/openimsdk/open-im-server/labels/area/provider/openstack
+- color: 0052cc
+  default: false
+  description: Issues or PRs related to vmware provider
+  id: 5768838588
+  name: area/provider/vmware
+  node_id: LA_kwDOFhyqls8AAAABV9l9vA
+  url: https://api.github.com/repos/openimsdk/open-im-server/labels/area/provider/vmware
+- color: 0052cc
+  default: false
+  description: Issues or PRs related to the Release Engineering subproject
+  id: 5768838602
+  name: area/release-eng
+  node_id: LA_kwDOFhyqls8AAAABV9l9yg
+  url: https://api.github.com/repos/openimsdk/open-im-server/labels/area/release-eng
+- color: 0052cc
+  default: false
+  description: Issues or PRs related to system reliability
+  id: 5768838611
+  name: area/reliability
+  node_id: LA_kwDOFhyqls8AAAABV9l90w
+  url: https://api.github.com/repos/openimsdk/open-im-server/labels/area/reliability
+- color: 0052cc
+  default: false
+  description: Issues or PRs related to rkt (a pod-native container engine)
+  id: 5768838586
+  name: area/rkt
+  node_id: LA_kwDOFhyqls8AAAABV9l9ug
+  url: https://api.github.com/repos/openimsdk/open-im-server/labels/area/rkt
+- color: 0052cc
+  default: false
+  description: Issues or PRs related to Secret API
+  id: 5768838653
+  name: area/secret-api
+  node_id: LA_kwDOFhyqls8AAAABV9l9_Q
+  url: https://api.github.com/repos/openimsdk/open-im-server/labels/area/secret-api
+- color: d93f0b
+  default: false
+  description: Issues or PRs related to security features or vulnerabilities
+  id: 5768838660
+  name: area/security
+  node_id: LA_kwDOFhyqls8AAAABV9l-BA
+  url: https://api.github.com/repos/openimsdk/open-im-server/labels/area/security
+- color: 0052cc
+  default: false
+  description: Issues or PRs related to stateful applications
+  id: 5768838651
+  name: area/stateful-apps
+  node_id: LA_kwDOFhyqls8AAAABV9l9-w
+  url: https://api.github.com/repos/openimsdk/open-im-server/labels/area/stateful-apps
+- color: 0052cc
+  default: false
+  description: Issues or PRs related to Swagger API documentation
+  id: 5768838663
+  name: area/swagger
+  node_id: LA_kwDOFhyqls8AAAABV9l-Bw
+  url: https://api.github.com/repos/openimsdk/open-im-server/labels/area/swagger
+- color: 0052cc
+  default: false
+  description: Issues or PRs related to system requirements
+  id: 5768838666
+  name: area/system-requirement
+  node_id: LA_kwDOFhyqls8AAAABV9l-Cg
+  url: https://api.github.com/repos/openimsdk/open-im-server/labels/area/system-requirement
+- color: 0052cc
+  default: false
+  description: Issues or PRs related to system teardown or cleanup
+  id: 5768838662
+  name: area/teardown
+  node_id: LA_kwDOFhyqls8AAAABV9l-Bg
+  url: https://api.github.com/repos/openimsdk/open-im-server/labels/area/teardown
+- color: 0052cc
+  default: false
+  description: Issues or PRs related to tests or testing infrastructure
+  id: 5768838668
+  name: area/test
+  node_id: LA_kwDOFhyqls8AAAABV9l-DA
+  url: https://api.github.com/repos/openimsdk/open-im-server/labels/area/test
+- color: 0052cc
+  default: false
+  description: Issues or PRs related to test infrastructure
+  id: 5768838671
+  name: area/test-infra
+  node_id: LA_kwDOFhyqls8AAAABV9l-Dw
+  url: https://api.github.com/repos/openimsdk/open-im-server/labels/area/test-infra
+- color: 0052cc
+  default: false
+  description: Issues or PRs related to user interface
+  id: 5768838730
+  name: area/ui
+  node_id: LA_kwDOFhyqls8AAAABV9l-Sg
+  url: https://api.github.com/repos/openimsdk/open-im-server/labels/area/ui
+- color: 0052cc
+  default: false
+  description: Issues or PRs related to system upgrades
+  id: 5768838686
+  name: area/upgrade
+  node_id: LA_kwDOFhyqls8AAAABV9l-Hg
+  url: https://api.github.com/repos/openimsdk/open-im-server/labels/area/upgrade
+- color: 0052cc
+  default: false
+  description: Issues or PRs related to usability improvements or concerns
+  id: 5768838708
+  name: area/usability
+  node_id: LA_kwDOFhyqls8AAAABV9l-NA
+  url: https://api.github.com/repos/openimsdk/open-im-server/labels/area/usability
+- color: 0052cc
+  default: false
+  description: Issues or PRs related to workload API's cronjob features
+  id: 5768838681
+  name: area/workload-api/cronjob
+  node_id: LA_kwDOFhyqls8AAAABV9l-GQ
+  url: https://api.github.com/repos/openimsdk/open-im-server/labels/area/workload-api/cronjob
+- color: 0052cc
+  default: false
+  description: Issues or PRs related to workload API's daemonset features
+  id: 5768838726
+  name: area/workload-api/daemonset
+  node_id: LA_kwDOFhyqls8AAAABV9l-Rg
+  url: https://api.github.com/repos/openimsdk/open-im-server/labels/area/workload-api/daemonset
+- color: 0052cc
+  default: false
+  description: Issues or PRs related to workload API's deployment features
+  id: 5768838700
+  name: area/workload-api/deployment
+  node_id: LA_kwDOFhyqls8AAAABV9l-LA
+  url: https://api.github.com/repos/openimsdk/open-im-server/labels/area/workload-api/deployment
+- color: 0052cc
+  default: false
+  description: Issues or PRs related to workload API's job features
+  id: 5768838741
+  name: area/workload-api/job
+  node_id: LA_kwDOFhyqls8AAAABV9l-VQ
+  url: https://api.github.com/repos/openimsdk/open-im-server/labels/area/workload-api/job
+- color: fef2c0
+  default: false
+  description: Indicates a cherry-pick PR into a release branch has been approved
+    by the release branch manager.
+  id: 5768838682
+  name: cherry-pick-approved
+  node_id: LA_kwDOFhyqls8AAAABV9l-Gg
+  url: https://api.github.com/repos/openimsdk/open-im-server/labels/cherry-pick-approved
+- color: e11d21
+  default: false
+  description: Indicates the PR's author has not signed the CNCF CLA.
+  id: 5768838737
+  name: 'cncf-cla: no'
+  node_id: LA_kwDOFhyqls8AAAABV9l-UQ
+  url: https://api.github.com/repos/openimsdk/open-im-server/labels/cncf-cla:%20no
+- color: bfe5bf
+  default: false
+  description: Indicates the PR's author has signed the CNCF CLA.
+  id: 5768838690
+  name: 'cncf-cla: yes'
+  node_id: LA_kwDOFhyqls8AAAABV9l-Ig
+  url: https://api.github.com/repos/openimsdk/open-im-server/labels/cncf-cla:%20yes
+- color: c0ff4a
+  default: false
+  description: Denotes an issue or PR intended to be handled by the code of conduct
+    committee.
+  id: 5768838683
+  name: committee/code-of-conduct
+  node_id: LA_kwDOFhyqls8AAAABV9l-Gw
+  url: https://api.github.com/repos/openimsdk/open-im-server/labels/committee/code-of-conduct
+- color: c0ff4a
+  default: false
+  description: Denotes an issue or PR intended to be handled by the product security
+    committee.
+  id: 5768838672
+  name: committee/security-response
+  node_id: LA_kwDOFhyqls8AAAABV9l-EA
+  url: https://api.github.com/repos/openimsdk/open-im-server/labels/committee/security-response
+- color: c0ff4a
+  default: false
+  description: Denotes an issue or PR intended to be handled by the steering committee.
+  id: 5768838689
+  name: committee/steering
+  node_id: LA_kwDOFhyqls8AAAABV9l-IQ
+  url: https://api.github.com/repos/openimsdk/open-im-server/labels/committee/steering
 - color: 0366d6
   default: false
   description: Pull requests that update a dependency file
   id: 5195755799
   name: dependencies
   node_id: LA_kwDOFhyqls8AAAABNbDxFw
-  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/dependencies
+  url: https://api.github.com/repos/openimsdk/open-im-server/labels/dependencies
+- color: e11d21
+  default: false
+  description: DEPRECATED. Indicates that a PR should not merge. Label can only be
+    manually applied/removed.
+  id: 5768838718
+  name: do-not-merge
+  node_id: LA_kwDOFhyqls8AAAABV9l-Pg
+  url: https://api.github.com/repos/openimsdk/open-im-server/labels/do-not-merge
+- color: e11d21
+  default: false
+  description: Indicates that a PR should not merge because it touches files in blocked
+    paths.
+  id: 5768838739
+  name: do-not-merge/blocked-paths
+  node_id: LA_kwDOFhyqls8AAAABV9l-Uw
+  url: https://api.github.com/repos/openimsdk/open-im-server/labels/do-not-merge/blocked-paths
+- color: e11d21
+  default: false
+  description: Indicates that a PR is not yet approved to merge into a release branch.
+  id: 5768838715
+  name: do-not-merge/cherry-pick-not-approved
+  node_id: LA_kwDOFhyqls8AAAABV9l-Ow
+  url: https://api.github.com/repos/openimsdk/open-im-server/labels/do-not-merge/cherry-pick-not-approved
+- color: e11d21
+  default: false
+  description: Indicates a PR which contains merge commits.
+  id: 5768838685
+  name: do-not-merge/contains-merge-commits
+  node_id: LA_kwDOFhyqls8AAAABV9l-HQ
+  url: https://api.github.com/repos/openimsdk/open-im-server/labels/do-not-merge/contains-merge-commits
+- color: e11d21
+  default: false
+  description: Indicates that a PR should not merge because someone has issued a /hold
+    command.
+  id: 5768838710
+  name: do-not-merge/hold
+  node_id: LA_kwDOFhyqls8AAAABV9l-Ng
+  url: https://api.github.com/repos/openimsdk/open-im-server/labels/do-not-merge/hold
+- color: e11d21
+  default: false
+  description: Indicates that a PR should not merge because it has an invalid commit
+    message.
+  id: 5768838696
+  name: do-not-merge/invalid-commit-message
+  node_id: LA_kwDOFhyqls8AAAABV9l-KA
+  url: https://api.github.com/repos/openimsdk/open-im-server/labels/do-not-merge/invalid-commit-message
+- color: e11d21
+  default: false
+  description: Indicates that a PR should not merge because it has an invalid OWNERS
+    file in it.
+  id: 5768838704
+  name: do-not-merge/invalid-owners-file
+  node_id: LA_kwDOFhyqls8AAAABV9l-MA
+  url: https://api.github.com/repos/openimsdk/open-im-server/labels/do-not-merge/invalid-owners-file
 - color: D93F0B
   default: false
   description: Indicates a PR lacks a `kind/foo` label and requires one.
   id: 5497486393
   name: do-not-merge/needs-kind
   node_id: LA_kwDOFhyqls8AAAABR6z8OQ
-  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/do-not-merge/needs-kind
+  url: https://api.github.com/repos/openimsdk/open-im-server/labels/do-not-merge/needs-kind
+- color: e11d21
+  default: false
+  description: Indicates an issue or PR lacks a `sig/foo` label and requires one.
+  id: 5768838706
+  name: do-not-merge/needs-sig
+  node_id: LA_kwDOFhyqls8AAAABV9l-Mg
+  url: https://api.github.com/repos/openimsdk/open-im-server/labels/do-not-merge/needs-sig
+- color: e11d21
+  default: false
+  description: Indicates that a PR should not merge because it's missing one of the
+    release note labels.
+  id: 5768838728
+  name: do-not-merge/release-note-label-needed
+  node_id: LA_kwDOFhyqls8AAAABV9l-SA
+  url: https://api.github.com/repos/openimsdk/open-im-server/labels/do-not-merge/release-note-label-needed
+- color: e11d21
+  default: false
+  description: Indicates that a PR should not merge because it is a work in progress.
+  id: 5768838734
+  name: do-not-merge/work-in-progress
+  node_id: LA_kwDOFhyqls8AAAABV9l-Tg
+  url: https://api.github.com/repos/openimsdk/open-im-server/labels/do-not-merge/work-in-progress
 - color: a2eeef
   default: true
   description: New feature or request
   id: 3032551175
   name: enhancement
   node_id: MDU6TGFiZWwzMDMyNTUxMTc1
-  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/enhancement
+  url: https://api.github.com/repos/openimsdk/open-im-server/labels/enhancement
 - color: 0E8A16
   default: false
-  description: "gitlink2023"
+  description: gitlink2023
   id: 5595489210
   name: gitlink2023
   node_id: LA_kwDOFhyqls8AAAABTYRjug
-  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/gitlink2023
-- color: 0E8A16
+  url: https://api.github.com/repos/openimsdk/open-im-server/labels/gitlink2023
+- color: 16e2e2
   default: false
-  description: "gsoc2023"
-  id: 5595489210
-  name: gsoc2023
-  node_id: LA_kwDOFhyqls8AAAABTYRjug
-  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/gitlink2023
-- color: 0E8A16
-  default: false
-  description: "ospp2023"
-  id: 5595489210
-  name: gsoc2023
-  node_id: LA_kwDOFhyqls8AAAABTYRjug
-  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/gitlink2023
-- color: 0E8A16
-  default: false
-  description: "gitlink2024"
-  id: 5595489210
-  name: gitlink2023
-  node_id: LA_kwDOFhyqls8AAAABTYRjug
-  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/gitlink2023
-- color: 0E8A16
-  default: false
-  description: "gsoc2024"
-  id: 5595489210
-  name: gsoc2023
-  node_id: LA_kwDOFhyqls8AAAABTYRjug
-  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/gitlink2023
-- color: 0E8A16
-  default: false
-  description: "ospp2024"
-  id: 5595489210
-  name: gsoc2023
-  node_id: LA_kwDOFhyqls8AAAABTYRjug
-  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/gitlink2023
+  description: Pull requests that update Go code
+  id: 6340197693
+  name: go
+  node_id: LA_kwDOFhyqls8AAAABeee9PQ
+  url: https://api.github.com/repos/openimsdk/open-im-server/labels/go
 - color: 7057ff
   default: true
   description: Good for newcomers
   id: 3032551177
   name: good first issue
   node_id: MDU6TGFiZWwzMDMyNTUxMTc3
-  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/good%20first%20issue
+  url: https://api.github.com/repos/openimsdk/open-im-server/labels/good%20first%20issue
+- color: 0E8A16
+  default: false
+  description: gsoc2024
+  id: 5768838564
+  name: gsoc2023
+  node_id: LA_kwDOFhyqls8AAAABV9l9pA
+  url: https://api.github.com/repos/openimsdk/open-im-server/labels/gsoc2023
 - color: "008672"
   default: true
   description: Extra attention is needed
   id: 3032551179
   name: help wanted
   node_id: MDU6TGFiZWwzMDMyNTUxMTc5
-  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/help%20wanted
+  url: https://api.github.com/repos/openimsdk/open-im-server/labels/help%20wanted
 - color: e4e669
   default: true
   description: This doesn't seem right
   id: 3032551181
   name: invalid
   node_id: MDU6TGFiZWwzMDMyNTUxMTgx
-  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/invalid
+  url: https://api.github.com/repos/openimsdk/open-im-server/labels/invalid
+- color: e11d21
+  default: false
+  description: Categorizes issue or PR as related to adding, removing, or otherwise
+    changing an API
+  id: 5768838751
+  name: kind/api-change
+  node_id: LA_kwDOFhyqls8AAAABV9l-Xw
+  url: https://api.github.com/repos/openimsdk/open-im-server/labels/kind/api-change
 - color: d73a4a
   default: false
   description: Something isn't working
   id: 3032551172
   name: kind/bug
   node_id: MDU6TGFiZWwzMDMyNTUxMTcy
-  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/kind/bug
+  url: https://api.github.com/repos/openimsdk/open-im-server/labels/kind/bug
 - color: 006b75
   default: false
   description: Categorizes issue or PR as related to cleaning up code, process, or
@@ -96,63 +745,92 @@
   id: 5497479585
   name: kind/cleanup
   node_id: LA_kwDOFhyqls8AAAABR6zhoQ
-  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/kind/cleanup
+  url: https://api.github.com/repos/openimsdk/open-im-server/labels/kind/cleanup
+- color: e11d21
+  default: false
+  description: Categorizes issue or PR as related to a feature/enhancement marked
+    for deprecation.
+  id: 5768838738
+  name: kind/deprecation
+  node_id: LA_kwDOFhyqls8AAAABV9l-Ug
+  url: https://api.github.com/repos/openimsdk/open-im-server/labels/kind/deprecation
+- color: c7def8
+  default: false
+  description: Categorizes issue or PR as related to design.
+  id: 5768838705
+  name: kind/design
+  node_id: LA_kwDOFhyqls8AAAABV9l-MQ
+  url: https://api.github.com/repos/openimsdk/open-im-server/labels/kind/design
 - color: 0075ca
   default: false
   description: Improvements or additions to documentation
   id: 3032551173
   name: kind/documentation
   node_id: MDU6TGFiZWwzMDMyNTUxMTcz
-  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/kind/documentation
+  url: https://api.github.com/repos/openimsdk/open-im-server/labels/kind/documentation
 - color: B60205
   default: false
   description: Report failed tests in OpenIM
   id: 5497719639
   name: kind/failing-test
   node_id: LA_kwDOFhyqls8AAAABR7CLVw
-  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/kind/failing-test
+  url: https://api.github.com/repos/openimsdk/open-im-server/labels/kind/failing-test
 - color: 03AF64
   default: false
   description: ""
   id: 5440198764
   name: kind/feature
   node_id: LA_kwDOFhyqls8AAAABRELYbA
-  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/kind/feature
+  url: https://api.github.com/repos/openimsdk/open-im-server/labels/kind/feature
+- color: f7c6c7
+  default: false
+  description: Categorizes issue or PR as related to a flaky test.
+  id: 5768838709
+  name: kind/flake
+  node_id: LA_kwDOFhyqls8AAAABV9l-NQ
+  url: https://api.github.com/repos/openimsdk/open-im-server/labels/kind/flake
+- color: e11d21
+  default: false
+  description: Categorizes issue or PR as related to a regression from a prior release.
+  id: 5768838707
+  name: kind/regression
+  node_id: LA_kwDOFhyqls8AAAABV9l-Mw
+  url: https://api.github.com/repos/openimsdk/open-im-server/labels/kind/regression
 - color: BFDADC
   default: false
   description: Categorizes issue or PR as a support question.
   id: 5497487384
   name: kind/support
   node_id: LA_kwDOFhyqls8AAAABR60AGA
-  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/kind/support
+  url: https://api.github.com/repos/openimsdk/open-im-server/labels/kind/support
 - color: 0E8A16
   default: false
   description: Indicates that a PR is ready to be merged.
   id: 5497502953
   name: lgtm
   node_id: LA_kwDOFhyqls8AAAABR6086Q
-  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/lgtm
+  url: https://api.github.com/repos/openimsdk/open-im-server/labels/lgtm
 - color: 8fc951
   default: false
   description: Indicates that an issue or PR is actively being worked on by a contributor.
   id: 5740527145
   name: lifecycle/active
   node_id: LA_kwDOFhyqls8AAAABVil-KQ
-  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/lifecycle/active
+  url: https://api.github.com/repos/openimsdk/open-im-server/labels/lifecycle/active
 - color: d3e2f0
   default: false
   description: Indicates that an issue or PR should not be auto-closed due to staleness.
   id: 5740527149
   name: lifecycle/frozen
   node_id: LA_kwDOFhyqls8AAAABVil-LQ
-  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/lifecycle/frozen
+  url: https://api.github.com/repos/openimsdk/open-im-server/labels/lifecycle/frozen
 - color: "604460"
   default: false
   description: Denotes an issue or PR that has aged beyond stale and will be auto-closed.
   id: 5740527139
   name: lifecycle/rotten
   node_id: LA_kwDOFhyqls8AAAABVil-Iw
-  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/lifecycle/rotten
+  url: https://api.github.com/repos/openimsdk/open-im-server/labels/lifecycle/rotten
 - color: "795548"
   default: false
   description: Denotes an issue or PR has remained open with no activity and has become
@@ -160,28 +838,111 @@
   id: 5497523618
   name: lifecycle/stale
   node_id: LA_kwDOFhyqls8AAAABR62Nog
-  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/lifecycle/stale
+  url: https://api.github.com/repos/openimsdk/open-im-server/labels/lifecycle/stale
 - color: FBCA04
   default: false
   description: ""
   id: 5497499585
   name: log
   node_id: LA_kwDOFhyqls8AAAABR60vwQ
-  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/log
+  url: https://api.github.com/repos/openimsdk/open-im-server/labels/log
+- color: ededed
+  default: false
+  description: Marks issues or pull requests where labels are incomplete or missing.
+  id: 5768838717
+  name: milestone/incomplete-labels
+  node_id: LA_kwDOFhyqls8AAAABV9l-PQ
+  url: https://api.github.com/repos/openimsdk/open-im-server/labels/milestone/incomplete-labels
+- color: ededed
+  default: false
+  description: Marks issues or pull requests that need approval to be included in
+    the milestone.
+  id: 5768838736
+  name: milestone/needs-approval
+  node_id: LA_kwDOFhyqls8AAAABV9l-UA
+  url: https://api.github.com/repos/openimsdk/open-im-server/labels/milestone/needs-approval
+- color: ededed
+  default: false
+  description: Marks issues or pull requests that need further attention or action
+    to be included in the milestone.
+  id: 5768838733
+  name: milestone/needs-attention
+  node_id: LA_kwDOFhyqls8AAAABV9l-TQ
+  url: https://api.github.com/repos/openimsdk/open-im-server/labels/milestone/needs-attention
+- color: ededed
+  default: false
+  description: Marks issues or pull requests that have been removed from the milestone.
+  id: 5768838747
+  name: milestone/removed
+  node_id: LA_kwDOFhyqls8AAAABV9l-Ww
+  url: https://api.github.com/repos/openimsdk/open-im-server/labels/milestone/removed
+- color: ededed
+  default: false
+  description: Indicates a PR lacks a `kind/foo` label and requires one.
+  id: 5768838748
+  name: needs-kind
+  node_id: LA_kwDOFhyqls8AAAABV9l-XA
+  url: https://api.github.com/repos/openimsdk/open-im-server/labels/needs-kind
+- color: b60205
+  default: false
+  description: Indicates a PR that requires an org member to verify it is safe to
+    test.
+  id: 5768838752
+  name: needs-ok-to-test
+  node_id: LA_kwDOFhyqls8AAAABV9l-YA
+  url: https://api.github.com/repos/openimsdk/open-im-server/labels/needs-ok-to-test
+- color: ededed
+  default: false
+  description: Indicates a PR lacks a `priority/foo` label and requires one.
+  id: 5768838697
+  name: needs-priority
+  node_id: LA_kwDOFhyqls8AAAABV9l-KQ
+  url: https://api.github.com/repos/openimsdk/open-im-server/labels/needs-priority
+- color: e11d21
+  default: false
+  description: Indicates a PR cannot be merged because it has merge conflicts with
+    HEAD.
+  id: 5768838647
+  name: needs-rebase
+  node_id: LA_kwDOFhyqls8AAAABV9l99w
+  url: https://api.github.com/repos/openimsdk/open-im-server/labels/needs-rebase
+- color: ededed
+  default: false
+  description: Indicates an issue or PR lacks a `sig/foo` label and requires one.
+  id: 5768838746
+  name: needs-sig
+  node_id: LA_kwDOFhyqls8AAAABV9l-Wg
+  url: https://api.github.com/repos/openimsdk/open-im-server/labels/needs-sig
 - color: C5DEF5
   default: false
   description: Indicates an issue or PR lacks a `triage/foo` label and requires one.
   id: 5497489962
   name: needs-triage
   node_id: LA_kwDOFhyqls8AAAABR60KKg
-  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/needs-triage
+  url: https://api.github.com/repos/openimsdk/open-im-server/labels/needs-triage
 - color: 006B75
   default: false
   description: Categorizes an issue or PR as relevant to Network.
   id: 5497504624
   name: network
   node_id: LA_kwDOFhyqls8AAAABR61DcA
-  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/network
+  url: https://api.github.com/repos/openimsdk/open-im-server/labels/network
+- color: 0052cc
+  default: false
+  description: Issues or PRs related to CVEs officially announced by Security Response
+    Committee (SRC)
+  id: 5768838590
+  name: official-cve-feed
+  node_id: LA_kwDOFhyqls8AAAABV9l9vg
+  url: https://api.github.com/repos/openimsdk/open-im-server/labels/official-cve-feed
+- color: 15dd18
+  default: false
+  description: Indicates a non-member PR verified by an org member that is safe to
+    test.
+  id: 5768838632
+  name: ok-to-test
+  node_id: LA_kwDOFhyqls8AAAABV9l96A
+  url: https://api.github.com/repos/openimsdk/open-im-server/labels/ok-to-test
 - color: b60205
   default: false
   description: User information, template information, important information, never
@@ -189,1512 +950,539 @@
   id: 5487958651
   name: openim
   node_id: LA_kwDOFhyqls8AAAABRxuaew
-  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/openim
+  url: https://api.github.com/repos/openimsdk/open-im-server/labels/openim
+- color: fef2c0
+  default: false
+  description: Lowest priority. Possibly useful, but not yet enough support to actually
+    get it done.
+  id: 5768838583
+  name: priority/awaiting-more-evidence
+  node_id: LA_kwDOFhyqls8AAAABV9l9tw
+  url: https://api.github.com/repos/openimsdk/open-im-server/labels/priority/awaiting-more-evidence
+- color: fbca04
+  default: false
+  description: Higher priority than priority/awaiting-more-evidence.
+  id: 5768838628
+  name: priority/backlog
+  node_id: LA_kwDOFhyqls8AAAABV9l95A
+  url: https://api.github.com/repos/openimsdk/open-im-server/labels/priority/backlog
+- color: e11d21
+  default: false
+  description: Highest priority. Must be actively worked on as someone's top priority
+    right now.
+  id: 5768838608
+  name: priority/critical-urgent
+  node_id: LA_kwDOFhyqls8AAAABV9l90A
+  url: https://api.github.com/repos/openimsdk/open-im-server/labels/priority/critical-urgent
+- color: eb6420
+  default: false
+  description: Important over the long term, but may not be staffed and/or may need
+    multiple releases to complete.
+  id: 5768838633
+  name: priority/important-longterm
+  node_id: LA_kwDOFhyqls8AAAABV9l96Q
+  url: https://api.github.com/repos/openimsdk/open-im-server/labels/priority/important-longterm
+- color: eb6420
+  default: false
+  description: Must be staffed and worked on either currently, or very soon, ideally
+    in time for the next release.
+  id: 5768838584
+  name: priority/important-soon
+  node_id: LA_kwDOFhyqls8AAAABV9l9uA
+  url: https://api.github.com/repos/openimsdk/open-im-server/labels/priority/important-soon
 - color: 0E8A16
   default: false
   description: ""
   id: 5497500315
   name: proposal
   node_id: LA_kwDOFhyqls8AAAABR60ymw
-  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/proposal
+  url: https://api.github.com/repos/openimsdk/open-im-server/labels/proposal
 - color: d876e3
   default: true
   description: Further information is requested
   id: 3032551184
   name: question
   node_id: MDU6TGFiZWwzMDMyNTUxMTg0
-  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/question
+  url: https://api.github.com/repos/openimsdk/open-im-server/labels/question
+- color: c2e0c6
+  default: false
+  description: Denotes a PR that will be considered when it comes time to generate
+    release notes.
+  id: 5768838624
+  name: release-note
+  node_id: LA_kwDOFhyqls8AAAABV9l94A
+  url: https://api.github.com/repos/openimsdk/open-im-server/labels/release-note
+- color: c2e0c6
+  default: false
+  description: Denotes a PR that introduces potentially breaking changes that require
+    user action.
+  id: 5768838623
+  name: release-note-action-required
+  node_id: LA_kwDOFhyqls8AAAABV9l93w
+  url: https://api.github.com/repos/openimsdk/open-im-server/labels/release-note-action-required
+- color: c2e0c6
+  default: false
+  description: Denotes a PR that doesn't merit a release note.
+  id: 5768838657
+  name: release-note-none
+  node_id: LA_kwDOFhyqls8AAAABV9l-AQ
+  url: https://api.github.com/repos/openimsdk/open-im-server/labels/release-note-none
 - color: 0E8A16
   default: false
-  description: "Issues and pull requests related to version 2.0 of the release. This version is not maintained anymore."
-  id: 5497496026
-  name: release/v2.0
-  node_id: LA_kwDOFhyqls8AAAABR60h2g
-  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/release/v2.0
-- color: 0E8A16
-  default: false
-  description: "Issues and pull requests related to version 3.0 of the release. This is the current version."
-  id: 5497495379
+  description: Issues and pull requests related to version 3.0 of the release. This
+    is the current version.
+  id: 5768838644
   name: release/v3.0
-  node_id: LA_kwDOFhyqls8AAAABR60fUw
-  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/release/v3.0
+  node_id: LA_kwDOFhyqls8AAAABV9l99A
+  url: https://api.github.com/repos/openimsdk/open-im-server/labels/release/v3.0
 - color: 0E8A16
   default: false
-  description: "Issues and pull requests related to version 4.0 of the release. This version is in development."
-  id: 5497495718
+  description: Issues and pull requests related to version 4.0 of the release. This
+    version is in development.
+  id: 5768838613
   name: release/v4.0
-  node_id: LA_kwDOFhyqls8AAAABR60gpg
-  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/release/v4.0.0
+  node_id: LA_kwDOFhyqls8AAAABV9l91Q
+  url: https://api.github.com/repos/openimsdk/open-im-server/labels/release/v4.0
 - color: 0E8A16
   default: false
-  description: "Issues and pull requests related to version 1.0 of the release. This version is not maintained anymore."
-  id: id_needed
-  name: release/v1.0
-  node_id: node_id_needed
-  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/release/v1.0
-- color: 0E8A16
-  default: false
-  description: "Issues and pull requests related to version 5.0 of the release. This version is in planning stage."
-  id: id_needed
+  description: Issues and pull requests related to version 5.0 of the release. This
+    version is in planning stage.
+  id: 5768838572
   name: release/v5.0
-  node_id: node_id_needed
-  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/release/v5.0
+  node_id: LA_kwDOFhyqls8AAAABV9l9rA
+  url: https://api.github.com/repos/openimsdk/open-im-server/labels/release/v5.0
 - color: D93F0B
   default: false
   description: Some labels for the CICD automation report
   id: 5503298850
   name: report
   node_id: LA_kwDOFhyqls8AAAABSAWtIg
-  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/report
+  url: https://api.github.com/repos/openimsdk/open-im-server/labels/report
 - color: B60205
   default: false
   description: ""
   id: 5497493449
   name: response-expired
   node_id: LA_kwDOFhyqls8AAAABR60XyQ
-  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/response-expired
+  url: https://api.github.com/repos/openimsdk/open-im-server/labels/response-expired
 - color: 0E8A16
   default: false
   description: Project design proposal
   id: 5440200813
   name: RFC
   node_id: LA_kwDOFhyqls8AAAABRELgbQ
-  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/RFC
+  url: https://api.github.com/repos/openimsdk/open-im-server/labels/RFC
 - color: 0E8A16
   default: false
   description: Roadmap-related labels
   id: 5497494568
   name: roadmap
   node_id: LA_kwDOFhyqls8AAAABR60cKA
-  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/roadmap
+  url: https://api.github.com/repos/openimsdk/open-im-server/labels/roadmap
+- color: d2b48c
+  default: false
+  description: Categorizes an issue or PR as relevant to SIG API Machinery.
+  id: 5768838631
+  name: sig/api-machinery
+  node_id: LA_kwDOFhyqls8AAAABV9l95w
+  url: https://api.github.com/repos/openimsdk/open-im-server/labels/sig/api-machinery
+- color: d2b48c
+  default: false
+  description: Categorizes an issue or PR as relevant to SIG Apps.
+  id: 5768838656
+  name: sig/apps
+  node_id: LA_kwDOFhyqls8AAAABV9l-AA
+  url: https://api.github.com/repos/openimsdk/open-im-server/labels/sig/apps
+- color: d2b48c
+  default: false
+  description: Categorizes an issue or PR as relevant to SIG Architecture.
+  id: 5768838654
+  name: sig/architecture
+  node_id: LA_kwDOFhyqls8AAAABV9l9_g
+  url: https://api.github.com/repos/openimsdk/open-im-server/labels/sig/architecture
+- color: d2b48c
+  default: false
+  description: Categorizes an issue or PR as relevant to SIG Auth.
+  id: 5768838650
+  name: sig/auth
+  node_id: LA_kwDOFhyqls8AAAABV9l9-g
+  url: https://api.github.com/repos/openimsdk/open-im-server/labels/sig/auth
+- color: d2b48c
+  default: false
+  description: Categorizes an issue or PR as relevant to SIG Autoscaling.
+  id: 5768838655
+  name: sig/autoscaling
+  node_id: LA_kwDOFhyqls8AAAABV9l9_w
+  url: https://api.github.com/repos/openimsdk/open-im-server/labels/sig/autoscaling
+- color: d2b48c
+  default: false
+  description: Categorizes an issue or PR as relevant to SIG CLI.
+  id: 5768838664
+  name: sig/cli
+  node_id: LA_kwDOFhyqls8AAAABV9l-CA
+  url: https://api.github.com/repos/openimsdk/open-im-server/labels/sig/cli
+- color: d2b48c
+  default: false
+  description: Categorizes an issue or PR as relevant to SIG Cloud Provider.
+  id: 5768838669
+  name: sig/cloud-provider
+  node_id: LA_kwDOFhyqls8AAAABV9l-DQ
+  url: https://api.github.com/repos/openimsdk/open-im-server/labels/sig/cloud-provider
+- color: d2b48c
+  default: false
+  description: Categorizes an issue or PR as relevant to SIG Cluster Lifecycle.
+  id: 5768838659
+  name: sig/cluster-lifecycle
+  node_id: LA_kwDOFhyqls8AAAABV9l-Aw
+  url: https://api.github.com/repos/openimsdk/open-im-server/labels/sig/cluster-lifecycle
+- color: d2b48c
+  default: false
+  description: Categorizes an issue or PR as relevant to SIG Contributor Experience.
+  id: 5768838658
+  name: sig/contributor-experience
+  node_id: LA_kwDOFhyqls8AAAABV9l-Ag
+  url: https://api.github.com/repos/openimsdk/open-im-server/labels/sig/contributor-experience
+- color: d2b48c
+  default: false
+  description: Categorizes an issue or PR as relevant to SIG Docs.
+  id: 5768838678
+  name: sig/docs
+  node_id: LA_kwDOFhyqls8AAAABV9l-Fg
+  url: https://api.github.com/repos/openimsdk/open-im-server/labels/sig/docs
+- color: d2b48c
+  default: false
+  description: Categorizes an issue or PR as relevant to SIG Instrumentation.
+  id: 5768838721
+  name: sig/instrumentation
+  node_id: LA_kwDOFhyqls8AAAABV9l-QQ
+  url: https://api.github.com/repos/openimsdk/open-im-server/labels/sig/instrumentation
+- color: d2b48c
+  default: false
+  description: Categorizes an issue or PR as relevant to SIG Multicluster.
+  id: 5768838677
+  name: sig/multicluster
+  node_id: LA_kwDOFhyqls8AAAABV9l-FQ
+  url: https://api.github.com/repos/openimsdk/open-im-server/labels/sig/multicluster
+- color: d2b48c
+  default: false
+  description: Categorizes an issue or PR as relevant to SIG Network.
+  id: 5768838695
+  name: sig/network
+  node_id: LA_kwDOFhyqls8AAAABV9l-Jw
+  url: https://api.github.com/repos/openimsdk/open-im-server/labels/sig/network
+- color: d2b48c
+  default: false
+  description: Categorizes an issue or PR as relevant to SIG Node.
+  id: 5768838692
+  name: sig/node
+  node_id: LA_kwDOFhyqls8AAAABV9l-JA
+  url: https://api.github.com/repos/openimsdk/open-im-server/labels/sig/node
+- color: d2b48c
+  default: false
+  description: Categorizes an issue or PR as relevant to SIG openim Infra.
+  id: 5768838675
+  name: sig/openim-infra
+  node_id: LA_kwDOFhyqls8AAAABV9l-Ew
+  url: https://api.github.com/repos/openimsdk/open-im-server/labels/sig/openim-infra
+- color: d2b48c
+  default: false
+  description: Categorizes an issue or PR as relevant to SIG Release.
+  id: 5768838693
+  name: sig/release
+  node_id: LA_kwDOFhyqls8AAAABV9l-JQ
+  url: https://api.github.com/repos/openimsdk/open-im-server/labels/sig/release
+- color: d2b48c
+  default: false
+  description: Categorizes an issue or PR as relevant to SIG Scalability.
+  id: 5768838694
+  name: sig/scalability
+  node_id: LA_kwDOFhyqls8AAAABV9l-Jg
+  url: https://api.github.com/repos/openimsdk/open-im-server/labels/sig/scalability
+- color: d2b48c
+  default: false
+  description: Categorizes an issue or PR as relevant to SIG Scheduling.
+  id: 5768838680
+  name: sig/scheduling
+  node_id: LA_kwDOFhyqls8AAAABV9l-GA
+  url: https://api.github.com/repos/openimsdk/open-im-server/labels/sig/scheduling
+- color: d2b48c
+  default: false
+  description: Categorizes an issue or PR as relevant to SIG Security.
+  id: 5768838701
+  name: sig/security
+  node_id: LA_kwDOFhyqls8AAAABV9l-LQ
+  url: https://api.github.com/repos/openimsdk/open-im-server/labels/sig/security
+- color: d2b48c
+  default: false
+  description: Categorizes an issue or PR as relevant to SIG Service Catalog.
+  id: 5768838699
+  name: sig/service-catalog
+  node_id: LA_kwDOFhyqls8AAAABV9l-Kw
+  url: https://api.github.com/repos/openimsdk/open-im-server/labels/sig/service-catalog
+- color: d2b48c
+  default: false
+  description: Categorizes an issue or PR as relevant to SIG Storage.
+  id: 5768838703
+  name: sig/storage
+  node_id: LA_kwDOFhyqls8AAAABV9l-Lw
+  url: https://api.github.com/repos/openimsdk/open-im-server/labels/sig/storage
+- color: d2b48c
+  default: false
+  description: Categorizes an issue or PR as relevant to SIG Testing.
+  id: 5768838684
+  name: sig/testing
+  node_id: LA_kwDOFhyqls8AAAABV9l-HA
+  url: https://api.github.com/repos/openimsdk/open-im-server/labels/sig/testing
+- color: d2b48c
+  default: false
+  description: Categorizes an issue or PR as relevant to SIG UI.
+  id: 5768838724
+  name: sig/ui
+  node_id: LA_kwDOFhyqls8AAAABV9l-RA
+  url: https://api.github.com/repos/openimsdk/open-im-server/labels/sig/ui
+- color: d2b48c
+  default: false
+  description: Categorizes an issue or PR as relevant to SIG Usability.
+  id: 5768838679
+  name: sig/usability
+  node_id: LA_kwDOFhyqls8AAAABV9l-Fw
+  url: https://api.github.com/repos/openimsdk/open-im-server/labels/sig/usability
+- color: d2b48c
+  default: false
+  description: Categorizes an issue or PR as relevant to SIG Windows.
+  id: 5768838723
+  name: sig/windows
+  node_id: LA_kwDOFhyqls8AAAABV9l-Qw
+  url: https://api.github.com/repos/openimsdk/open-im-server/labels/sig/windows
 - color: D93F99
   default: false
   description: Denotes a PR that changes 100-499 lines, ignoring generated files.
   id: 5498033148
   name: size/L
   node_id: LA_kwDOFhyqls8AAAABR7VT_A
-  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/size/L
+  url: https://api.github.com/repos/openimsdk/open-im-server/labels/size/L
 - color: C2E0C6
   default: false
   description: Denotes a PR that changes 30-99 lines, ignoring generated files.
   id: 5498031304
   name: size/M
   node_id: LA_kwDOFhyqls8AAAABR7VMyA
-  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/size/M
+  url: https://api.github.com/repos/openimsdk/open-im-server/labels/size/M
 - color: 6ED999
   default: false
   description: Denotes a PR that changes 10-29 lines, ignoring generated files.
   id: 5498030094
   name: size/S
   node_id: LA_kwDOFhyqls8AAAABR7VIDg
-  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/size/S
+  url: https://api.github.com/repos/openimsdk/open-im-server/labels/size/S
 - color: D93F66
   default: false
   description: Denotes a PR that changes 500-999 lines, ignoring generated files.
   id: 5498033991
   name: size/XL
   node_id: LA_kwDOFhyqls8AAAABR7VXRw
-  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/size/XL
+  url: https://api.github.com/repos/openimsdk/open-im-server/labels/size/XL
 - color: 0E8A16
   default: false
   description: Denotes a PR that changes 0-9 lines, ignoring generated files.
   id: 5498028868
   name: size/XS
   node_id: LA_kwDOFhyqls8AAAABR7VDRA
-  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/size/XS
+  url: https://api.github.com/repos/openimsdk/open-im-server/labels/size/XS
 - color: D93F0B
   default: false
   description: Denotes a PR that changes 1000+ lines, ignoring generated files.
   id: 5498037828
   name: size/XXL
   node_id: LA_kwDOFhyqls8AAAABR7VmRA
-  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/size/XXL
+  url: https://api.github.com/repos/openimsdk/open-im-server/labels/size/XXL
+- color: AAFA00
+  default: false
+  description: ""
+  id: 6242893431
+  name: sweep
+  node_id: LA_kwDOFhyqls8AAAABdBr-dw
+  url: https://api.github.com/repos/openimsdk/open-im-server/labels/sweep
+- color: e11d21
+  default: false
+  description: Denotes an issue that blocks the tide merge queue for a branch while
+    it is open.
+  id: 5768838727
+  name: tide/merge-blocker
+  node_id: LA_kwDOFhyqls8AAAABV9l-Rw
+  url: https://api.github.com/repos/openimsdk/open-im-server/labels/tide/merge-blocker
+- color: ffaa00
+  default: false
+  description: Denotes a PR that should use a standard merge by tide when it merges.
+  id: 5768838732
+  name: tide/merge-method-merge
+  node_id: LA_kwDOFhyqls8AAAABV9l-TA
+  url: https://api.github.com/repos/openimsdk/open-im-server/labels/tide/merge-method-merge
+- color: ffaa00
+  default: false
+  description: Denotes a PR that should be rebased by tide when it merges.
+  id: 5768838698
+  name: tide/merge-method-rebase
+  node_id: LA_kwDOFhyqls8AAAABV9l-Kg
+  url: https://api.github.com/repos/openimsdk/open-im-server/labels/tide/merge-method-rebase
+- color: ffaa00
+  default: false
+  description: Denotes a PR that should be squashed by tide when it merges.
+  id: 5768838676
+  name: tide/merge-method-squash
+  node_id: LA_kwDOFhyqls8AAAABV9l-FA
+  url: https://api.github.com/repos/openimsdk/open-im-server/labels/tide/merge-method-squash
+- color: 8fc951
+  default: false
+  description: Indicates an issue or PR is ready to be actively worked on.
+  id: 5497488800
+  name: triage/accepted
+  node_id: LA_kwDOFhyqls8AAAABR60FoA
+  url: https://api.github.com/repos/openimsdk/open-im-server/labels/triage/accepted
 - color: C001BC
   default: false
   description: Indicates an issue is a duplicate of other open issue.
   id: 5500268174
   name: triage/duplicate
   node_id: LA_kwDOFhyqls8AAAABR9dujg
-  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/triage/duplicate
+  url: https://api.github.com/repos/openimsdk/open-im-server/labels/triage/duplicate
 - color: C001BC
   default: false
   description: Indicates an issue needs more information in order to work on it.
   id: 5500271781
   name: triage/needs-information
   node_id: LA_kwDOFhyqls8AAAABR9d8pQ
-  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/triage/needs-information
+  url: https://api.github.com/repos/openimsdk/open-im-server/labels/triage/needs-information
 - color: C001BC
   default: false
   description: Indicates an issue can not be reproduced as described.
   id: 5500272163
   name: triage/not-reproducible
   node_id: LA_kwDOFhyqls8AAAABR9d-Iw
-  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/triage/not-reproducible
+  url: https://api.github.com/repos/openimsdk/open-im-server/labels/triage/not-reproducible
 - color: C001BC
   default: false
   description: Indicates an issue that can not or will not be resolved.
   id: 5500267848
   name: triage/unresolved
   node_id: LA_kwDOFhyqls8AAAABR9dtSA
-  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/triage/unresolved
+  url: https://api.github.com/repos/openimsdk/open-im-server/labels/triage/unresolved
+- color: d2b48c
+  default: false
+  description: Categorizes an issue or PR as relevant to ug-big-data.
+  id: 5768838691
+  name: ug/big-data
+  node_id: LA_kwDOFhyqls8AAAABV9l-Iw
+  url: https://api.github.com/repos/openimsdk/open-im-server/labels/ug/big-data
+- color: d2b48c
+  default: false
+  description: Categorizes an issue or PR as relevant to ug-vmware.
+  id: 5768838702
+  name: ug/vmware
+  node_id: LA_kwDOFhyqls8AAAABV9l-Lg
+  url: https://api.github.com/repos/openimsdk/open-im-server/labels/ug/vmware
+- color: d2b48c
+  default: false
+  description: Categorizes an issue or PR as relevant to WG API Expression.
+  id: 5768838716
+  name: wg/api-expression
+  node_id: LA_kwDOFhyqls8AAAABV9l-PA
+  url: https://api.github.com/repos/openimsdk/open-im-server/labels/wg/api-expression
+- color: d2b48c
+  default: false
+  description: Categorizes an issue or PR as relevant to WG Batch.
+  id: 5768838713
+  name: wg/batch
+  node_id: LA_kwDOFhyqls8AAAABV9l-OQ
+  url: https://api.github.com/repos/openimsdk/open-im-server/labels/wg/batch
+- color: d2b48c
+  default: false
+  description: Categorizes an issue or PR as relevant to wg-cluster-api.
+  id: 5768838725
+  name: wg/cluster-api
+  node_id: LA_kwDOFhyqls8AAAABV9l-RQ
+  url: https://api.github.com/repos/openimsdk/open-im-server/labels/wg/cluster-api
+- color: d2b48c
+  default: false
+  description: Categorizes an issue or PR as relevant to WG Component Standard.
+  id: 5768838735
+  name: wg/component-standard
+  node_id: LA_kwDOFhyqls8AAAABV9l-Tw
+  url: https://api.github.com/repos/openimsdk/open-im-server/labels/wg/component-standard
+- color: d2b48c
+  default: false
+  description: Categorizes an issue or PR as relevant to WG Data Protection.
+  id: 5768838687
+  name: wg/data-protection
+  node_id: LA_kwDOFhyqls8AAAABV9l-Hw
+  url: https://api.github.com/repos/openimsdk/open-im-server/labels/wg/data-protection
+- color: d2b48c
+  default: false
+  description: Categorizes an issue or PR as relevant to WG IOT Edge.
+  id: 5768838719
+  name: wg/iot-edge
+  node_id: LA_kwDOFhyqls8AAAABV9l-Pw
+  url: https://api.github.com/repos/openimsdk/open-im-server/labels/wg/iot-edge
+- color: d2b48c
+  default: false
+  description: Categorizes an issue or PR as relevant to WG LTS.
+  id: 5768838711
+  name: wg/lts
+  node_id: LA_kwDOFhyqls8AAAABV9l-Nw
+  url: https://api.github.com/repos/openimsdk/open-im-server/labels/wg/lts
+- color: d2b48c
+  default: false
+  description: Categorizes an issue or PR as relevant to WG Machine Learning.
+  id: 5768838720
+  name: wg/machine-learning
+  node_id: LA_kwDOFhyqls8AAAABV9l-QA
+  url: https://api.github.com/repos/openimsdk/open-im-server/labels/wg/machine-learning
+- color: d2b48c
+  default: false
+  description: Categorizes an issue or PR as relevant to WG Multitenancy.
+  id: 5768838712
+  name: wg/multitenancy
+  node_id: LA_kwDOFhyqls8AAAABV9l-OA
+  url: https://api.github.com/repos/openimsdk/open-im-server/labels/wg/multitenancy
+- color: d2b48c
+  default: false
+  description: Categorizes an issue or PR as relevant to WG Naming.
+  id: 5768838729
+  name: wg/naming
+  node_id: LA_kwDOFhyqls8AAAABV9l-SQ
+  url: https://api.github.com/repos/openimsdk/open-im-server/labels/wg/naming
+- color: d2b48c
+  default: false
+  description: Categorizes an issue or PR as relevant to WG Policy.
+  id: 5768838714
+  name: wg/policy
+  node_id: LA_kwDOFhyqls8AAAABV9l-Og
+  url: https://api.github.com/repos/openimsdk/open-im-server/labels/wg/policy
+- color: d2b48c
+  default: false
+  description: Categorizes an issue or PR as relevant to WG Reliability
+  id: 5768838745
+  name: wg/reliability
+  node_id: LA_kwDOFhyqls8AAAABV9l-WQ
+  url: https://api.github.com/repos/openimsdk/open-im-server/labels/wg/reliability
+- color: d2b48c
+  default: false
+  description: Categorizes an issue or PR as relevant to WG Security Audit.
+  id: 5768838749
+  name: wg/security-audit
+  node_id: LA_kwDOFhyqls8AAAABV9l-XQ
+  url: https://api.github.com/repos/openimsdk/open-im-server/labels/wg/security-audit
+- color: d2b48c
+  default: false
+  description: Categorizes an issue or PR as relevant to WG Structured Logging.
+  id: 5768838571
+  name: wg/structured-logging
+  node_id: LA_kwDOFhyqls8AAAABV9l9qw
+  url: https://api.github.com/repos/openimsdk/open-im-server/labels/wg/structured-logging
 - color: ffffff
   default: true
   description: This will not be worked on
   id: 3032551187
   name: wontfix
   node_id: MDU6TGFiZWwzMDMyNTUxMTg3
-  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/wontfix
-- color: e11d21
-  default: false
-  description: Categorizes an issue or PR as actively needing an API review.
-  id: 1242861616
-  name: api-review
-  node_id: MDU6TGFiZWwxMjQyODYxNjE2
-  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/api-review
-- color: 0ffa16
-  default: false
-  description: Indicates a PR has been approved by an approver from all required OWNERS
-    files.
-  id: 414883982
-  name: approved
-  node_id: MDU6TGFiZWw0MTQ4ODM5ODI=
-  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/approved
-- color: 0052cc
-  default: false
-  description: Indicates an issue on admin area.
-  id: 286411323
-  name: area/admin
-  node_id: MDU6TGFiZWwyODY0MTEzMjM=
-  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/area/admin
-- color: 0052cc
-  default: false
-  description: "Issues or PRs related to admission control aspect of OpenIM."
-  id: 486445796
-  name: area/admission-control
-  node_id: MDU6TGFiZWw0ODY0NDU3OTY=
-  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/area/admission-control
-- color: 0052cc
-  default: false
-  description: "Issues or PRs related to the APIs server of OpenIM."
-  id: 136601536
-  name: area/apiserver
-  node_id: MDU6TGFiZWwxMzY2MDE1MzY=
-  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/area/apiserver
-- color: 0052cc
-  default: false
-  description: "Issues or PRs related to the app lifecycle management in OpenIM."
-  id: 126701924
-  name: area/app-lifecycle
-  node_id: MDU6TGFiZWwxMjY3MDE5MjQ=
-  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/area/app-lifecycle
-- color: 0052cc
-  default: false
-  description: "Issues or PRs related to audit logging within OpenIM."
-  id: 680704582
-  name: area/audit
-  node_id: MDU6TGFiZWw2ODA3MDQ1ODI=
-  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/area/audit
-- color: 0052cc
-  default: false
-  description: "Issues or PRs related to batch job processing within OpenIM."
-  id: 136892195
-  name: area/batch
-  node_id: MDU6TGFiZWwxMzY4OTIxOTU=
-  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/area/batch
-- color: 0052cc
-  default: false
-  description: "Issues or PRs related to build and release processes of OpenIM."
-  id: 125299793
-  name: area/build-release
-  node_id: MDU6TGFiZWwxMjUyOTk3OTM=
-  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/area/build-release
-- color: 0052cc
-  default: false
-  description: "Issues or PRs related to cAdvisor (Container Advisor) within OpenIM."
-  id: 148734898
-  name: area/cadvisor
-  node_id: MDU6TGFiZWwxNDg3MzQ4OTg=
-  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/area/cadvisor
-- color: 0052cc
-  default: false
-  description: "Issues or PRs related to the client libraries of OpenIM."
-  id: 127257422
-  name: area/client-libraries
-  node_id: MDU6TGFiZWwxMjcyNTc0MjI=
-  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/area/client-libraries
-- color: 0052cc
-  default: false
-  description: "Issues or PRs related to the integration of OpenIM with cloud providers."
-  id: 154660912
-  name: area/cloudprovider
-  node_id: MDU6TGFiZWwxNTQ2NjA5MTI=
-  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/area/cloudprovider
-- color: 0052cc
-  default: false
-  description: "Issues or PRs related to code generation within OpenIM."
-  id: 732478758
-  name: area/code-generation
-  node_id: MDU6TGFiZWw3MzI0Nzg3NTg=
-  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/area/code-generation
-- color: 0052cc
-  default: false
-  description: Issues or PRs related to OpenIM code organization
-  id: 1315281643
-  name: area/code-organization
-  node_id: MDU6TGFiZWwxMzE1MjgxNjQz
-  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/area/code-organization
-- color: 0052cc
-  default: false
-  description: Issues or PRs that should potentially be discussed in a OpenIM
-    community meeting.
-  id: 4582490420
-  name: area/community-meeting
-  node_id: LA_kwDOAToIks8AAAABESNBNA
-  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/area/community-meeting
-- color: 0052cc
-  default: false
-  description: ""
-  id: 433825251
-  name: area/configmap-api
-  node_id: MDU6TGFiZWw0MzM4MjUyNTE=
-  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/area/configmap-api
-- color: 0052cc
-  default: false
-  description: Issues or PRs related to OpenIM conformance tests
-  id: 717986501
-  name: area/conformance
-  node_id: MDU6TGFiZWw3MTc5ODY1MDE=
-  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/area/conformance
-- color: 0052cc
-  default: false
-  description: ""
-  id: 136601472
-  name: area/controller-manager
-  node_id: MDU6TGFiZWwxMzY2MDE0NzI=
-  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/area/controller-manager
-- color: 0052cc
-  default: false
-  description: ""
-  id: 556590057
-  name: area/custom-resources
-  node_id: MDU6TGFiZWw1NTY1OTAwNTc=
-  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/area/custom-resources
-- color: 0052cc
-  default: false
-  description: ""
-  id: 496768026
-  name: area/declarative-configuration
-  node_id: MDU6TGFiZWw0OTY3NjgwMjY=
-  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/area/declarative-configuration
-- color: 0052cc
-  default: false
-  description: Issues or PRs related to deflaking OpenIM tests
-  id: 1180678886
-  name: area/deflake
-  node_id: MDU6TGFiZWwxMTgwNjc4ODg2
-  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/area/deflake
-- color: 0052cc
-  default: false
-  description: Issues or PRs related to dependency changes
-  id: 1305786977
-  name: area/dependency
-  node_id: MDU6TGFiZWwxMzA1Nzg2OTc3
-  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/area/dependency
-- color: 0052cc
-  default: false
-  description: ""
-  id: 390273825
-  name: area/dns
-  node_id: MDU6TGFiZWwzOTAyNzM4MjU=
-  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/area/dns
-- color: 0052cc
-  default: false
-  description: ""
-  id: 116712229
-  name: area/docker
-  node_id: MDU6TGFiZWwxMTY3MTIyMjk=
-  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/area/docker
-- color: 0052cc
-  default: false
-  description: ""
-  id: 130978978
-  name: area/downward-api
-  node_id: MDU6TGFiZWwxMzA5Nzg5Nzg=
-  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/area/downward-api
-- color: 0052cc
-  default: false
-  description: Issues or PRs related to refactoring the OpenIM e2e test framework
-  id: 1285569325
-  name: area/e2e-test-framework
-  node_id: MDU6TGFiZWwxMjg1NTY5MzI1
-  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/area/e2e-test-framework
-- color: 0052cc
-  default: false
-  description: ""
-  id: 335282747
-  name: area/ecosystem
-  node_id: MDU6TGFiZWwzMzUyODI3NDc=
-  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/area/ecosystem
-- color: 0052cc
-  default: false
-  description: ""
-  id: 127257343
-  name: area/etcd
-  node_id: MDU6TGFiZWwxMjcyNTczNDM=
-  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/area/etcd
-- color: 0052cc
-  default: false
-  description: ""
-  id: 134675059
-  name: area/example
-  node_id: MDU6TGFiZWwxMzQ2NzUwNTk=
-  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/area/example
-- color: 0052cc
-  default: false
-  description: ""
-  id: 358362557
-  name: area/example/cassandra
-  node_id: MDU6TGFiZWwzNTgzNjI1NTc=
-  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/area/example/cassandra
-- color: 0052cc
-  default: false
-  description: ""
-  id: 138151954
-  name: area/extensibility
-  node_id: MDU6TGFiZWwxMzgxNTE5NTQ=
-  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/area/extensibility
-- color: 0052cc
-  default: false
-  description: ""
-  id: 715868252
-  name: area/federation
-  node_id: MDU6TGFiZWw3MTU4NjgyNTI=
-  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/area/federation
-- color: 0052cc
-  default: false
-  description: ""
-  id: 136908839
-  name: area/HA
-  node_id: MDU6TGFiZWwxMzY5MDg4Mzk=
-  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/area/HA
-- color: 0052cc
-  default: false
-  description: ""
-  id: 644163893
-  name: area/hw-accelerators
-  node_id: MDU6TGFiZWw2NDQxNjM4OTM=
-  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/area/hw-accelerators
-- color: 0052cc
-  default: false
-  description: ""
-  id: 135360517
-  name: area/images-registry
-  node_id: MDU6TGFiZWwxMzUzNjA1MTc=
-  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/area/images-registry
-- color: 0052cc
-  default: false
-  description: ""
-  id: 500254090
-  name: area/ingress
-  node_id: MDU6TGFiZWw1MDAyNTQwOTA=
-  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/area/ingress
-- color: 0052cc
-  default: false
-  description: ""
-  id: 125010631
-  name: area/introspection
-  node_id: MDU6TGFiZWwxMjUwMTA2MzE=
-  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/area/introspection
-- color: 0052cc
-  default: false
-  description: ""
-  id: 608460743
-  name: area/ipv6
-  node_id: MDU6TGFiZWw2MDg0NjA3NDM=
-  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/area/ipv6
-- color: 0052cc
-  default: false
-  description: ""
-  id: 755527763
-  name: area/ipvs
-  node_id: MDU6TGFiZWw3NTU1Mjc3NjM=
-  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/area/ipvs
-- color: 0052cc
-  default: false
-  description: ""
-  id: 125550324
-  name: area/isolation
-  node_id: MDU6TGFiZWwxMjU1NTAzMjQ=
-  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/area/isolation
-- color: 0052cc
-  default: false
-  description: ""
-  id: 148734819
-  name: area/logging
-  node_id: MDU6TGFiZWwxNDg3MzQ4MTk=
-  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/area/logging
-- color: 0052cc
-  default: false
-  description: ""
-  id: 148734755
-  name: area/monitoring
-  node_id: MDU6TGFiZWwxNDg3MzQ3NTU=
-  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/area/monitoring
-- color: 0052cc
-  default: false
-  description: Issues or PRs related to Network Policy subproject
-  id: 2873200929
-  name: area/network-policy
-  node_id: MDU6TGFiZWwyODczMjAwOTI5
-  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/area/network-policy
-- color: 0052cc
-  default: false
-  description: ""
-  id: 381925990
-  name: area/node-e2e
-  node_id: MDU6TGFiZWwzODE5MjU5OTA=
-  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/area/node-e2e
-- color: 0052cc
-  default: false
-  description: ""
-  id: 567844235
-  name: area/node-lifecycle
-  node_id: MDU6TGFiZWw1Njc4NDQyMzU=
-  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/area/node-lifecycle
-- color: 0052cc
-  default: false
-  description: ""
-  id: 140091046
-  name: area/nodecontroller
-  node_id: MDU6TGFiZWwxNDAwOTEwNDY=
-  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/area/nodecontroller
-- color: d4c5f9
-  default: false
-  description: ""
-  id: 134646924
-  name: area/os/coreos
-  node_id: MDU6TGFiZWwxMzQ2NDY5MjQ=
-  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/area/os/coreos
-- color: d4c5f9
-  default: false
-  description: ""
-  id: 134646888
-  name: area/os/fedora
-  node_id: MDU6TGFiZWwxMzQ2NDY4ODg=
-  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/area/os/fedora
-- color: d4c5f9
-  default: false
-  description: ""
-  id: 130317730
-  name: area/os/ubuntu
-  node_id: MDU6TGFiZWwxMzAzMTc3MzA=
-  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/area/os/ubuntu
-- color: d4c5f9
-  default: false
-  description: ""
-  id: 134646230
-  name: area/platform/gce
-  node_id: MDU6TGFiZWwxMzQ2NDYyMzA=
-  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/area/platform/gce
-- color: d4c5f9
-  default: false
-  description: ""
-  id: 189591106
-  name: area/platform/mesos
-  node_id: MDU6TGFiZWwxODk1OTExMDY=
-  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/area/platform/mesos
-- color: d4c5f9
-  default: false
-  description: ""
-  id: 134646415
-  name: area/platform/vagrant
-  node_id: MDU6TGFiZWwxMzQ2NDY0MTU=
-  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/area/platform/vagrant
-- color: 0052cc
-  default: false
-  description: Issues or PRs related to aws provider
-  id: 852130657
-  name: area/provider/aws
-  node_id: MDU6TGFiZWw4NTIxMzA2NTc=
-  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/area/provider/aws
-- color: 0052cc
-  default: false
-  description: Issues or PRs related to azure provider
-  id: 852130786
-  name: area/provider/azure
-  node_id: MDU6TGFiZWw4NTIxMzA3ODY=
-  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/area/provider/azure
-- color: 0052cc
-  default: false
-  description: Issues or PRs related to digitalocean provider
-  id: 1946559194
-  name: area/provider/digitalocean
-  node_id: MDU6TGFiZWwxOTQ2NTU5MTk0
-  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/area/provider/digitalocean
-- color: 0052cc
-  default: false
-  description: Issues or PRs related to gcp provider
-  id: 158907408
-  name: area/provider/gcp
-  node_id: MDU6TGFiZWwxNTg5MDc0MDg=
-  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/area/provider/gcp
-- color: 0052cc
-  default: false
-  description: Issues or PRs related to ibmcloud provider
-  id: 884249241
-  name: area/provider/ibmcloud
-  node_id: MDU6TGFiZWw4ODQyNDkyNDE=
-  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/area/provider/ibmcloud
-- color: 0052cc
-  default: false
-  description: Issues or PRs related to openstack provider
-  id: 239914558
-  name: area/provider/openstack
-  node_id: MDU6TGFiZWwyMzk5MTQ1NTg=
-  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/area/provider/openstack
-- color: 0052cc
-  default: false
-  description: Issues or PRs related to vmware provider
-  id: 874113778
-  name: area/provider/vmware
-  node_id: MDU6TGFiZWw4NzQxMTM3Nzg=
-  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/area/provider/vmware
-- color: 0052cc
-  default: false
-  description: Issues or PRs related to the Release Engineering subproject
-  id: 268190668
-  name: area/release-eng
-  node_id: MDU6TGFiZWwyNjgxOTA2Njg=
-  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/area/release-eng
-- color: 0052cc
-  default: false
-  description: "Issues or PRs related to system reliability"
-  id: 159151142
-  name: area/reliability
-  node_id: MDU6TGFiZWwxNTkxNTExNDI=
-  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/area/reliability
-- color: 0052cc
-  default: false
-  description: "Issues or PRs related to rkt (a pod-native container engine)"
-  id: 203010486
-  name: area/rkt
-  node_id: MDU6TGFiZWwyMDMwMTA0ODY=
-  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/area/rkt
-- color: 0052cc
-  default: false
-  description: "Issues or PRs related to Secret API"
-  id: 483309897
-  name: area/secret-api
-  node_id: MDU6TGFiZWw0ODMzMDk4OTc=
-  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/area/secret-api
-- color: d93f0b
-  default: false
-  description: "Issues or PRs related to security features or vulnerabilities"
-  id: 116712923
-  name: area/security
-  node_id: MDU6TGFiZWwxMTY3MTI5MjM=
-  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/area/security
-- color: 0052cc
-  default: false
-  description: "Issues or PRs related to stateful applications"
-  id: 353400216
-  name: area/stateful-apps
-  node_id: MDU6TGFiZWwzNTM0MDAyMTY=
-  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/area/stateful-apps
-- color: 0052cc
-  default: false
-  description: "Issues or PRs related to Swagger API documentation"
-  id: 254871849
-  name: area/swagger
-  node_id: MDU6TGFiZWwyNTQ4NzE4NDk=
-  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/area/swagger
-- color: 0052cc
-  default: false
-  description: "Issues or PRs related to system requirements"
-  id: 269078649
-  name: area/system-requirement
-  node_id: MDU6TGFiZWwyNjkwNzg2NDk=
-  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/area/system-requirement
-- color: 0052cc
-  default: false
-  description: "Issues or PRs related to system teardown or cleanup"
-  id: 463533491
-  name: area/teardown
-  node_id: MDU6TGFiZWw0NjM1MzM0OTE=
-  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/area/teardown
-- color: 0052cc
-  default: false
-  description: "Issues or PRs related to tests or testing infrastructure"
-  id: 105152717
-  name: area/test
-  node_id: MDU6TGFiZWwxMDUxNTI3MTc=
-  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/area/test
-- color: 0052cc
-  default: false
-  description: "Issues or PRs related to test infrastructure"
-  id: 178071252
-  name: area/test-infra
-  node_id: MDU6TGFiZWwxNzgwNzEyNTI=
-  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/area/test-infra
-- color: 0052cc
-  default: false
-  description: "Issues or PRs related to user interface"
-  id: 136601677
-  name: area/ui
-  node_id: MDU6TGFiZWwxMzY2MDE2Nzc=
-  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/area/ui
-- color: 0052cc
-  default: false
-  description: "Issues or PRs related to system upgrades"
-  id: 192801498
-  name: area/upgrade
-  node_id: MDU6TGFiZWwxOTI4MDE0OTg=
-  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/area/upgrade
-- color: 0052cc
-  default: false
-  description: "Issues or PRs related to usability improvements or concerns"
-  id: 134645162
-  name: area/usability
-  node_id: MDU6TGFiZWwxMzQ2NDUxNjI=
-  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/area/usability
-- color: 0052cc
-  default: false
-  description: "Issues or PRs related to workload API's cronjob features"
-  id: 483268583
-  name: area/workload-api/cronjob
-  node_id: MDU6TGFiZWw0ODMyNjg1ODM=
-  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/area/workload-api/cronjob
-- color: 0052cc
-  default: false
-  description: "Issues or PRs related to workload API's daemonset features"
-  id: 410265116
-  name: area/workload-api/daemonset
-  node_id: MDU6TGFiZWw0MTAyNjUxMTY=
-  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/area/workload-api/daemonset
-- color: 0052cc
-  default: false
-  description: "Issues or PRs related to workload API's deployment features"
-  id: 382474515
-  name: area/workload-api/deployment
-  node_id: MDU6TGFiZWwzODI0NzQ1MTU=
-  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/area/workload-api/deployment
-- color: 0052cc
-  default: false
-  description: "Issues or PRs related to workload API's job features"
-  id: 483268648
-  name: area/workload-api/job
-  node_id: MDU6TGFiZWw0ODMyNjg2NDg=
-  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/area/workload-api/job
-- color: 0052cc
-  default: false
-- color: fef2c0
-  default: false
-  description: Indicates a cherry-pick PR into a release branch has been approved
-    by the release branch manager.
-  id: 339502903
-  name: cherry-pick-approved
-  node_id: MDU6TGFiZWwzMzk1MDI5MDM=
-  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/cherry-pick-approved
-- color: e11d21
-  default: false
-  description: Indicates the PR's author has not signed the CNCF CLA.
-  id: 477397085
-  name: 'cncf-cla: no'
-  node_id: MDU6TGFiZWw0NzczOTcwODU=
-  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/cncf-cla:%20no
-- color: bfe5bf
-  default: false
-  description: Indicates the PR's author has signed the CNCF CLA.
-  id: 477397086
-  name: 'cncf-cla: yes'
-  node_id: MDU6TGFiZWw0NzczOTcwODY=
-  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/cncf-cla:%20yes
-- color: c0ff4a
-  default: false
-  description: Denotes an issue or PR intended to be handled by the code of conduct
-    committee.
-  id: 815657036
-  name: committee/code-of-conduct
-  node_id: MDU6TGFiZWw4MTU2NTcwMzY=
-  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/committee/code-of-conduct
-- color: c0ff4a
-  default: false
-  description: Denotes an issue or PR intended to be handled by the product security
-    committee.
-  id: 1199275492
-  name: committee/security-response
-  node_id: MDU6TGFiZWwxMTk5Mjc1NDky
-  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/committee/security-response
-- color: c0ff4a
-  default: false
-  description: Denotes an issue or PR intended to be handled by the steering committee.
-  id: 815656936
-  name: committee/steering
-  node_id: MDU6TGFiZWw4MTU2NTY5MzY=
-  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/committee/steering
-- color: 0366d6
-  default: false
-  description: Pull requests that update a dependency file
-  id: 2207995975
-  name: dependencies
-  node_id: MDU6TGFiZWwyMjA3OTk1OTc1
-  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/dependencies
-- color: e11d21
-  default: false
-  description: DEPRECATED. Indicates that a PR should not merge. Label can only be
-    manually applied/removed.
-  id: 335674843
-  name: do-not-merge
-  node_id: MDU6TGFiZWwzMzU2NzQ4NDM=
-  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/do-not-merge
-- color: e11d21
-  default: false
-  description: Indicates that a PR should not merge because it touches files in blocked
-    paths.
-  id: 689109191
-  name: do-not-merge/blocked-paths
-  node_id: MDU6TGFiZWw2ODkxMDkxOTE=
-  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/do-not-merge/blocked-paths
-- color: e11d21
-  default: false
-  description: Indicates that a PR is not yet approved to merge into a release branch.
-  id: 680154135
-  name: do-not-merge/cherry-pick-not-approved
-  node_id: MDU6TGFiZWw2ODAxNTQxMzU=
-  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/do-not-merge/cherry-pick-not-approved
-- color: e11d21
-  default: false
-  description: Indicates a PR which contains merge commits.
-  id: 1391972461
-  name: do-not-merge/contains-merge-commits
-  node_id: MDU6TGFiZWwxMzkxOTcyNDYx
-  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/do-not-merge/contains-merge-commits
-- color: e11d21
-  default: false
-  description: Indicates that a PR should not merge because someone has issued a /hold
-    command.
-  id: 687565804
-  name: do-not-merge/hold
-  node_id: MDU6TGFiZWw2ODc1NjU4MDQ=
-  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/do-not-merge/hold
-- color: e11d21
-  default: false
-  description: Indicates that a PR should not merge because it has an invalid commit
-    message.
-  id: 1322574295
-  name: do-not-merge/invalid-commit-message
-  node_id: MDU6TGFiZWwxMzIyNTc0Mjk1
-  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/do-not-merge/invalid-commit-message
-- color: e11d21
-  default: false
-  description: Indicates that a PR should not merge because it has an invalid OWNERS
-    file in it.
-  id: 969564572
-  name: do-not-merge/invalid-owners-file
-  node_id: MDU6TGFiZWw5Njk1NjQ1NzI=
-  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/do-not-merge/invalid-owners-file
-- color: e11d21
-  default: false
-  description: Indicates a PR lacks a `kind/foo` label and requires one.
-  id: 2480789134
-  name: do-not-merge/needs-kind
-  node_id: MDU6TGFiZWwyNDgwNzg5MTM0
-  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/do-not-merge/needs-kind
-- color: e11d21
-  default: false
-  description: Indicates an issue or PR lacks a `sig/foo` label and requires one.
-  id: 2480789133
-  name: do-not-merge/needs-sig
-  node_id: MDU6TGFiZWwyNDgwNzg5MTMz
-  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/do-not-merge/needs-sig
-- color: e11d21
-  default: false
-  description: Indicates that a PR should not merge because it's missing one of the
-    release note labels.
-  id: 680152113
-  name: do-not-merge/release-note-label-needed
-  node_id: MDU6TGFiZWw2ODAxNTIxMTM=
-  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/do-not-merge/release-note-label-needed
-- color: e11d21
-  default: false
-  description: Indicates that a PR should not merge because it is a work in progress.
-  id: 687500047
-  name: do-not-merge/work-in-progress
-  node_id: MDU6TGFiZWw2ODc1MDAwNDc=
-  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/do-not-merge/work-in-progress
-- color: 7057ff
-  default: true
-  description: Denotes an issue ready for a new contributor, according to the "help
-    wanted" guidelines.
-  id: 954672878
-  name: good first issue
-  node_id: MDU6TGFiZWw5NTQ2NzI4Nzg=
-  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/good%20first%20issue
-- color: 006b75
-  default: true
-  description: Denotes an issue that needs help from a contributor. Must meet "help
-    wanted" guidelines.
-  id: 433686790
-  name: help wanted
-  node_id: MDU6TGFiZWw0MzM2ODY3OTA=
-  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/help%20wanted
-- color: e11d21
-  default: false
-  description: Categorizes issue or PR as related to adding, removing, or otherwise
-    changing an API
-  id: 261005360
-  name: kind/api-change
-  node_id: MDU6TGFiZWwyNjEwMDUzNjA=
-  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/kind/api-change
-- color: e11d21
-  default: false
-  description: Categorizes issue or PR as related to a bug.
-  id: 105146071
-  name: kind/bug
-  node_id: MDU6TGFiZWwxMDUxNDYwNzE=
-  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/kind/bug
-- color: c7def8
-  default: false
-  description: Categorizes issue or PR as related to cleaning up code, process, or
-    technical debt.
-  id: 122775691
-  name: kind/cleanup
-  node_id: MDU6TGFiZWwxMjI3NzU2OTE=
-  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/kind/cleanup
-- color: e11d21
-  default: false
-  description: Categorizes issue or PR as related to a feature/enhancement marked
-    for deprecation.
-  id: 1740258266
-  name: kind/deprecation
-  node_id: MDU6TGFiZWwxNzQwMjU4MjY2
-  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/kind/deprecation
-- color: c7def8
-  default: false
-  description: Categorizes issue or PR as related to design.
-  id: 114509261
-  name: kind/design
-  node_id: MDU6TGFiZWwxMTQ1MDkyNjE=
-  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/kind/design
-- color: c7def8
-  default: false
-  description: Categorizes issue or PR as related to documentation.
-  id: 116801185
-  name: kind/documentation
-  node_id: MDU6TGFiZWwxMTY4MDExODU=
-  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/kind/documentation
-- color: e11d21
-  default: false
-  description: Categorizes issue or PR as related to a consistently or frequently
-    failing test.
-  id: 496752468
-  name: kind/failing-test
-  node_id: MDU6TGFiZWw0OTY3NTI0Njg=
-  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/kind/failing-test
-- color: c7def8
-  default: false
-  description: Categorizes issue or PR as related to a new feature.
-  id: 267761362
-  name: kind/feature
-  node_id: MDU6TGFiZWwyNjc3NjEzNjI=
-  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/kind/feature
-- color: f7c6c7
-  default: false
-  description: Categorizes issue or PR as related to a flaky test.
-  id: 264749912
-  name: kind/flake
-  node_id: MDU6TGFiZWwyNjQ3NDk5MTI=
-  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/kind/flake
-- color: e11d21
-  default: false
-  description: Categorizes issue or PR as related to a regression from a prior release.
-  id: 1967276560
-  name: kind/regression
-  node_id: MDU6TGFiZWwxOTY3Mjc2NTYw
-  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/kind/regression
-- color: d455d0
-  default: false
-  description: Categorizes issue or PR as a support question.
-  id: 130318610
-  name: kind/support
-  node_id: MDU6TGFiZWwxMzAzMTg2MTA=
-  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/kind/support
-- color: 15dd18
-  default: false
-  description: '"Looks good to me", indicates that a PR is ready to be merged.'
-  id: 148225179
-  name: lgtm
-  node_id: MDU6TGFiZWwxNDgyMjUxNzk=
-  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/lgtm
-- color: 8fc951
-  default: false
-  description: Indicates that an issue or PR is actively being worked on by a contributor.
-  id: 1007207688
-  name: lifecycle/active
-  node_id: MDU6TGFiZWwxMDA3MjA3Njg4
-  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/lifecycle/active
-- color: d3e2f0
-  default: false
-  description: Indicates that an issue or PR should not be auto-closed due to staleness.
-  id: 778118403
-  name: lifecycle/frozen
-  node_id: MDU6TGFiZWw3NzgxMTg0MDM=
-  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/lifecycle/frozen
-- color: "604460"
-  default: false
-  description: Denotes an issue or PR that has aged beyond stale and will be auto-closed.
-  id: 778118402
-  name: lifecycle/rotten
-  node_id: MDU6TGFiZWw3NzgxMTg0MDI=
-  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/lifecycle/rotten
-- color: "795548"
-  default: false
-  description: Denotes an issue or PR has remained open with no activity and has become
-    stale.
-  id: 778118404
-  name: lifecycle/stale
-  node_id: MDU6TGFiZWw3NzgxMTg0MDQ=
-  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/lifecycle/stale
-- color: ededed
-  default: false
-  description: "Marks issues or pull requests where labels are incomplete or missing."
-  id: 711852570
-  name: milestone/incomplete-labels
-  node_id: MDU6TGFiZWw3MTE4NTI1NzA=
-  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/milestone/incomplete-labels
-- color: ededed
-  default: false
-  description: "Marks issues or pull requests that need approval to be included in the milestone."
-  id: 711852621
-  name: milestone/needs-approval
-  node_id: MDU6TGFiZWw3MTE4NTI2MjE=
-  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/milestone/needs-approval
-- color: ededed
-  default: false
-  description: "Marks issues or pull requests that need further attention or action to be included in the milestone."
-  id: 680168330
-  name: milestone/needs-attention
-  node_id: MDU6TGFiZWw2ODAxNjgzMzA=
-  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/milestone/needs-attention
-- color: ededed
-  default: false
-  description: "Marks issues or pull requests that have been removed from the milestone."
-  id: 687345274
-  name: milestone/removed
-  node_id: MDU6TGFiZWw2ODczNDUyNzQ=
-  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/milestone/removed
-- color: ededed
-  default: false
-  description: Indicates a PR lacks a `kind/foo` label and requires one.
-  id: 1047217136
-  name: needs-kind
-  node_id: MDU6TGFiZWwxMDQ3MjE3MTM2
-  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/needs-kind
-- color: b60205
-  default: false
-  description: Indicates a PR that requires an org member to verify it is safe to
-    test.
-  id: 573014062
-  name: needs-ok-to-test
-  node_id: MDU6TGFiZWw1NzMwMTQwNjI=
-  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/needs-ok-to-test
-- color: ededed
-  default: false
-  description: Indicates a PR lacks a `priority/foo` label and requires one.
-  id: 1111992057
-  name: needs-priority
-  node_id: MDU6TGFiZWwxMTExOTkyMDU3
-  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/needs-priority
-- color: e11d21
-  default: false
-  description: Indicates a PR cannot be merged because it has merge conflicts with
-    HEAD.
-  id: 240247879
-  name: needs-rebase
-  node_id: MDU6TGFiZWwyNDAyNDc4Nzk=
-  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/needs-rebase
-- color: ededed
-  default: false
-  description: Indicates an issue or PR lacks a `sig/foo` label and requires one.
-  id: 617149945
-  name: needs-sig
-  node_id: MDU6TGFiZWw2MTcxNDk5NDU=
-  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/needs-sig
-- color: ededed
-  default: false
-  description: Indicates an issue or PR lacks a `triage/foo` label and requires one.
-  id: 2389815605
-  name: needs-triage
-  node_id: MDU6TGFiZWwyMzg5ODE1NjA1
-  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/needs-triage
-- color: 0052cc
-  default: false
-  description: Issues or PRs related to CVEs officially announced by Security Response
-    Committee (SRC)
-  id: 3603068678
-  name: official-cve-feed
-  node_id: LA_kwDOAToIks7WwncG
-  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/official-cve-feed
-- color: 15dd18
-  default: false
-  description: Indicates a non-member PR verified by an org member that is safe to
-    test.
-  id: 1086787260
-  name: ok-to-test
-  node_id: MDU6TGFiZWwxMDg2Nzg3MjYw
-  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/ok-to-test
-- color: fef2c0
-  default: false
-  description: Lowest priority. Possibly useful, but not yet enough support to actually
-    get it done.
-  id: 149621825
-  name: priority/awaiting-more-evidence
-  node_id: MDU6TGFiZWwxNDk2MjE4MjU=
-  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/priority/awaiting-more-evidence
-- color: fbca04
-  default: false
-  description: Higher priority than priority/awaiting-more-evidence.
-  id: 114528273
-  name: priority/backlog
-  node_id: MDU6TGFiZWwxMTQ1MjgyNzM=
-  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/priority/backlog
-- color: e11d21
-  default: false
-  description: Highest priority. Must be actively worked on as someone's top priority
-    right now.
-  id: 114528068
-  name: priority/critical-urgent
-  node_id: MDU6TGFiZWwxMTQ1MjgwNjg=
-  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/priority/critical-urgent
-- color: eb6420
-  default: false
-  description: Important over the long term, but may not be staffed and/or may need
-    multiple releases to complete.
-  id: 496752236
-  name: priority/important-longterm
-  node_id: MDU6TGFiZWw0OTY3NTIyMzY=
-  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/priority/important-longterm
-- color: eb6420
-  default: false
-  description: Must be staffed and worked on either currently, or very soon, ideally
-    in time for the next release.
-  id: 114528223
-  name: priority/important-soon
-  node_id: MDU6TGFiZWwxMTQ1MjgyMjM=
-  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/priority/important-soon
-- color: c2e0c6
-  default: false
-  description: Denotes a PR that will be considered when it comes time to generate
-    release notes.
-  id: 200149833
-  name: release-note
-  node_id: MDU6TGFiZWwyMDAxNDk4MzM=
-  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/release-note
-- color: c2e0c6
-  default: false
-  description: Denotes a PR that introduces potentially breaking changes that require
-    user action.
-  id: 354968448
-  name: release-note-action-required
-  node_id: MDU6TGFiZWwzNTQ5Njg0NDg=
-  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/release-note-action-required
-- color: c2e0c6
-  default: false
-  description: Denotes a PR that doesn't merit a release note.
-  id: 349530249
-  name: release-note-none
-  node_id: MDU6TGFiZWwzNDk1MzAyNDk=
-  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/release-note-none
-- color: d2b48c
-  default: false
-  description: Categorizes an issue or PR as relevant to SIG API Machinery.
-  id: 173493835
-  name: sig/api-machinery
-  node_id: MDU6TGFiZWwxNzM0OTM4MzU=
-  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/sig/api-machinery
-- color: d2b48c
-  default: false
-  description: Categorizes an issue or PR as relevant to SIG Apps.
-  id: 404091735
-  name: sig/apps
-  node_id: MDU6TGFiZWw0MDQwOTE3MzU=
-  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/sig/apps
-- color: d2b48c
-  default: false
-  description: Categorizes an issue or PR as relevant to SIG Architecture.
-  id: 636152047
-  name: sig/architecture
-  node_id: MDU6TGFiZWw2MzYxNTIwNDc=
-  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/sig/architecture
-- color: d2b48c
-  default: false
-  description: Categorizes an issue or PR as relevant to SIG Auth.
-  id: 357119284
-  name: sig/auth
-  node_id: MDU6TGFiZWwzNTcxMTkyODQ=
-  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/sig/auth
-- color: d2b48c
-  default: false
-  description: Categorizes an issue or PR as relevant to SIG Autoscaling.
-  id: 238245616
-  name: sig/autoscaling
-  node_id: MDU6TGFiZWwyMzgyNDU2MTY=
-  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/sig/autoscaling
-- color: d2b48c
-  default: false
-  description: Categorizes an issue or PR as relevant to SIG CLI.
-  id: 450823910
-  name: sig/cli
-  node_id: MDU6TGFiZWw0NTA4MjM5MTA=
-  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/sig/cli
-- color: d2b48c
-  default: false
-  description: Categorizes an issue or PR as relevant to SIG Cloud Provider.
-  id: 958178286
-  name: sig/cloud-provider
-  node_id: MDU6TGFiZWw5NTgxNzgyODY=
-  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/sig/cloud-provider
-- color: d2b48c
-  default: false
-  description: Categorizes an issue or PR as relevant to SIG Cluster Lifecycle.
-  id: 173494222
-  name: sig/cluster-lifecycle
-  node_id: MDU6TGFiZWwxNzM0OTQyMjI=
-  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/sig/cluster-lifecycle
-- color: d2b48c
-  default: false
-  description: Categorizes an issue or PR as relevant to SIG Contributor Experience.
-  id: 261778410
-  name: sig/contributor-experience
-  node_id: MDU6TGFiZWwyNjE3Nzg0MTA=
-  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/sig/contributor-experience
-- color: d2b48c
-  default: false
-  description: Categorizes an issue or PR as relevant to SIG Docs.
-  id: 496761699
-  name: sig/docs
-  node_id: MDU6TGFiZWw0OTY3NjE2OTk=
-  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/sig/docs
-- color: d2b48c
-  default: false
-  description: Categorizes an issue or PR as relevant to SIG Instrumentation.
-  id: 482207917
-  name: sig/instrumentation
-  node_id: MDU6TGFiZWw0ODIyMDc5MTc=
-  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/sig/instrumentation
-- color: d2b48c
-  default: false
-  description: Categorizes an issue or PR as relevant to SIG openim Infra.
-  id: 3373472731
-  name: sig/openim-infra
-  node_id: LA_kwDOAToIks7JExvb
-  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/sig/openim-infra
-- color: d2b48c
-  default: false
-  description: Categorizes an issue or PR as relevant to SIG Multicluster.
-  id: 711861754
-  name: sig/multicluster
-  node_id: MDU6TGFiZWw3MTE4NjE3NTQ=
-  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/sig/multicluster
-- color: d2b48c
-  default: false
-  description: Categorizes an issue or PR as relevant to SIG Network.
-  id: 116712108
-  name: sig/network
-  node_id: MDU6TGFiZWwxMTY3MTIxMDg=
-  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/sig/network
-- color: d2b48c
-  default: false
-  description: Categorizes an issue or PR as relevant to SIG Node.
-  id: 173493665
-  name: sig/node
-  node_id: MDU6TGFiZWwxNzM0OTM2NjU=
-  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/sig/node
-- color: d2b48c
-  default: false
-  description: Categorizes an issue or PR as relevant to SIG Release.
-  id: 614023989
-  name: sig/release
-  node_id: MDU6TGFiZWw2MTQwMjM5ODk=
-  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/sig/release
-- color: d2b48c
-  default: false
-  description: Categorizes an issue or PR as relevant to SIG Scalability.
-  id: 125010198
-  name: sig/scalability
-  node_id: MDU6TGFiZWwxMjUwMTAxOTg=
-  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/sig/scalability
-- color: d2b48c
-  default: false
-  description: Categorizes an issue or PR as relevant to SIG Scheduling.
-  id: 125550211
-  name: sig/scheduling
-  node_id: MDU6TGFiZWwxMjU1NTAyMTE=
-  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/sig/scheduling
-- color: d2b48c
-  default: false
-  description: Categorizes an issue or PR as relevant to SIG Security.
-  id: 2315011126
-  name: sig/security
-  node_id: MDU6TGFiZWwyMzE1MDExMTI2
-  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/sig/security
-- color: d2b48c
-  default: false
-  description: Categorizes an issue or PR as relevant to SIG Service Catalog.
-  id: 433740132
-  name: sig/service-catalog
-  node_id: MDU6TGFiZWw0MzM3NDAxMzI=
-  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/sig/service-catalog
-- color: d2b48c
-  default: false
-  description: Categorizes an issue or PR as relevant to SIG Storage.
-  id: 169428334
-  name: sig/storage
-  node_id: MDU6TGFiZWwxNjk0MjgzMzQ=
-  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/sig/storage
-- color: d2b48c
-  default: false
-  description: Categorizes an issue or PR as relevant to SIG Testing.
-  id: 483069764
-  name: sig/testing
-  node_id: MDU6TGFiZWw0ODMwNjk3NjQ=
-  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/sig/testing
-- color: d2b48c
-  default: false
-  description: Categorizes an issue or PR as relevant to SIG UI.
-  id: 618574759
-  name: sig/ui
-  node_id: MDU6TGFiZWw2MTg1NzQ3NTk=
-  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/sig/ui
-- color: d2b48c
-  default: false
-  description: Categorizes an issue or PR as relevant to SIG Usability.
-  id: 1476695221
-  name: sig/usability
-  node_id: MDU6TGFiZWwxNDc2Njk1MjIx
-  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/sig/usability
-- color: d2b48c
-  default: false
-  description: Categorizes an issue or PR as relevant to SIG Windows.
-  id: 422106010
-  name: sig/windows
-  node_id: MDU6TGFiZWw0MjIxMDYwMTA=
-  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/sig/windows
-- color: ee9900
-  default: false
-  description: Denotes a PR that changes 100-499 lines, ignoring generated files.
-  id: 253450978
-  name: size/L
-  node_id: MDU6TGFiZWwyNTM0NTA5Nzg=
-  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/size/L
-- color: eebb00
-  default: false
-  description: Denotes a PR that changes 30-99 lines, ignoring generated files.
-  id: 253450934
-  name: size/M
-  node_id: MDU6TGFiZWwyNTM0NTA5MzQ=
-  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/size/M
-- color: 77bb00
-  default: false
-  description: Denotes a PR that changes 10-29 lines, ignoring generated files.
-  id: 253450895
-  name: size/S
-  node_id: MDU6TGFiZWwyNTM0NTA4OTU=
-  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/size/S
-- color: ee5500
-  default: false
-  description: Denotes a PR that changes 500-999 lines, ignoring generated files.
-  id: 253451057
-  name: size/XL
-  node_id: MDU6TGFiZWwyNTM0NTEwNTc=
-  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/size/XL
-- color: "009900"
-  default: false
-  description: Denotes a PR that changes 0-9 lines, ignoring generated files.
-  id: 253450793
-  name: size/XS
-  node_id: MDU6TGFiZWwyNTM0NTA3OTM=
-  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/size/XS
-- color: ee0000
-  default: false
-  description: Denotes a PR that changes 1000+ lines, ignoring generated files.
-  id: 253451093
-  name: size/XXL
-  node_id: MDU6TGFiZWwyNTM0NTEwOTM=
-  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/size/XXL
-- color: e11d21
-  default: false
-  description: Denotes an issue that blocks the tide merge queue for a branch while
-    it is open.
-  id: 1313645094
-  name: tide/merge-blocker
-  node_id: MDU6TGFiZWwxMzEzNjQ1MDk0
-  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/tide/merge-blocker
-- color: ffaa00
-  default: false
-  description: Denotes a PR that should use a standard merge by tide when it merges.
-  id: 1299699582
-  name: tide/merge-method-merge
-  node_id: MDU6TGFiZWwxMjk5Njk5NTgy
-  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/tide/merge-method-merge
-- color: ffaa00
-  default: false
-  description: Denotes a PR that should be rebased by tide when it merges.
-  id: 1299699756
-  name: tide/merge-method-rebase
-  node_id: MDU6TGFiZWwxMjk5Njk5NzU2
-  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/tide/merge-method-rebase
-- color: ffaa00
-  default: false
-  description: Denotes a PR that should be squashed by tide when it merges.
-  id: 1049624783
-  name: tide/merge-method-squash
-  node_id: MDU6TGFiZWwxMDQ5NjI0Nzgz
-  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/tide/merge-method-squash
-- color: 8fc951
-  default: false
-  description: Indicates an issue or PR is ready to be actively worked on.
-  id: 2389856656
-  name: triage/accepted
-  node_id: MDU6TGFiZWwyMzg5ODU2NjU2
-  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/triage/accepted
-- color: d455d0
-  default: false
-  description: Indicates an issue is a duplicate of other open issue.
-  id: 862108568
-  name: triage/duplicate
-  node_id: MDU6TGFiZWw4NjIxMDg1Njg=
-  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/triage/duplicate
-- color: d455d0
-  default: false
-  description: Indicates an issue needs more information in order to work on it.
-  id: 862108635
-  name: triage/needs-information
-  node_id: MDU6TGFiZWw4NjIxMDg2MzU=
-  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/triage/needs-information
-- color: d455d0
-  default: false
-  description: Indicates an issue can not be reproduced as described.
-  id: 862108684
-  name: triage/not-reproducible
-  node_id: MDU6TGFiZWw4NjIxMDg2ODQ=
-  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/triage/not-reproducible
-- color: d455d0
-  default: false
-  description: Indicates an issue that can not or will not be resolved.
-  id: 862108765
-  name: triage/unresolved
-  node_id: MDU6TGFiZWw4NjIxMDg3NjU=
-  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/triage/unresolved
-- color: d2b48c
-  default: false
-  description: Categorizes an issue or PR as relevant to ug-big-data.
-  id: 528770718
-  name: ug/big-data
-  node_id: MDU6TGFiZWw1Mjg3NzA3MTg=
-  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/ug/big-data
-- color: d2b48c
-  default: false
-  description: Categorizes an issue or PR as relevant to ug-vmware.
-  id: 1596573758
-  name: ug/vmware
-  node_id: MDU6TGFiZWwxNTk2NTczNzU4
-  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/ug/vmware
-- color: d2b48c
-  default: false
-  description: Categorizes an issue or PR as relevant to WG API Expression.
-  id: 1985744519
-  name: wg/api-expression
-  node_id: MDU6TGFiZWwxOTg1NzQ0NTE5
-  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/wg/api-expression
-- color: d2b48c
-  default: false
-  description: Categorizes an issue or PR as relevant to WG Batch.
-  id: 3984790042
-  name: wg/batch
-  node_id: LA_kwDOAToIks7tgxIa
-  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/wg/batch
-- color: d2b48c
-  default: false
-  description: Categorizes an issue or PR as relevant to wg-cluster-api.
-  id: 971786582
-  name: wg/cluster-api
-  node_id: MDU6TGFiZWw5NzE3ODY1ODI=
-  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/wg/cluster-api
-- color: d2b48c
-  default: false
-  description: Categorizes an issue or PR as relevant to WG Component Standard.
-  id: 1188415049
-  name: wg/component-standard
-  node_id: MDU6TGFiZWwxMTg4NDE1MDQ5
-  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/wg/component-standard
-- color: d2b48c
-  default: false
-  description: Categorizes an issue or PR as relevant to WG Data Protection.
-  id: 3959367156
-  name: wg/data-protection
-  node_id: LA_kwDOAToIks7r_yX0
-  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/wg/data-protection
-- color: d2b48c
-  default: false
-  description: Categorizes an issue or PR as relevant to WG IOT Edge.
-  id: 971786579
-  name: wg/iot-edge
-  node_id: MDU6TGFiZWw5NzE3ODY1Nzk=
-  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/wg/iot-edge
-- color: d2b48c
-  default: false
-  description: Categorizes an issue or PR as relevant to WG LTS.
-  id: 1246937041
-  name: wg/lts
-  node_id: MDU6TGFiZWwxMjQ2OTM3MDQx
-  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/wg/lts
-- color: d2b48c
-  default: false
-  description: Categorizes an issue or PR as relevant to WG Machine Learning.
-  id: 971786592
-  name: wg/machine-learning
-  node_id: MDU6TGFiZWw5NzE3ODY1OTI=
-  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/wg/machine-learning
-- color: d2b48c
-  default: false
-  description: Categorizes an issue or PR as relevant to WG Multitenancy.
-  id: 971786584
-  name: wg/multitenancy
-  node_id: MDU6TGFiZWw5NzE3ODY1ODQ=
-  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/wg/multitenancy
-- color: d2b48c
-  default: false
-  description: Categorizes an issue or PR as relevant to WG Naming.
-  id: 2175214396
-  name: wg/naming
-  node_id: MDU6TGFiZWwyMTc1MjE0Mzk2
-  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/wg/naming
-- color: d2b48c
-  default: false
-  description: Categorizes an issue or PR as relevant to WG Policy.
-  id: 971786590
-  name: wg/policy
-  node_id: MDU6TGFiZWw5NzE3ODY1OTA=
-  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/wg/policy
-- color: d2b48c
-  default: false
-  description: Categorizes an issue or PR as relevant to WG Reliability
-  id: 2681759667
-  name: wg/reliability
-  node_id: MDU6TGFiZWwyNjgxNzU5NjY3
-  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/wg/reliability
-- color: d2b48c
-  default: false
-  description: Categorizes an issue or PR as relevant to WG Security Audit.
-  id: 1086787146
-  name: wg/security-audit
-  node_id: MDU6TGFiZWwxMDg2Nzg3MTQ2
-  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/wg/security-audit
-- color: d2b48c
-  default: false
-  description: Categorizes an issue or PR as relevant to WG Structured Logging.
-  id: 3025055720
-  name: wg/structured-logging
-  node_id: MDU6TGFiZWwzMDI1MDU1NzIw
-  url: https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/wg/structured-logging
+  url: https://api.github.com/repos/openimsdk/open-im-server/labels/wontfix

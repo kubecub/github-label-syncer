@@ -1260,6 +1260,15 @@
     <URL>https://api.github.com/repos/kubernetes/test-infra/labels/sig/docs</URL>
   </label>
   <label>
+    <Name>sig/etcd</Name>
+    <Description>Categorizes an issue or PR as relevant to SIG Etcd.</Description>
+    <Color>d2b48c</Color>
+    <Default>false</Default>
+    <ID>6045287137</ID>
+    <NodeID>LA_kwDOA2rXzc8AAAABaFPC4Q</NodeID>
+    <URL>https://api.github.com/repos/kubernetes/test-infra/labels/sig/etcd</URL>
+  </label>
+  <label>
     <Name>sig/instrumentation</Name>
     <Description>Categorizes an issue or PR as relevant to SIG Instrumentation.</Description>
     <Color>d2b48c</Color>

@@ -1,12 +1,750 @@
 <labels>
   <label>
-    <Name>API</Name>
-    <Description></Description>
-    <Color>FB4E16</Color>
+    <Name>api-review</Name>
+    <Description>Categorizes an issue or PR as actively needing an API review.</Description>
+    <Color>e11d21</Color>
     <Default>false</Default>
-    <ID>5497499097</ID>
-    <NodeID>LA_kwDOFhyqls8AAAABR60t2Q</NodeID>
-    <URL>https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/API</URL>
+    <ID>5768838605</ID>
+    <NodeID>LA_kwDOFhyqls8AAAABV9l9zQ</NodeID>
+    <URL>https://api.github.com/repos/openimsdk/open-im-server/labels/api-review</URL>
+  </label>
+  <label>
+    <Name>approved</Name>
+    <Description>Indicates a PR has been approved by an approver from all required OWNERS files.</Description>
+    <Color>0ffa16</Color>
+    <Default>false</Default>
+    <ID>5768838577</ID>
+    <NodeID>LA_kwDOFhyqls8AAAABV9l9sQ</NodeID>
+    <URL>https://api.github.com/repos/openimsdk/open-im-server/labels/approved</URL>
+  </label>
+  <label>
+    <Name>area/admin</Name>
+    <Description>Indicates an issue on admin area.</Description>
+    <Color>0052cc</Color>
+    <Default>false</Default>
+    <ID>5768838565</ID>
+    <NodeID>LA_kwDOFhyqls8AAAABV9l9pQ</NodeID>
+    <URL>https://api.github.com/repos/openimsdk/open-im-server/labels/area/admin</URL>
+  </label>
+  <label>
+    <Name>area/admission-control</Name>
+    <Description>Issues or PRs related to admission control aspect of OpenIM.</Description>
+    <Color>0052cc</Color>
+    <Default>false</Default>
+    <ID>5768838594</ID>
+    <NodeID>LA_kwDOFhyqls8AAAABV9l9wg</NodeID>
+    <URL>https://api.github.com/repos/openimsdk/open-im-server/labels/area/admission-control</URL>
+  </label>
+  <label>
+    <Name>area/apiserver</Name>
+    <Description>Issues or PRs related to the APIs server of OpenIM.</Description>
+    <Color>0052cc</Color>
+    <Default>false</Default>
+    <ID>5768838641</ID>
+    <NodeID>LA_kwDOFhyqls8AAAABV9l98Q</NodeID>
+    <URL>https://api.github.com/repos/openimsdk/open-im-server/labels/area/apiserver</URL>
+  </label>
+  <label>
+    <Name>area/app-lifecycle</Name>
+    <Description>Issues or PRs related to the app lifecycle management in OpenIM.</Description>
+    <Color>0052cc</Color>
+    <Default>false</Default>
+    <ID>5768838604</ID>
+    <NodeID>LA_kwDOFhyqls8AAAABV9l9zA</NodeID>
+    <URL>https://api.github.com/repos/openimsdk/open-im-server/labels/area/app-lifecycle</URL>
+  </label>
+  <label>
+    <Name>area/audit</Name>
+    <Description>Issues or PRs related to audit logging within OpenIM.</Description>
+    <Color>0052cc</Color>
+    <Default>false</Default>
+    <ID>5768838581</ID>
+    <NodeID>LA_kwDOFhyqls8AAAABV9l9tQ</NodeID>
+    <URL>https://api.github.com/repos/openimsdk/open-im-server/labels/area/audit</URL>
+  </label>
+  <label>
+    <Name>area/batch</Name>
+    <Description>Issues or PRs related to batch job processing within OpenIM.</Description>
+    <Color>0052cc</Color>
+    <Default>false</Default>
+    <ID>5768838591</ID>
+    <NodeID>LA_kwDOFhyqls8AAAABV9l9vw</NodeID>
+    <URL>https://api.github.com/repos/openimsdk/open-im-server/labels/area/batch</URL>
+  </label>
+  <label>
+    <Name>area/build-release</Name>
+    <Description>Issues or PRs related to build and release processes of OpenIM.</Description>
+    <Color>0052cc</Color>
+    <Default>false</Default>
+    <ID>5768838587</ID>
+    <NodeID>LA_kwDOFhyqls8AAAABV9l9uw</NodeID>
+    <URL>https://api.github.com/repos/openimsdk/open-im-server/labels/area/build-release</URL>
+  </label>
+  <label>
+    <Name>area/cadvisor</Name>
+    <Description>Issues or PRs related to cAdvisor (Container Advisor) within OpenIM.</Description>
+    <Color>0052cc</Color>
+    <Default>false</Default>
+    <ID>5768838643</ID>
+    <NodeID>LA_kwDOFhyqls8AAAABV9l98w</NodeID>
+    <URL>https://api.github.com/repos/openimsdk/open-im-server/labels/area/cadvisor</URL>
+  </label>
+  <label>
+    <Name>area/client-libraries</Name>
+    <Description>Issues or PRs related to the client libraries of OpenIM.</Description>
+    <Color>0052cc</Color>
+    <Default>false</Default>
+    <ID>5768838595</ID>
+    <NodeID>LA_kwDOFhyqls8AAAABV9l9ww</NodeID>
+    <URL>https://api.github.com/repos/openimsdk/open-im-server/labels/area/client-libraries</URL>
+  </label>
+  <label>
+    <Name>area/cloudprovider</Name>
+    <Description>Issues or PRs related to the integration of OpenIM with cloud providers.</Description>
+    <Color>0052cc</Color>
+    <Default>false</Default>
+    <ID>5768838603</ID>
+    <NodeID>LA_kwDOFhyqls8AAAABV9l9yw</NodeID>
+    <URL>https://api.github.com/repos/openimsdk/open-im-server/labels/area/cloudprovider</URL>
+  </label>
+  <label>
+    <Name>area/code-generation</Name>
+    <Description>Issues or PRs related to code generation within OpenIM.</Description>
+    <Color>0052cc</Color>
+    <Default>false</Default>
+    <ID>5768838621</ID>
+    <NodeID>LA_kwDOFhyqls8AAAABV9l93Q</NodeID>
+    <URL>https://api.github.com/repos/openimsdk/open-im-server/labels/area/code-generation</URL>
+  </label>
+  <label>
+    <Name>area/code-organization</Name>
+    <Description>Issues or PRs related to OpenIM code organization</Description>
+    <Color>0052cc</Color>
+    <Default>false</Default>
+    <ID>5768838626</ID>
+    <NodeID>LA_kwDOFhyqls8AAAABV9l94g</NodeID>
+    <URL>https://api.github.com/repos/openimsdk/open-im-server/labels/area/code-organization</URL>
+  </label>
+  <label>
+    <Name>area/community-meeting</Name>
+    <Description>Issues or PRs that should potentially be discussed in a OpenIM community meeting.</Description>
+    <Color>0052cc</Color>
+    <Default>false</Default>
+    <ID>5768838592</ID>
+    <NodeID>LA_kwDOFhyqls8AAAABV9l9wA</NodeID>
+    <URL>https://api.github.com/repos/openimsdk/open-im-server/labels/area/community-meeting</URL>
+  </label>
+  <label>
+    <Name>area/configmap-api</Name>
+    <Description></Description>
+    <Color>0052cc</Color>
+    <Default>false</Default>
+    <ID>5768838630</ID>
+    <NodeID>LA_kwDOFhyqls8AAAABV9l95g</NodeID>
+    <URL>https://api.github.com/repos/openimsdk/open-im-server/labels/area/configmap-api</URL>
+  </label>
+  <label>
+    <Name>area/conformance</Name>
+    <Description>Issues or PRs related to OpenIM conformance tests</Description>
+    <Color>0052cc</Color>
+    <Default>false</Default>
+    <ID>5768838585</ID>
+    <NodeID>LA_kwDOFhyqls8AAAABV9l9uQ</NodeID>
+    <URL>https://api.github.com/repos/openimsdk/open-im-server/labels/area/conformance</URL>
+  </label>
+  <label>
+    <Name>area/controller-manager</Name>
+    <Description></Description>
+    <Color>0052cc</Color>
+    <Default>false</Default>
+    <ID>5768838622</ID>
+    <NodeID>LA_kwDOFhyqls8AAAABV9l93g</NodeID>
+    <URL>https://api.github.com/repos/openimsdk/open-im-server/labels/area/controller-manager</URL>
+  </label>
+  <label>
+    <Name>area/custom-resources</Name>
+    <Description></Description>
+    <Color>0052cc</Color>
+    <Default>false</Default>
+    <ID>5768838576</ID>
+    <NodeID>LA_kwDOFhyqls8AAAABV9l9sA</NodeID>
+    <URL>https://api.github.com/repos/openimsdk/open-im-server/labels/area/custom-resources</URL>
+  </label>
+  <label>
+    <Name>area/declarative-configuration</Name>
+    <Description></Description>
+    <Color>0052cc</Color>
+    <Default>false</Default>
+    <ID>5768838598</ID>
+    <NodeID>LA_kwDOFhyqls8AAAABV9l9xg</NodeID>
+    <URL>https://api.github.com/repos/openimsdk/open-im-server/labels/area/declarative-configuration</URL>
+  </label>
+  <label>
+    <Name>area/deflake</Name>
+    <Description>Issues or PRs related to deflaking OpenIM tests</Description>
+    <Color>0052cc</Color>
+    <Default>false</Default>
+    <ID>5768838636</ID>
+    <NodeID>LA_kwDOFhyqls8AAAABV9l97A</NodeID>
+    <URL>https://api.github.com/repos/openimsdk/open-im-server/labels/area/deflake</URL>
+  </label>
+  <label>
+    <Name>area/dependency</Name>
+    <Description>Issues or PRs related to dependency changes</Description>
+    <Color>0052cc</Color>
+    <Default>false</Default>
+    <ID>5768838645</ID>
+    <NodeID>LA_kwDOFhyqls8AAAABV9l99Q</NodeID>
+    <URL>https://api.github.com/repos/openimsdk/open-im-server/labels/area/dependency</URL>
+  </label>
+  <label>
+    <Name>area/dns</Name>
+    <Description></Description>
+    <Color>0052cc</Color>
+    <Default>false</Default>
+    <ID>5768838568</ID>
+    <NodeID>LA_kwDOFhyqls8AAAABV9l9qA</NodeID>
+    <URL>https://api.github.com/repos/openimsdk/open-im-server/labels/area/dns</URL>
+  </label>
+  <label>
+    <Name>area/docker</Name>
+    <Description></Description>
+    <Color>0052cc</Color>
+    <Default>false</Default>
+    <ID>5768838589</ID>
+    <NodeID>LA_kwDOFhyqls8AAAABV9l9vQ</NodeID>
+    <URL>https://api.github.com/repos/openimsdk/open-im-server/labels/area/docker</URL>
+  </label>
+  <label>
+    <Name>area/downward-api</Name>
+    <Description></Description>
+    <Color>0052cc</Color>
+    <Default>false</Default>
+    <ID>5768838569</ID>
+    <NodeID>LA_kwDOFhyqls8AAAABV9l9qQ</NodeID>
+    <URL>https://api.github.com/repos/openimsdk/open-im-server/labels/area/downward-api</URL>
+  </label>
+  <label>
+    <Name>area/e2e-test-framework</Name>
+    <Description>Issues or PRs related to refactoring the OpenIM e2e test framework</Description>
+    <Color>0052cc</Color>
+    <Default>false</Default>
+    <ID>5768838575</ID>
+    <NodeID>LA_kwDOFhyqls8AAAABV9l9rw</NodeID>
+    <URL>https://api.github.com/repos/openimsdk/open-im-server/labels/area/e2e-test-framework</URL>
+  </label>
+  <label>
+    <Name>area/ecosystem</Name>
+    <Description></Description>
+    <Color>0052cc</Color>
+    <Default>false</Default>
+    <ID>5768838609</ID>
+    <NodeID>LA_kwDOFhyqls8AAAABV9l90Q</NodeID>
+    <URL>https://api.github.com/repos/openimsdk/open-im-server/labels/area/ecosystem</URL>
+  </label>
+  <label>
+    <Name>area/etcd</Name>
+    <Description></Description>
+    <Color>0052cc</Color>
+    <Default>false</Default>
+    <ID>5768838637</ID>
+    <NodeID>LA_kwDOFhyqls8AAAABV9l97Q</NodeID>
+    <URL>https://api.github.com/repos/openimsdk/open-im-server/labels/area/etcd</URL>
+  </label>
+  <label>
+    <Name>area/example</Name>
+    <Description></Description>
+    <Color>0052cc</Color>
+    <Default>false</Default>
+    <ID>5768838625</ID>
+    <NodeID>LA_kwDOFhyqls8AAAABV9l94Q</NodeID>
+    <URL>https://api.github.com/repos/openimsdk/open-im-server/labels/area/example</URL>
+  </label>
+  <label>
+    <Name>area/example/cassandra</Name>
+    <Description></Description>
+    <Color>0052cc</Color>
+    <Default>false</Default>
+    <ID>5768838574</ID>
+    <NodeID>LA_kwDOFhyqls8AAAABV9l9rg</NodeID>
+    <URL>https://api.github.com/repos/openimsdk/open-im-server/labels/area/example/cassandra</URL>
+  </label>
+  <label>
+    <Name>area/extensibility</Name>
+    <Description></Description>
+    <Color>0052cc</Color>
+    <Default>false</Default>
+    <ID>5768838618</ID>
+    <NodeID>LA_kwDOFhyqls8AAAABV9l92g</NodeID>
+    <URL>https://api.github.com/repos/openimsdk/open-im-server/labels/area/extensibility</URL>
+  </label>
+  <label>
+    <Name>area/federation</Name>
+    <Description></Description>
+    <Color>0052cc</Color>
+    <Default>false</Default>
+    <ID>5768838582</ID>
+    <NodeID>LA_kwDOFhyqls8AAAABV9l9tg</NodeID>
+    <URL>https://api.github.com/repos/openimsdk/open-im-server/labels/area/federation</URL>
+  </label>
+  <label>
+    <Name>area/HA</Name>
+    <Description></Description>
+    <Color>0052cc</Color>
+    <Default>false</Default>
+    <ID>5768838570</ID>
+    <NodeID>LA_kwDOFhyqls8AAAABV9l9qg</NodeID>
+    <URL>https://api.github.com/repos/openimsdk/open-im-server/labels/area/HA</URL>
+  </label>
+  <label>
+    <Name>area/hw-accelerators</Name>
+    <Description></Description>
+    <Color>0052cc</Color>
+    <Default>false</Default>
+    <ID>5768838610</ID>
+    <NodeID>LA_kwDOFhyqls8AAAABV9l90g</NodeID>
+    <URL>https://api.github.com/repos/openimsdk/open-im-server/labels/area/hw-accelerators</URL>
+  </label>
+  <label>
+    <Name>area/images-registry</Name>
+    <Description></Description>
+    <Color>0052cc</Color>
+    <Default>false</Default>
+    <ID>5768838635</ID>
+    <NodeID>LA_kwDOFhyqls8AAAABV9l96w</NodeID>
+    <URL>https://api.github.com/repos/openimsdk/open-im-server/labels/area/images-registry</URL>
+  </label>
+  <label>
+    <Name>area/ingress</Name>
+    <Description></Description>
+    <Color>0052cc</Color>
+    <Default>false</Default>
+    <ID>5768838593</ID>
+    <NodeID>LA_kwDOFhyqls8AAAABV9l9wQ</NodeID>
+    <URL>https://api.github.com/repos/openimsdk/open-im-server/labels/area/ingress</URL>
+  </label>
+  <label>
+    <Name>area/introspection</Name>
+    <Description></Description>
+    <Color>0052cc</Color>
+    <Default>false</Default>
+    <ID>5768838567</ID>
+    <NodeID>LA_kwDOFhyqls8AAAABV9l9pw</NodeID>
+    <URL>https://api.github.com/repos/openimsdk/open-im-server/labels/area/introspection</URL>
+  </label>
+  <label>
+    <Name>area/ipv6</Name>
+    <Description></Description>
+    <Color>0052cc</Color>
+    <Default>false</Default>
+    <ID>5768838599</ID>
+    <NodeID>LA_kwDOFhyqls8AAAABV9l9xw</NodeID>
+    <URL>https://api.github.com/repos/openimsdk/open-im-server/labels/area/ipv6</URL>
+  </label>
+  <label>
+    <Name>area/ipvs</Name>
+    <Description></Description>
+    <Color>0052cc</Color>
+    <Default>false</Default>
+    <ID>5768838573</ID>
+    <NodeID>LA_kwDOFhyqls8AAAABV9l9rQ</NodeID>
+    <URL>https://api.github.com/repos/openimsdk/open-im-server/labels/area/ipvs</URL>
+  </label>
+  <label>
+    <Name>area/isolation</Name>
+    <Description></Description>
+    <Color>0052cc</Color>
+    <Default>false</Default>
+    <ID>5768838578</ID>
+    <NodeID>LA_kwDOFhyqls8AAAABV9l9sg</NodeID>
+    <URL>https://api.github.com/repos/openimsdk/open-im-server/labels/area/isolation</URL>
+  </label>
+  <label>
+    <Name>area/logging</Name>
+    <Description></Description>
+    <Color>0052cc</Color>
+    <Default>false</Default>
+    <ID>5768838638</ID>
+    <NodeID>LA_kwDOFhyqls8AAAABV9l97g</NodeID>
+    <URL>https://api.github.com/repos/openimsdk/open-im-server/labels/area/logging</URL>
+  </label>
+  <label>
+    <Name>area/monitoring</Name>
+    <Description></Description>
+    <Color>0052cc</Color>
+    <Default>false</Default>
+    <ID>5768838615</ID>
+    <NodeID>LA_kwDOFhyqls8AAAABV9l91w</NodeID>
+    <URL>https://api.github.com/repos/openimsdk/open-im-server/labels/area/monitoring</URL>
+  </label>
+  <label>
+    <Name>area/network-policy</Name>
+    <Description>Issues or PRs related to Network Policy subproject</Description>
+    <Color>0052cc</Color>
+    <Default>false</Default>
+    <ID>5768838620</ID>
+    <NodeID>LA_kwDOFhyqls8AAAABV9l93A</NodeID>
+    <URL>https://api.github.com/repos/openimsdk/open-im-server/labels/area/network-policy</URL>
+  </label>
+  <label>
+    <Name>area/node-e2e</Name>
+    <Description></Description>
+    <Color>0052cc</Color>
+    <Default>false</Default>
+    <ID>5768838601</ID>
+    <NodeID>LA_kwDOFhyqls8AAAABV9l9yQ</NodeID>
+    <URL>https://api.github.com/repos/openimsdk/open-im-server/labels/area/node-e2e</URL>
+  </label>
+  <label>
+    <Name>area/node-lifecycle</Name>
+    <Description></Description>
+    <Color>0052cc</Color>
+    <Default>false</Default>
+    <ID>5768838579</ID>
+    <NodeID>LA_kwDOFhyqls8AAAABV9l9sw</NodeID>
+    <URL>https://api.github.com/repos/openimsdk/open-im-server/labels/area/node-lifecycle</URL>
+  </label>
+  <label>
+    <Name>area/nodecontroller</Name>
+    <Description></Description>
+    <Color>0052cc</Color>
+    <Default>false</Default>
+    <ID>5768838617</ID>
+    <NodeID>LA_kwDOFhyqls8AAAABV9l92Q</NodeID>
+    <URL>https://api.github.com/repos/openimsdk/open-im-server/labels/area/nodecontroller</URL>
+  </label>
+  <label>
+    <Name>area/os/coreos</Name>
+    <Description></Description>
+    <Color>d4c5f9</Color>
+    <Default>false</Default>
+    <ID>5768838612</ID>
+    <NodeID>LA_kwDOFhyqls8AAAABV9l91A</NodeID>
+    <URL>https://api.github.com/repos/openimsdk/open-im-server/labels/area/os/coreos</URL>
+  </label>
+  <label>
+    <Name>area/os/fedora</Name>
+    <Description></Description>
+    <Color>d4c5f9</Color>
+    <Default>false</Default>
+    <ID>5768838629</ID>
+    <NodeID>LA_kwDOFhyqls8AAAABV9l95Q</NodeID>
+    <URL>https://api.github.com/repos/openimsdk/open-im-server/labels/area/os/fedora</URL>
+  </label>
+  <label>
+    <Name>area/os/ubuntu</Name>
+    <Description></Description>
+    <Color>d4c5f9</Color>
+    <Default>false</Default>
+    <ID>5768838596</ID>
+    <NodeID>LA_kwDOFhyqls8AAAABV9l9xA</NodeID>
+    <URL>https://api.github.com/repos/openimsdk/open-im-server/labels/area/os/ubuntu</URL>
+  </label>
+  <label>
+    <Name>area/platform/gce</Name>
+    <Description></Description>
+    <Color>d4c5f9</Color>
+    <Default>false</Default>
+    <ID>5768838600</ID>
+    <NodeID>LA_kwDOFhyqls8AAAABV9l9yA</NodeID>
+    <URL>https://api.github.com/repos/openimsdk/open-im-server/labels/area/platform/gce</URL>
+  </label>
+  <label>
+    <Name>area/platform/mesos</Name>
+    <Description></Description>
+    <Color>d4c5f9</Color>
+    <Default>false</Default>
+    <ID>5768838607</ID>
+    <NodeID>LA_kwDOFhyqls8AAAABV9l9zw</NodeID>
+    <URL>https://api.github.com/repos/openimsdk/open-im-server/labels/area/platform/mesos</URL>
+  </label>
+  <label>
+    <Name>area/platform/vagrant</Name>
+    <Description></Description>
+    <Color>d4c5f9</Color>
+    <Default>false</Default>
+    <ID>5768838614</ID>
+    <NodeID>LA_kwDOFhyqls8AAAABV9l91g</NodeID>
+    <URL>https://api.github.com/repos/openimsdk/open-im-server/labels/area/platform/vagrant</URL>
+  </label>
+  <label>
+    <Name>area/provider/aws</Name>
+    <Description>Issues or PRs related to aws provider</Description>
+    <Color>0052cc</Color>
+    <Default>false</Default>
+    <ID>5768838597</ID>
+    <NodeID>LA_kwDOFhyqls8AAAABV9l9xQ</NodeID>
+    <URL>https://api.github.com/repos/openimsdk/open-im-server/labels/area/provider/aws</URL>
+  </label>
+  <label>
+    <Name>area/provider/azure</Name>
+    <Description>Issues or PRs related to azure provider</Description>
+    <Color>0052cc</Color>
+    <Default>false</Default>
+    <ID>5768838640</ID>
+    <NodeID>LA_kwDOFhyqls8AAAABV9l98A</NodeID>
+    <URL>https://api.github.com/repos/openimsdk/open-im-server/labels/area/provider/azure</URL>
+  </label>
+  <label>
+    <Name>area/provider/digitalocean</Name>
+    <Description>Issues or PRs related to digitalocean provider</Description>
+    <Color>0052cc</Color>
+    <Default>false</Default>
+    <ID>5768838616</ID>
+    <NodeID>LA_kwDOFhyqls8AAAABV9l92A</NodeID>
+    <URL>https://api.github.com/repos/openimsdk/open-im-server/labels/area/provider/digitalocean</URL>
+  </label>
+  <label>
+    <Name>area/provider/gcp</Name>
+    <Description>Issues or PRs related to gcp provider</Description>
+    <Color>0052cc</Color>
+    <Default>false</Default>
+    <ID>5768838606</ID>
+    <NodeID>LA_kwDOFhyqls8AAAABV9l9zg</NodeID>
+    <URL>https://api.github.com/repos/openimsdk/open-im-server/labels/area/provider/gcp</URL>
+  </label>
+  <label>
+    <Name>area/provider/ibmcloud</Name>
+    <Description>Issues or PRs related to ibmcloud provider</Description>
+    <Color>0052cc</Color>
+    <Default>false</Default>
+    <ID>5768838580</ID>
+    <NodeID>LA_kwDOFhyqls8AAAABV9l9tA</NodeID>
+    <URL>https://api.github.com/repos/openimsdk/open-im-server/labels/area/provider/ibmcloud</URL>
+  </label>
+  <label>
+    <Name>area/provider/openstack</Name>
+    <Description>Issues or PRs related to openstack provider</Description>
+    <Color>0052cc</Color>
+    <Default>false</Default>
+    <ID>5768838634</ID>
+    <NodeID>LA_kwDOFhyqls8AAAABV9l96g</NodeID>
+    <URL>https://api.github.com/repos/openimsdk/open-im-server/labels/area/provider/openstack</URL>
+  </label>
+  <label>
+    <Name>area/provider/vmware</Name>
+    <Description>Issues or PRs related to vmware provider</Description>
+    <Color>0052cc</Color>
+    <Default>false</Default>
+    <ID>5768838588</ID>
+    <NodeID>LA_kwDOFhyqls8AAAABV9l9vA</NodeID>
+    <URL>https://api.github.com/repos/openimsdk/open-im-server/labels/area/provider/vmware</URL>
+  </label>
+  <label>
+    <Name>area/release-eng</Name>
+    <Description>Issues or PRs related to the Release Engineering subproject</Description>
+    <Color>0052cc</Color>
+    <Default>false</Default>
+    <ID>5768838602</ID>
+    <NodeID>LA_kwDOFhyqls8AAAABV9l9yg</NodeID>
+    <URL>https://api.github.com/repos/openimsdk/open-im-server/labels/area/release-eng</URL>
+  </label>
+  <label>
+    <Name>area/reliability</Name>
+    <Description>Issues or PRs related to system reliability</Description>
+    <Color>0052cc</Color>
+    <Default>false</Default>
+    <ID>5768838611</ID>
+    <NodeID>LA_kwDOFhyqls8AAAABV9l90w</NodeID>
+    <URL>https://api.github.com/repos/openimsdk/open-im-server/labels/area/reliability</URL>
+  </label>
+  <label>
+    <Name>area/rkt</Name>
+    <Description>Issues or PRs related to rkt (a pod-native container engine)</Description>
+    <Color>0052cc</Color>
+    <Default>false</Default>
+    <ID>5768838586</ID>
+    <NodeID>LA_kwDOFhyqls8AAAABV9l9ug</NodeID>
+    <URL>https://api.github.com/repos/openimsdk/open-im-server/labels/area/rkt</URL>
+  </label>
+  <label>
+    <Name>area/secret-api</Name>
+    <Description>Issues or PRs related to Secret API</Description>
+    <Color>0052cc</Color>
+    <Default>false</Default>
+    <ID>5768838653</ID>
+    <NodeID>LA_kwDOFhyqls8AAAABV9l9_Q</NodeID>
+    <URL>https://api.github.com/repos/openimsdk/open-im-server/labels/area/secret-api</URL>
+  </label>
+  <label>
+    <Name>area/security</Name>
+    <Description>Issues or PRs related to security features or vulnerabilities</Description>
+    <Color>d93f0b</Color>
+    <Default>false</Default>
+    <ID>5768838660</ID>
+    <NodeID>LA_kwDOFhyqls8AAAABV9l-BA</NodeID>
+    <URL>https://api.github.com/repos/openimsdk/open-im-server/labels/area/security</URL>
+  </label>
+  <label>
+    <Name>area/stateful-apps</Name>
+    <Description>Issues or PRs related to stateful applications</Description>
+    <Color>0052cc</Color>
+    <Default>false</Default>
+    <ID>5768838651</ID>
+    <NodeID>LA_kwDOFhyqls8AAAABV9l9-w</NodeID>
+    <URL>https://api.github.com/repos/openimsdk/open-im-server/labels/area/stateful-apps</URL>
+  </label>
+  <label>
+    <Name>area/swagger</Name>
+    <Description>Issues or PRs related to Swagger API documentation</Description>
+    <Color>0052cc</Color>
+    <Default>false</Default>
+    <ID>5768838663</ID>
+    <NodeID>LA_kwDOFhyqls8AAAABV9l-Bw</NodeID>
+    <URL>https://api.github.com/repos/openimsdk/open-im-server/labels/area/swagger</URL>
+  </label>
+  <label>
+    <Name>area/system-requirement</Name>
+    <Description>Issues or PRs related to system requirements</Description>
+    <Color>0052cc</Color>
+    <Default>false</Default>
+    <ID>5768838666</ID>
+    <NodeID>LA_kwDOFhyqls8AAAABV9l-Cg</NodeID>
+    <URL>https://api.github.com/repos/openimsdk/open-im-server/labels/area/system-requirement</URL>
+  </label>
+  <label>
+    <Name>area/teardown</Name>
+    <Description>Issues or PRs related to system teardown or cleanup</Description>
+    <Color>0052cc</Color>
+    <Default>false</Default>
+    <ID>5768838662</ID>
+    <NodeID>LA_kwDOFhyqls8AAAABV9l-Bg</NodeID>
+    <URL>https://api.github.com/repos/openimsdk/open-im-server/labels/area/teardown</URL>
+  </label>
+  <label>
+    <Name>area/test</Name>
+    <Description>Issues or PRs related to tests or testing infrastructure</Description>
+    <Color>0052cc</Color>
+    <Default>false</Default>
+    <ID>5768838668</ID>
+    <NodeID>LA_kwDOFhyqls8AAAABV9l-DA</NodeID>
+    <URL>https://api.github.com/repos/openimsdk/open-im-server/labels/area/test</URL>
+  </label>
+  <label>
+    <Name>area/test-infra</Name>
+    <Description>Issues or PRs related to test infrastructure</Description>
+    <Color>0052cc</Color>
+    <Default>false</Default>
+    <ID>5768838671</ID>
+    <NodeID>LA_kwDOFhyqls8AAAABV9l-Dw</NodeID>
+    <URL>https://api.github.com/repos/openimsdk/open-im-server/labels/area/test-infra</URL>
+  </label>
+  <label>
+    <Name>area/ui</Name>
+    <Description>Issues or PRs related to user interface</Description>
+    <Color>0052cc</Color>
+    <Default>false</Default>
+    <ID>5768838730</ID>
+    <NodeID>LA_kwDOFhyqls8AAAABV9l-Sg</NodeID>
+    <URL>https://api.github.com/repos/openimsdk/open-im-server/labels/area/ui</URL>
+  </label>
+  <label>
+    <Name>area/upgrade</Name>
+    <Description>Issues or PRs related to system upgrades</Description>
+    <Color>0052cc</Color>
+    <Default>false</Default>
+    <ID>5768838686</ID>
+    <NodeID>LA_kwDOFhyqls8AAAABV9l-Hg</NodeID>
+    <URL>https://api.github.com/repos/openimsdk/open-im-server/labels/area/upgrade</URL>
+  </label>
+  <label>
+    <Name>area/usability</Name>
+    <Description>Issues or PRs related to usability improvements or concerns</Description>
+    <Color>0052cc</Color>
+    <Default>false</Default>
+    <ID>5768838708</ID>
+    <NodeID>LA_kwDOFhyqls8AAAABV9l-NA</NodeID>
+    <URL>https://api.github.com/repos/openimsdk/open-im-server/labels/area/usability</URL>
+  </label>
+  <label>
+    <Name>area/workload-api/cronjob</Name>
+    <Description>Issues or PRs related to workload API&#39;s cronjob features</Description>
+    <Color>0052cc</Color>
+    <Default>false</Default>
+    <ID>5768838681</ID>
+    <NodeID>LA_kwDOFhyqls8AAAABV9l-GQ</NodeID>
+    <URL>https://api.github.com/repos/openimsdk/open-im-server/labels/area/workload-api/cronjob</URL>
+  </label>
+  <label>
+    <Name>area/workload-api/daemonset</Name>
+    <Description>Issues or PRs related to workload API&#39;s daemonset features</Description>
+    <Color>0052cc</Color>
+    <Default>false</Default>
+    <ID>5768838726</ID>
+    <NodeID>LA_kwDOFhyqls8AAAABV9l-Rg</NodeID>
+    <URL>https://api.github.com/repos/openimsdk/open-im-server/labels/area/workload-api/daemonset</URL>
+  </label>
+  <label>
+    <Name>area/workload-api/deployment</Name>
+    <Description>Issues or PRs related to workload API&#39;s deployment features</Description>
+    <Color>0052cc</Color>
+    <Default>false</Default>
+    <ID>5768838700</ID>
+    <NodeID>LA_kwDOFhyqls8AAAABV9l-LA</NodeID>
+    <URL>https://api.github.com/repos/openimsdk/open-im-server/labels/area/workload-api/deployment</URL>
+  </label>
+  <label>
+    <Name>area/workload-api/job</Name>
+    <Description>Issues or PRs related to workload API&#39;s job features</Description>
+    <Color>0052cc</Color>
+    <Default>false</Default>
+    <ID>5768838741</ID>
+    <NodeID>LA_kwDOFhyqls8AAAABV9l-VQ</NodeID>
+    <URL>https://api.github.com/repos/openimsdk/open-im-server/labels/area/workload-api/job</URL>
+  </label>
+  <label>
+    <Name>cherry-pick-approved</Name>
+    <Description>Indicates a cherry-pick PR into a release branch has been approved by the release branch manager.</Description>
+    <Color>fef2c0</Color>
+    <Default>false</Default>
+    <ID>5768838682</ID>
+    <NodeID>LA_kwDOFhyqls8AAAABV9l-Gg</NodeID>
+    <URL>https://api.github.com/repos/openimsdk/open-im-server/labels/cherry-pick-approved</URL>
+  </label>
+  <label>
+    <Name>cncf-cla: no</Name>
+    <Description>Indicates the PR&#39;s author has not signed the CNCF CLA.</Description>
+    <Color>e11d21</Color>
+    <Default>false</Default>
+    <ID>5768838737</ID>
+    <NodeID>LA_kwDOFhyqls8AAAABV9l-UQ</NodeID>
+    <URL>https://api.github.com/repos/openimsdk/open-im-server/labels/cncf-cla:%20no</URL>
+  </label>
+  <label>
+    <Name>cncf-cla: yes</Name>
+    <Description>Indicates the PR&#39;s author has signed the CNCF CLA.</Description>
+    <Color>bfe5bf</Color>
+    <Default>false</Default>
+    <ID>5768838690</ID>
+    <NodeID>LA_kwDOFhyqls8AAAABV9l-Ig</NodeID>
+    <URL>https://api.github.com/repos/openimsdk/open-im-server/labels/cncf-cla:%20yes</URL>
+  </label>
+  <label>
+    <Name>committee/code-of-conduct</Name>
+    <Description>Denotes an issue or PR intended to be handled by the code of conduct committee.</Description>
+    <Color>c0ff4a</Color>
+    <Default>false</Default>
+    <ID>5768838683</ID>
+    <NodeID>LA_kwDOFhyqls8AAAABV9l-Gw</NodeID>
+    <URL>https://api.github.com/repos/openimsdk/open-im-server/labels/committee/code-of-conduct</URL>
+  </label>
+  <label>
+    <Name>committee/security-response</Name>
+    <Description>Denotes an issue or PR intended to be handled by the product security committee.</Description>
+    <Color>c0ff4a</Color>
+    <Default>false</Default>
+    <ID>5768838672</ID>
+    <NodeID>LA_kwDOFhyqls8AAAABV9l-EA</NodeID>
+    <URL>https://api.github.com/repos/openimsdk/open-im-server/labels/committee/security-response</URL>
+  </label>
+  <label>
+    <Name>committee/steering</Name>
+    <Description>Denotes an issue or PR intended to be handled by the steering committee.</Description>
+    <Color>c0ff4a</Color>
+    <Default>false</Default>
+    <ID>5768838689</ID>
+    <NodeID>LA_kwDOFhyqls8AAAABV9l-IQ</NodeID>
+    <URL>https://api.github.com/repos/openimsdk/open-im-server/labels/committee/steering</URL>
   </label>
   <label>
     <Name>dependencies</Name>
@@ -15,7 +753,70 @@
     <Default>false</Default>
     <ID>5195755799</ID>
     <NodeID>LA_kwDOFhyqls8AAAABNbDxFw</NodeID>
-    <URL>https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/dependencies</URL>
+    <URL>https://api.github.com/repos/openimsdk/open-im-server/labels/dependencies</URL>
+  </label>
+  <label>
+    <Name>do-not-merge</Name>
+    <Description>DEPRECATED. Indicates that a PR should not merge. Label can only be manually applied/removed.</Description>
+    <Color>e11d21</Color>
+    <Default>false</Default>
+    <ID>5768838718</ID>
+    <NodeID>LA_kwDOFhyqls8AAAABV9l-Pg</NodeID>
+    <URL>https://api.github.com/repos/openimsdk/open-im-server/labels/do-not-merge</URL>
+  </label>
+  <label>
+    <Name>do-not-merge/blocked-paths</Name>
+    <Description>Indicates that a PR should not merge because it touches files in blocked paths.</Description>
+    <Color>e11d21</Color>
+    <Default>false</Default>
+    <ID>5768838739</ID>
+    <NodeID>LA_kwDOFhyqls8AAAABV9l-Uw</NodeID>
+    <URL>https://api.github.com/repos/openimsdk/open-im-server/labels/do-not-merge/blocked-paths</URL>
+  </label>
+  <label>
+    <Name>do-not-merge/cherry-pick-not-approved</Name>
+    <Description>Indicates that a PR is not yet approved to merge into a release branch.</Description>
+    <Color>e11d21</Color>
+    <Default>false</Default>
+    <ID>5768838715</ID>
+    <NodeID>LA_kwDOFhyqls8AAAABV9l-Ow</NodeID>
+    <URL>https://api.github.com/repos/openimsdk/open-im-server/labels/do-not-merge/cherry-pick-not-approved</URL>
+  </label>
+  <label>
+    <Name>do-not-merge/contains-merge-commits</Name>
+    <Description>Indicates a PR which contains merge commits.</Description>
+    <Color>e11d21</Color>
+    <Default>false</Default>
+    <ID>5768838685</ID>
+    <NodeID>LA_kwDOFhyqls8AAAABV9l-HQ</NodeID>
+    <URL>https://api.github.com/repos/openimsdk/open-im-server/labels/do-not-merge/contains-merge-commits</URL>
+  </label>
+  <label>
+    <Name>do-not-merge/hold</Name>
+    <Description>Indicates that a PR should not merge because someone has issued a /hold command.</Description>
+    <Color>e11d21</Color>
+    <Default>false</Default>
+    <ID>5768838710</ID>
+    <NodeID>LA_kwDOFhyqls8AAAABV9l-Ng</NodeID>
+    <URL>https://api.github.com/repos/openimsdk/open-im-server/labels/do-not-merge/hold</URL>
+  </label>
+  <label>
+    <Name>do-not-merge/invalid-commit-message</Name>
+    <Description>Indicates that a PR should not merge because it has an invalid commit message.</Description>
+    <Color>e11d21</Color>
+    <Default>false</Default>
+    <ID>5768838696</ID>
+    <NodeID>LA_kwDOFhyqls8AAAABV9l-KA</NodeID>
+    <URL>https://api.github.com/repos/openimsdk/open-im-server/labels/do-not-merge/invalid-commit-message</URL>
+  </label>
+  <label>
+    <Name>do-not-merge/invalid-owners-file</Name>
+    <Description>Indicates that a PR should not merge because it has an invalid OWNERS file in it.</Description>
+    <Color>e11d21</Color>
+    <Default>false</Default>
+    <ID>5768838704</ID>
+    <NodeID>LA_kwDOFhyqls8AAAABV9l-MA</NodeID>
+    <URL>https://api.github.com/repos/openimsdk/open-im-server/labels/do-not-merge/invalid-owners-file</URL>
   </label>
   <label>
     <Name>do-not-merge/needs-kind</Name>
@@ -24,7 +825,34 @@
     <Default>false</Default>
     <ID>5497486393</ID>
     <NodeID>LA_kwDOFhyqls8AAAABR6z8OQ</NodeID>
-    <URL>https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/do-not-merge/needs-kind</URL>
+    <URL>https://api.github.com/repos/openimsdk/open-im-server/labels/do-not-merge/needs-kind</URL>
+  </label>
+  <label>
+    <Name>do-not-merge/needs-sig</Name>
+    <Description>Indicates an issue or PR lacks a `sig/foo` label and requires one.</Description>
+    <Color>e11d21</Color>
+    <Default>false</Default>
+    <ID>5768838706</ID>
+    <NodeID>LA_kwDOFhyqls8AAAABV9l-Mg</NodeID>
+    <URL>https://api.github.com/repos/openimsdk/open-im-server/labels/do-not-merge/needs-sig</URL>
+  </label>
+  <label>
+    <Name>do-not-merge/release-note-label-needed</Name>
+    <Description>Indicates that a PR should not merge because it&#39;s missing one of the release note labels.</Description>
+    <Color>e11d21</Color>
+    <Default>false</Default>
+    <ID>5768838728</ID>
+    <NodeID>LA_kwDOFhyqls8AAAABV9l-SA</NodeID>
+    <URL>https://api.github.com/repos/openimsdk/open-im-server/labels/do-not-merge/release-note-label-needed</URL>
+  </label>
+  <label>
+    <Name>do-not-merge/work-in-progress</Name>
+    <Description>Indicates that a PR should not merge because it is a work in progress.</Description>
+    <Color>e11d21</Color>
+    <Default>false</Default>
+    <ID>5768838734</ID>
+    <NodeID>LA_kwDOFhyqls8AAAABV9l-Tg</NodeID>
+    <URL>https://api.github.com/repos/openimsdk/open-im-server/labels/do-not-merge/work-in-progress</URL>
   </label>
   <label>
     <Name>enhancement</Name>
@@ -33,16 +861,25 @@
     <Default>true</Default>
     <ID>3032551175</ID>
     <NodeID>MDU6TGFiZWwzMDMyNTUxMTc1</NodeID>
-    <URL>https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/enhancement</URL>
+    <URL>https://api.github.com/repos/openimsdk/open-im-server/labels/enhancement</URL>
   </label>
   <label>
     <Name>gitlink2023</Name>
-    <Description></Description>
+    <Description>gitlink2023</Description>
     <Color>0E8A16</Color>
     <Default>false</Default>
     <ID>5595489210</ID>
     <NodeID>LA_kwDOFhyqls8AAAABTYRjug</NodeID>
-    <URL>https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/gitlink2023</URL>
+    <URL>https://api.github.com/repos/openimsdk/open-im-server/labels/gitlink2023</URL>
+  </label>
+  <label>
+    <Name>go</Name>
+    <Description>Pull requests that update Go code</Description>
+    <Color>16e2e2</Color>
+    <Default>false</Default>
+    <ID>6340197693</ID>
+    <NodeID>LA_kwDOFhyqls8AAAABeee9PQ</NodeID>
+    <URL>https://api.github.com/repos/openimsdk/open-im-server/labels/go</URL>
   </label>
   <label>
     <Name>good first issue</Name>
@@ -51,7 +888,16 @@
     <Default>true</Default>
     <ID>3032551177</ID>
     <NodeID>MDU6TGFiZWwzMDMyNTUxMTc3</NodeID>
-    <URL>https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/good%20first%20issue</URL>
+    <URL>https://api.github.com/repos/openimsdk/open-im-server/labels/good%20first%20issue</URL>
+  </label>
+  <label>
+    <Name>gsoc2023</Name>
+    <Description>gsoc2024</Description>
+    <Color>0E8A16</Color>
+    <Default>false</Default>
+    <ID>5768838564</ID>
+    <NodeID>LA_kwDOFhyqls8AAAABV9l9pA</NodeID>
+    <URL>https://api.github.com/repos/openimsdk/open-im-server/labels/gsoc2023</URL>
   </label>
   <label>
     <Name>help wanted</Name>
@@ -60,7 +906,7 @@
     <Default>true</Default>
     <ID>3032551179</ID>
     <NodeID>MDU6TGFiZWwzMDMyNTUxMTc5</NodeID>
-    <URL>https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/help%20wanted</URL>
+    <URL>https://api.github.com/repos/openimsdk/open-im-server/labels/help%20wanted</URL>
   </label>
   <label>
     <Name>invalid</Name>
@@ -69,7 +915,16 @@
     <Default>true</Default>
     <ID>3032551181</ID>
     <NodeID>MDU6TGFiZWwzMDMyNTUxMTgx</NodeID>
-    <URL>https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/invalid</URL>
+    <URL>https://api.github.com/repos/openimsdk/open-im-server/labels/invalid</URL>
+  </label>
+  <label>
+    <Name>kind/api-change</Name>
+    <Description>Categorizes issue or PR as related to adding, removing, or otherwise changing an API</Description>
+    <Color>e11d21</Color>
+    <Default>false</Default>
+    <ID>5768838751</ID>
+    <NodeID>LA_kwDOFhyqls8AAAABV9l-Xw</NodeID>
+    <URL>https://api.github.com/repos/openimsdk/open-im-server/labels/kind/api-change</URL>
   </label>
   <label>
     <Name>kind/bug</Name>
@@ -78,7 +933,7 @@
     <Default>false</Default>
     <ID>3032551172</ID>
     <NodeID>MDU6TGFiZWwzMDMyNTUxMTcy</NodeID>
-    <URL>https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/kind/bug</URL>
+    <URL>https://api.github.com/repos/openimsdk/open-im-server/labels/kind/bug</URL>
   </label>
   <label>
     <Name>kind/cleanup</Name>
@@ -87,7 +942,25 @@
     <Default>false</Default>
     <ID>5497479585</ID>
     <NodeID>LA_kwDOFhyqls8AAAABR6zhoQ</NodeID>
-    <URL>https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/kind/cleanup</URL>
+    <URL>https://api.github.com/repos/openimsdk/open-im-server/labels/kind/cleanup</URL>
+  </label>
+  <label>
+    <Name>kind/deprecation</Name>
+    <Description>Categorizes issue or PR as related to a feature/enhancement marked for deprecation.</Description>
+    <Color>e11d21</Color>
+    <Default>false</Default>
+    <ID>5768838738</ID>
+    <NodeID>LA_kwDOFhyqls8AAAABV9l-Ug</NodeID>
+    <URL>https://api.github.com/repos/openimsdk/open-im-server/labels/kind/deprecation</URL>
+  </label>
+  <label>
+    <Name>kind/design</Name>
+    <Description>Categorizes issue or PR as related to design.</Description>
+    <Color>c7def8</Color>
+    <Default>false</Default>
+    <ID>5768838705</ID>
+    <NodeID>LA_kwDOFhyqls8AAAABV9l-MQ</NodeID>
+    <URL>https://api.github.com/repos/openimsdk/open-im-server/labels/kind/design</URL>
   </label>
   <label>
     <Name>kind/documentation</Name>
@@ -96,7 +969,7 @@
     <Default>false</Default>
     <ID>3032551173</ID>
     <NodeID>MDU6TGFiZWwzMDMyNTUxMTcz</NodeID>
-    <URL>https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/kind/documentation</URL>
+    <URL>https://api.github.com/repos/openimsdk/open-im-server/labels/kind/documentation</URL>
   </label>
   <label>
     <Name>kind/failing-test</Name>
@@ -105,7 +978,7 @@
     <Default>false</Default>
     <ID>5497719639</ID>
     <NodeID>LA_kwDOFhyqls8AAAABR7CLVw</NodeID>
-    <URL>https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/kind/failing-test</URL>
+    <URL>https://api.github.com/repos/openimsdk/open-im-server/labels/kind/failing-test</URL>
   </label>
   <label>
     <Name>kind/feature</Name>
@@ -114,7 +987,25 @@
     <Default>false</Default>
     <ID>5440198764</ID>
     <NodeID>LA_kwDOFhyqls8AAAABRELYbA</NodeID>
-    <URL>https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/kind/feature</URL>
+    <URL>https://api.github.com/repos/openimsdk/open-im-server/labels/kind/feature</URL>
+  </label>
+  <label>
+    <Name>kind/flake</Name>
+    <Description>Categorizes issue or PR as related to a flaky test.</Description>
+    <Color>f7c6c7</Color>
+    <Default>false</Default>
+    <ID>5768838709</ID>
+    <NodeID>LA_kwDOFhyqls8AAAABV9l-NQ</NodeID>
+    <URL>https://api.github.com/repos/openimsdk/open-im-server/labels/kind/flake</URL>
+  </label>
+  <label>
+    <Name>kind/regression</Name>
+    <Description>Categorizes issue or PR as related to a regression from a prior release.</Description>
+    <Color>e11d21</Color>
+    <Default>false</Default>
+    <ID>5768838707</ID>
+    <NodeID>LA_kwDOFhyqls8AAAABV9l-Mw</NodeID>
+    <URL>https://api.github.com/repos/openimsdk/open-im-server/labels/kind/regression</URL>
   </label>
   <label>
     <Name>kind/support</Name>
@@ -123,7 +1014,7 @@
     <Default>false</Default>
     <ID>5497487384</ID>
     <NodeID>LA_kwDOFhyqls8AAAABR60AGA</NodeID>
-    <URL>https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/kind/support</URL>
+    <URL>https://api.github.com/repos/openimsdk/open-im-server/labels/kind/support</URL>
   </label>
   <label>
     <Name>lgtm</Name>
@@ -132,7 +1023,7 @@
     <Default>false</Default>
     <ID>5497502953</ID>
     <NodeID>LA_kwDOFhyqls8AAAABR6086Q</NodeID>
-    <URL>https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/lgtm</URL>
+    <URL>https://api.github.com/repos/openimsdk/open-im-server/labels/lgtm</URL>
   </label>
   <label>
     <Name>lifecycle/active</Name>
@@ -141,7 +1032,7 @@
     <Default>false</Default>
     <ID>5740527145</ID>
     <NodeID>LA_kwDOFhyqls8AAAABVil-KQ</NodeID>
-    <URL>https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/lifecycle/active</URL>
+    <URL>https://api.github.com/repos/openimsdk/open-im-server/labels/lifecycle/active</URL>
   </label>
   <label>
     <Name>lifecycle/frozen</Name>
@@ -150,7 +1041,7 @@
     <Default>false</Default>
     <ID>5740527149</ID>
     <NodeID>LA_kwDOFhyqls8AAAABVil-LQ</NodeID>
-    <URL>https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/lifecycle/frozen</URL>
+    <URL>https://api.github.com/repos/openimsdk/open-im-server/labels/lifecycle/frozen</URL>
   </label>
   <label>
     <Name>lifecycle/rotten</Name>
@@ -159,7 +1050,7 @@
     <Default>false</Default>
     <ID>5740527139</ID>
     <NodeID>LA_kwDOFhyqls8AAAABVil-Iw</NodeID>
-    <URL>https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/lifecycle/rotten</URL>
+    <URL>https://api.github.com/repos/openimsdk/open-im-server/labels/lifecycle/rotten</URL>
   </label>
   <label>
     <Name>lifecycle/stale</Name>
@@ -168,7 +1059,7 @@
     <Default>false</Default>
     <ID>5497523618</ID>
     <NodeID>LA_kwDOFhyqls8AAAABR62Nog</NodeID>
-    <URL>https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/lifecycle/stale</URL>
+    <URL>https://api.github.com/repos/openimsdk/open-im-server/labels/lifecycle/stale</URL>
   </label>
   <label>
     <Name>log</Name>
@@ -177,7 +1068,88 @@
     <Default>false</Default>
     <ID>5497499585</ID>
     <NodeID>LA_kwDOFhyqls8AAAABR60vwQ</NodeID>
-    <URL>https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/log</URL>
+    <URL>https://api.github.com/repos/openimsdk/open-im-server/labels/log</URL>
+  </label>
+  <label>
+    <Name>milestone/incomplete-labels</Name>
+    <Description>Marks issues or pull requests where labels are incomplete or missing.</Description>
+    <Color>ededed</Color>
+    <Default>false</Default>
+    <ID>5768838717</ID>
+    <NodeID>LA_kwDOFhyqls8AAAABV9l-PQ</NodeID>
+    <URL>https://api.github.com/repos/openimsdk/open-im-server/labels/milestone/incomplete-labels</URL>
+  </label>
+  <label>
+    <Name>milestone/needs-approval</Name>
+    <Description>Marks issues or pull requests that need approval to be included in the milestone.</Description>
+    <Color>ededed</Color>
+    <Default>false</Default>
+    <ID>5768838736</ID>
+    <NodeID>LA_kwDOFhyqls8AAAABV9l-UA</NodeID>
+    <URL>https://api.github.com/repos/openimsdk/open-im-server/labels/milestone/needs-approval</URL>
+  </label>
+  <label>
+    <Name>milestone/needs-attention</Name>
+    <Description>Marks issues or pull requests that need further attention or action to be included in the milestone.</Description>
+    <Color>ededed</Color>
+    <Default>false</Default>
+    <ID>5768838733</ID>
+    <NodeID>LA_kwDOFhyqls8AAAABV9l-TQ</NodeID>
+    <URL>https://api.github.com/repos/openimsdk/open-im-server/labels/milestone/needs-attention</URL>
+  </label>
+  <label>
+    <Name>milestone/removed</Name>
+    <Description>Marks issues or pull requests that have been removed from the milestone.</Description>
+    <Color>ededed</Color>
+    <Default>false</Default>
+    <ID>5768838747</ID>
+    <NodeID>LA_kwDOFhyqls8AAAABV9l-Ww</NodeID>
+    <URL>https://api.github.com/repos/openimsdk/open-im-server/labels/milestone/removed</URL>
+  </label>
+  <label>
+    <Name>needs-kind</Name>
+    <Description>Indicates a PR lacks a `kind/foo` label and requires one.</Description>
+    <Color>ededed</Color>
+    <Default>false</Default>
+    <ID>5768838748</ID>
+    <NodeID>LA_kwDOFhyqls8AAAABV9l-XA</NodeID>
+    <URL>https://api.github.com/repos/openimsdk/open-im-server/labels/needs-kind</URL>
+  </label>
+  <label>
+    <Name>needs-ok-to-test</Name>
+    <Description>Indicates a PR that requires an org member to verify it is safe to test.</Description>
+    <Color>b60205</Color>
+    <Default>false</Default>
+    <ID>5768838752</ID>
+    <NodeID>LA_kwDOFhyqls8AAAABV9l-YA</NodeID>
+    <URL>https://api.github.com/repos/openimsdk/open-im-server/labels/needs-ok-to-test</URL>
+  </label>
+  <label>
+    <Name>needs-priority</Name>
+    <Description>Indicates a PR lacks a `priority/foo` label and requires one.</Description>
+    <Color>ededed</Color>
+    <Default>false</Default>
+    <ID>5768838697</ID>
+    <NodeID>LA_kwDOFhyqls8AAAABV9l-KQ</NodeID>
+    <URL>https://api.github.com/repos/openimsdk/open-im-server/labels/needs-priority</URL>
+  </label>
+  <label>
+    <Name>needs-rebase</Name>
+    <Description>Indicates a PR cannot be merged because it has merge conflicts with HEAD.</Description>
+    <Color>e11d21</Color>
+    <Default>false</Default>
+    <ID>5768838647</ID>
+    <NodeID>LA_kwDOFhyqls8AAAABV9l99w</NodeID>
+    <URL>https://api.github.com/repos/openimsdk/open-im-server/labels/needs-rebase</URL>
+  </label>
+  <label>
+    <Name>needs-sig</Name>
+    <Description>Indicates an issue or PR lacks a `sig/foo` label and requires one.</Description>
+    <Color>ededed</Color>
+    <Default>false</Default>
+    <ID>5768838746</ID>
+    <NodeID>LA_kwDOFhyqls8AAAABV9l-Wg</NodeID>
+    <URL>https://api.github.com/repos/openimsdk/open-im-server/labels/needs-sig</URL>
   </label>
   <label>
     <Name>needs-triage</Name>
@@ -186,7 +1158,7 @@
     <Default>false</Default>
     <ID>5497489962</ID>
     <NodeID>LA_kwDOFhyqls8AAAABR60KKg</NodeID>
-    <URL>https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/needs-triage</URL>
+    <URL>https://api.github.com/repos/openimsdk/open-im-server/labels/needs-triage</URL>
   </label>
   <label>
     <Name>network</Name>
@@ -195,7 +1167,25 @@
     <Default>false</Default>
     <ID>5497504624</ID>
     <NodeID>LA_kwDOFhyqls8AAAABR61DcA</NodeID>
-    <URL>https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/network</URL>
+    <URL>https://api.github.com/repos/openimsdk/open-im-server/labels/network</URL>
+  </label>
+  <label>
+    <Name>official-cve-feed</Name>
+    <Description>Issues or PRs related to CVEs officially announced by Security Response Committee (SRC)</Description>
+    <Color>0052cc</Color>
+    <Default>false</Default>
+    <ID>5768838590</ID>
+    <NodeID>LA_kwDOFhyqls8AAAABV9l9vg</NodeID>
+    <URL>https://api.github.com/repos/openimsdk/open-im-server/labels/official-cve-feed</URL>
+  </label>
+  <label>
+    <Name>ok-to-test</Name>
+    <Description>Indicates a non-member PR verified by an org member that is safe to test.</Description>
+    <Color>15dd18</Color>
+    <Default>false</Default>
+    <ID>5768838632</ID>
+    <NodeID>LA_kwDOFhyqls8AAAABV9l96A</NodeID>
+    <URL>https://api.github.com/repos/openimsdk/open-im-server/labels/ok-to-test</URL>
   </label>
   <label>
     <Name>openim</Name>
@@ -204,7 +1194,52 @@
     <Default>false</Default>
     <ID>5487958651</ID>
     <NodeID>LA_kwDOFhyqls8AAAABRxuaew</NodeID>
-    <URL>https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/openim</URL>
+    <URL>https://api.github.com/repos/openimsdk/open-im-server/labels/openim</URL>
+  </label>
+  <label>
+    <Name>priority/awaiting-more-evidence</Name>
+    <Description>Lowest priority. Possibly useful, but not yet enough support to actually get it done.</Description>
+    <Color>fef2c0</Color>
+    <Default>false</Default>
+    <ID>5768838583</ID>
+    <NodeID>LA_kwDOFhyqls8AAAABV9l9tw</NodeID>
+    <URL>https://api.github.com/repos/openimsdk/open-im-server/labels/priority/awaiting-more-evidence</URL>
+  </label>
+  <label>
+    <Name>priority/backlog</Name>
+    <Description>Higher priority than priority/awaiting-more-evidence.</Description>
+    <Color>fbca04</Color>
+    <Default>false</Default>
+    <ID>5768838628</ID>
+    <NodeID>LA_kwDOFhyqls8AAAABV9l95A</NodeID>
+    <URL>https://api.github.com/repos/openimsdk/open-im-server/labels/priority/backlog</URL>
+  </label>
+  <label>
+    <Name>priority/critical-urgent</Name>
+    <Description>Highest priority. Must be actively worked on as someone&#39;s top priority right now.</Description>
+    <Color>e11d21</Color>
+    <Default>false</Default>
+    <ID>5768838608</ID>
+    <NodeID>LA_kwDOFhyqls8AAAABV9l90A</NodeID>
+    <URL>https://api.github.com/repos/openimsdk/open-im-server/labels/priority/critical-urgent</URL>
+  </label>
+  <label>
+    <Name>priority/important-longterm</Name>
+    <Description>Important over the long term, but may not be staffed and/or may need multiple releases to complete.</Description>
+    <Color>eb6420</Color>
+    <Default>false</Default>
+    <ID>5768838633</ID>
+    <NodeID>LA_kwDOFhyqls8AAAABV9l96Q</NodeID>
+    <URL>https://api.github.com/repos/openimsdk/open-im-server/labels/priority/important-longterm</URL>
+  </label>
+  <label>
+    <Name>priority/important-soon</Name>
+    <Description>Must be staffed and worked on either currently, or very soon, ideally in time for the next release.</Description>
+    <Color>eb6420</Color>
+    <Default>false</Default>
+    <ID>5768838584</ID>
+    <NodeID>LA_kwDOFhyqls8AAAABV9l9uA</NodeID>
+    <URL>https://api.github.com/repos/openimsdk/open-im-server/labels/priority/important-soon</URL>
   </label>
   <label>
     <Name>proposal</Name>
@@ -213,7 +1248,7 @@
     <Default>false</Default>
     <ID>5497500315</ID>
     <NodeID>LA_kwDOFhyqls8AAAABR60ymw</NodeID>
-    <URL>https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/proposal</URL>
+    <URL>https://api.github.com/repos/openimsdk/open-im-server/labels/proposal</URL>
   </label>
   <label>
     <Name>question</Name>
@@ -222,34 +1257,61 @@
     <Default>true</Default>
     <ID>3032551184</ID>
     <NodeID>MDU6TGFiZWwzMDMyNTUxMTg0</NodeID>
-    <URL>https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/question</URL>
+    <URL>https://api.github.com/repos/openimsdk/open-im-server/labels/question</URL>
   </label>
   <label>
-    <Name>release/2.0.0</Name>
-    <Description></Description>
-    <Color>0E8A16</Color>
+    <Name>release-note</Name>
+    <Description>Denotes a PR that will be considered when it comes time to generate release notes.</Description>
+    <Color>c2e0c6</Color>
     <Default>false</Default>
-    <ID>5497496026</ID>
-    <NodeID>LA_kwDOFhyqls8AAAABR60h2g</NodeID>
-    <URL>https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/release/2.0.0</URL>
+    <ID>5768838624</ID>
+    <NodeID>LA_kwDOFhyqls8AAAABV9l94A</NodeID>
+    <URL>https://api.github.com/repos/openimsdk/open-im-server/labels/release-note</URL>
   </label>
   <label>
-    <Name>release/3.0.0</Name>
-    <Description></Description>
-    <Color>0E8A16</Color>
+    <Name>release-note-action-required</Name>
+    <Description>Denotes a PR that introduces potentially breaking changes that require user action.</Description>
+    <Color>c2e0c6</Color>
     <Default>false</Default>
-    <ID>5497495379</ID>
-    <NodeID>LA_kwDOFhyqls8AAAABR60fUw</NodeID>
-    <URL>https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/release/3.0.0</URL>
+    <ID>5768838623</ID>
+    <NodeID>LA_kwDOFhyqls8AAAABV9l93w</NodeID>
+    <URL>https://api.github.com/repos/openimsdk/open-im-server/labels/release-note-action-required</URL>
   </label>
   <label>
-    <Name>release/4.0.0</Name>
-    <Description></Description>
+    <Name>release-note-none</Name>
+    <Description>Denotes a PR that doesn&#39;t merit a release note.</Description>
+    <Color>c2e0c6</Color>
+    <Default>false</Default>
+    <ID>5768838657</ID>
+    <NodeID>LA_kwDOFhyqls8AAAABV9l-AQ</NodeID>
+    <URL>https://api.github.com/repos/openimsdk/open-im-server/labels/release-note-none</URL>
+  </label>
+  <label>
+    <Name>release/v3.0</Name>
+    <Description>Issues and pull requests related to version 3.0 of the release. This is the current version.</Description>
     <Color>0E8A16</Color>
     <Default>false</Default>
-    <ID>5497495718</ID>
-    <NodeID>LA_kwDOFhyqls8AAAABR60gpg</NodeID>
-    <URL>https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/release/4.0.0</URL>
+    <ID>5768838644</ID>
+    <NodeID>LA_kwDOFhyqls8AAAABV9l99A</NodeID>
+    <URL>https://api.github.com/repos/openimsdk/open-im-server/labels/release/v3.0</URL>
+  </label>
+  <label>
+    <Name>release/v4.0</Name>
+    <Description>Issues and pull requests related to version 4.0 of the release. This version is in development.</Description>
+    <Color>0E8A16</Color>
+    <Default>false</Default>
+    <ID>5768838613</ID>
+    <NodeID>LA_kwDOFhyqls8AAAABV9l91Q</NodeID>
+    <URL>https://api.github.com/repos/openimsdk/open-im-server/labels/release/v4.0</URL>
+  </label>
+  <label>
+    <Name>release/v5.0</Name>
+    <Description>Issues and pull requests related to version 5.0 of the release. This version is in planning stage.</Description>
+    <Color>0E8A16</Color>
+    <Default>false</Default>
+    <ID>5768838572</ID>
+    <NodeID>LA_kwDOFhyqls8AAAABV9l9rA</NodeID>
+    <URL>https://api.github.com/repos/openimsdk/open-im-server/labels/release/v5.0</URL>
   </label>
   <label>
     <Name>report</Name>
@@ -258,7 +1320,7 @@
     <Default>false</Default>
     <ID>5503298850</ID>
     <NodeID>LA_kwDOFhyqls8AAAABSAWtIg</NodeID>
-    <URL>https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/report</URL>
+    <URL>https://api.github.com/repos/openimsdk/open-im-server/labels/report</URL>
   </label>
   <label>
     <Name>response-expired</Name>
@@ -267,7 +1329,7 @@
     <Default>false</Default>
     <ID>5497493449</ID>
     <NodeID>LA_kwDOFhyqls8AAAABR60XyQ</NodeID>
-    <URL>https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/response-expired</URL>
+    <URL>https://api.github.com/repos/openimsdk/open-im-server/labels/response-expired</URL>
   </label>
   <label>
     <Name>RFC</Name>
@@ -276,7 +1338,7 @@
     <Default>false</Default>
     <ID>5440200813</ID>
     <NodeID>LA_kwDOFhyqls8AAAABRELgbQ</NodeID>
-    <URL>https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/RFC</URL>
+    <URL>https://api.github.com/repos/openimsdk/open-im-server/labels/RFC</URL>
   </label>
   <label>
     <Name>roadmap</Name>
@@ -285,7 +1347,232 @@
     <Default>false</Default>
     <ID>5497494568</ID>
     <NodeID>LA_kwDOFhyqls8AAAABR60cKA</NodeID>
-    <URL>https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/roadmap</URL>
+    <URL>https://api.github.com/repos/openimsdk/open-im-server/labels/roadmap</URL>
+  </label>
+  <label>
+    <Name>sig/api-machinery</Name>
+    <Description>Categorizes an issue or PR as relevant to SIG API Machinery.</Description>
+    <Color>d2b48c</Color>
+    <Default>false</Default>
+    <ID>5768838631</ID>
+    <NodeID>LA_kwDOFhyqls8AAAABV9l95w</NodeID>
+    <URL>https://api.github.com/repos/openimsdk/open-im-server/labels/sig/api-machinery</URL>
+  </label>
+  <label>
+    <Name>sig/apps</Name>
+    <Description>Categorizes an issue or PR as relevant to SIG Apps.</Description>
+    <Color>d2b48c</Color>
+    <Default>false</Default>
+    <ID>5768838656</ID>
+    <NodeID>LA_kwDOFhyqls8AAAABV9l-AA</NodeID>
+    <URL>https://api.github.com/repos/openimsdk/open-im-server/labels/sig/apps</URL>
+  </label>
+  <label>
+    <Name>sig/architecture</Name>
+    <Description>Categorizes an issue or PR as relevant to SIG Architecture.</Description>
+    <Color>d2b48c</Color>
+    <Default>false</Default>
+    <ID>5768838654</ID>
+    <NodeID>LA_kwDOFhyqls8AAAABV9l9_g</NodeID>
+    <URL>https://api.github.com/repos/openimsdk/open-im-server/labels/sig/architecture</URL>
+  </label>
+  <label>
+    <Name>sig/auth</Name>
+    <Description>Categorizes an issue or PR as relevant to SIG Auth.</Description>
+    <Color>d2b48c</Color>
+    <Default>false</Default>
+    <ID>5768838650</ID>
+    <NodeID>LA_kwDOFhyqls8AAAABV9l9-g</NodeID>
+    <URL>https://api.github.com/repos/openimsdk/open-im-server/labels/sig/auth</URL>
+  </label>
+  <label>
+    <Name>sig/autoscaling</Name>
+    <Description>Categorizes an issue or PR as relevant to SIG Autoscaling.</Description>
+    <Color>d2b48c</Color>
+    <Default>false</Default>
+    <ID>5768838655</ID>
+    <NodeID>LA_kwDOFhyqls8AAAABV9l9_w</NodeID>
+    <URL>https://api.github.com/repos/openimsdk/open-im-server/labels/sig/autoscaling</URL>
+  </label>
+  <label>
+    <Name>sig/cli</Name>
+    <Description>Categorizes an issue or PR as relevant to SIG CLI.</Description>
+    <Color>d2b48c</Color>
+    <Default>false</Default>
+    <ID>5768838664</ID>
+    <NodeID>LA_kwDOFhyqls8AAAABV9l-CA</NodeID>
+    <URL>https://api.github.com/repos/openimsdk/open-im-server/labels/sig/cli</URL>
+  </label>
+  <label>
+    <Name>sig/cloud-provider</Name>
+    <Description>Categorizes an issue or PR as relevant to SIG Cloud Provider.</Description>
+    <Color>d2b48c</Color>
+    <Default>false</Default>
+    <ID>5768838669</ID>
+    <NodeID>LA_kwDOFhyqls8AAAABV9l-DQ</NodeID>
+    <URL>https://api.github.com/repos/openimsdk/open-im-server/labels/sig/cloud-provider</URL>
+  </label>
+  <label>
+    <Name>sig/cluster-lifecycle</Name>
+    <Description>Categorizes an issue or PR as relevant to SIG Cluster Lifecycle.</Description>
+    <Color>d2b48c</Color>
+    <Default>false</Default>
+    <ID>5768838659</ID>
+    <NodeID>LA_kwDOFhyqls8AAAABV9l-Aw</NodeID>
+    <URL>https://api.github.com/repos/openimsdk/open-im-server/labels/sig/cluster-lifecycle</URL>
+  </label>
+  <label>
+    <Name>sig/contributor-experience</Name>
+    <Description>Categorizes an issue or PR as relevant to SIG Contributor Experience.</Description>
+    <Color>d2b48c</Color>
+    <Default>false</Default>
+    <ID>5768838658</ID>
+    <NodeID>LA_kwDOFhyqls8AAAABV9l-Ag</NodeID>
+    <URL>https://api.github.com/repos/openimsdk/open-im-server/labels/sig/contributor-experience</URL>
+  </label>
+  <label>
+    <Name>sig/docs</Name>
+    <Description>Categorizes an issue or PR as relevant to SIG Docs.</Description>
+    <Color>d2b48c</Color>
+    <Default>false</Default>
+    <ID>5768838678</ID>
+    <NodeID>LA_kwDOFhyqls8AAAABV9l-Fg</NodeID>
+    <URL>https://api.github.com/repos/openimsdk/open-im-server/labels/sig/docs</URL>
+  </label>
+  <label>
+    <Name>sig/instrumentation</Name>
+    <Description>Categorizes an issue or PR as relevant to SIG Instrumentation.</Description>
+    <Color>d2b48c</Color>
+    <Default>false</Default>
+    <ID>5768838721</ID>
+    <NodeID>LA_kwDOFhyqls8AAAABV9l-QQ</NodeID>
+    <URL>https://api.github.com/repos/openimsdk/open-im-server/labels/sig/instrumentation</URL>
+  </label>
+  <label>
+    <Name>sig/multicluster</Name>
+    <Description>Categorizes an issue or PR as relevant to SIG Multicluster.</Description>
+    <Color>d2b48c</Color>
+    <Default>false</Default>
+    <ID>5768838677</ID>
+    <NodeID>LA_kwDOFhyqls8AAAABV9l-FQ</NodeID>
+    <URL>https://api.github.com/repos/openimsdk/open-im-server/labels/sig/multicluster</URL>
+  </label>
+  <label>
+    <Name>sig/network</Name>
+    <Description>Categorizes an issue or PR as relevant to SIG Network.</Description>
+    <Color>d2b48c</Color>
+    <Default>false</Default>
+    <ID>5768838695</ID>
+    <NodeID>LA_kwDOFhyqls8AAAABV9l-Jw</NodeID>
+    <URL>https://api.github.com/repos/openimsdk/open-im-server/labels/sig/network</URL>
+  </label>
+  <label>
+    <Name>sig/node</Name>
+    <Description>Categorizes an issue or PR as relevant to SIG Node.</Description>
+    <Color>d2b48c</Color>
+    <Default>false</Default>
+    <ID>5768838692</ID>
+    <NodeID>LA_kwDOFhyqls8AAAABV9l-JA</NodeID>
+    <URL>https://api.github.com/repos/openimsdk/open-im-server/labels/sig/node</URL>
+  </label>
+  <label>
+    <Name>sig/openim-infra</Name>
+    <Description>Categorizes an issue or PR as relevant to SIG openim Infra.</Description>
+    <Color>d2b48c</Color>
+    <Default>false</Default>
+    <ID>5768838675</ID>
+    <NodeID>LA_kwDOFhyqls8AAAABV9l-Ew</NodeID>
+    <URL>https://api.github.com/repos/openimsdk/open-im-server/labels/sig/openim-infra</URL>
+  </label>
+  <label>
+    <Name>sig/release</Name>
+    <Description>Categorizes an issue or PR as relevant to SIG Release.</Description>
+    <Color>d2b48c</Color>
+    <Default>false</Default>
+    <ID>5768838693</ID>
+    <NodeID>LA_kwDOFhyqls8AAAABV9l-JQ</NodeID>
+    <URL>https://api.github.com/repos/openimsdk/open-im-server/labels/sig/release</URL>
+  </label>
+  <label>
+    <Name>sig/scalability</Name>
+    <Description>Categorizes an issue or PR as relevant to SIG Scalability.</Description>
+    <Color>d2b48c</Color>
+    <Default>false</Default>
+    <ID>5768838694</ID>
+    <NodeID>LA_kwDOFhyqls8AAAABV9l-Jg</NodeID>
+    <URL>https://api.github.com/repos/openimsdk/open-im-server/labels/sig/scalability</URL>
+  </label>
+  <label>
+    <Name>sig/scheduling</Name>
+    <Description>Categorizes an issue or PR as relevant to SIG Scheduling.</Description>
+    <Color>d2b48c</Color>
+    <Default>false</Default>
+    <ID>5768838680</ID>
+    <NodeID>LA_kwDOFhyqls8AAAABV9l-GA</NodeID>
+    <URL>https://api.github.com/repos/openimsdk/open-im-server/labels/sig/scheduling</URL>
+  </label>
+  <label>
+    <Name>sig/security</Name>
+    <Description>Categorizes an issue or PR as relevant to SIG Security.</Description>
+    <Color>d2b48c</Color>
+    <Default>false</Default>
+    <ID>5768838701</ID>
+    <NodeID>LA_kwDOFhyqls8AAAABV9l-LQ</NodeID>
+    <URL>https://api.github.com/repos/openimsdk/open-im-server/labels/sig/security</URL>
+  </label>
+  <label>
+    <Name>sig/service-catalog</Name>
+    <Description>Categorizes an issue or PR as relevant to SIG Service Catalog.</Description>
+    <Color>d2b48c</Color>
+    <Default>false</Default>
+    <ID>5768838699</ID>
+    <NodeID>LA_kwDOFhyqls8AAAABV9l-Kw</NodeID>
+    <URL>https://api.github.com/repos/openimsdk/open-im-server/labels/sig/service-catalog</URL>
+  </label>
+  <label>
+    <Name>sig/storage</Name>
+    <Description>Categorizes an issue or PR as relevant to SIG Storage.</Description>
+    <Color>d2b48c</Color>
+    <Default>false</Default>
+    <ID>5768838703</ID>
+    <NodeID>LA_kwDOFhyqls8AAAABV9l-Lw</NodeID>
+    <URL>https://api.github.com/repos/openimsdk/open-im-server/labels/sig/storage</URL>
+  </label>
+  <label>
+    <Name>sig/testing</Name>
+    <Description>Categorizes an issue or PR as relevant to SIG Testing.</Description>
+    <Color>d2b48c</Color>
+    <Default>false</Default>
+    <ID>5768838684</ID>
+    <NodeID>LA_kwDOFhyqls8AAAABV9l-HA</NodeID>
+    <URL>https://api.github.com/repos/openimsdk/open-im-server/labels/sig/testing</URL>
+  </label>
+  <label>
+    <Name>sig/ui</Name>
+    <Description>Categorizes an issue or PR as relevant to SIG UI.</Description>
+    <Color>d2b48c</Color>
+    <Default>false</Default>
+    <ID>5768838724</ID>
+    <NodeID>LA_kwDOFhyqls8AAAABV9l-RA</NodeID>
+    <URL>https://api.github.com/repos/openimsdk/open-im-server/labels/sig/ui</URL>
+  </label>
+  <label>
+    <Name>sig/usability</Name>
+    <Description>Categorizes an issue or PR as relevant to SIG Usability.</Description>
+    <Color>d2b48c</Color>
+    <Default>false</Default>
+    <ID>5768838679</ID>
+    <NodeID>LA_kwDOFhyqls8AAAABV9l-Fw</NodeID>
+    <URL>https://api.github.com/repos/openimsdk/open-im-server/labels/sig/usability</URL>
+  </label>
+  <label>
+    <Name>sig/windows</Name>
+    <Description>Categorizes an issue or PR as relevant to SIG Windows.</Description>
+    <Color>d2b48c</Color>
+    <Default>false</Default>
+    <ID>5768838723</ID>
+    <NodeID>LA_kwDOFhyqls8AAAABV9l-Qw</NodeID>
+    <URL>https://api.github.com/repos/openimsdk/open-im-server/labels/sig/windows</URL>
   </label>
   <label>
     <Name>size/L</Name>
@@ -294,7 +1581,7 @@
     <Default>false</Default>
     <ID>5498033148</ID>
     <NodeID>LA_kwDOFhyqls8AAAABR7VT_A</NodeID>
-    <URL>https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/size/L</URL>
+    <URL>https://api.github.com/repos/openimsdk/open-im-server/labels/size/L</URL>
   </label>
   <label>
     <Name>size/M</Name>
@@ -303,7 +1590,7 @@
     <Default>false</Default>
     <ID>5498031304</ID>
     <NodeID>LA_kwDOFhyqls8AAAABR7VMyA</NodeID>
-    <URL>https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/size/M</URL>
+    <URL>https://api.github.com/repos/openimsdk/open-im-server/labels/size/M</URL>
   </label>
   <label>
     <Name>size/S</Name>
@@ -312,7 +1599,7 @@
     <Default>false</Default>
     <ID>5498030094</ID>
     <NodeID>LA_kwDOFhyqls8AAAABR7VIDg</NodeID>
-    <URL>https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/size/S</URL>
+    <URL>https://api.github.com/repos/openimsdk/open-im-server/labels/size/S</URL>
   </label>
   <label>
     <Name>size/XL</Name>
@@ -321,7 +1608,7 @@
     <Default>false</Default>
     <ID>5498033991</ID>
     <NodeID>LA_kwDOFhyqls8AAAABR7VXRw</NodeID>
-    <URL>https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/size/XL</URL>
+    <URL>https://api.github.com/repos/openimsdk/open-im-server/labels/size/XL</URL>
   </label>
   <label>
     <Name>size/XS</Name>
@@ -330,7 +1617,7 @@
     <Default>false</Default>
     <ID>5498028868</ID>
     <NodeID>LA_kwDOFhyqls8AAAABR7VDRA</NodeID>
-    <URL>https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/size/XS</URL>
+    <URL>https://api.github.com/repos/openimsdk/open-im-server/labels/size/XS</URL>
   </label>
   <label>
     <Name>size/XXL</Name>
@@ -339,25 +1626,61 @@
     <Default>false</Default>
     <ID>5498037828</ID>
     <NodeID>LA_kwDOFhyqls8AAAABR7VmRA</NodeID>
-    <URL>https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/size/XXL</URL>
+    <URL>https://api.github.com/repos/openimsdk/open-im-server/labels/size/XXL</URL>
   </label>
   <label>
-    <Name>test</Name>
-    <Description>Test related issues go here</Description>
-    <Color>FBCA04</Color>
+    <Name>sweep</Name>
+    <Description></Description>
+    <Color>AAFA00</Color>
     <Default>false</Default>
-    <ID>5497497448</ID>
-    <NodeID>LA_kwDOFhyqls8AAAABR60naA</NodeID>
-    <URL>https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/test</URL>
+    <ID>6242893431</ID>
+    <NodeID>LA_kwDOFhyqls8AAAABdBr-dw</NodeID>
+    <URL>https://api.github.com/repos/openimsdk/open-im-server/labels/sweep</URL>
+  </label>
+  <label>
+    <Name>tide/merge-blocker</Name>
+    <Description>Denotes an issue that blocks the tide merge queue for a branch while it is open.</Description>
+    <Color>e11d21</Color>
+    <Default>false</Default>
+    <ID>5768838727</ID>
+    <NodeID>LA_kwDOFhyqls8AAAABV9l-Rw</NodeID>
+    <URL>https://api.github.com/repos/openimsdk/open-im-server/labels/tide/merge-blocker</URL>
+  </label>
+  <label>
+    <Name>tide/merge-method-merge</Name>
+    <Description>Denotes a PR that should use a standard merge by tide when it merges.</Description>
+    <Color>ffaa00</Color>
+    <Default>false</Default>
+    <ID>5768838732</ID>
+    <NodeID>LA_kwDOFhyqls8AAAABV9l-TA</NodeID>
+    <URL>https://api.github.com/repos/openimsdk/open-im-server/labels/tide/merge-method-merge</URL>
+  </label>
+  <label>
+    <Name>tide/merge-method-rebase</Name>
+    <Description>Denotes a PR that should be rebased by tide when it merges.</Description>
+    <Color>ffaa00</Color>
+    <Default>false</Default>
+    <ID>5768838698</ID>
+    <NodeID>LA_kwDOFhyqls8AAAABV9l-Kg</NodeID>
+    <URL>https://api.github.com/repos/openimsdk/open-im-server/labels/tide/merge-method-rebase</URL>
+  </label>
+  <label>
+    <Name>tide/merge-method-squash</Name>
+    <Description>Denotes a PR that should be squashed by tide when it merges.</Description>
+    <Color>ffaa00</Color>
+    <Default>false</Default>
+    <ID>5768838676</ID>
+    <NodeID>LA_kwDOFhyqls8AAAABV9l-FA</NodeID>
+    <URL>https://api.github.com/repos/openimsdk/open-im-server/labels/tide/merge-method-squash</URL>
   </label>
   <label>
     <Name>triage/accepted</Name>
     <Description>Indicates an issue or PR is ready to be actively worked on.</Description>
-    <Color>0E8A16</Color>
+    <Color>8fc951</Color>
     <Default>false</Default>
     <ID>5497488800</ID>
     <NodeID>LA_kwDOFhyqls8AAAABR60FoA</NodeID>
-    <URL>https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/triage/accepted</URL>
+    <URL>https://api.github.com/repos/openimsdk/open-im-server/labels/triage/accepted</URL>
   </label>
   <label>
     <Name>triage/duplicate</Name>
@@ -366,7 +1689,7 @@
     <Default>false</Default>
     <ID>5500268174</ID>
     <NodeID>LA_kwDOFhyqls8AAAABR9dujg</NodeID>
-    <URL>https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/triage/duplicate</URL>
+    <URL>https://api.github.com/repos/openimsdk/open-im-server/labels/triage/duplicate</URL>
   </label>
   <label>
     <Name>triage/needs-information</Name>
@@ -375,7 +1698,7 @@
     <Default>false</Default>
     <ID>5500271781</ID>
     <NodeID>LA_kwDOFhyqls8AAAABR9d8pQ</NodeID>
-    <URL>https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/triage/needs-information</URL>
+    <URL>https://api.github.com/repos/openimsdk/open-im-server/labels/triage/needs-information</URL>
   </label>
   <label>
     <Name>triage/not-reproducible</Name>
@@ -384,7 +1707,7 @@
     <Default>false</Default>
     <ID>5500272163</ID>
     <NodeID>LA_kwDOFhyqls8AAAABR9d-Iw</NodeID>
-    <URL>https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/triage/not-reproducible</URL>
+    <URL>https://api.github.com/repos/openimsdk/open-im-server/labels/triage/not-reproducible</URL>
   </label>
   <label>
     <Name>triage/unresolved</Name>
@@ -393,7 +1716,151 @@
     <Default>false</Default>
     <ID>5500267848</ID>
     <NodeID>LA_kwDOFhyqls8AAAABR9dtSA</NodeID>
-    <URL>https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/triage/unresolved</URL>
+    <URL>https://api.github.com/repos/openimsdk/open-im-server/labels/triage/unresolved</URL>
+  </label>
+  <label>
+    <Name>ug/big-data</Name>
+    <Description>Categorizes an issue or PR as relevant to ug-big-data.</Description>
+    <Color>d2b48c</Color>
+    <Default>false</Default>
+    <ID>5768838691</ID>
+    <NodeID>LA_kwDOFhyqls8AAAABV9l-Iw</NodeID>
+    <URL>https://api.github.com/repos/openimsdk/open-im-server/labels/ug/big-data</URL>
+  </label>
+  <label>
+    <Name>ug/vmware</Name>
+    <Description>Categorizes an issue or PR as relevant to ug-vmware.</Description>
+    <Color>d2b48c</Color>
+    <Default>false</Default>
+    <ID>5768838702</ID>
+    <NodeID>LA_kwDOFhyqls8AAAABV9l-Lg</NodeID>
+    <URL>https://api.github.com/repos/openimsdk/open-im-server/labels/ug/vmware</URL>
+  </label>
+  <label>
+    <Name>wg/api-expression</Name>
+    <Description>Categorizes an issue or PR as relevant to WG API Expression.</Description>
+    <Color>d2b48c</Color>
+    <Default>false</Default>
+    <ID>5768838716</ID>
+    <NodeID>LA_kwDOFhyqls8AAAABV9l-PA</NodeID>
+    <URL>https://api.github.com/repos/openimsdk/open-im-server/labels/wg/api-expression</URL>
+  </label>
+  <label>
+    <Name>wg/batch</Name>
+    <Description>Categorizes an issue or PR as relevant to WG Batch.</Description>
+    <Color>d2b48c</Color>
+    <Default>false</Default>
+    <ID>5768838713</ID>
+    <NodeID>LA_kwDOFhyqls8AAAABV9l-OQ</NodeID>
+    <URL>https://api.github.com/repos/openimsdk/open-im-server/labels/wg/batch</URL>
+  </label>
+  <label>
+    <Name>wg/cluster-api</Name>
+    <Description>Categorizes an issue or PR as relevant to wg-cluster-api.</Description>
+    <Color>d2b48c</Color>
+    <Default>false</Default>
+    <ID>5768838725</ID>
+    <NodeID>LA_kwDOFhyqls8AAAABV9l-RQ</NodeID>
+    <URL>https://api.github.com/repos/openimsdk/open-im-server/labels/wg/cluster-api</URL>
+  </label>
+  <label>
+    <Name>wg/component-standard</Name>
+    <Description>Categorizes an issue or PR as relevant to WG Component Standard.</Description>
+    <Color>d2b48c</Color>
+    <Default>false</Default>
+    <ID>5768838735</ID>
+    <NodeID>LA_kwDOFhyqls8AAAABV9l-Tw</NodeID>
+    <URL>https://api.github.com/repos/openimsdk/open-im-server/labels/wg/component-standard</URL>
+  </label>
+  <label>
+    <Name>wg/data-protection</Name>
+    <Description>Categorizes an issue or PR as relevant to WG Data Protection.</Description>
+    <Color>d2b48c</Color>
+    <Default>false</Default>
+    <ID>5768838687</ID>
+    <NodeID>LA_kwDOFhyqls8AAAABV9l-Hw</NodeID>
+    <URL>https://api.github.com/repos/openimsdk/open-im-server/labels/wg/data-protection</URL>
+  </label>
+  <label>
+    <Name>wg/iot-edge</Name>
+    <Description>Categorizes an issue or PR as relevant to WG IOT Edge.</Description>
+    <Color>d2b48c</Color>
+    <Default>false</Default>
+    <ID>5768838719</ID>
+    <NodeID>LA_kwDOFhyqls8AAAABV9l-Pw</NodeID>
+    <URL>https://api.github.com/repos/openimsdk/open-im-server/labels/wg/iot-edge</URL>
+  </label>
+  <label>
+    <Name>wg/lts</Name>
+    <Description>Categorizes an issue or PR as relevant to WG LTS.</Description>
+    <Color>d2b48c</Color>
+    <Default>false</Default>
+    <ID>5768838711</ID>
+    <NodeID>LA_kwDOFhyqls8AAAABV9l-Nw</NodeID>
+    <URL>https://api.github.com/repos/openimsdk/open-im-server/labels/wg/lts</URL>
+  </label>
+  <label>
+    <Name>wg/machine-learning</Name>
+    <Description>Categorizes an issue or PR as relevant to WG Machine Learning.</Description>
+    <Color>d2b48c</Color>
+    <Default>false</Default>
+    <ID>5768838720</ID>
+    <NodeID>LA_kwDOFhyqls8AAAABV9l-QA</NodeID>
+    <URL>https://api.github.com/repos/openimsdk/open-im-server/labels/wg/machine-learning</URL>
+  </label>
+  <label>
+    <Name>wg/multitenancy</Name>
+    <Description>Categorizes an issue or PR as relevant to WG Multitenancy.</Description>
+    <Color>d2b48c</Color>
+    <Default>false</Default>
+    <ID>5768838712</ID>
+    <NodeID>LA_kwDOFhyqls8AAAABV9l-OA</NodeID>
+    <URL>https://api.github.com/repos/openimsdk/open-im-server/labels/wg/multitenancy</URL>
+  </label>
+  <label>
+    <Name>wg/naming</Name>
+    <Description>Categorizes an issue or PR as relevant to WG Naming.</Description>
+    <Color>d2b48c</Color>
+    <Default>false</Default>
+    <ID>5768838729</ID>
+    <NodeID>LA_kwDOFhyqls8AAAABV9l-SQ</NodeID>
+    <URL>https://api.github.com/repos/openimsdk/open-im-server/labels/wg/naming</URL>
+  </label>
+  <label>
+    <Name>wg/policy</Name>
+    <Description>Categorizes an issue or PR as relevant to WG Policy.</Description>
+    <Color>d2b48c</Color>
+    <Default>false</Default>
+    <ID>5768838714</ID>
+    <NodeID>LA_kwDOFhyqls8AAAABV9l-Og</NodeID>
+    <URL>https://api.github.com/repos/openimsdk/open-im-server/labels/wg/policy</URL>
+  </label>
+  <label>
+    <Name>wg/reliability</Name>
+    <Description>Categorizes an issue or PR as relevant to WG Reliability</Description>
+    <Color>d2b48c</Color>
+    <Default>false</Default>
+    <ID>5768838745</ID>
+    <NodeID>LA_kwDOFhyqls8AAAABV9l-WQ</NodeID>
+    <URL>https://api.github.com/repos/openimsdk/open-im-server/labels/wg/reliability</URL>
+  </label>
+  <label>
+    <Name>wg/security-audit</Name>
+    <Description>Categorizes an issue or PR as relevant to WG Security Audit.</Description>
+    <Color>d2b48c</Color>
+    <Default>false</Default>
+    <ID>5768838749</ID>
+    <NodeID>LA_kwDOFhyqls8AAAABV9l-XQ</NodeID>
+    <URL>https://api.github.com/repos/openimsdk/open-im-server/labels/wg/security-audit</URL>
+  </label>
+  <label>
+    <Name>wg/structured-logging</Name>
+    <Description>Categorizes an issue or PR as relevant to WG Structured Logging.</Description>
+    <Color>d2b48c</Color>
+    <Default>false</Default>
+    <ID>5768838571</ID>
+    <NodeID>LA_kwDOFhyqls8AAAABV9l9qw</NodeID>
+    <URL>https://api.github.com/repos/openimsdk/open-im-server/labels/wg/structured-logging</URL>
   </label>
   <label>
     <Name>wontfix</Name>
@@ -402,6 +1869,6 @@
     <Default>true</Default>
     <ID>3032551187</ID>
     <NodeID>MDU6TGFiZWwzMDMyNTUxMTg3</NodeID>
-    <URL>https://api.github.com/repos/OpenIMSDK/Open-IM-Server/labels/wontfix</URL>
+    <URL>https://api.github.com/repos/openimsdk/open-im-server/labels/wontfix</URL>
   </label>
 </labels>

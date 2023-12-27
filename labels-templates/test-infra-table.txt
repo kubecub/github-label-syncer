@@ -321,6 +321,8 @@
 |                                        | Experience.                      |        |
 | sig/docs                               | Categorizes an issue or PR as    | d2b48c |
 |                                        | relevant to SIG Docs.            |        |
+| sig/etcd                               | Categorizes an issue or PR as    | d2b48c |
+|                                        | relevant to SIG Etcd.            |        |
 | sig/instrumentation                    | Categorizes an issue or          | d2b48c |
 |                                        | PR as relevant to SIG            |        |
 |                                        | Instrumentation.                 |        |

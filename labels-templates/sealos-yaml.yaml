@@ -194,6 +194,13 @@
   name: automated issue
   node_id: LA_kwDOCKI7Xc8AAAABR7C0Zw
   url: https://api.github.com/repos/labring/sealos/labels/automated%20issue
+- color: D5F8BC
+  default: false
+  description: ""
+  id: 5837058238
+  name: cherry-pick
+  node_id: LA_kwDOCKI7Xc8AAAABW-pwvg
+  url: https://api.github.com/repos/labring/sealos/labels/cherry-pick
 - color: 1D6C8E
   default: false
   description: ""
@@ -383,6 +390,13 @@
   name: 'status: needs information'
   node_id: LA_kwDOCKI7Xc7_oo9_
   url: https://api.github.com/repos/labring/sealos/labels/status:%20needs%20information
+- color: "5320E7"
+  default: false
+  description: Assigns Sweep to an issue or pull request.
+  id: 5842151715
+  name: sweep
+  node_id: LA_kwDOCKI7Xc8AAAABXDgpIw
+  url: https://api.github.com/repos/labring/sealos/labels/sweep
 - color: d876e3
   default: false
   description: Further information is requested
