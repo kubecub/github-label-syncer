@@ -1,0 +1,31 @@
+name: CI
+
+on: [push, pull_request]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Set up Go
+      uses: actions/setup-go@v2
+      with:
+        go-version: 1.16
+
+    - name: Install go-gitlint
+      run: |
+        if ! command -v ./_output/tools/go-gitlint &>/dev/null; then
+          make tools || make tools.verify.go-gitlint
+        fi
+
+    - name: Run commit-msg hook
+      run: |
+        chmod +x scripts/githooks/commit-msg
+        echo "test: this is a test commit" > COMMIT_EDITMSG
+        ./scripts/githooks/commit-msg COMMIT_EDITMSG
+
+    - name: Test
+      run: go test ./...
