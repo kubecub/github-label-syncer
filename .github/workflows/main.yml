@@ -21,4 +21,13 @@ jobs:
       run: make tools
 
     - name: Run commit-msg hook
+      run: git commit
+
+    - name: Run vulnerability scan
+      uses: anchore/scan-action@v3
+      with:
+        fail-build: false
       run: git commit -m "test: this commit is allowed file sizes up to 50MB"
+
+    - name: Update dependencies
+      run: go get -u ./...
