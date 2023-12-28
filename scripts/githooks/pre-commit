@@ -41,6 +41,16 @@ printMessage "Running local kubecub pre-commit hook."
 
 # flutter format .
 # https://gist.github.com/cubxxw/126b72104ac0b0ca484c9db09c3e5694#file-githook-md
+# Check if go-gitlint is available and install if necessary
+if [ ! -f "${GITLINT_DIR}" ]; then  
+  printError "${GITLINT_DIR} not found, installing..."
+  make tools || make tools.verify.go-gitlint
+fi
+if [ ! -f "$GITLINT_DIR" ]; then
+  printError "go-gitlint not found and has been installed. Please run 'make tools' OR 'make tools.verify.go-gitlint' if the issue persists."
+  make tools || make tools.verify.go-gitlint
+fi
+
 # TODO! GIT_FILE_SIZE_LIMIT=50000000 git commit -m "test: this commit is allowed file sizes up to 50MB"
 # Maximum file size limit in bytes
 limit=${GIT_FILE_SIZE_LIMIT:-2000000} # Default 2MB
