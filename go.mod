@@ -153,4 +153,5 @@ require (
 	k8s.io/klog/v2 v2.100.1 // indirect
 	k8s.io/utils v0.0.0-20230406110748-d93618cff8a2 // indirect
 	sigs.k8s.io/kind v0.20.0 // indirect
+	github.com/jorisroovers/gitlint v0.19.1
 )
