@@ -1,0 +1,25 @@
+import os
+import sys
+from pyspellchecker import SpellChecker
+
+def check_typos(file_path):
+    try:
+        with open(file_path, 'r') as file:
+            text = file.read()
+    except Exception as e:
+        print(f"Error reading file {file_path}: {e}")
+        sys.exit(1)
+
+    spell = SpellChecker()
+    misspelled = spell.unknown(text.split())
+
+    if misspelled:
+        print(f"Found misspelled words in {file_path}:")
+        for word in misspelled:
+            print(f"{word} -> {spell.correction(word)}")
+    else:
+        print(f"No misspelled words found in {file_path}.")
+
+if __name__ == "__main__":
+    check_typos("./CONTRIBUTING.md")
+    check_typos("./README.md")
