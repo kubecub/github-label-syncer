@@ -13,6 +13,11 @@
 # You may need to make the script executable by 'chmod +x .git/hooks/commit-msg'.
 
 # commit-msg use go-gitlint tool, install go-gitlint via `go get github.com/llorllale/go-gitlint/cmd/go-gitlint`
+# Check if go-gitlint exists
+if ! command -v ./_output/tools/go-gitlint &>/dev/null; then
+    make tools
+fi
+
 # go-gitlint --msg-file="$1"
 
 # An example hook script to check the commit log message.
@@ -61,8 +66,10 @@ $GITLINT_DIR \
 
 if [ $? -ne 0 ]
 then
-    if ! command -v $GITLINT_DIR &>/dev/null; then
-        printError "$GITLINT_DIR not found. Please run 'make tools' OR 'make tools.verify.go-gitlint' make verto install it."
+    printError "$GITLINT_DIR not found. Please run 'make tools' OR 'make tools.verify.go-gitlint' make verto install it."
+fi
+if ! command -v $GITLINT_DIR &>/dev/null; then
+
     fi
     printError "Please fix your commit message to match kubecub coding standards"
     printError "https://gist.github.com/cubxxw/126b72104ac0b0ca484c9db09c3e5694#file-githook-md"
