@@ -174,6 +174,19 @@ ifneq ($(shell $(GO) version | grep -q -E '\bgo($(GO_SUPPORTED_VERSIONS))\b' && 
 	$(error unsupported go version. Please make install one of the following supported version: '$(GO_SUPPORTED_VERSIONS)')
 endif
 
+====> Building binary $(COMMAND) $(VERSION) for $(OS)_$(ARCH)"
+	@mkdir -p $(BIN_DIR)/platforms/$(OS)/$(ARCH)
+	@CGO_ENABLED=0 GOOS=$(OS) GOARCH=$(ARCH) $(GO) build $(GO_BUILD_FLAGS) -o $(BIN_DIR)/platforms/$(OS)/$(ARCH)/$(COMMAND)$(GO_OUT_EXT) $(ROOT_PACKAGE)/cmd/$(COMMAND)
+
+## build-multiarch: Build binaries for multiple platforms.
+.PHONY: build-multiarch
+build-multiarch: go.build.verify $(foreach p,$(PLATFORMS),$(addprefix go.build., $(addprefix $(p)., $(BINS))))
+# ==============================================================================
+# Targets
+.PHONY: release
+release: release.verify release.ensure-tag
+	@scripts/release.sh
+=======
 ## go.build: Build the binary file of the specified platform.
 .PHONY: go.build.%
 go.build.%:
@@ -184,6 +197,18 @@ go.build.%:
 	@echo "=====> COMMAND=$(COMMAND)"
 	@echo "=====> PLATFORM=$(PLATFORM)"
 	@echo "=====> BIN_DIR=$(BIN_DIR)"
+	@echo "===========> Building binary $(COMMAND) $(VERSION) for $(OS)_$(ARCH)"
+	@mkdir -p $(BIN_DIR)/platforms/$(OS)/$(ARCH)
+	@CGO_ENABLED=0 GOOS=$(OS) GOARCH=$(ARCH) $(GO) build $(GO_BUILD_FLAGS) -o $(BIN_DIR)/platforms/$(OS)/$(ARCH)/$(COMMAND)$(GO_OUT_EXT) $(ROOT_PACKAGE)/cmd/$(COMMAND)
+
+## build-multiarch: Build binaries for multiple platforms.
+.PHONY: build-multiarch
+build-multiarch: go.build.verify $(foreach p,$(PLATFORMS),$(addprefix go.build., $(addprefix $(p)., $(BINS))))
+# ==============================================================================
+# Targets
+.PHONY: release
+release: scan release.verify release.ensure-tag
+	@scripts/release.sh
 	@echo "===========> Building binary $(COMMAND) $(VERSION) for $(OS)_$(ARCH)"
 	@mkdir -p $(BIN_DIR)/platforms/$(OS)/$(ARCH)
 	@CGO_ENABLED=0 GOOS=$(OS) GOARCH=$(ARCH) $(GO) build $(GO_BUILD_FLAGS) -o $(BIN_DIR)/platforms/$(OS)/$(ARCH)/$(COMMAND)$(GO_OUT_EXT) $(ROOT_PACKAGE)/cmd/$(COMMAND)
@@ -483,3 +508,7 @@ install.richgo:
 .PHONY: install.rts
 install.rts:
 	@$(GO) install github.com/galeone/rts/cmd/rts@latest
+## scan: Scan the binaries for vulnerabilities.
+.PHONY: scan
+scan: build
+	grype -o sarif --fail-on medium dir:.
