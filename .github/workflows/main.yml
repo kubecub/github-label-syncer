@@ -1,0 +1,24 @@
+name: CI
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Install necessary tools
+      run: make tools
+      continue-on-error: true
+
+    - name: Checkout code
+      uses: actions/checkout@v2
+      with:
+        fetch-depth: 0
+
+    - name: Run commit hooks
+      run: ./scripts/githooks/commit-msg && ./scripts/githooks/pre-commit
