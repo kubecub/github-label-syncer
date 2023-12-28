@@ -1,0 +1,26 @@
+#!/usr/bin/env bash
+
+command_exists () {
+    type "$1" &> /dev/null ;
+}
+
+main () {
+    for file in "$@"
+    do
+        if [ ! -f "$file" ]; then
+            echo "File not found: $file"
+            exit 1
+        fi
+
+        if command_exists aspell; then
+            aspell check "$file"
+        elif command_exists hunspell; then
+            hunspell -l "$file"
+        else
+            echo "Neither aspell nor hunspell is installed. Please install one of them and try again."
+            exit 1
+        fi
+    done
+}
+
+main "$@"
