@@ -1,0 +1,6 @@
+#!/bin/bash
+
+for file in "$@"
+do
+  aspell -c --mode=markdown "$file"
+done
