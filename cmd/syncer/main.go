@@ -11,6 +11,7 @@ import (
 	"os"
 	"strconv"
 	"strings"
+	"time"
 
 	"github.com/joho/godotenv"
 	"github.com/kubecub/github-label-syncer/pkg/github"
@@ -74,9 +75,18 @@ func run(ctx context.Context) error {
 		owner, repo := s[0], s[1]
 
 		if err := client.SyncLabels(ctx, owner, repo, labels, prune); err != nil {
-			// err = multierr.Append(err, fmt.Errorf("unable to sync labels: %w", err))
+			if rateLimitErr, ok := err.(*github.RateLimitError); ok && rateLimitErr.Rate.Reset != nil {
+				timeUntilReset := time.Until(*rateLimitErr.Rate.Reset)
+				if timeUntilReset > 0 {
+					time.Sleep(timeUntilReset)
+				}
+			} else {
+				time.Sleep(1 * time.Second)
+				// handle other errors
+			}
+		} else {
+			time.Sleep(1 * time.Second)
 		}
 	}
-
 	return err
 }
