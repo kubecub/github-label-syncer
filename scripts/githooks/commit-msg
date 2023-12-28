@@ -51,6 +51,15 @@ test "" = "$(grep '^Signed-off-by: ' "$1" |
 # TODO: go-gitlint dir set
 GITLINT_DIR="./_output/tools/go-gitlint"
 
+if ! command -v $GITLINT_DIR &>/dev/null; then
+    printMessage "go-gitlint tool not found, attempting to install it..."
+    make tools || make tools.verify.go-gitlint
+    if [ $? -ne 0 ]; then
+        printError "Failed to install go-gitlint. Please manually run 'make tools' or 'make tools.verify.go-gitlint'."
+        exit 1
+    fi
+fi
+
 $GITLINT_DIR \
     --msg-file=$1 \
     --subject-regex="^(build|chore|ci|docs|feat|feature|fix|perf|refactor|revert|style|test)(.*)?:\s?.*" \
@@ -61,8 +70,7 @@ $GITLINT_DIR \
 
 if [ $? -ne 0 ]
 then
-    if ! command -v $GITLINT_DIR &>/dev/null; then
-        printError "$GITLINT_DIR not found. Please run 'make tools' OR 'make tools.verify.go-gitlint' make verto install it."
+    printError "Failed to install go-gitlint or go-gitlint tool not found after running 'make tools' or 'make tools.verify.go-gitlint'. Please check the installation process and try again."
     fi
     printError "Please fix your commit message to match kubecub coding standards"
     printError "https://gist.github.com/cubxxw/126b72104ac0b0ca484c9db09c3e5694#file-githook-md"
