@@ -1,0 +1,28 @@
+#!/bin/bash
+
+# Function to check for typos
+check_typos() {
+    local dir=$1
+    grep -r -n "teh" $dir
+    grep -r -n "an d" $dir
+    grep -r -n "fro " $dir
+}
+
+# Function to correct typos
+correct_typos() {
+    local file=$1
+    local typo=$2
+    local correct=$3
+    sed -i "s/$typo/$correct/g" $file
+}
+
+# Main function
+main() {
+    local dir=$1
+    check_typos $dir
+    correct_typos $dir "teh" "the"
+    correct_typos $dir "an d" "and"
+    correct_typos $dir "fro " "for"
+}
+
+main $1
