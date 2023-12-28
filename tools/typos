@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+
+# List of common typos to check for
+typos=("teh" "thier" "wierd" "recieve" "seperate" "occured" "publically")
+
+# Loop over all input files
+for file in "$@"
+do
+  echo "Checking file: $file"
+  
+  # Loop over all typos
+  for typo in "${typos[@]}"
+  do
+    # Use grep to find the typo in the file
+    grep -n "$typo" "$file"
+  done
+done
