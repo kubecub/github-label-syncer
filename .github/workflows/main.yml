@@ -1,0 +1,16 @@
+name: CI
+
+on: [push, pull_request]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Install go-gitlint
+      run: make tools || make tools.verify.go-gitlint
+
+    - name: Commit code
+      run: git commit -m "feat: Add new feature"
