@@ -1,0 +1,24 @@
+#!/bin/bash
+
+check_typos() {
+  for file in "$@"; do
+    local line_number=0
+    while IFS= read -r line; do
+      ((line_number++))
+      if [[ $line =~ [，。！？【】] ]]; then
+        echo "Error in $file at line $line_number: Chinese punctuations in English docs."
+      elif [[ $line =~ [a-z]\.[A-Z] ]]; then
+        echo "Error in $file at line $line_number: No upper case letters at the start of sentences."
+      elif [[ $line =~ ^\`\`\`$ && ! $line =~ ^\`\`\`[a-z]+ ]]; then
+        echo "Error in $file at line $line_number: No language specified for Markdown code block."
+      elif [[ $line =~ [a-zA-Z][\u4e00-\u9fa5] || $line =~ [\u4e00-\u9fa5][a-zA-Z] ]]; then
+        echo "Error in $file at line $line_number: No whitespace between Chinese and English words."
+      elif [[ $line =~ http || $line =~ mysql || $line =~ kubernetes ]]; then
+        echo "Error in $file at line $line_number: Incorrect case for technical terms."
+      fi
+    done < "$file"
+  done
+  echo "No typos found. Good job!"
+}
+
+check_typos "$@"
