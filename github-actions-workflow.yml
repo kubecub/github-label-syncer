@@ -1,0 +1,20 @@
+name: CI
+
+on: [push, pull_request]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Install go-gitlint
+      run: make tools.verify.go-gitlint
+
+    - name: Run tests
+      run: make test
+
+    - name: Commit changes
+      run: git commit -m "feat: Install go-gitlint in GitHub Actions workflow"
