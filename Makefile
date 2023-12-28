@@ -37,7 +37,7 @@ $(shell mkdir -p $(BIN_DIR))
 endif
 
 ifeq ($(origin TOOLS_DIR),undefined)
-TOOLS_DIR := $(OUTPUT_DIR)/tools
+TOOLS_DIR := ./_output/tools
 $(shell mkdir -p $(TOOLS_DIR))
 endif
 
@@ -348,6 +348,7 @@ install.ginkgo:
 # go install github.com/antham/go-gitlint/cmd/gitlint@latest
 install.go-gitlint:
 	@wget -q https://openim-1306374445.cos.ap-guangzhou.myqcloud.com/openim/tools/go-gitlint -O ${TOOLS_DIR}/go-gitlint
+	@chmod +x ${TOOLS_DIR}/go-gitlint
 	@chmod +x ${TOOLS_DIR}/go-gitlint
 
 ## install.go-junit-report: Install go-junit-report, used to generate junit report
