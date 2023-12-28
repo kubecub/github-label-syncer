@@ -53,8 +53,11 @@ GITLINT_DIR="./_output/tools/go-gitlint"
 
 # Check if go-gitlint tool exists and attempt installation if it does not
 if ! command -v $GITLINT_DIR &>/dev/null; then
-    printMessage "Attempting to install go-gitlint..."
-    make tools || make tools.verify.go-gitlint
+    printError "$GITLINT_DIR is not found. Attempting to install go-gitlint..."
+    if ! make tools && ! make tools.verify.go-gitlint; then
+        printError "Installation of go-gitlint failed. Please try to install it manually."
+        exit 1
+    fi
 fi
 
 $GITLINT_DIR \
