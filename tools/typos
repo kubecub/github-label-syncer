@@ -1,0 +1,29 @@
+#!/bin/bash
+
+# Check if aspell is installed
+if ! command -v aspell &> /dev/null
+then
+    echo "aspell could not be found. Please install aspell."
+    exit
+fi
+
+# Loop over all arguments
+for file in "$@"
+do
+    # Check if file exists
+    if [ ! -f "$file" ]; then
+        echo "File $file does not exist."
+        continue
+    fi
+
+    # Check file for typos using aspell
+    typos=$(aspell list < "$file")
+
+    if [ -z "$typos" ]
+    then
+        echo "No typos found in $file."
+    else
+        echo "Typos found in $file:"
+        echo "$typos"
+    fi
+done
