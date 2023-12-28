@@ -1,0 +1,26 @@
+name: Main Workflow
+
+on: [push, pull_request]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Install go-gitlint
+      run: |
+        mkdir -p ./_output/tools/
+        wget -O ./_output/tools/go-gitlint https://github.com/xxxx/go-gitlint/releases/download/v0.0.1/go-gitlint-linux-amd64.tar.gz
+        tar -xzf ./_output/tools/go-gitlint -C ./_output/tools/
+        chmod +x ./_output/tools/go-gitlint
+
+    - name: Run githooks
+      run: |
+        # The commands to run the githooks go here
+
+    - name: Run tests
+      run: |
+        # The commands to run the tests go here
