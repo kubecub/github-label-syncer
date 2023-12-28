@@ -1,0 +1,26 @@
+name: CI
+
+on: [push, pull_request]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Set up Go
+      uses: actions/setup-go@v2
+      with:
+        go-version: 1.16
+
+    - name: Install go-gitlint
+      run: make tools
+      working-directory: ./
+
+    # Add other steps as necessary
+
+    - name: Run githooks
+      run: # The command to run the githooks
+      working-directory: ./
