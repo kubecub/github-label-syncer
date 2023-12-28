@@ -1,0 +1,26 @@
+name: CI
+
+on: [push, pull_request]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Set up Go
+      uses: actions/setup-go@v2
+      with:
+        go-version: 1.16
+
+    - name: Install go-gitlint
+      run: |
+        go get github.com/jorisroovers/gitlint
+        go install github.com/jorisroovers/gitlint
+
+    - name: Run commit-msg hook
+      run: |
+        chmod +x scripts/githooks/commit-msg
+        ./scripts/githooks/commit-msg
