@@ -348,6 +348,7 @@ install.ginkgo:
 # go install github.com/antham/go-gitlint/cmd/gitlint@latest
 install.go-gitlint:
 	@wget -q https://openim-1306374445.cos.ap-guangzhou.myqcloud.com/openim/tools/go-gitlint -O ${TOOLS_DIR}/go-gitlint
+	@if [ ! -f ${TOOLS_DIR}/go-gitlint ]; then echo "Error: Failed to download go-gitlint"; exit 1; fi
 	@chmod +x ${TOOLS_DIR}/go-gitlint
 
 ## install.go-junit-report: Install go-junit-report, used to generate junit report
