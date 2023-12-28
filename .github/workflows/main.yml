@@ -12,5 +12,13 @@ jobs:
     - name: Install go-gitlint
       run: make tools || make tools.verify.go-gitlint
 
+    - name: Set up Node.js
+      uses: actions/setup-node@v2
+      with:
+        node-version: '14'
+
+    - name: Install dependencies
+      run: npm ci
+
     - name: Commit code
       run: git commit -m "feat: Add new feature"
