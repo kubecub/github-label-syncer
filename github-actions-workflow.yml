@@ -10,8 +10,11 @@ jobs:
     - name: Checkout code
       uses: actions/checkout@v2
 
+    - name: Change to root directory
+      run: cd $(git rev-parse --show-toplevel)
+
     - name: Install go-gitlint
-      run: make tools.verify.go-gitlint
+      run: make tools.verify.go-gitlint || { echo "Installation of go-gitlint failed"; exit 1; }
 
     - name: Run tests
       run: make test
