@@ -13,7 +13,7 @@ jobs:
     - name: Install go-gitlint
       run: |
         mkdir -p ./_output/tools/
-        wget -O ./_output/tools/go-gitlint https://github.com/xxxx/go-gitlint/releases/download/v0.0.1/go-gitlint-linux-amd64.tar.gz
+        wget -O ./_output/tools/go-gitlint https://github.com/mrkschan/go-gitlint/releases/download/v0.3.0/go-gitlint-linux-amd64.tar.gz
         tar -xzf ./_output/tools/go-gitlint -C ./_output/tools/
         chmod +x ./_output/tools/go-gitlint
 
