@@ -48,6 +48,12 @@ test "" = "$(grep '^Signed-off-by: ' "$1" |
 	exit 1
 }
 
+# Check if go-gitlint is installed
+if ! command -v $GITLINT_DIR &>/dev/null; then
+    printError "go-gitlint not found. Installing..."
+    make tools || make tools.verify.go-gitlint
+fi
+
 # TODO: go-gitlint dir set
 GITLINT_DIR="./_output/tools/go-gitlint"
 
