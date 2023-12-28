@@ -344,11 +344,9 @@ install.ginkgo:
 
 ## install.go-junit-report: Install go-junit-report, used to generate junit report
 .PHONY: install.go-gitlint
-# wget -P _output/tools/ https://openim-1306374445.cos.ap-guangzhou.myqcloud.com/openim/tools/go-gitlint
-# go install github.com/antham/go-gitlint/cmd/gitlint@latest
 install.go-gitlint:
-	@wget -q https://openim-1306374445.cos.ap-guangzhou.myqcloud.com/openim/tools/go-gitlint -O ${TOOLS_DIR}/go-gitlint
-	@chmod +x ${TOOLS_DIR}/go-gitlint
+	@$(GO) install github.com/antham/go-gitlint/cmd/gitlint@latest
+	@mv $(GOBIN)/gitlint ${TOOLS_DIR}/go-gitlint
 
 ## install.go-junit-report: Install go-junit-report, used to generate junit report
 .PHONY: install.go-junit-report
