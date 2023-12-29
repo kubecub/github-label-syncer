@@ -277,9 +277,9 @@ copyright-add: tools.verify.addlicense
 	@$(TOOLS_DIR)/addlicense -y $(shell date +"%Y") -v -c "KubeCub open source community." -f $(LICENSE_TEMPLATE) $(CODE_DIRS)
 	@echo "===========> End the copyright is added..."
 
-## tools: Install a must tools
+## tools: Install essential tools including go-gitlint
 .PHONY: tools
-tools: $(addprefix tools.verify., $(BUILD_TOOLS))
+tools: tools.install.go-gitlint $(addprefix tools.verify., $(BUILD_TOOLS))
 
 ## clean: Clean all builds.
 .PHONY: clean
@@ -347,7 +347,7 @@ install.ginkgo:
 # wget -P _output/tools/ https://openim-1306374445.cos.ap-guangzhou.myqcloud.com/openim/tools/go-gitlint
 # go install github.com/antham/go-gitlint/cmd/gitlint@latest
 install.go-gitlint:
-	@wget -q https://openim-1306374445.cos.ap-guangzhou.myqcloud.com/openim/tools/go-gitlint -O ${TOOLS_DIR}/go-gitlint
+	$(GO) get -u github.com/gitlint/gitlint
 	@chmod +x ${TOOLS_DIR}/go-gitlint
 
 ## install.go-junit-report: Install go-junit-report, used to generate junit report
