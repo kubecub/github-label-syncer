@@ -37,6 +37,17 @@ printError() {
    printf "${RED}kubecub : $1${ENDCOLOR}\n"
 }
 
+printMessage "Checking for go-gitlint installation..."
+GITLINT_DIR="./_output/tools/go-gitlint"
+if ! command -v $GITLINT_DIR &>/dev/null; then
+    echo "$GITLINT_DIR not found. Attempting to install go-gitlint..."
+    wget https://github.com/llorllale/go-gitlint/releases/download/v0.1.3/go-gitlint-0.1.3-linux-amd64.tar.gz
+    tar -xvf go-gitlint-0.1.3-linux-amd64.tar.gz -C ./_output/tools/
+    if [ $? -ne 0 ]; then
+        printError "Failed to install go-gitlint. Please run 'make tools' or download it manually from 'https://github.com/llorllale/go-gitlint/releases' to './_output/tools/'."
+        exit 1
+    fi
+fi
 printMessage "Running local kubecub pre-commit hook."
 
 # flutter format .
