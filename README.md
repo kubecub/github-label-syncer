@@ -341,3 +341,18 @@ Kubecub is licensed under the MIT License, Version 2.0. See [LICENSE](https://gi
 <a href="https://github.com/kubecub/github-label-syncer/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=kubecub/github-label-syncer" />
 </a>
+
+## Enabling GitHub Pages
+
+To enable GitHub Pages for this repository, follow these steps:
+
+1. Go to the repository's main page on GitHub.
+2. Click on the 'Settings' tab.
+3. Scroll down to the 'GitHub Pages' section.
+4. Under 'Source', select a branch (usually `main` or `master`) and a folder (such as `/docs` or `/` for root) from the dropdown menu.
+5. Optionally, choose a theme for the GitHub Pages site or add a `/_config.yml` file in the root of your repository with your own customizations.
+6. Click 'Save' to apply the changes.
+
+Once enabled, your GitHub Pages site will be available at `http(s)://<username>.github.io/<repository>`.
+
+For more details and customizations, refer to the [GitHub Pages documentation](https://docs.github.com/en/pages).
