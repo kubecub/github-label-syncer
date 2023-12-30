@@ -19,6 +19,10 @@ jobs:
       
       - name: Build project
         run: make build
+
+      - name: Print Docker build logs if failure
+        if: failure()
+        run: echo "TODO: Replace with command to print Docker build logs"
       
       - name: Test build artifacts
         run: |
