@@ -37,6 +37,13 @@ printError() {
    printf "${RED}kubecub : $1${ENDCOLOR}\n"
 }
 
+# Check if go-gitlint tool is installed
+GITLINT_TOOL="go-gitlint"
+if ! command -v $GITLINT_TOOL &>/dev/null; then
+    printError "go-gitlint tool not found. Please install it before committing."
+    exit 1
+fi
+
 printMessage "Running local kubecub pre-commit hook."
 
 # flutter format .
