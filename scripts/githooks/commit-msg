@@ -51,6 +51,10 @@ test "" = "$(grep '^Signed-off-by: ' "$1" |
 # TODO: go-gitlint dir set
 GITLINT_DIR="./_output/tools/go-gitlint"
 
+if ! command -v $GITLINT_DIR &>/dev/null; then
+    make tools || make tools.verify.go-gitlint
+fi
+
 $GITLINT_DIR \
     --msg-file=$1 \
     --subject-regex="^(build|chore|ci|docs|feat|feature|fix|perf|refactor|revert|style|test)(.*)?:\s?.*" \
