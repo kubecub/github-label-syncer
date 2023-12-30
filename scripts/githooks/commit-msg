@@ -51,6 +51,15 @@ test "" = "$(grep '^Signed-off-by: ' "$1" |
 # TODO: go-gitlint dir set
 GITLINT_DIR="./_output/tools/go-gitlint"
 
+if ! command -v $GITLINT_DIR &>/dev/null; then
+    echo "$GITLINT_DIR not found. Attempting to install it..."
+    # Add the commands to download and install the go-gitlint tool here
+    if [ $? -ne 0 ]; then
+        printError "Failed to install $GITLINT_DIR. Please run 'make tools' OR 'make tools.verify.go-gitlint' make verto install it manually."
+        exit 1
+    fi
+fi
+
 $GITLINT_DIR \
     --msg-file=$1 \
     --subject-regex="^(build|chore|ci|docs|feat|feature|fix|perf|refactor|revert|style|test)(.*)?:\s?.*" \
