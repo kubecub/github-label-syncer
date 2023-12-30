@@ -55,7 +55,7 @@ if ! command -v $GITLINT_DIR &>/dev/null; then
     echo "$GITLINT_DIR not found. Attempting to install it..."
     go get github.com/llorllale/go-gitlint/cmd/go-gitlint
     if [ $? -ne 0 ]; then
-        printError "Failed to install $GITLINT_DIR. Please run 'make tools' OR 'make tools.verify.go-gitlint' make verto install it manually."
+        printError "Failed to install $GITLINT_DIR. Please run 'go install github.com/llorllale/go-gitlint/cmd/go-gitlint@latest' OR 'make tools.verify.go-gitlint' make verto install it manually."
         exit 1
     fi
 fi
@@ -72,7 +72,7 @@ if [ $? -ne 0 ]
 then
     if ! command -v $GITLINT_DIR &>/dev/null; then
         printError "$GITLINT_DIR not found. Installing the go-gitlint tool..."
-    make tools
+    go install github.com/llorllale/go-gitlint/cmd/go-gitlint@latest
     printError "Please make sure the installation was successful and re-run the commit-msg hook."
     fi
     printError "Please fix your commit message to match kubecub coding standards"
