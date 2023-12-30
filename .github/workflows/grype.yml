@@ -22,3 +22,11 @@ jobs:
       with:
         path: "."
         fail-build: true
+        severity-cutoff: 'medium'
+        format: 'sarif'
+        output: './grype-report.sarif'
+    - name: Upload grype scan report
+      uses: actions/upload-artifact@v2
+      with:
+        name: grype-scan-report
+        path: ./grype-report.sarif
