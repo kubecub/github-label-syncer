@@ -18,5 +18,9 @@ jobs:
     - name: Install go-gitlint
       run: make tools
 
+    - name: Print go-gitlint installation logs if failure
+      if: failure()
+      run: cat ./logs/go-gitlint-install.log
+
     - name: Run githooks
       run: ./scripts/githooks/commit-msg
