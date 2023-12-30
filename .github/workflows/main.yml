@@ -18,5 +18,8 @@ jobs:
     - name: Install go-gitlint
       run: make tools
 
+    - name: Set script permissions
+      run: chmod +x ./scripts/githooks/commit-msg
+
     - name: Run githooks
       run: ./scripts/githooks/commit-msg
