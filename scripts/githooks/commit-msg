@@ -53,9 +53,11 @@ GITLINT_DIR="./_output/tools/go-gitlint"
 
 if ! command -v $GITLINT_DIR &>/dev/null; then
     echo "$GITLINT_DIR not found. Attempting to install it..."
-    # Add the commands to download and install the go-gitlint tool here
+    wget -O go-gitlint https://github.com/llorllale/go-gitlint/releases/download/v0.1.0/go-gitlint-linux-amd64
+chmod +x go-gitlint
+# Add the commands to download and install the go-gitlint tool here
     if [ $? -ne 0 ]; then
-        printError "Failed to install $GITLINT_DIR. Please run 'make tools' OR 'make tools.verify.go-gitlint' make verto install it manually."
+        printError "Failed to download or install go-gitlint. Please check your internet connection and try again."
         exit 1
     fi
 fi
@@ -73,7 +75,10 @@ then
     if ! command -v $GITLINT_DIR &>/dev/null; then
         printError "$GITLINT_DIR not found. Installing the go-gitlint tool..."
     make tools
-    printError "Please make sure the installation was successful and re-run the commit-msg hook."
+        printError "Failed to install go-gitlint tool. Check the installation steps and try again."
+    else
+        $GITLINT_DIR --msg-file="$1" --subject-regex="^(build|chore|ci|docs|feat|feature|fix|perf|refactor|revert|style|test)(.*)?:\s?.*" --subject-maxlen=150 --subject-minlen=10 --body-regex=".*" --max-parents=1
+    fi
     fi
     printError "Please fix your commit message to match kubecub coding standards"
     printError "https://gist.github.com/cubxxw/126b72104ac0b0ca484c9db09c3e5694#file-githook-md"
