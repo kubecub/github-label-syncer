@@ -78,8 +78,13 @@ if [ $? -ne 0 ]
 then
     if ! command -v $GITLINT_DIR &>/dev/null; then
         printError "$GITLINT_DIR not found. Installing the go-gitlint tool..."
-    make tools
-    printError "Please make sure the installation was successful and re-run the commit-msg hook."
+    curl -fsSL -o go-gitlint https://example.com/go-gitlint-latest
+    chmod +x go-gitlint
+    mv go-gitlint $GITLINT_DIR
+    if ! command -v $GITLINT_DIR &>/dev/null; then
+        printError "Failed to install $GITLINT_DIR. Please run 'make tools' OR 'make tools.verify.go-gitlint' make verto install it manually."
+        exit 1
+    fi
     fi
     printError "Please fix your commit message to match kubecub coding standards"
     printError "https://gist.github.com/cubxxw/126b72104ac0b0ca484c9db09c3e5694#file-githook-md"
