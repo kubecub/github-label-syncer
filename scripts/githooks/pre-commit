@@ -67,6 +67,11 @@ cd $repo_root
 
 empty_tree=$( git hash-object -t tree /dev/null )
 
+if ! command -v $GITLINT_DIR &>/dev/null; then
+    printError "The go-gitlint tool is required for the commit-msg hook. Please run the commit-msg hook manually to install the tool."
+    exit 1
+fi
+
 if git rev-parse --verify HEAD > /dev/null 2>&1
 then
 	against=HEAD
@@ -92,6 +97,12 @@ then
     printMessage "If you really need to commit this file, you can override the size limit by setting the GIT_FILE_SIZE_LIMIT environment variable, e.g. GIT_FILE_SIZE_LIMIT=42000000 for 42MB. Or, commit with the --no-verify switch to skip the check entirely."
 	  printError "Commit aborted"
     exit 1;
+fi
+
+if [ $? -ne 0 ]
+then
+    printError "The commit-msg hook failed. Please check the error logs for more information."
+    exit 1
 fi
 
 if [[ ! $local_branch =~ $valid_branch_regex ]]
