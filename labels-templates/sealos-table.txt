@@ -29,6 +29,7 @@
 | area/test                 |                                | 9135D8 |
 | area/workflow             |                                | FB44AD |
 | automated issue           |                                | F5F4A7 |
+| cherry-pick               |                                | D5F8BC |
 | cloud roadmap             |                                | 1D6C8E |
 | good first issue          | Good for newcomers             | 7057ff |
 | help wanted               | Extra attention is needed      | 008672 |
@@ -57,6 +58,8 @@
 | status: can't reproduce   |                                | fec1c1 |
 | status: confirmed         |                                | 215cea |
 | status: needs information |                                | fef2c0 |
+| sweep                     | Assigns Sweep to an issue or   | 5320E7 |
+|                           | pull request.                  |        |
 | type: question            | Further information is         | d876e3 |
 |                           | requested                      |        |
 +---------------------------+--------------------------------+--------+

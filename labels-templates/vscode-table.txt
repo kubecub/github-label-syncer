@@ -45,10 +45,14 @@
 | accessibility-sla                        | Accessibility issue which      | e11d21 |
 |                                          | have to be fixed or lowered    |        |
 |                                          | severity based on process      |        |
+| android                                  |                                | 006b75 |
 | api                                      |                                | c5def5 |
 | api-finalization                         |                                | c5def5 |
 | api-proposal                             |                                | c5def5 |
-| authentication                           | Authentication issues          | c5def5 |
+| audio-cue                                | Issues pertaining to audio     | c5def5 |
+|                                          | cues or aria alerts            |        |
+| authentication                           | Issues with the Authentication | c5def5 |
+|                                          | platform                       |        |
 | author-verification-requested            | Issues potentially verifiable  | d4c5f9 |
 |                                          | by issue author                |        |
 | bisect-ext                               |                                | c5def5 |
@@ -141,6 +145,7 @@
 | editor-minimap                           | Code/Text minimap widget       | c5def5 |
 |                                          | issues                         |        |
 | editor-multicursor                       | Editor multiple cursor issues  | c5def5 |
+| editor-output                            |                                | c5def5 |
 | editor-parameter-hints                   | Function, method and class     | c5def5 |
 |                                          | parameter hint widget          |        |
 | editor-render-whitespace                 |                                | c5def5 |
@@ -158,6 +163,7 @@
 |                                          | region functionality in editor |        |
 | editor-textbuffer                        | Editor text buffer             | c5def5 |
 | editor-theming                           |                                | c5def5 |
+| editor-widgets                           |                                | C5DEF5 |
 | editor-wordnav                           | Editor word navigation issues  | c5def5 |
 | editor-wrapping                          | Editor line wrapping issues    | c5def5 |
 | electron                                 | Issues and items related to    | fef2c0 |
@@ -174,6 +180,8 @@
 | electron-19-update                       |                                | fbca04 |
 | electron-22-update                       |                                | fbca04 |
 | electron-24-update                       |                                | fbca04 |
+| electron-25-update                       |                                | fbca04 |
+| electron-27-update                       |                                | fbca04 |
 | electron-blocker                         | Issues in next update of       | e11d21 |
 |                                          | Electron preventing update     |        |
 | emmet                                    | Emmet related issues           | C5DEF5 |
@@ -198,6 +206,7 @@
 | extensions                               | Issues concerning extensions   | c5def5 |
 | extensions-development                   | Issues for developing          | c5def5 |
 |                                          | extensions                     |        |
+| extensions-editor                        |                                | c5def5 |
 | feature-request                          | Request for new features or    | dcdcdc |
 |                                          | functionality                  |        |
 | file-decorations                         |                                | c5def5 |
@@ -228,6 +237,10 @@
 |                                          | 21.x update                    |        |
 | fixed-in-electron-22                     | Issues fixed with Electron     | 0e8a16 |
 |                                          | 22.x update                    |        |
+| fixed-in-electron-25                     | Issues fixed with Electron     | 0e8a16 |
+|                                          | 25.x update                    |        |
+| fixed-in-electron-27                     | Issues fixed with Electron     | 0e8a16 |
+|                                          | 27.x update                    |        |
 | font-rendering                           | Font rendering issues          | c5def5 |
 | formatting                               | Source formatter issues        | c5def5 |
 | freeze-slow-crash-leak                   | VS Code crashing, performance, | e11d21 |
@@ -243,7 +256,10 @@
 |                                          | and suggestion preview)        |        |
 | git                                      | GIT issues                     | c5def5 |
 | github                                   | Github extension               | c5def5 |
-| github-authentication                    |                                | C5DEF5 |
+| github_actions                           | Pull requests that update      | 000000 |
+|                                          | GitHub Actions code            |        |
+| github-authentication                    | Issues with the GitHub         | C5DEF5 |
+|                                          | Authentication extension       |        |
 | github-codespaces                        |                                | 000000 |
 | github-repositories                      | Issues related to GitHub       | c5def5 |
 |                                          | Repositories                   |        |
@@ -265,6 +281,7 @@
 | html                                     | HTML issues and items          | C5DEF5 |
 | icon-brand                               | VS Code brand icon issues      | c5def5 |
 | icons-product                            | Issues for in-product icons    | c5def5 |
+| icons-widget                             | Issues related to icons widget | c5def5 |
 | image-preview                            | Built-in image preview         | C5DEF5 |
 |                                          | extension                      |        |
 | important                                | Issue identified as            | e11d21 |
@@ -294,10 +311,6 @@
 |                                          | plan                           |        |
 | iteration-plan-draft                     | VS Code - Upcoming iteration   | dcdcdc |
 |                                          | plan (Draft)                   |        |
-| iw-golden                                | Issue affecting Jupyter        | FBCA04 |
-|                                          | Interactive Window mainline    |        |
-|                                          | scenario (does not imply       |        |
-|                                          | "important" treatment)         |        |
 | javascript                               | JavaScript support issues      | c5def5 |
 | json                                     | JSON support issues            | c5def5 |
 | json-sorting                             |                                | c5def5 |
@@ -305,9 +318,6 @@
 |                                          | out of scope                   |        |
 | keybindings                              | VS Code keybinding issues      | c5def5 |
 | keybindings-editor                       | Keybinding editor issues       | c5def5 |
-| keybindings-json                         | Issues related to              | C5DEF5 |
-|                                          | keybindings.json file, e.g.,   |        |
-|                                          | incorrect linting              |        |
 | keyboard-layout                          | Keyboard layout issues         | c5def5 |
 | L10N                                     | Translation issue              | c5def5 |
 | l10n-platform                            | Localization platform issues   | c5def5 |
@@ -342,16 +352,14 @@
 |                                          | actions                        |        |
 | merge-editor                             |                                | c5def5 |
 | merge-editor-workbench                   |                                | c5def5 |
+| microsoft-authentication                 | Issues with the Microsoft      | C5DEF5 |
+|                                          | Authentication extension       |        |
 | mitigated                                | Issue has workaround in place  | 009800 |
 | mojave                                   | VS Code on OS X Mojave issues  | 006b75 |
 | monaco-editor                            |                                | c5def5 |
 | multi-monitor                            | Issues with multiple display   | c5def5 |
 |                                          | setups                         |        |
 | native-file-dialog                       | Issues with native file dialog | c5def5 |
-| nb-golden                                | Issue affecting Jupyter        | FBCA04 |
-|                                          | Notebook mainline scenario     |        |
-|                                          | (does not imply "important"    |        |
-|                                          | treatment)                     |        |
 | network                                  | Network related issues         | c5def5 |
 | nodejs                                   | NodeJS support issues          | fef2c0 |
 | notebook                                 |                                | c5def5 |
@@ -365,6 +373,7 @@
 |                                          | / LS's)                        |        |
 | notebook-celltoolbar                     |                                | c5def5 |
 | notebook-clipboard                       |                                | c5def5 |
+| notebook-code-actions                    | Notebook editor code actions   | c5def5 |
 | notebook-commands                        |                                | c5def5 |
 | notebook-commenting                      | Commenting support for         | c5def5 |
 |                                          | notebooks                      |        |
@@ -375,31 +384,28 @@
 |                                          | cells in a notebook            |        |
 | notebook-find                            |                                | c5def5 |
 | notebook-folding                         |                                | c5def5 |
-| notebook-getting-started                 |                                | c5def5 |
+| notebook-format                          | Formatting support for         | c5def5 |
+|                                          | notebooks                      |        |
 | notebook-globaltoolbar                   |                                | c5def5 |
 | notebook-ipynb                           |                                | c5def5 |
 | notebook-kernel                          |                                | c5def5 |
 | notebook-kernel-picker                   |                                | c5def5 |
 | notebook-language                        | Bugs related to general        | c5def5 |
-|                                          | interaction with languages /   |        |
-|                                          | intellisense                   |        |
+|                                          | interaction with languages     |        |
 | notebook-layout                          |                                | c5def5 |
+| notebook-liveshare                       |                                | c5def5 |
 | notebook-markdown                        |                                | c5def5 |
-| notebook-math                            |                                | c5def5 |
 | notebook-minimap                         |                                | c5def5 |
 | notebook-multiselect                     |                                | c5def5 |
 | notebook-output                          |                                | c5def5 |
 | notebook-perf                            |                                | c5def5 |
-| notebook-polish                          |                                | fbca04 |
-| notebook-regression                      |                                | 8D6673 |
 | notebook-remote                          |                                | c5def5 |
 | notebook-rendering                       |                                | c5def5 |
 | notebook-serialization                   |                                | c5def5 |
-| notebook-serverless-web                  |                                | c5def5 |
 | notebook-statusbar                       |                                | c5def5 |
+| notebook-sticky-scroll                   | Sticky Scroll in Notebook      | c5def5 |
+|                                          | Editor                         |        |
 | notebook-toc-outline                     |                                | c5def5 |
-| notebook-triage                          | Indicates notebook team has    | FBCA04 |
-|                                          | not looked at yet              |        |
 | notebook-undo-redo                       |                                | c5def5 |
 | notebook-variables                       |                                | c5def5 |
 | notebook-workbench-integration           |                                | c5def5 |
@@ -416,11 +422,13 @@
 | packaging                                | Issues with the package config | c5def5 |
 |                                          | or distribution                |        |
 | panel-chat                               |                                | c5def5 |
-| papercut :drop_of_blood:                 |                                | 8D6673 |
+| papercut :drop_of_blood:                 | A particularly annoying issue  | 8D6673 |
+|                                          | impacting someone on the team  |        |
 | perf                                     |                                | c5def5 |
 | perf-bloat                               |                                | c5def5 |
 | perf-profile                             |                                | dcdcdc |
 | perf-startup                             |                                | c5def5 |
+| performance                              |                                | CB4658 |
 | php                                      | PHP support issues             | c5def5 |
 | plan-item                                | VS Code - planned item for     | dcdcdc |
 |                                          | upcoming                       |        |
@@ -431,10 +439,10 @@
 | question-discussion                      | Question that could be a       | dcdcdc |
 |                                          | discussion topic (experimental |        |
 |                                          | label)                         |        |
+| quick-chat                               | Quick-chat issues              | c5def5 |
 | quick-open                               | Quick-open issues (search,     | c5def5 |
 |                                          | commands)                      |        |
 | quick-pick                               | Quick-pick widget issues       | c5def5 |
-| quickpick-chat                           |                                | c5def5 |
 | references-viewlet                       |                                | c5def5 |
 | regression                               | Something that used to work is | 8D6673 |
 |                                          | now broken                     |        |
@@ -464,6 +472,8 @@
 | search-api                               |                                | c5def5 |
 | search-editor                            |                                | c5def5 |
 | search-replace                           | Search and replace issues      | c5def5 |
+| secret-storage                           | Issues with the Secret Storage | C5DEF5 |
+|                                          | feature                        |        |
 | security                                 |                                | e11d21 |
 | semantic-tokens                          | Semantic tokens issues         | c5def5 |
 | server                                   |                                | c5def5 |
@@ -535,9 +545,9 @@
 |                                          | specific to PowerShell         |        |
 | terminal-shell-zsh                       | An issue in the terminal       | c5def5 |
 |                                          | specific to zsh                |        |
+| terminal-sticky-scroll                   |                                | C5DEF5 |
 | terminal-tabs                            |                                | c5def5 |
-| terminal-winpty                          | Integrated terminal issues     | c5def5 |
-|                                          | related to the WinPTY backend  |        |
+| test-coverage                            |                                | C5DEF5 |
 | testing                                  | Built-in testing support       | c5def5 |
 | testplan-item                            |                                | dcdcdc |
 | themes                                   | Color theme issues             | c5def5 |
@@ -572,6 +582,7 @@
 | translation-required-ukrainian           |                                | c29cff |
 | translation-required-undefined           |                                | c29cff |
 | translation-required-vietnamese          |                                | c29cff |
+| tree-sticky-scroll                       | Sticky Scroll in Trees         | c5def5 |
 | tree-views                               | Extension tree view issues     | c5def5 |
 | tree-widget                              | Tree widget issues             | c5def5 |
 | triage                                   |                                | fbca04 |
@@ -608,6 +619,7 @@
 |                                          | verification                   |        |
 | verified                                 | Verification succeeded         | 009800 |
 | VIM                                      | VIM issue                      | c5def5 |
+| virtual-documents                        |                                | c5def5 |
 | virtual-machine                          | Issues related to virtualbox,  | 006b75 |
 |                                          | parallels etc                  |        |
 | virtual-workspaces                       | Issues related to Virtual      | c5def5 |
@@ -626,10 +638,13 @@
 | windows                                  | VS Code on Windows issues      | 006b75 |
 | windows 11                               | VS Code on Windows 11 issues   | 006b75 |
 | windows 7                                | VS Code on Windows 7 issues    | 006b75 |
-| winget                                   | Issues related to winget       | 006b75 |
+| winget                                   | Issues related to winget       | c5def5 |
 |                                          | packages                       |        |
 | wont-fix                                 |                                | E2A1C2 |
 | workbench-actions                        | Workbench Actions Support      | c5def5 |
+| workbench-auxwindow                      | Issues related to use of       | c5def5 |
+|                                          | auxiliary ("floating")         |        |
+|                                          | windows.                       |        |
 | workbench-banner                         |                                | c5def5 |
 | workbench-cli                            | VS Code Command line issues    | c5def5 |
 | workbench-diagnostics                    | General VS Code built-in       | c5def5 |
@@ -644,7 +659,6 @@
 | workbench-editors                        | Managing of editor widgets in  | c5def5 |
 |                                          | workbench window               |        |
 | workbench-electron                       | Electron-VS Code issues        | c5def5 |
-| workbench-feedback                       | Feedback widget issues         | c5def5 |
 | workbench-fonts                          |                                | c5def5 |
 | workbench-history                        | History item issues            | c5def5 |
 | workbench-hot-exit                       | Preservation of unsaved        | c5def5 |
@@ -666,6 +680,7 @@
 | workbench-untitled-editors               | Managing of untitled editors   | c5def5 |
 |                                          | in workbench window            |        |
 | workbench-views                          | Workbench view issues          | c5def5 |
+| workbench-voice                          |                                | c5def5 |
 | workbench-welcome                        | Welcome page issues            | c5def5 |
 | workbench-window                         | Window management              | c5def5 |
 | workbench-workspace                      | Workspace issues               | c5def5 |

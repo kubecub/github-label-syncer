@@ -189,6 +189,15 @@
     <URL>https://api.github.com/repos/microsoft/vscode/labels/accessibility-sla</URL>
   </label>
   <label>
+    <Name>android</Name>
+    <Description></Description>
+    <Color>006b75</Color>
+    <Default>false</Default>
+    <ID>6289099086</ID>
+    <NodeID>LA_kwDOAn8RLM8AAAABdtwJTg</NodeID>
+    <URL>https://api.github.com/repos/microsoft/vscode/labels/android</URL>
+  </label>
+  <label>
     <Name>api</Name>
     <Description></Description>
     <Color>c5def5</Color>
@@ -216,8 +225,17 @@
     <URL>https://api.github.com/repos/microsoft/vscode/labels/api-proposal</URL>
   </label>
   <label>
+    <Name>audio-cue</Name>
+    <Description>Issues pertaining to audio cues or aria alerts</Description>
+    <Color>c5def5</Color>
+    <Default>false</Default>
+    <ID>6287308741</ID>
+    <NodeID>LA_kwDOAn8RLM8AAAABdsC3xQ</NodeID>
+    <URL>https://api.github.com/repos/microsoft/vscode/labels/audio-cue</URL>
+  </label>
+  <label>
     <Name>authentication</Name>
-    <Description>Authentication issues</Description>
+    <Description>Issues with the Authentication platform</Description>
     <Color>c5def5</Color>
     <Default>false</Default>
     <ID>1702048079</ID>
@@ -792,6 +810,15 @@
     <URL>https://api.github.com/repos/microsoft/vscode/labels/editor-multicursor</URL>
   </label>
   <label>
+    <Name>editor-output</Name>
+    <Description></Description>
+    <Color>c5def5</Color>
+    <Default>false</Default>
+    <ID>6345822461</ID>
+    <NodeID>LA_kwDOAn8RLM8AAAABej2Q_Q</NodeID>
+    <URL>https://api.github.com/repos/microsoft/vscode/labels/editor-output</URL>
+  </label>
+  <label>
     <Name>editor-parameter-hints</Name>
     <Description>Function, method and class parameter hint widget</Description>
     <Color>c5def5</Color>
@@ -900,6 +927,15 @@
     <URL>https://api.github.com/repos/microsoft/vscode/labels/editor-theming</URL>
   </label>
   <label>
+    <Name>editor-widgets</Name>
+    <Description></Description>
+    <Color>C5DEF5</Color>
+    <Default>false</Default>
+    <ID>6203723915</ID>
+    <NodeID>LA_kwDOAn8RLM8AAAABccVQiw</NodeID>
+    <URL>https://api.github.com/repos/microsoft/vscode/labels/editor-widgets</URL>
+  </label>
+  <label>
     <Name>editor-wordnav</Name>
     <Description>Editor word navigation issues</Description>
     <Color>c5def5</Color>
@@ -997,6 +1033,24 @@
     <ID>5429205896</ID>
     <NodeID>LA_kwDOAn8RLM8AAAABQ5sbiA</NodeID>
     <URL>https://api.github.com/repos/microsoft/vscode/labels/electron-24-update</URL>
+  </label>
+  <label>
+    <Name>electron-25-update</Name>
+    <Description></Description>
+    <Color>fbca04</Color>
+    <Default>false</Default>
+    <ID>5769435319</ID>
+    <NodeID>LA_kwDOAn8RLM8AAAABV-KYtw</NodeID>
+    <URL>https://api.github.com/repos/microsoft/vscode/labels/electron-25-update</URL>
+  </label>
+  <label>
+    <Name>electron-27-update</Name>
+    <Description></Description>
+    <Color>fbca04</Color>
+    <Default>false</Default>
+    <ID>6145872934</ID>
+    <NodeID>LA_kwDOAn8RLM8AAAABblKUJg</NodeID>
+    <URL>https://api.github.com/repos/microsoft/vscode/labels/electron-27-update</URL>
   </label>
   <label>
     <Name>electron-blocker</Name>
@@ -1132,6 +1186,15 @@
     <ID>1634275230</ID>
     <NodeID>MDU6TGFiZWwxNjM0Mjc1MjMw</NodeID>
     <URL>https://api.github.com/repos/microsoft/vscode/labels/extensions-development</URL>
+  </label>
+  <label>
+    <Name>extensions-editor</Name>
+    <Description></Description>
+    <Color>c5def5</Color>
+    <Default>false</Default>
+    <ID>6289110066</ID>
+    <NodeID>LA_kwDOAn8RLM8AAAABdtw0Mg</NodeID>
+    <URL>https://api.github.com/repos/microsoft/vscode/labels/extensions-editor</URL>
   </label>
   <label>
     <Name>feature-request</Name>
@@ -1296,6 +1359,24 @@
     <URL>https://api.github.com/repos/microsoft/vscode/labels/fixed-in-electron-22</URL>
   </label>
   <label>
+    <Name>fixed-in-electron-25</Name>
+    <Description>Issues fixed with Electron 25.x update</Description>
+    <Color>0e8a16</Color>
+    <Default>false</Default>
+    <ID>5775476153</ID>
+    <NodeID>LA_kwDOAn8RLM8AAAABWD7FuQ</NodeID>
+    <URL>https://api.github.com/repos/microsoft/vscode/labels/fixed-in-electron-25</URL>
+  </label>
+  <label>
+    <Name>fixed-in-electron-27</Name>
+    <Description>Issues fixed with Electron 27.x update</Description>
+    <Color>0e8a16</Color>
+    <Default>false</Default>
+    <ID>6174441807</ID>
+    <NodeID>LA_kwDOAn8RLM8AAAABcAaBTw</NodeID>
+    <URL>https://api.github.com/repos/microsoft/vscode/labels/fixed-in-electron-27</URL>
+  </label>
+  <label>
     <Name>font-rendering</Name>
     <Description>Font rendering issues</Description>
     <Color>c5def5</Color>
@@ -1404,8 +1485,17 @@
     <URL>https://api.github.com/repos/microsoft/vscode/labels/github</URL>
   </label>
   <label>
+    <Name>github_actions</Name>
+    <Description>Pull requests that update GitHub Actions code</Description>
+    <Color>000000</Color>
+    <Default>false</Default>
+    <ID>5948648880</ID>
+    <NodeID>LA_kwDOAn8RLM8AAAABYpEtsA</NodeID>
+    <URL>https://api.github.com/repos/microsoft/vscode/labels/github_actions</URL>
+  </label>
+  <label>
     <Name>github-authentication</Name>
-    <Description></Description>
+    <Description>Issues with the GitHub Authentication extension</Description>
     <Color>C5DEF5</Color>
     <Default>false</Default>
     <ID>4082630113</ID>
@@ -1537,6 +1627,15 @@
     <ID>1395654262</ID>
     <NodeID>MDU6TGFiZWwxMzk1NjU0MjYy</NodeID>
     <URL>https://api.github.com/repos/microsoft/vscode/labels/icons-product</URL>
+  </label>
+  <label>
+    <Name>icons-widget</Name>
+    <Description>Issues related to icons widget</Description>
+    <Color>c5def5</Color>
+    <Default>false</Default>
+    <ID>5994902232</ID>
+    <NodeID>LA_kwDOAn8RLM8AAAABZVLy2A</NodeID>
+    <URL>https://api.github.com/repos/microsoft/vscode/labels/icons-widget</URL>
   </label>
   <label>
     <Name>image-preview</Name>
@@ -1710,15 +1809,6 @@
     <URL>https://api.github.com/repos/microsoft/vscode/labels/iteration-plan-draft</URL>
   </label>
   <label>
-    <Name>iw-golden</Name>
-    <Description>Issue affecting Jupyter Interactive Window mainline scenario (does not imply &#34;important&#34; treatment)</Description>
-    <Color>FBCA04</Color>
-    <Default>false</Default>
-    <ID>3637108668</ID>
-    <NodeID>LA_kwDOAn8RLM7Yyd-8</NodeID>
-    <URL>https://api.github.com/repos/microsoft/vscode/labels/iw-golden</URL>
-  </label>
-  <label>
     <Name>javascript</Name>
     <Description>JavaScript support issues</Description>
     <Color>c5def5</Color>
@@ -1771,15 +1861,6 @@
     <ID>762046598</ID>
     <NodeID>MDU6TGFiZWw3NjIwNDY1OTg=</NodeID>
     <URL>https://api.github.com/repos/microsoft/vscode/labels/keybindings-editor</URL>
-  </label>
-  <label>
-    <Name>keybindings-json</Name>
-    <Description>Issues related to keybindings.json file, e.g., incorrect linting</Description>
-    <Color>C5DEF5</Color>
-    <Default>false</Default>
-    <ID>5278444429</ID>
-    <NodeID>LA_kwDOAn8RLM8AAAABOp6rjQ</NodeID>
-    <URL>https://api.github.com/repos/microsoft/vscode/labels/keybindings-json</URL>
   </label>
   <label>
     <Name>keyboard-layout</Name>
@@ -2007,6 +2088,15 @@
     <URL>https://api.github.com/repos/microsoft/vscode/labels/merge-editor-workbench</URL>
   </label>
   <label>
+    <Name>microsoft-authentication</Name>
+    <Description>Issues with the Microsoft Authentication extension</Description>
+    <Color>C5DEF5</Color>
+    <Default>false</Default>
+    <ID>6322190419</ID>
+    <NodeID>LA_kwDOAn8RLM8AAAABeNT4Uw</NodeID>
+    <URL>https://api.github.com/repos/microsoft/vscode/labels/microsoft-authentication</URL>
+  </label>
+  <label>
     <Name>mitigated</Name>
     <Description>Issue has workaround in place</Description>
     <Color>009800</Color>
@@ -2050,15 +2140,6 @@
     <ID>3788471186</ID>
     <NodeID>LA_kwDOAn8RLM7hz3uS</NodeID>
     <URL>https://api.github.com/repos/microsoft/vscode/labels/native-file-dialog</URL>
-  </label>
-  <label>
-    <Name>nb-golden</Name>
-    <Description>Issue affecting Jupyter Notebook mainline scenario (does not imply &#34;important&#34; treatment)</Description>
-    <Color>FBCA04</Color>
-    <Default>false</Default>
-    <ID>3376308139</ID>
-    <NodeID>LA_kwDOAn8RLM7JPl-r</NodeID>
-    <URL>https://api.github.com/repos/microsoft/vscode/labels/nb-golden</URL>
   </label>
   <label>
     <Name>network</Name>
@@ -2142,6 +2223,15 @@
     <URL>https://api.github.com/repos/microsoft/vscode/labels/notebook-clipboard</URL>
   </label>
   <label>
+    <Name>notebook-code-actions</Name>
+    <Description>Notebook editor code actions</Description>
+    <Color>c5def5</Color>
+    <Default>false</Default>
+    <ID>6326109480</ID>
+    <NodeID>LA_kwDOAn8RLM8AAAABeRDFKA</NodeID>
+    <URL>https://api.github.com/repos/microsoft/vscode/labels/notebook-code-actions</URL>
+  </label>
+  <label>
     <Name>notebook-commands</Name>
     <Description></Description>
     <Color>c5def5</Color>
@@ -2214,13 +2304,13 @@
     <URL>https://api.github.com/repos/microsoft/vscode/labels/notebook-folding</URL>
   </label>
   <label>
-    <Name>notebook-getting-started</Name>
-    <Description></Description>
+    <Name>notebook-format</Name>
+    <Description>Formatting support for notebooks</Description>
     <Color>c5def5</Color>
     <Default>false</Default>
-    <ID>3444457921</ID>
-    <NodeID>LA_kwDOAn8RLM7NTkHB</NodeID>
-    <URL>https://api.github.com/repos/microsoft/vscode/labels/notebook-getting-started</URL>
+    <ID>6322383213</ID>
+    <NodeID>LA_kwDOAn8RLM8AAAABeNfpbQ</NodeID>
+    <URL>https://api.github.com/repos/microsoft/vscode/labels/notebook-format</URL>
   </label>
   <label>
     <Name>notebook-globaltoolbar</Name>
@@ -2260,7 +2350,7 @@
   </label>
   <label>
     <Name>notebook-language</Name>
-    <Description>Bugs related to general interaction with languages / intellisense</Description>
+    <Description>Bugs related to general interaction with languages</Description>
     <Color>c5def5</Color>
     <Default>false</Default>
     <ID>3444917711</ID>
@@ -2277,6 +2367,15 @@
     <URL>https://api.github.com/repos/microsoft/vscode/labels/notebook-layout</URL>
   </label>
   <label>
+    <Name>notebook-liveshare</Name>
+    <Description></Description>
+    <Color>c5def5</Color>
+    <Default>false</Default>
+    <ID>6321949121</ID>
+    <NodeID>LA_kwDOAn8RLM8AAAABeNFJwQ</NodeID>
+    <URL>https://api.github.com/repos/microsoft/vscode/labels/notebook-liveshare</URL>
+  </label>
+  <label>
     <Name>notebook-markdown</Name>
     <Description></Description>
     <Color>c5def5</Color>
@@ -2284,15 +2383,6 @@
     <ID>2787440299</ID>
     <NodeID>MDU6TGFiZWwyNzg3NDQwMjk5</NodeID>
     <URL>https://api.github.com/repos/microsoft/vscode/labels/notebook-markdown</URL>
-  </label>
-  <label>
-    <Name>notebook-math</Name>
-    <Description></Description>
-    <Color>c5def5</Color>
-    <Default>false</Default>
-    <ID>3444296584</ID>
-    <NodeID>LA_kwDOAn8RLM7NS8uI</NodeID>
-    <URL>https://api.github.com/repos/microsoft/vscode/labels/notebook-math</URL>
   </label>
   <label>
     <Name>notebook-minimap</Name>
@@ -2331,24 +2421,6 @@
     <URL>https://api.github.com/repos/microsoft/vscode/labels/notebook-perf</URL>
   </label>
   <label>
-    <Name>notebook-polish</Name>
-    <Description></Description>
-    <Color>fbca04</Color>
-    <Default>false</Default>
-    <ID>3698559110</ID>
-    <NodeID>LA_kwDOAn8RLM7cc4iG</NodeID>
-    <URL>https://api.github.com/repos/microsoft/vscode/labels/notebook-polish</URL>
-  </label>
-  <label>
-    <Name>notebook-regression</Name>
-    <Description></Description>
-    <Color>8D6673</Color>
-    <Default>false</Default>
-    <ID>3698557129</ID>
-    <NodeID>LA_kwDOAn8RLM7cc4DJ</NodeID>
-    <URL>https://api.github.com/repos/microsoft/vscode/labels/notebook-regression</URL>
-  </label>
-  <label>
     <Name>notebook-remote</Name>
     <Description></Description>
     <Color>c5def5</Color>
@@ -2376,15 +2448,6 @@
     <URL>https://api.github.com/repos/microsoft/vscode/labels/notebook-serialization</URL>
   </label>
   <label>
-    <Name>notebook-serverless-web</Name>
-    <Description></Description>
-    <Color>c5def5</Color>
-    <Default>false</Default>
-    <ID>3444460133</ID>
-    <NodeID>LA_kwDOAn8RLM7NTkpl</NodeID>
-    <URL>https://api.github.com/repos/microsoft/vscode/labels/notebook-serverless-web</URL>
-  </label>
-  <label>
     <Name>notebook-statusbar</Name>
     <Description></Description>
     <Color>c5def5</Color>
@@ -2394,6 +2457,15 @@
     <URL>https://api.github.com/repos/microsoft/vscode/labels/notebook-statusbar</URL>
   </label>
   <label>
+    <Name>notebook-sticky-scroll</Name>
+    <Description>Sticky Scroll in Notebook Editor</Description>
+    <Color>c5def5</Color>
+    <Default>false</Default>
+    <ID>5770189847</ID>
+    <NodeID>LA_kwDOAn8RLM8AAAABV-4cFw</NodeID>
+    <URL>https://api.github.com/repos/microsoft/vscode/labels/notebook-sticky-scroll</URL>
+  </label>
+  <label>
     <Name>notebook-toc-outline</Name>
     <Description></Description>
     <Color>c5def5</Color>
@@ -2401,15 +2473,6 @@
     <ID>3444459169</ID>
     <NodeID>LA_kwDOAn8RLM7NTkah</NodeID>
     <URL>https://api.github.com/repos/microsoft/vscode/labels/notebook-toc-outline</URL>
-  </label>
-  <label>
-    <Name>notebook-triage</Name>
-    <Description>Indicates notebook team has not looked at yet</Description>
-    <Color>FBCA04</Color>
-    <Default>false</Default>
-    <ID>3454801265</ID>
-    <NodeID>LA_kwDOAn8RLM7N7BVx</NodeID>
-    <URL>https://api.github.com/repos/microsoft/vscode/labels/notebook-triage</URL>
   </label>
   <label>
     <Name>notebook-undo-redo</Name>
@@ -2521,7 +2584,7 @@
   </label>
   <label>
     <Name>papercut :drop_of_blood:</Name>
-    <Description></Description>
+    <Description>A particularly annoying issue impacting someone on the team</Description>
     <Color>8D6673</Color>
     <Default>false</Default>
     <ID>2675317011</ID>
@@ -2563,6 +2626,15 @@
     <ID>738780536</ID>
     <NodeID>MDU6TGFiZWw3Mzg3ODA1MzY=</NodeID>
     <URL>https://api.github.com/repos/microsoft/vscode/labels/perf-startup</URL>
+  </label>
+  <label>
+    <Name>performance</Name>
+    <Description></Description>
+    <Color>CB4658</Color>
+    <Default>false</Default>
+    <ID>5937900273</ID>
+    <NodeID>LA_kwDOAn8RLM8AAAABYe0q8Q</NodeID>
+    <URL>https://api.github.com/repos/microsoft/vscode/labels/performance</URL>
   </label>
   <label>
     <Name>php</Name>
@@ -2619,6 +2691,15 @@
     <URL>https://api.github.com/repos/microsoft/vscode/labels/question-discussion</URL>
   </label>
   <label>
+    <Name>quick-chat</Name>
+    <Description>Quick-chat issues</Description>
+    <Color>c5def5</Color>
+    <Default>false</Default>
+    <ID>5643644131</ID>
+    <NodeID>LA_kwDOAn8RLM8AAAABUGMs4w</NodeID>
+    <URL>https://api.github.com/repos/microsoft/vscode/labels/quick-chat</URL>
+  </label>
+  <label>
     <Name>quick-open</Name>
     <Description>Quick-open issues (search, commands)</Description>
     <Color>c5def5</Color>
@@ -2635,15 +2716,6 @@
     <ID>527005453</ID>
     <NodeID>MDU6TGFiZWw1MjcwMDU0NTM=</NodeID>
     <URL>https://api.github.com/repos/microsoft/vscode/labels/quick-pick</URL>
-  </label>
-  <label>
-    <Name>quickpick-chat</Name>
-    <Description></Description>
-    <Color>c5def5</Color>
-    <Default>false</Default>
-    <ID>5643644131</ID>
-    <NodeID>LA_kwDOAn8RLM8AAAABUGMs4w</NodeID>
-    <URL>https://api.github.com/repos/microsoft/vscode/labels/quickpick-chat</URL>
   </label>
   <label>
     <Name>references-viewlet</Name>
@@ -2833,6 +2905,15 @@
     <ID>762039553</ID>
     <NodeID>MDU6TGFiZWw3NjIwMzk1NTM=</NodeID>
     <URL>https://api.github.com/repos/microsoft/vscode/labels/search-replace</URL>
+  </label>
+  <label>
+    <Name>secret-storage</Name>
+    <Description>Issues with the Secret Storage feature</Description>
+    <Color>C5DEF5</Color>
+    <Default>false</Default>
+    <ID>6322191668</ID>
+    <NodeID>LA_kwDOAn8RLM8AAAABeNT9NA</NodeID>
+    <URL>https://api.github.com/repos/microsoft/vscode/labels/secret-storage</URL>
   </label>
   <label>
     <Name>security</Name>
@@ -3231,6 +3312,15 @@
     <URL>https://api.github.com/repos/microsoft/vscode/labels/terminal-shell-zsh</URL>
   </label>
   <label>
+    <Name>terminal-sticky-scroll</Name>
+    <Description></Description>
+    <Color>C5DEF5</Color>
+    <Default>false</Default>
+    <ID>6185149394</ID>
+    <NodeID>LA_kwDOAn8RLM8AAAABcKnj0g</NodeID>
+    <URL>https://api.github.com/repos/microsoft/vscode/labels/terminal-sticky-scroll</URL>
+  </label>
+  <label>
     <Name>terminal-tabs</Name>
     <Description></Description>
     <Color>c5def5</Color>
@@ -3240,13 +3330,13 @@
     <URL>https://api.github.com/repos/microsoft/vscode/labels/terminal-tabs</URL>
   </label>
   <label>
-    <Name>terminal-winpty</Name>
-    <Description>Integrated terminal issues related to the WinPTY backend</Description>
-    <Color>c5def5</Color>
+    <Name>test-coverage</Name>
+    <Description></Description>
+    <Color>C5DEF5</Color>
     <Default>false</Default>
-    <ID>1344017428</ID>
-    <NodeID>MDU6TGFiZWwxMzQ0MDE3NDI4</NodeID>
-    <URL>https://api.github.com/repos/microsoft/vscode/labels/terminal-winpty</URL>
+    <ID>6243732664</ID>
+    <NodeID>LA_kwDOAn8RLM8AAAABdCfMuA</NodeID>
+    <URL>https://api.github.com/repos/microsoft/vscode/labels/test-coverage</URL>
   </label>
   <label>
     <Name>testing</Name>
@@ -3537,6 +3627,15 @@
     <URL>https://api.github.com/repos/microsoft/vscode/labels/translation-required-vietnamese</URL>
   </label>
   <label>
+    <Name>tree-sticky-scroll</Name>
+    <Description>Sticky Scroll in Trees</Description>
+    <Color>c5def5</Color>
+    <Default>false</Default>
+    <ID>6238518872</ID>
+    <NodeID>LA_kwDOAn8RLM8AAAABc9g-WA</NodeID>
+    <URL>https://api.github.com/repos/microsoft/vscode/labels/tree-sticky-scroll</URL>
+  </label>
+  <label>
     <Name>tree-views</Name>
     <Description>Extension tree view issues</Description>
     <Color>c5def5</Color>
@@ -3762,6 +3861,15 @@
     <URL>https://api.github.com/repos/microsoft/vscode/labels/VIM</URL>
   </label>
   <label>
+    <Name>virtual-documents</Name>
+    <Description></Description>
+    <Color>c5def5</Color>
+    <Default>false</Default>
+    <ID>6274164338</ID>
+    <NodeID>LA_kwDOAn8RLM8AAAABdfgmcg</NodeID>
+    <URL>https://api.github.com/repos/microsoft/vscode/labels/virtual-documents</URL>
+  </label>
+  <label>
     <Name>virtual-machine</Name>
     <Description>Issues related to virtualbox, parallels etc</Description>
     <Color>006b75</Color>
@@ -3872,7 +3980,7 @@
   <label>
     <Name>winget</Name>
     <Description>Issues related to winget packages</Description>
-    <Color>006b75</Color>
+    <Color>c5def5</Color>
     <Default>false</Default>
     <ID>2461423996</ID>
     <NodeID>MDU6TGFiZWwyNDYxNDIzOTk2</NodeID>
@@ -3895,6 +4003,15 @@
     <ID>1898303910</ID>
     <NodeID>MDU6TGFiZWwxODk4MzAzOTEw</NodeID>
     <URL>https://api.github.com/repos/microsoft/vscode/labels/workbench-actions</URL>
+  </label>
+  <label>
+    <Name>workbench-auxwindow</Name>
+    <Description>Issues related to use of auxiliary (&#34;floating&#34;) windows.</Description>
+    <Color>c5def5</Color>
+    <Default>false</Default>
+    <ID>6067651594</ID>
+    <NodeID>LA_kwDOAn8RLM8AAAABaakECg</NodeID>
+    <URL>https://api.github.com/repos/microsoft/vscode/labels/workbench-auxwindow</URL>
   </label>
   <label>
     <Name>workbench-banner</Name>
@@ -3976,15 +4093,6 @@
     <ID>751344431</ID>
     <NodeID>MDU6TGFiZWw3NTEzNDQ0MzE=</NodeID>
     <URL>https://api.github.com/repos/microsoft/vscode/labels/workbench-electron</URL>
-  </label>
-  <label>
-    <Name>workbench-feedback</Name>
-    <Description>Feedback widget issues</Description>
-    <Color>c5def5</Color>
-    <Default>false</Default>
-    <ID>752294721</ID>
-    <NodeID>MDU6TGFiZWw3NTIyOTQ3MjE=</NodeID>
-    <URL>https://api.github.com/repos/microsoft/vscode/labels/workbench-feedback</URL>
   </label>
   <label>
     <Name>workbench-fonts</Name>
@@ -4138,6 +4246,15 @@
     <ID>844736918</ID>
     <NodeID>MDU6TGFiZWw4NDQ3MzY5MTg=</NodeID>
     <URL>https://api.github.com/repos/microsoft/vscode/labels/workbench-views</URL>
+  </label>
+  <label>
+    <Name>workbench-voice</Name>
+    <Description></Description>
+    <Color>c5def5</Color>
+    <Default>false</Default>
+    <ID>6032213105</ID>
+    <NodeID>LA_kwDOAn8RLM8AAAABZ4xEcQ</NodeID>
+    <URL>https://api.github.com/repos/microsoft/vscode/labels/workbench-voice</URL>
   </label>
   <label>
     <Name>workbench-welcome</Name>

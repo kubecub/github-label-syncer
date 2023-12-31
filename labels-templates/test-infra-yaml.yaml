@@ -1007,6 +1007,13 @@
   url: https://api.github.com/repos/kubernetes/test-infra/labels/sig/docs
 - color: d2b48c
   default: false
+  description: Categorizes an issue or PR as relevant to SIG Etcd.
+  id: 6045287137
+  name: sig/etcd
+  node_id: LA_kwDOA2rXzc8AAAABaFPC4Q
+  url: https://api.github.com/repos/kubernetes/test-infra/labels/sig/etcd
+- color: d2b48c
+  default: false
   description: Categorizes an issue or PR as relevant to SIG Instrumentation.
   id: 718255882
   name: sig/instrumentation

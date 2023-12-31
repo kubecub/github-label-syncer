@@ -147,6 +147,13 @@
   name: accessibility-sla
   node_id: LA_kwDOAn8RLM7Nnu_K
   url: https://api.github.com/repos/microsoft/vscode/labels/accessibility-sla
+- color: 006b75
+  default: false
+  description: ""
+  id: 6289099086
+  name: android
+  node_id: LA_kwDOAn8RLM8AAAABdtwJTg
+  url: https://api.github.com/repos/microsoft/vscode/labels/android
 - color: c5def5
   default: false
   description: ""
@@ -170,7 +177,14 @@
   url: https://api.github.com/repos/microsoft/vscode/labels/api-proposal
 - color: c5def5
   default: false
-  description: Authentication issues
+  description: Issues pertaining to audio cues or aria alerts
+  id: 6287308741
+  name: audio-cue
+  node_id: LA_kwDOAn8RLM8AAAABdsC3xQ
+  url: https://api.github.com/repos/microsoft/vscode/labels/audio-cue
+- color: c5def5
+  default: false
+  description: Issues with the Authentication platform
   id: 1702048079
   name: authentication
   node_id: MDU6TGFiZWwxNzAyMDQ4MDc5
@@ -618,6 +632,13 @@
   url: https://api.github.com/repos/microsoft/vscode/labels/editor-multicursor
 - color: c5def5
   default: false
+  description: ""
+  id: 6345822461
+  name: editor-output
+  node_id: LA_kwDOAn8RLM8AAAABej2Q_Q
+  url: https://api.github.com/repos/microsoft/vscode/labels/editor-output
+- color: c5def5
+  default: false
   description: Function, method and class parameter hint widget
   id: 592224292
   name: editor-parameter-hints
@@ -700,6 +721,13 @@
   name: editor-theming
   node_id: MDU6TGFiZWwxNjM0Mjg1MTY3
   url: https://api.github.com/repos/microsoft/vscode/labels/editor-theming
+- color: C5DEF5
+  default: false
+  description: ""
+  id: 6203723915
+  name: editor-widgets
+  node_id: LA_kwDOAn8RLM8AAAABccVQiw
+  url: https://api.github.com/repos/microsoft/vscode/labels/editor-widgets
 - color: c5def5
   default: false
   description: Editor word navigation issues
@@ -777,6 +805,20 @@
   name: electron-24-update
   node_id: LA_kwDOAn8RLM8AAAABQ5sbiA
   url: https://api.github.com/repos/microsoft/vscode/labels/electron-24-update
+- color: fbca04
+  default: false
+  description: ""
+  id: 5769435319
+  name: electron-25-update
+  node_id: LA_kwDOAn8RLM8AAAABV-KYtw
+  url: https://api.github.com/repos/microsoft/vscode/labels/electron-25-update
+- color: fbca04
+  default: false
+  description: ""
+  id: 6145872934
+  name: electron-27-update
+  node_id: LA_kwDOAn8RLM8AAAABblKUJg
+  url: https://api.github.com/repos/microsoft/vscode/labels/electron-27-update
 - color: e11d21
   default: false
   description: Issues in next update of Electron preventing update
@@ -882,6 +924,13 @@
   name: extensions-development
   node_id: MDU6TGFiZWwxNjM0Mjc1MjMw
   url: https://api.github.com/repos/microsoft/vscode/labels/extensions-development
+- color: c5def5
+  default: false
+  description: ""
+  id: 6289110066
+  name: extensions-editor
+  node_id: LA_kwDOAn8RLM8AAAABdtw0Mg
+  url: https://api.github.com/repos/microsoft/vscode/labels/extensions-editor
 - color: dcdcdc
   default: false
   description: Request for new features or functionality
@@ -1008,6 +1057,20 @@
   name: fixed-in-electron-22
   node_id: LA_kwDOAn8RLM8AAAABGhzZ5A
   url: https://api.github.com/repos/microsoft/vscode/labels/fixed-in-electron-22
+- color: 0e8a16
+  default: false
+  description: Issues fixed with Electron 25.x update
+  id: 5775476153
+  name: fixed-in-electron-25
+  node_id: LA_kwDOAn8RLM8AAAABWD7FuQ
+  url: https://api.github.com/repos/microsoft/vscode/labels/fixed-in-electron-25
+- color: 0e8a16
+  default: false
+  description: Issues fixed with Electron 27.x update
+  id: 6174441807
+  name: fixed-in-electron-27
+  node_id: LA_kwDOAn8RLM8AAAABcAaBTw
+  url: https://api.github.com/repos/microsoft/vscode/labels/fixed-in-electron-27
 - color: c5def5
   default: false
   description: Font rendering issues
@@ -1093,9 +1156,16 @@
   name: github
   node_id: MDU6TGFiZWwyMDcyMzExNzAy
   url: https://api.github.com/repos/microsoft/vscode/labels/github
+- color: "000000"
+  default: false
+  description: Pull requests that update GitHub Actions code
+  id: 5948648880
+  name: github_actions
+  node_id: LA_kwDOAn8RLM8AAAABYpEtsA
+  url: https://api.github.com/repos/microsoft/vscode/labels/github_actions
 - color: C5DEF5
   default: false
-  description: ""
+  description: Issues with the GitHub Authentication extension
   id: 4082630113
   name: github-authentication
   node_id: LA_kwDOAn8RLM7zV_3h
@@ -1198,6 +1268,13 @@
   name: icons-product
   node_id: MDU6TGFiZWwxMzk1NjU0MjYy
   url: https://api.github.com/repos/microsoft/vscode/labels/icons-product
+- color: c5def5
+  default: false
+  description: Issues related to icons widget
+  id: 5994902232
+  name: icons-widget
+  node_id: LA_kwDOAn8RLM8AAAABZVLy2A
+  url: https://api.github.com/repos/microsoft/vscode/labels/icons-widget
 - color: C5DEF5
   default: false
   description: Built-in image preview extension
@@ -1331,14 +1408,6 @@
   name: iteration-plan-draft
   node_id: MDU6TGFiZWw0MTk2NzU3MDU=
   url: https://api.github.com/repos/microsoft/vscode/labels/iteration-plan-draft
-- color: FBCA04
-  default: false
-  description: Issue affecting Jupyter Interactive Window mainline scenario (does
-    not imply "important" treatment)
-  id: 3637108668
-  name: iw-golden
-  node_id: LA_kwDOAn8RLM7Yyd-8
-  url: https://api.github.com/repos/microsoft/vscode/labels/iw-golden
 - color: c5def5
   default: false
   description: JavaScript support issues
@@ -1381,13 +1450,6 @@
   name: keybindings-editor
   node_id: MDU6TGFiZWw3NjIwNDY1OTg=
   url: https://api.github.com/repos/microsoft/vscode/labels/keybindings-editor
-- color: C5DEF5
-  default: false
-  description: Issues related to keybindings.json file, e.g., incorrect linting
-  id: 5278444429
-  name: keybindings-json
-  node_id: LA_kwDOAn8RLM8AAAABOp6rjQ
-  url: https://api.github.com/repos/microsoft/vscode/labels/keybindings-json
 - color: c5def5
   default: false
   description: Keyboard layout issues
@@ -1564,6 +1626,13 @@
   name: merge-editor-workbench
   node_id: LA_kwDOAn8RLM7609He
   url: https://api.github.com/repos/microsoft/vscode/labels/merge-editor-workbench
+- color: C5DEF5
+  default: false
+  description: Issues with the Microsoft Authentication extension
+  id: 6322190419
+  name: microsoft-authentication
+  node_id: LA_kwDOAn8RLM8AAAABeNT4Uw
+  url: https://api.github.com/repos/microsoft/vscode/labels/microsoft-authentication
 - color: "009800"
   default: false
   description: Issue has workaround in place
@@ -1599,14 +1668,6 @@
   name: native-file-dialog
   node_id: LA_kwDOAn8RLM7hz3uS
   url: https://api.github.com/repos/microsoft/vscode/labels/native-file-dialog
-- color: FBCA04
-  default: false
-  description: Issue affecting Jupyter Notebook mainline scenario (does not imply
-    "important" treatment)
-  id: 3376308139
-  name: nb-golden
-  node_id: LA_kwDOAn8RLM7JPl-r
-  url: https://api.github.com/repos/microsoft/vscode/labels/nb-golden
 - color: c5def5
   default: false
   description: Network related issues
@@ -1672,6 +1733,13 @@
   url: https://api.github.com/repos/microsoft/vscode/labels/notebook-clipboard
 - color: c5def5
   default: false
+  description: Notebook editor code actions
+  id: 6326109480
+  name: notebook-code-actions
+  node_id: LA_kwDOAn8RLM8AAAABeRDFKA
+  url: https://api.github.com/repos/microsoft/vscode/labels/notebook-code-actions
+- color: c5def5
+  default: false
   description: ""
   id: 3422257024
   name: notebook-commands
@@ -1728,11 +1796,11 @@
   url: https://api.github.com/repos/microsoft/vscode/labels/notebook-folding
 - color: c5def5
   default: false
-  description: ""
-  id: 3444457921
-  name: notebook-getting-started
-  node_id: LA_kwDOAn8RLM7NTkHB
-  url: https://api.github.com/repos/microsoft/vscode/labels/notebook-getting-started
+  description: Formatting support for notebooks
+  id: 6322383213
+  name: notebook-format
+  node_id: LA_kwDOAn8RLM8AAAABeNfpbQ
+  url: https://api.github.com/repos/microsoft/vscode/labels/notebook-format
 - color: c5def5
   default: false
   description: ""
@@ -1763,7 +1831,7 @@
   url: https://api.github.com/repos/microsoft/vscode/labels/notebook-kernel-picker
 - color: c5def5
   default: false
-  description: Bugs related to general interaction with languages / intellisense
+  description: Bugs related to general interaction with languages
   id: 3444917711
   name: notebook-language
   node_id: LA_kwDOAn8RLM7NVUXP
@@ -1778,17 +1846,17 @@
 - color: c5def5
   default: false
   description: ""
+  id: 6321949121
+  name: notebook-liveshare
+  node_id: LA_kwDOAn8RLM8AAAABeNFJwQ
+  url: https://api.github.com/repos/microsoft/vscode/labels/notebook-liveshare
+- color: c5def5
+  default: false
+  description: ""
   id: 2787440299
   name: notebook-markdown
   node_id: MDU6TGFiZWwyNzg3NDQwMjk5
   url: https://api.github.com/repos/microsoft/vscode/labels/notebook-markdown
-- color: c5def5
-  default: false
-  description: ""
-  id: 3444296584
-  name: notebook-math
-  node_id: LA_kwDOAn8RLM7NS8uI
-  url: https://api.github.com/repos/microsoft/vscode/labels/notebook-math
 - color: c5def5
   default: false
   description: ""
@@ -1817,20 +1885,6 @@
   name: notebook-perf
   node_id: LA_kwDOAn8RLM7ML-5j
   url: https://api.github.com/repos/microsoft/vscode/labels/notebook-perf
-- color: fbca04
-  default: false
-  description: ""
-  id: 3698559110
-  name: notebook-polish
-  node_id: LA_kwDOAn8RLM7cc4iG
-  url: https://api.github.com/repos/microsoft/vscode/labels/notebook-polish
-- color: 8D6673
-  default: false
-  description: ""
-  id: 3698557129
-  name: notebook-regression
-  node_id: LA_kwDOAn8RLM7cc4DJ
-  url: https://api.github.com/repos/microsoft/vscode/labels/notebook-regression
 - color: c5def5
   default: false
   description: ""
@@ -1855,17 +1909,17 @@
 - color: c5def5
   default: false
   description: ""
-  id: 3444460133
-  name: notebook-serverless-web
-  node_id: LA_kwDOAn8RLM7NTkpl
-  url: https://api.github.com/repos/microsoft/vscode/labels/notebook-serverless-web
-- color: c5def5
-  default: false
-  description: ""
   id: 3422222637
   name: notebook-statusbar
   node_id: LA_kwDOAn8RLM7L-vkt
   url: https://api.github.com/repos/microsoft/vscode/labels/notebook-statusbar
+- color: c5def5
+  default: false
+  description: Sticky Scroll in Notebook Editor
+  id: 5770189847
+  name: notebook-sticky-scroll
+  node_id: LA_kwDOAn8RLM8AAAABV-4cFw
+  url: https://api.github.com/repos/microsoft/vscode/labels/notebook-sticky-scroll
 - color: c5def5
   default: false
   description: ""
@@ -1873,13 +1927,6 @@
   name: notebook-toc-outline
   node_id: LA_kwDOAn8RLM7NTkah
   url: https://api.github.com/repos/microsoft/vscode/labels/notebook-toc-outline
-- color: FBCA04
-  default: false
-  description: Indicates notebook team has not looked at yet
-  id: 3454801265
-  name: notebook-triage
-  node_id: LA_kwDOAn8RLM7N7BVx
-  url: https://api.github.com/repos/microsoft/vscode/labels/notebook-triage
 - color: c5def5
   default: false
   description: ""
@@ -1966,7 +2013,7 @@
   url: https://api.github.com/repos/microsoft/vscode/labels/panel-chat
 - color: 8D6673
   default: false
-  description: ""
+  description: A particularly annoying issue impacting someone on the team
   id: 2675317011
   name: 'papercut :drop_of_blood:'
   node_id: MDU6TGFiZWwyNjc1MzE3MDEx
@@ -1999,6 +2046,13 @@
   name: perf-startup
   node_id: MDU6TGFiZWw3Mzg3ODA1MzY=
   url: https://api.github.com/repos/microsoft/vscode/labels/perf-startup
+- color: CB4658
+  default: false
+  description: ""
+  id: 5937900273
+  name: performance
+  node_id: LA_kwDOAn8RLM8AAAABYe0q8Q
+  url: https://api.github.com/repos/microsoft/vscode/labels/performance
 - color: c5def5
   default: false
   description: PHP support issues
@@ -2043,6 +2097,13 @@
   url: https://api.github.com/repos/microsoft/vscode/labels/question-discussion
 - color: c5def5
   default: false
+  description: Quick-chat issues
+  id: 5643644131
+  name: quick-chat
+  node_id: LA_kwDOAn8RLM8AAAABUGMs4w
+  url: https://api.github.com/repos/microsoft/vscode/labels/quick-chat
+- color: c5def5
+  default: false
   description: Quick-open issues (search, commands)
   id: 2891808693
   name: quick-open
@@ -2055,13 +2116,6 @@
   name: quick-pick
   node_id: MDU6TGFiZWw1MjcwMDU0NTM=
   url: https://api.github.com/repos/microsoft/vscode/labels/quick-pick
-- color: c5def5
-  default: false
-  description: ""
-  id: 5643644131
-  name: quickpick-chat
-  node_id: LA_kwDOAn8RLM8AAAABUGMs4w
-  url: https://api.github.com/repos/microsoft/vscode/labels/quickpick-chat
 - color: c5def5
   default: false
   description: ""
@@ -2209,6 +2263,13 @@
   name: search-replace
   node_id: MDU6TGFiZWw3NjIwMzk1NTM=
   url: https://api.github.com/repos/microsoft/vscode/labels/search-replace
+- color: C5DEF5
+  default: false
+  description: Issues with the Secret Storage feature
+  id: 6322191668
+  name: secret-storage
+  node_id: LA_kwDOAn8RLM8AAAABeNT9NA
+  url: https://api.github.com/repos/microsoft/vscode/labels/secret-storage
 - color: e11d21
   default: false
   description: ""
@@ -2521,6 +2582,13 @@
   name: terminal-shell-zsh
   node_id: LA_kwDOAn8RLM76M0qa
   url: https://api.github.com/repos/microsoft/vscode/labels/terminal-shell-zsh
+- color: C5DEF5
+  default: false
+  description: ""
+  id: 6185149394
+  name: terminal-sticky-scroll
+  node_id: LA_kwDOAn8RLM8AAAABcKnj0g
+  url: https://api.github.com/repos/microsoft/vscode/labels/terminal-sticky-scroll
 - color: c5def5
   default: false
   description: ""
@@ -2528,13 +2596,13 @@
   name: terminal-tabs
   node_id: MDU6TGFiZWwyODUxNTQ0ODc1
   url: https://api.github.com/repos/microsoft/vscode/labels/terminal-tabs
-- color: c5def5
+- color: C5DEF5
   default: false
-  description: Integrated terminal issues related to the WinPTY backend
-  id: 1344017428
-  name: terminal-winpty
-  node_id: MDU6TGFiZWwxMzQ0MDE3NDI4
-  url: https://api.github.com/repos/microsoft/vscode/labels/terminal-winpty
+  description: ""
+  id: 6243732664
+  name: test-coverage
+  node_id: LA_kwDOAn8RLM8AAAABdCfMuA
+  url: https://api.github.com/repos/microsoft/vscode/labels/test-coverage
 - color: c5def5
   default: false
   description: Built-in testing support
@@ -2761,6 +2829,13 @@
   url: https://api.github.com/repos/microsoft/vscode/labels/translation-required-vietnamese
 - color: c5def5
   default: false
+  description: Sticky Scroll in Trees
+  id: 6238518872
+  name: tree-sticky-scroll
+  node_id: LA_kwDOAn8RLM8AAAABc9g-WA
+  url: https://api.github.com/repos/microsoft/vscode/labels/tree-sticky-scroll
+- color: c5def5
+  default: false
   description: Extension tree view issues
   id: 483971025
   name: tree-views
@@ -2936,6 +3011,13 @@
   name: VIM
   node_id: MDU6TGFiZWwyOTUyNzYzOTU=
   url: https://api.github.com/repos/microsoft/vscode/labels/VIM
+- color: c5def5
+  default: false
+  description: ""
+  id: 6274164338
+  name: virtual-documents
+  node_id: LA_kwDOAn8RLM8AAAABdfgmcg
+  url: https://api.github.com/repos/microsoft/vscode/labels/virtual-documents
 - color: 006b75
   default: false
   description: Issues related to virtualbox, parallels etc
@@ -3020,7 +3102,7 @@
   name: windows 7
   node_id: LA_kwDOAn8RLM7QVOhW
   url: https://api.github.com/repos/microsoft/vscode/labels/windows%207
-- color: 006b75
+- color: c5def5
   default: false
   description: Issues related to winget packages
   id: 2461423996
@@ -3041,6 +3123,13 @@
   name: workbench-actions
   node_id: MDU6TGFiZWwxODk4MzAzOTEw
   url: https://api.github.com/repos/microsoft/vscode/labels/workbench-actions
+- color: c5def5
+  default: false
+  description: Issues related to use of auxiliary ("floating") windows.
+  id: 6067651594
+  name: workbench-auxwindow
+  node_id: LA_kwDOAn8RLM8AAAABaakECg
+  url: https://api.github.com/repos/microsoft/vscode/labels/workbench-auxwindow
 - color: c5def5
   default: false
   description: ""
@@ -3104,13 +3193,6 @@
   name: workbench-electron
   node_id: MDU6TGFiZWw3NTEzNDQ0MzE=
   url: https://api.github.com/repos/microsoft/vscode/labels/workbench-electron
-- color: c5def5
-  default: false
-  description: Feedback widget issues
-  id: 752294721
-  name: workbench-feedback
-  node_id: MDU6TGFiZWw3NTIyOTQ3MjE=
-  url: https://api.github.com/repos/microsoft/vscode/labels/workbench-feedback
 - color: c5def5
   default: false
   description: ""
@@ -3230,6 +3312,13 @@
   name: workbench-views
   node_id: MDU6TGFiZWw4NDQ3MzY5MTg=
   url: https://api.github.com/repos/microsoft/vscode/labels/workbench-views
+- color: c5def5
+  default: false
+  description: ""
+  id: 6032213105
+  name: workbench-voice
+  node_id: LA_kwDOAn8RLM8AAAABZ4xEcQ
+  url: https://api.github.com/repos/microsoft/vscode/labels/workbench-voice
 - color: c5def5
   default: false
   description: Welcome page issues

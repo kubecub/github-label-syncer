@@ -396,6 +396,15 @@
     <URL>https://api.github.com/repos/kubernetes-sigs/kustomize/labels/help%20wanted</URL>
   </label>
   <label>
+    <Name>javascript</Name>
+    <Description>Pull requests that update Javascript code</Description>
+    <Color>168700</Color>
+    <Default>false</Default>
+    <ID>6044061344</ID>
+    <NodeID>LA_kwDOB-5y6s8AAAABaEEOoA</NodeID>
+    <URL>https://api.github.com/repos/kubernetes-sigs/kustomize/labels/javascript</URL>
+  </label>
+  <label>
     <Name>kind/api-change</Name>
     <Description>Categorizes issue or PR as related to adding, removing, or otherwise changing an API</Description>
     <Color>e11d21</Color>
@@ -790,6 +799,15 @@
     <ID>952071108</ID>
     <NodeID>MDU6TGFiZWw5NTIwNzExMDg=</NodeID>
     <URL>https://api.github.com/repos/kubernetes-sigs/kustomize/labels/sig/docs</URL>
+  </label>
+  <label>
+    <Name>sig/etcd</Name>
+    <Description>Categorizes an issue or PR as relevant to SIG Etcd.</Description>
+    <Color>d2b48c</Color>
+    <Default>false</Default>
+    <ID>6045477694</ID>
+    <NodeID>LA_kwDOB-5y6s8AAAABaFarPg</NodeID>
+    <URL>https://api.github.com/repos/kubernetes-sigs/kustomize/labels/sig/etcd</URL>
   </label>
   <label>
     <Name>sig/instrumentation</Name>

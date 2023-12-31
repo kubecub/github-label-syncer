@@ -1,3 +1,10 @@
+- color: f9d0c4
+  default: false
+  description: ¯\\\_(ツ)_/¯
+  id: 682916056
+  name: ¯\_(ツ)_/¯
+  node_id: MDU6TGFiZWw2ODI5MTYwNTY=
+  url: https://api.github.com/repos/kubernetes/kubernetes/labels/%C2%AF%5C_(%E3%83%84)_/%C2%AF
 - color: e11d21
   default: false
   description: Categorizes an issue or PR as actively needing an API review.
@@ -1097,6 +1104,13 @@
   name: sig/docs
   node_id: MDU6TGFiZWw0OTY3NjE2OTk=
   url: https://api.github.com/repos/kubernetes/kubernetes/labels/sig/docs
+- color: d2b48c
+  default: false
+  description: Categorizes an issue or PR as relevant to SIG Etcd.
+  id: 6045287221
+  name: sig/etcd
+  node_id: LA_kwDOAToIks8AAAABaFPDNQ
+  url: https://api.github.com/repos/kubernetes/kubernetes/labels/sig/etcd
 - color: d2b48c
   default: false
   description: Categorizes an issue or PR as relevant to SIG Instrumentation.

@@ -1,34 +1,880 @@
 <labels>
   <label>
-    <Name>API</Name>
-    <Description>Issues and PR about the API</Description>
-    <Color>FBCA04</Color>
+    <Name>api-review</Name>
+    <Description>Categorizes an issue or PR as actively needing an API review.</Description>
+    <Color>e11d21</Color>
     <Default>false</Default>
-    <ID>5520223401</ID>
-    <NodeID>LA_kwDOJk4SXM8AAAABSQfsqQ</NodeID>
-    <URL>https://api.github.com/repos/kubecub/go-project-layout/labels/API</URL>
+    <ID>5781339257</ID>
+    <NodeID>LA_kwDOJk4SXM8AAAABWJg8eQ</NodeID>
+    <URL>https://api.github.com/repos/kubecub/go-project-layout/labels/api-review</URL>
   </label>
   <label>
-    <Name>automerge</Name>
-    <Description>Automatically synchronize files to merge PR tags</Description>
-    <Color>FEF2C0</Color>
+    <Name>approved</Name>
+    <Description>Indicates a PR has been approved by an approver from all required OWNERS files.</Description>
+    <Color>0ffa16</Color>
     <Default>false</Default>
-    <ID>5602537306</ID>
-    <NodeID>LA_kwDOJk4SXM8AAAABTe_vWg</NodeID>
-    <URL>https://api.github.com/repos/kubecub/go-project-layout/labels/automerge</URL>
+    <ID>5781339373</ID>
+    <NodeID>LA_kwDOJk4SXM8AAAABWJg87Q</NodeID>
+    <URL>https://api.github.com/repos/kubecub/go-project-layout/labels/approved</URL>
   </label>
   <label>
-    <Name>file-sync</Name>
-    <Description>Autosync file</Description>
-    <Color>FEF2C0</Color>
+    <Name>area/admin</Name>
+    <Description>Indicates an issue on admin area.</Description>
+    <Color>0052cc</Color>
     <Default>false</Default>
-    <ID>5602535701</ID>
-    <NodeID>LA_kwDOJk4SXM8AAAABTe_pFQ</NodeID>
-    <URL>https://api.github.com/repos/kubecub/go-project-layout/labels/file-sync</URL>
+    <ID>5781339381</ID>
+    <NodeID>LA_kwDOJk4SXM8AAAABWJg89Q</NodeID>
+    <URL>https://api.github.com/repos/kubecub/go-project-layout/labels/area/admin</URL>
+  </label>
+  <label>
+    <Name>area/admission-control</Name>
+    <Description>Issues or PRs related to admission control aspect of kubecub.</Description>
+    <Color>0052cc</Color>
+    <Default>false</Default>
+    <ID>5781339345</ID>
+    <NodeID>LA_kwDOJk4SXM8AAAABWJg80Q</NodeID>
+    <URL>https://api.github.com/repos/kubecub/go-project-layout/labels/area/admission-control</URL>
+  </label>
+  <label>
+    <Name>area/apiserver</Name>
+    <Description>Issues or PRs related to the APIs server of kubecub.</Description>
+    <Color>0052cc</Color>
+    <Default>false</Default>
+    <ID>5781339301</ID>
+    <NodeID>LA_kwDOJk4SXM8AAAABWJg8pQ</NodeID>
+    <URL>https://api.github.com/repos/kubecub/go-project-layout/labels/area/apiserver</URL>
+  </label>
+  <label>
+    <Name>area/app-lifecycle</Name>
+    <Description>Issues or PRs related to the app lifecycle management in kubecub.</Description>
+    <Color>0052cc</Color>
+    <Default>false</Default>
+    <ID>5781339414</ID>
+    <NodeID>LA_kwDOJk4SXM8AAAABWJg9Fg</NodeID>
+    <URL>https://api.github.com/repos/kubecub/go-project-layout/labels/area/app-lifecycle</URL>
+  </label>
+  <label>
+    <Name>area/audit</Name>
+    <Description>Issues or PRs related to audit logging within kubecub.</Description>
+    <Color>0052cc</Color>
+    <Default>false</Default>
+    <ID>5781339243</ID>
+    <NodeID>LA_kwDOJk4SXM8AAAABWJg8aw</NodeID>
+    <URL>https://api.github.com/repos/kubecub/go-project-layout/labels/area/audit</URL>
+  </label>
+  <label>
+    <Name>area/batch</Name>
+    <Description>Issues or PRs related to batch job processing within kubecub.</Description>
+    <Color>0052cc</Color>
+    <Default>false</Default>
+    <ID>5781339259</ID>
+    <NodeID>LA_kwDOJk4SXM8AAAABWJg8ew</NodeID>
+    <URL>https://api.github.com/repos/kubecub/go-project-layout/labels/area/batch</URL>
+  </label>
+  <label>
+    <Name>area/build-release</Name>
+    <Description>Issues or PRs related to build and release processes of kubecub.</Description>
+    <Color>0052cc</Color>
+    <Default>false</Default>
+    <ID>5781339293</ID>
+    <NodeID>LA_kwDOJk4SXM8AAAABWJg8nQ</NodeID>
+    <URL>https://api.github.com/repos/kubecub/go-project-layout/labels/area/build-release</URL>
+  </label>
+  <label>
+    <Name>area/cadvisor</Name>
+    <Description>Issues or PRs related to cAdvisor (Container Advisor) within kubecub.</Description>
+    <Color>0052cc</Color>
+    <Default>false</Default>
+    <ID>5781339411</ID>
+    <NodeID>LA_kwDOJk4SXM8AAAABWJg9Ew</NodeID>
+    <URL>https://api.github.com/repos/kubecub/go-project-layout/labels/area/cadvisor</URL>
+  </label>
+  <label>
+    <Name>area/client-libraries</Name>
+    <Description>Issues or PRs related to the client libraries of kubecub.</Description>
+    <Color>0052cc</Color>
+    <Default>false</Default>
+    <ID>5781339266</ID>
+    <NodeID>LA_kwDOJk4SXM8AAAABWJg8gg</NodeID>
+    <URL>https://api.github.com/repos/kubecub/go-project-layout/labels/area/client-libraries</URL>
+  </label>
+  <label>
+    <Name>area/cloudprovider</Name>
+    <Description>Issues or PRs related to the integration of kubecub with cloud providers.</Description>
+    <Color>0052cc</Color>
+    <Default>false</Default>
+    <ID>5781339267</ID>
+    <NodeID>LA_kwDOJk4SXM8AAAABWJg8gw</NodeID>
+    <URL>https://api.github.com/repos/kubecub/go-project-layout/labels/area/cloudprovider</URL>
+  </label>
+  <label>
+    <Name>area/code-generation</Name>
+    <Description>Issues or PRs related to code generation within kubecub.</Description>
+    <Color>0052cc</Color>
+    <Default>false</Default>
+    <ID>5781339388</ID>
+    <NodeID>LA_kwDOJk4SXM8AAAABWJg8_A</NodeID>
+    <URL>https://api.github.com/repos/kubecub/go-project-layout/labels/area/code-generation</URL>
+  </label>
+  <label>
+    <Name>area/code-organization</Name>
+    <Description>Issues or PRs related to kubecub code organization</Description>
+    <Color>0052cc</Color>
+    <Default>false</Default>
+    <ID>5781339337</ID>
+    <NodeID>LA_kwDOJk4SXM8AAAABWJg8yQ</NodeID>
+    <URL>https://api.github.com/repos/kubecub/go-project-layout/labels/area/code-organization</URL>
+  </label>
+  <label>
+    <Name>area/community-meeting</Name>
+    <Description>Issues or PRs that should potentially be discussed in a kubecub community meeting.</Description>
+    <Color>0052cc</Color>
+    <Default>false</Default>
+    <ID>5781339306</ID>
+    <NodeID>LA_kwDOJk4SXM8AAAABWJg8qg</NodeID>
+    <URL>https://api.github.com/repos/kubecub/go-project-layout/labels/area/community-meeting</URL>
+  </label>
+  <label>
+    <Name>area/configmap-api</Name>
+    <Description></Description>
+    <Color>0052cc</Color>
+    <Default>false</Default>
+    <ID>5781339258</ID>
+    <NodeID>LA_kwDOJk4SXM8AAAABWJg8eg</NodeID>
+    <URL>https://api.github.com/repos/kubecub/go-project-layout/labels/area/configmap-api</URL>
+  </label>
+  <label>
+    <Name>area/conformance</Name>
+    <Description>Issues or PRs related to kubecub conformance tests</Description>
+    <Color>0052cc</Color>
+    <Default>false</Default>
+    <ID>5781339407</ID>
+    <NodeID>LA_kwDOJk4SXM8AAAABWJg9Dw</NodeID>
+    <URL>https://api.github.com/repos/kubecub/go-project-layout/labels/area/conformance</URL>
+  </label>
+  <label>
+    <Name>area/controller-manager</Name>
+    <Description></Description>
+    <Color>0052cc</Color>
+    <Default>false</Default>
+    <ID>5781339421</ID>
+    <NodeID>LA_kwDOJk4SXM8AAAABWJg9HQ</NodeID>
+    <URL>https://api.github.com/repos/kubecub/go-project-layout/labels/area/controller-manager</URL>
+  </label>
+  <label>
+    <Name>area/custom-resources</Name>
+    <Description></Description>
+    <Color>0052cc</Color>
+    <Default>false</Default>
+    <ID>5781339272</ID>
+    <NodeID>LA_kwDOJk4SXM8AAAABWJg8iA</NodeID>
+    <URL>https://api.github.com/repos/kubecub/go-project-layout/labels/area/custom-resources</URL>
+  </label>
+  <label>
+    <Name>area/declarative-configuration</Name>
+    <Description></Description>
+    <Color>0052cc</Color>
+    <Default>false</Default>
+    <ID>5781339327</ID>
+    <NodeID>LA_kwDOJk4SXM8AAAABWJg8vw</NodeID>
+    <URL>https://api.github.com/repos/kubecub/go-project-layout/labels/area/declarative-configuration</URL>
+  </label>
+  <label>
+    <Name>area/deflake</Name>
+    <Description>Issues or PRs related to deflaking kubecub tests</Description>
+    <Color>0052cc</Color>
+    <Default>false</Default>
+    <ID>5781339391</ID>
+    <NodeID>LA_kwDOJk4SXM8AAAABWJg8_w</NodeID>
+    <URL>https://api.github.com/repos/kubecub/go-project-layout/labels/area/deflake</URL>
+  </label>
+  <label>
+    <Name>area/dependency</Name>
+    <Description>Issues or PRs related to dependency changes</Description>
+    <Color>0052cc</Color>
+    <Default>false</Default>
+    <ID>5781339273</ID>
+    <NodeID>LA_kwDOJk4SXM8AAAABWJg8iQ</NodeID>
+    <URL>https://api.github.com/repos/kubecub/go-project-layout/labels/area/dependency</URL>
+  </label>
+  <label>
+    <Name>area/dns</Name>
+    <Description></Description>
+    <Color>0052cc</Color>
+    <Default>false</Default>
+    <ID>5781339429</ID>
+    <NodeID>LA_kwDOJk4SXM8AAAABWJg9JQ</NodeID>
+    <URL>https://api.github.com/repos/kubecub/go-project-layout/labels/area/dns</URL>
+  </label>
+  <label>
+    <Name>area/docker</Name>
+    <Description></Description>
+    <Color>0052cc</Color>
+    <Default>false</Default>
+    <ID>5781339389</ID>
+    <NodeID>LA_kwDOJk4SXM8AAAABWJg8_Q</NodeID>
+    <URL>https://api.github.com/repos/kubecub/go-project-layout/labels/area/docker</URL>
+  </label>
+  <label>
+    <Name>area/downward-api</Name>
+    <Description></Description>
+    <Color>0052cc</Color>
+    <Default>false</Default>
+    <ID>5781339325</ID>
+    <NodeID>LA_kwDOJk4SXM8AAAABWJg8vQ</NodeID>
+    <URL>https://api.github.com/repos/kubecub/go-project-layout/labels/area/downward-api</URL>
+  </label>
+  <label>
+    <Name>area/e2e-test-framework</Name>
+    <Description>Issues or PRs related to refactoring the kubecub e2e test framework</Description>
+    <Color>0052cc</Color>
+    <Default>false</Default>
+    <ID>5781339403</ID>
+    <NodeID>LA_kwDOJk4SXM8AAAABWJg9Cw</NodeID>
+    <URL>https://api.github.com/repos/kubecub/go-project-layout/labels/area/e2e-test-framework</URL>
+  </label>
+  <label>
+    <Name>area/ecosystem</Name>
+    <Description></Description>
+    <Color>0052cc</Color>
+    <Default>false</Default>
+    <ID>5781339432</ID>
+    <NodeID>LA_kwDOJk4SXM8AAAABWJg9KA</NodeID>
+    <URL>https://api.github.com/repos/kubecub/go-project-layout/labels/area/ecosystem</URL>
+  </label>
+  <label>
+    <Name>area/etcd</Name>
+    <Description></Description>
+    <Color>0052cc</Color>
+    <Default>false</Default>
+    <ID>5781339440</ID>
+    <NodeID>LA_kwDOJk4SXM8AAAABWJg9MA</NodeID>
+    <URL>https://api.github.com/repos/kubecub/go-project-layout/labels/area/etcd</URL>
+  </label>
+  <label>
+    <Name>area/example</Name>
+    <Description></Description>
+    <Color>0052cc</Color>
+    <Default>false</Default>
+    <ID>5781339255</ID>
+    <NodeID>LA_kwDOJk4SXM8AAAABWJg8dw</NodeID>
+    <URL>https://api.github.com/repos/kubecub/go-project-layout/labels/area/example</URL>
+  </label>
+  <label>
+    <Name>area/example/cassandra</Name>
+    <Description></Description>
+    <Color>0052cc</Color>
+    <Default>false</Default>
+    <ID>5781339290</ID>
+    <NodeID>LA_kwDOJk4SXM8AAAABWJg8mg</NodeID>
+    <URL>https://api.github.com/repos/kubecub/go-project-layout/labels/area/example/cassandra</URL>
+  </label>
+  <label>
+    <Name>area/extensibility</Name>
+    <Description></Description>
+    <Color>0052cc</Color>
+    <Default>false</Default>
+    <ID>5781339316</ID>
+    <NodeID>LA_kwDOJk4SXM8AAAABWJg8tA</NodeID>
+    <URL>https://api.github.com/repos/kubecub/go-project-layout/labels/area/extensibility</URL>
+  </label>
+  <label>
+    <Name>area/federation</Name>
+    <Description></Description>
+    <Color>0052cc</Color>
+    <Default>false</Default>
+    <ID>5781339430</ID>
+    <NodeID>LA_kwDOJk4SXM8AAAABWJg9Jg</NodeID>
+    <URL>https://api.github.com/repos/kubecub/go-project-layout/labels/area/federation</URL>
+  </label>
+  <label>
+    <Name>area/HA</Name>
+    <Description></Description>
+    <Color>0052cc</Color>
+    <Default>false</Default>
+    <ID>5781339419</ID>
+    <NodeID>LA_kwDOJk4SXM8AAAABWJg9Gw</NodeID>
+    <URL>https://api.github.com/repos/kubecub/go-project-layout/labels/area/HA</URL>
+  </label>
+  <label>
+    <Name>area/hw-accelerators</Name>
+    <Description></Description>
+    <Color>0052cc</Color>
+    <Default>false</Default>
+    <ID>5781339233</ID>
+    <NodeID>LA_kwDOJk4SXM8AAAABWJg8YQ</NodeID>
+    <URL>https://api.github.com/repos/kubecub/go-project-layout/labels/area/hw-accelerators</URL>
+  </label>
+  <label>
+    <Name>area/images-registry</Name>
+    <Description></Description>
+    <Color>0052cc</Color>
+    <Default>false</Default>
+    <ID>5781339260</ID>
+    <NodeID>LA_kwDOJk4SXM8AAAABWJg8fA</NodeID>
+    <URL>https://api.github.com/repos/kubecub/go-project-layout/labels/area/images-registry</URL>
+  </label>
+  <label>
+    <Name>area/ingress</Name>
+    <Description></Description>
+    <Color>0052cc</Color>
+    <Default>false</Default>
+    <ID>5781339413</ID>
+    <NodeID>LA_kwDOJk4SXM8AAAABWJg9FQ</NodeID>
+    <URL>https://api.github.com/repos/kubecub/go-project-layout/labels/area/ingress</URL>
+  </label>
+  <label>
+    <Name>area/introspection</Name>
+    <Description></Description>
+    <Color>0052cc</Color>
+    <Default>false</Default>
+    <ID>5781339268</ID>
+    <NodeID>LA_kwDOJk4SXM8AAAABWJg8hA</NodeID>
+    <URL>https://api.github.com/repos/kubecub/go-project-layout/labels/area/introspection</URL>
+  </label>
+  <label>
+    <Name>area/ipv6</Name>
+    <Description></Description>
+    <Color>0052cc</Color>
+    <Default>false</Default>
+    <ID>5781339271</ID>
+    <NodeID>LA_kwDOJk4SXM8AAAABWJg8hw</NodeID>
+    <URL>https://api.github.com/repos/kubecub/go-project-layout/labels/area/ipv6</URL>
+  </label>
+  <label>
+    <Name>area/ipvs</Name>
+    <Description></Description>
+    <Color>0052cc</Color>
+    <Default>false</Default>
+    <ID>5781339237</ID>
+    <NodeID>LA_kwDOJk4SXM8AAAABWJg8ZQ</NodeID>
+    <URL>https://api.github.com/repos/kubecub/go-project-layout/labels/area/ipvs</URL>
+  </label>
+  <label>
+    <Name>area/isolation</Name>
+    <Description></Description>
+    <Color>0052cc</Color>
+    <Default>false</Default>
+    <ID>5781339264</ID>
+    <NodeID>LA_kwDOJk4SXM8AAAABWJg8gA</NodeID>
+    <URL>https://api.github.com/repos/kubecub/go-project-layout/labels/area/isolation</URL>
+  </label>
+  <label>
+    <Name>area/logging</Name>
+    <Description></Description>
+    <Color>0052cc</Color>
+    <Default>false</Default>
+    <ID>5781339304</ID>
+    <NodeID>LA_kwDOJk4SXM8AAAABWJg8qA</NodeID>
+    <URL>https://api.github.com/repos/kubecub/go-project-layout/labels/area/logging</URL>
+  </label>
+  <label>
+    <Name>area/monitoring</Name>
+    <Description></Description>
+    <Color>0052cc</Color>
+    <Default>false</Default>
+    <ID>5781339338</ID>
+    <NodeID>LA_kwDOJk4SXM8AAAABWJg8yg</NodeID>
+    <URL>https://api.github.com/repos/kubecub/go-project-layout/labels/area/monitoring</URL>
+  </label>
+  <label>
+    <Name>area/network-policy</Name>
+    <Description>Issues or PRs related to Network Policy subproject</Description>
+    <Color>0052cc</Color>
+    <Default>false</Default>
+    <ID>5781339355</ID>
+    <NodeID>LA_kwDOJk4SXM8AAAABWJg82w</NodeID>
+    <URL>https://api.github.com/repos/kubecub/go-project-layout/labels/area/network-policy</URL>
+  </label>
+  <label>
+    <Name>area/node-e2e</Name>
+    <Description></Description>
+    <Color>0052cc</Color>
+    <Default>false</Default>
+    <ID>5781339358</ID>
+    <NodeID>LA_kwDOJk4SXM8AAAABWJg83g</NodeID>
+    <URL>https://api.github.com/repos/kubecub/go-project-layout/labels/area/node-e2e</URL>
+  </label>
+  <label>
+    <Name>area/node-lifecycle</Name>
+    <Description></Description>
+    <Color>0052cc</Color>
+    <Default>false</Default>
+    <ID>5781339295</ID>
+    <NodeID>LA_kwDOJk4SXM8AAAABWJg8nw</NodeID>
+    <URL>https://api.github.com/repos/kubecub/go-project-layout/labels/area/node-lifecycle</URL>
+  </label>
+  <label>
+    <Name>area/nodecontroller</Name>
+    <Description></Description>
+    <Color>0052cc</Color>
+    <Default>false</Default>
+    <ID>5781339276</ID>
+    <NodeID>LA_kwDOJk4SXM8AAAABWJg8jA</NodeID>
+    <URL>https://api.github.com/repos/kubecub/go-project-layout/labels/area/nodecontroller</URL>
+  </label>
+  <label>
+    <Name>area/os/coreos</Name>
+    <Description></Description>
+    <Color>d4c5f9</Color>
+    <Default>false</Default>
+    <ID>5781339240</ID>
+    <NodeID>LA_kwDOJk4SXM8AAAABWJg8aA</NodeID>
+    <URL>https://api.github.com/repos/kubecub/go-project-layout/labels/area/os/coreos</URL>
+  </label>
+  <label>
+    <Name>area/os/fedora</Name>
+    <Description></Description>
+    <Color>d4c5f9</Color>
+    <Default>false</Default>
+    <ID>5781339285</ID>
+    <NodeID>LA_kwDOJk4SXM8AAAABWJg8lQ</NodeID>
+    <URL>https://api.github.com/repos/kubecub/go-project-layout/labels/area/os/fedora</URL>
+  </label>
+  <label>
+    <Name>area/os/ubuntu</Name>
+    <Description></Description>
+    <Color>d4c5f9</Color>
+    <Default>false</Default>
+    <ID>5781339412</ID>
+    <NodeID>LA_kwDOJk4SXM8AAAABWJg9FA</NodeID>
+    <URL>https://api.github.com/repos/kubecub/go-project-layout/labels/area/os/ubuntu</URL>
+  </label>
+  <label>
+    <Name>area/platform/gce</Name>
+    <Description></Description>
+    <Color>d4c5f9</Color>
+    <Default>false</Default>
+    <ID>5781339236</ID>
+    <NodeID>LA_kwDOJk4SXM8AAAABWJg8ZA</NodeID>
+    <URL>https://api.github.com/repos/kubecub/go-project-layout/labels/area/platform/gce</URL>
+  </label>
+  <label>
+    <Name>area/platform/mesos</Name>
+    <Description></Description>
+    <Color>d4c5f9</Color>
+    <Default>false</Default>
+    <ID>5781339350</ID>
+    <NodeID>LA_kwDOJk4SXM8AAAABWJg81g</NodeID>
+    <URL>https://api.github.com/repos/kubecub/go-project-layout/labels/area/platform/mesos</URL>
+  </label>
+  <label>
+    <Name>area/platform/vagrant</Name>
+    <Description></Description>
+    <Color>d4c5f9</Color>
+    <Default>false</Default>
+    <ID>5781339335</ID>
+    <NodeID>LA_kwDOJk4SXM8AAAABWJg8xw</NodeID>
+    <URL>https://api.github.com/repos/kubecub/go-project-layout/labels/area/platform/vagrant</URL>
+  </label>
+  <label>
+    <Name>area/provider/aws</Name>
+    <Description>Issues or PRs related to aws provider</Description>
+    <Color>0052cc</Color>
+    <Default>false</Default>
+    <ID>5781339283</ID>
+    <NodeID>LA_kwDOJk4SXM8AAAABWJg8kw</NodeID>
+    <URL>https://api.github.com/repos/kubecub/go-project-layout/labels/area/provider/aws</URL>
+  </label>
+  <label>
+    <Name>area/provider/azure</Name>
+    <Description>Issues or PRs related to azure provider</Description>
+    <Color>0052cc</Color>
+    <Default>false</Default>
+    <ID>5781339409</ID>
+    <NodeID>LA_kwDOJk4SXM8AAAABWJg9EQ</NodeID>
+    <URL>https://api.github.com/repos/kubecub/go-project-layout/labels/area/provider/azure</URL>
+  </label>
+  <label>
+    <Name>area/provider/digitalocean</Name>
+    <Description>Issues or PRs related to digitalocean provider</Description>
+    <Color>0052cc</Color>
+    <Default>false</Default>
+    <ID>5781339269</ID>
+    <NodeID>LA_kwDOJk4SXM8AAAABWJg8hQ</NodeID>
+    <URL>https://api.github.com/repos/kubecub/go-project-layout/labels/area/provider/digitalocean</URL>
+  </label>
+  <label>
+    <Name>area/provider/gcp</Name>
+    <Description>Issues or PRs related to gcp provider</Description>
+    <Color>0052cc</Color>
+    <Default>false</Default>
+    <ID>5781339368</ID>
+    <NodeID>LA_kwDOJk4SXM8AAAABWJg86A</NodeID>
+    <URL>https://api.github.com/repos/kubecub/go-project-layout/labels/area/provider/gcp</URL>
+  </label>
+  <label>
+    <Name>area/provider/ibmcloud</Name>
+    <Description>Issues or PRs related to ibmcloud provider</Description>
+    <Color>0052cc</Color>
+    <Default>false</Default>
+    <ID>5781339313</ID>
+    <NodeID>LA_kwDOJk4SXM8AAAABWJg8sQ</NodeID>
+    <URL>https://api.github.com/repos/kubecub/go-project-layout/labels/area/provider/ibmcloud</URL>
+  </label>
+  <label>
+    <Name>area/provider/openstack</Name>
+    <Description>Issues or PRs related to openstack provider</Description>
+    <Color>0052cc</Color>
+    <Default>false</Default>
+    <ID>5781339332</ID>
+    <NodeID>LA_kwDOJk4SXM8AAAABWJg8xA</NodeID>
+    <URL>https://api.github.com/repos/kubecub/go-project-layout/labels/area/provider/openstack</URL>
+  </label>
+  <label>
+    <Name>area/provider/vmware</Name>
+    <Description>Issues or PRs related to vmware provider</Description>
+    <Color>0052cc</Color>
+    <Default>false</Default>
+    <ID>5781339251</ID>
+    <NodeID>LA_kwDOJk4SXM8AAAABWJg8cw</NodeID>
+    <URL>https://api.github.com/repos/kubecub/go-project-layout/labels/area/provider/vmware</URL>
+  </label>
+  <label>
+    <Name>area/release-eng</Name>
+    <Description>Issues or PRs related to the Release Engineering subproject</Description>
+    <Color>0052cc</Color>
+    <Default>false</Default>
+    <ID>5781339324</ID>
+    <NodeID>LA_kwDOJk4SXM8AAAABWJg8vA</NodeID>
+    <URL>https://api.github.com/repos/kubecub/go-project-layout/labels/area/release-eng</URL>
+  </label>
+  <label>
+    <Name>area/reliability</Name>
+    <Description>Issues or PRs related to system reliability</Description>
+    <Color>0052cc</Color>
+    <Default>false</Default>
+    <ID>5781339311</ID>
+    <NodeID>LA_kwDOJk4SXM8AAAABWJg8rw</NodeID>
+    <URL>https://api.github.com/repos/kubecub/go-project-layout/labels/area/reliability</URL>
+  </label>
+  <label>
+    <Name>area/rkt</Name>
+    <Description>Issues or PRs related to rkt (a pod-native container engine)</Description>
+    <Color>0052cc</Color>
+    <Default>false</Default>
+    <ID>5781339365</ID>
+    <NodeID>LA_kwDOJk4SXM8AAAABWJg85Q</NodeID>
+    <URL>https://api.github.com/repos/kubecub/go-project-layout/labels/area/rkt</URL>
+  </label>
+  <label>
+    <Name>area/secret-api</Name>
+    <Description>Issues or PRs related to Secret API</Description>
+    <Color>0052cc</Color>
+    <Default>false</Default>
+    <ID>5781339308</ID>
+    <NodeID>LA_kwDOJk4SXM8AAAABWJg8rA</NodeID>
+    <URL>https://api.github.com/repos/kubecub/go-project-layout/labels/area/secret-api</URL>
+  </label>
+  <label>
+    <Name>area/security</Name>
+    <Description>Issues or PRs related to security features or vulnerabilities</Description>
+    <Color>d93f0b</Color>
+    <Default>false</Default>
+    <ID>5781339298</ID>
+    <NodeID>LA_kwDOJk4SXM8AAAABWJg8og</NodeID>
+    <URL>https://api.github.com/repos/kubecub/go-project-layout/labels/area/security</URL>
+  </label>
+  <label>
+    <Name>area/stateful-apps</Name>
+    <Description>Issues or PRs related to stateful applications</Description>
+    <Color>0052cc</Color>
+    <Default>false</Default>
+    <ID>5781339410</ID>
+    <NodeID>LA_kwDOJk4SXM8AAAABWJg9Eg</NodeID>
+    <URL>https://api.github.com/repos/kubecub/go-project-layout/labels/area/stateful-apps</URL>
+  </label>
+  <label>
+    <Name>area/swagger</Name>
+    <Description>Issues or PRs related to Swagger API documentation</Description>
+    <Color>0052cc</Color>
+    <Default>false</Default>
+    <ID>5781339274</ID>
+    <NodeID>LA_kwDOJk4SXM8AAAABWJg8ig</NodeID>
+    <URL>https://api.github.com/repos/kubecub/go-project-layout/labels/area/swagger</URL>
+  </label>
+  <label>
+    <Name>area/system-requirement</Name>
+    <Description>Issues or PRs related to system requirements</Description>
+    <Color>0052cc</Color>
+    <Default>false</Default>
+    <ID>5781339242</ID>
+    <NodeID>LA_kwDOJk4SXM8AAAABWJg8ag</NodeID>
+    <URL>https://api.github.com/repos/kubecub/go-project-layout/labels/area/system-requirement</URL>
+  </label>
+  <label>
+    <Name>area/teardown</Name>
+    <Description>Issues or PRs related to system teardown or cleanup</Description>
+    <Color>0052cc</Color>
+    <Default>false</Default>
+    <ID>5781339245</ID>
+    <NodeID>LA_kwDOJk4SXM8AAAABWJg8bQ</NodeID>
+    <URL>https://api.github.com/repos/kubecub/go-project-layout/labels/area/teardown</URL>
+  </label>
+  <label>
+    <Name>area/test</Name>
+    <Description>Issues or PRs related to tests or testing infrastructure</Description>
+    <Color>0052cc</Color>
+    <Default>false</Default>
+    <ID>5781339288</ID>
+    <NodeID>LA_kwDOJk4SXM8AAAABWJg8mA</NodeID>
+    <URL>https://api.github.com/repos/kubecub/go-project-layout/labels/area/test</URL>
+  </label>
+  <label>
+    <Name>area/test-infra</Name>
+    <Description>Issues or PRs related to test infrastructure</Description>
+    <Color>0052cc</Color>
+    <Default>false</Default>
+    <ID>5781339399</ID>
+    <NodeID>LA_kwDOJk4SXM8AAAABWJg9Bw</NodeID>
+    <URL>https://api.github.com/repos/kubecub/go-project-layout/labels/area/test-infra</URL>
+  </label>
+  <label>
+    <Name>area/ui</Name>
+    <Description>Issues or PRs related to user interface</Description>
+    <Color>0052cc</Color>
+    <Default>false</Default>
+    <ID>5781339336</ID>
+    <NodeID>LA_kwDOJk4SXM8AAAABWJg8yA</NodeID>
+    <URL>https://api.github.com/repos/kubecub/go-project-layout/labels/area/ui</URL>
+  </label>
+  <label>
+    <Name>area/upgrade</Name>
+    <Description>Issues or PRs related to system upgrades</Description>
+    <Color>0052cc</Color>
+    <Default>false</Default>
+    <ID>5781339401</ID>
+    <NodeID>LA_kwDOJk4SXM8AAAABWJg9CQ</NodeID>
+    <URL>https://api.github.com/repos/kubecub/go-project-layout/labels/area/upgrade</URL>
+  </label>
+  <label>
+    <Name>area/usability</Name>
+    <Description>Issues or PRs related to usability improvements or concerns</Description>
+    <Color>0052cc</Color>
+    <Default>false</Default>
+    <ID>5781339329</ID>
+    <NodeID>LA_kwDOJk4SXM8AAAABWJg8wQ</NodeID>
+    <URL>https://api.github.com/repos/kubecub/go-project-layout/labels/area/usability</URL>
+  </label>
+  <label>
+    <Name>area/workload-api/cronjob</Name>
+    <Description>Issues or PRs related to workload API&#39;s cronjob features</Description>
+    <Color>0052cc</Color>
+    <Default>false</Default>
+    <ID>5781339362</ID>
+    <NodeID>LA_kwDOJk4SXM8AAAABWJg84g</NodeID>
+    <URL>https://api.github.com/repos/kubecub/go-project-layout/labels/area/workload-api/cronjob</URL>
+  </label>
+  <label>
+    <Name>area/workload-api/daemonset</Name>
+    <Description>Issues or PRs related to workload API&#39;s daemonset features</Description>
+    <Color>0052cc</Color>
+    <Default>false</Default>
+    <ID>5781339315</ID>
+    <NodeID>LA_kwDOJk4SXM8AAAABWJg8sw</NodeID>
+    <URL>https://api.github.com/repos/kubecub/go-project-layout/labels/area/workload-api/daemonset</URL>
+  </label>
+  <label>
+    <Name>area/workload-api/deployment</Name>
+    <Description>Issues or PRs related to workload API&#39;s deployment features</Description>
+    <Color>0052cc</Color>
+    <Default>false</Default>
+    <ID>5781339361</ID>
+    <NodeID>LA_kwDOJk4SXM8AAAABWJg84Q</NodeID>
+    <URL>https://api.github.com/repos/kubecub/go-project-layout/labels/area/workload-api/deployment</URL>
+  </label>
+  <label>
+    <Name>area/workload-api/job</Name>
+    <Description>Issues or PRs related to workload API&#39;s job features</Description>
+    <Color>0052cc</Color>
+    <Default>false</Default>
+    <ID>5781339351</ID>
+    <NodeID>LA_kwDOJk4SXM8AAAABWJg81w</NodeID>
+    <URL>https://api.github.com/repos/kubecub/go-project-layout/labels/area/workload-api/job</URL>
+  </label>
+  <label>
+    <Name>cherry-pick-approved</Name>
+    <Description>Indicates a cherry-pick PR into a release branch has been approved by the release branch manager.</Description>
+    <Color>fef2c0</Color>
+    <Default>false</Default>
+    <ID>5781339323</ID>
+    <NodeID>LA_kwDOJk4SXM8AAAABWJg8uw</NodeID>
+    <URL>https://api.github.com/repos/kubecub/go-project-layout/labels/cherry-pick-approved</URL>
+  </label>
+  <label>
+    <Name>cncf-cla: no</Name>
+    <Description>Indicates the PR&#39;s author has not signed the CNCF CLA.</Description>
+    <Color>e11d21</Color>
+    <Default>false</Default>
+    <ID>5781339370</ID>
+    <NodeID>LA_kwDOJk4SXM8AAAABWJg86g</NodeID>
+    <URL>https://api.github.com/repos/kubecub/go-project-layout/labels/cncf-cla:%20no</URL>
+  </label>
+  <label>
+    <Name>cncf-cla: yes</Name>
+    <Description>Indicates the PR&#39;s author has signed the CNCF CLA.</Description>
+    <Color>bfe5bf</Color>
+    <Default>false</Default>
+    <ID>5781339395</ID>
+    <NodeID>LA_kwDOJk4SXM8AAAABWJg9Aw</NodeID>
+    <URL>https://api.github.com/repos/kubecub/go-project-layout/labels/cncf-cla:%20yes</URL>
+  </label>
+  <label>
+    <Name>committee/code-of-conduct</Name>
+    <Description>Denotes an issue or PR intended to be handled by the code of conduct committee.</Description>
+    <Color>c0ff4a</Color>
+    <Default>false</Default>
+    <ID>5781339405</ID>
+    <NodeID>LA_kwDOJk4SXM8AAAABWJg9DQ</NodeID>
+    <URL>https://api.github.com/repos/kubecub/go-project-layout/labels/committee/code-of-conduct</URL>
+  </label>
+  <label>
+    <Name>committee/security-response</Name>
+    <Description>Denotes an issue or PR intended to be handled by the product security committee.</Description>
+    <Color>c0ff4a</Color>
+    <Default>false</Default>
+    <ID>5781339371</ID>
+    <NodeID>LA_kwDOJk4SXM8AAAABWJg86w</NodeID>
+    <URL>https://api.github.com/repos/kubecub/go-project-layout/labels/committee/security-response</URL>
+  </label>
+  <label>
+    <Name>committee/steering</Name>
+    <Description>Denotes an issue or PR intended to be handled by the steering committee.</Description>
+    <Color>c0ff4a</Color>
+    <Default>false</Default>
+    <ID>5781339252</ID>
+    <NodeID>LA_kwDOJk4SXM8AAAABWJg8dA</NodeID>
+    <URL>https://api.github.com/repos/kubecub/go-project-layout/labels/committee/steering</URL>
+  </label>
+  <label>
+    <Name>dependencies</Name>
+    <Description>Pull requests that update a dependency file</Description>
+    <Color>0366d6</Color>
+    <Default>false</Default>
+    <ID>5781339241</ID>
+    <NodeID>LA_kwDOJk4SXM8AAAABWJg8aQ</NodeID>
+    <URL>https://api.github.com/repos/kubecub/go-project-layout/labels/dependencies</URL>
+  </label>
+  <label>
+    <Name>do-not-merge</Name>
+    <Description>DEPRECATED. Indicates that a PR should not merge. Label can only be manually applied/removed.</Description>
+    <Color>e11d21</Color>
+    <Default>false</Default>
+    <ID>5781339375</ID>
+    <NodeID>LA_kwDOJk4SXM8AAAABWJg87w</NodeID>
+    <URL>https://api.github.com/repos/kubecub/go-project-layout/labels/do-not-merge</URL>
+  </label>
+  <label>
+    <Name>do-not-merge/blocked-paths</Name>
+    <Description>Indicates that a PR should not merge because it touches files in blocked paths.</Description>
+    <Color>e11d21</Color>
+    <Default>false</Default>
+    <ID>5781339352</ID>
+    <NodeID>LA_kwDOJk4SXM8AAAABWJg82A</NodeID>
+    <URL>https://api.github.com/repos/kubecub/go-project-layout/labels/do-not-merge/blocked-paths</URL>
+  </label>
+  <label>
+    <Name>do-not-merge/cherry-pick-not-approved</Name>
+    <Description>Indicates that a PR is not yet approved to merge into a release branch.</Description>
+    <Color>e11d21</Color>
+    <Default>false</Default>
+    <ID>5781339275</ID>
+    <NodeID>LA_kwDOJk4SXM8AAAABWJg8iw</NodeID>
+    <URL>https://api.github.com/repos/kubecub/go-project-layout/labels/do-not-merge/cherry-pick-not-approved</URL>
+  </label>
+  <label>
+    <Name>do-not-merge/contains-merge-commits</Name>
+    <Description>Indicates a PR which contains merge commits.</Description>
+    <Color>e11d21</Color>
+    <Default>false</Default>
+    <ID>5781339314</ID>
+    <NodeID>LA_kwDOJk4SXM8AAAABWJg8sg</NodeID>
+    <URL>https://api.github.com/repos/kubecub/go-project-layout/labels/do-not-merge/contains-merge-commits</URL>
+  </label>
+  <label>
+    <Name>do-not-merge/hold</Name>
+    <Description>Indicates that a PR should not merge because someone has issued a /hold command.</Description>
+    <Color>e11d21</Color>
+    <Default>false</Default>
+    <ID>5781339396</ID>
+    <NodeID>LA_kwDOJk4SXM8AAAABWJg9BA</NodeID>
+    <URL>https://api.github.com/repos/kubecub/go-project-layout/labels/do-not-merge/hold</URL>
+  </label>
+  <label>
+    <Name>do-not-merge/invalid-commit-message</Name>
+    <Description>Indicates that a PR should not merge because it has an invalid commit message.</Description>
+    <Color>e11d21</Color>
+    <Default>false</Default>
+    <ID>5781339277</ID>
+    <NodeID>LA_kwDOJk4SXM8AAAABWJg8jQ</NodeID>
+    <URL>https://api.github.com/repos/kubecub/go-project-layout/labels/do-not-merge/invalid-commit-message</URL>
+  </label>
+  <label>
+    <Name>do-not-merge/invalid-owners-file</Name>
+    <Description>Indicates that a PR should not merge because it has an invalid OWNERS file in it.</Description>
+    <Color>e11d21</Color>
+    <Default>false</Default>
+    <ID>5781339249</ID>
+    <NodeID>LA_kwDOJk4SXM8AAAABWJg8cQ</NodeID>
+    <URL>https://api.github.com/repos/kubecub/go-project-layout/labels/do-not-merge/invalid-owners-file</URL>
+  </label>
+  <label>
+    <Name>do-not-merge/needs-kind</Name>
+    <Description>Indicates a PR lacks a `kind/foo` label and requires one.</Description>
+    <Color>D93F0B</Color>
+    <Default>false</Default>
+    <ID>5781339234</ID>
+    <NodeID>LA_kwDOJk4SXM8AAAABWJg8Yg</NodeID>
+    <URL>https://api.github.com/repos/kubecub/go-project-layout/labels/do-not-merge/needs-kind</URL>
+  </label>
+  <label>
+    <Name>do-not-merge/needs-sig</Name>
+    <Description>Indicates an issue or PR lacks a `sig/foo` label and requires one.</Description>
+    <Color>e11d21</Color>
+    <Default>false</Default>
+    <ID>5781339408</ID>
+    <NodeID>LA_kwDOJk4SXM8AAAABWJg9EA</NodeID>
+    <URL>https://api.github.com/repos/kubecub/go-project-layout/labels/do-not-merge/needs-sig</URL>
+  </label>
+  <label>
+    <Name>do-not-merge/release-note-label-needed</Name>
+    <Description>Indicates that a PR should not merge because it&#39;s missing one of the release note labels.</Description>
+    <Color>e11d21</Color>
+    <Default>false</Default>
+    <ID>5781339344</ID>
+    <NodeID>LA_kwDOJk4SXM8AAAABWJg80A</NodeID>
+    <URL>https://api.github.com/repos/kubecub/go-project-layout/labels/do-not-merge/release-note-label-needed</URL>
+  </label>
+  <label>
+    <Name>do-not-merge/work-in-progress</Name>
+    <Description>Indicates that a PR should not merge because it is a work in progress.</Description>
+    <Color>e11d21</Color>
+    <Default>false</Default>
+    <ID>5781339279</ID>
+    <NodeID>LA_kwDOJk4SXM8AAAABWJg8jw</NodeID>
+    <URL>https://api.github.com/repos/kubecub/go-project-layout/labels/do-not-merge/work-in-progress</URL>
+  </label>
+  <label>
+    <Name>enhancement</Name>
+    <Description>New feature or request</Description>
+    <Color>a2eeef</Color>
+    <Default>true</Default>
+    <ID>5781339231</ID>
+    <NodeID>LA_kwDOJk4SXM8AAAABWJg8Xw</NodeID>
+    <URL>https://api.github.com/repos/kubecub/go-project-layout/labels/enhancement</URL>
+  </label>
+  <label>
+    <Name>gitlink2023</Name>
+    <Description>gitlink2023</Description>
+    <Color>0E8A16</Color>
+    <Default>false</Default>
+    <ID>5781339228</ID>
+    <NodeID>LA_kwDOJk4SXM8AAAABWJg8XA</NodeID>
+    <URL>https://api.github.com/repos/kubecub/go-project-layout/labels/gitlink2023</URL>
   </label>
   <label>
     <Name>good first issue</Name>
-    <Description>Good for newcomers</Description>
+    <Description>Denotes an issue ready for a new contributor, according to the &#34;help wanted&#34; guidelines.</Description>
     <Color>7057ff</Color>
     <Default>true</Default>
     <ID>5520223407</ID>
@@ -36,9 +882,18 @@
     <URL>https://api.github.com/repos/kubecub/go-project-layout/labels/good%20first%20issue</URL>
   </label>
   <label>
+    <Name>gsoc2023</Name>
+    <Description>ospp2024</Description>
+    <Color>0E8A16</Color>
+    <Default>false</Default>
+    <ID>5781339265</ID>
+    <NodeID>LA_kwDOJk4SXM8AAAABWJg8gQ</NodeID>
+    <URL>https://api.github.com/repos/kubecub/go-project-layout/labels/gsoc2023</URL>
+  </label>
+  <label>
     <Name>help wanted</Name>
-    <Description>Extra attention is needed</Description>
-    <Color>008672</Color>
+    <Description>Denotes an issue that needs help from a contributor. Must meet &#34;help wanted&#34; guidelines.</Description>
+    <Color>006b75</Color>
     <Default>true</Default>
     <ID>5520223410</ID>
     <NodeID>LA_kwDOJk4SXM8AAAABSQfssg</NodeID>
@@ -54,54 +909,153 @@
     <URL>https://api.github.com/repos/kubecub/go-project-layout/labels/invalid</URL>
   </label>
   <label>
+    <Name>kind/api-change</Name>
+    <Description>Categorizes issue or PR as related to adding, removing, or otherwise changing an API</Description>
+    <Color>e11d21</Color>
+    <Default>false</Default>
+    <ID>5781339423</ID>
+    <NodeID>LA_kwDOJk4SXM8AAAABWJg9Hw</NodeID>
+    <URL>https://api.github.com/repos/kubecub/go-project-layout/labels/kind/api-change</URL>
+  </label>
+  <label>
     <Name>kind/bug</Name>
-    <Description>Something isn&#39;t working</Description>
-    <Color>d73a4a</Color>
+    <Description>Categorizes issue or PR as related to a bug.</Description>
+    <Color>e11d21</Color>
     <Default>false</Default>
     <ID>5520223417</ID>
     <NodeID>LA_kwDOJk4SXM8AAAABSQfsuQ</NodeID>
     <URL>https://api.github.com/repos/kubecub/go-project-layout/labels/kind/bug</URL>
   </label>
   <label>
+    <Name>kind/cleanup</Name>
+    <Description>Categorizes issue or PR as related to cleaning up code, process, or technical debt.</Description>
+    <Color>006b75</Color>
+    <Default>false</Default>
+    <ID>5781339248</ID>
+    <NodeID>LA_kwDOJk4SXM8AAAABWJg8cA</NodeID>
+    <URL>https://api.github.com/repos/kubecub/go-project-layout/labels/kind/cleanup</URL>
+  </label>
+  <label>
+    <Name>kind/deprecation</Name>
+    <Description>Categorizes issue or PR as related to a feature/enhancement marked for deprecation.</Description>
+    <Color>e11d21</Color>
+    <Default>false</Default>
+    <ID>5781339394</ID>
+    <NodeID>LA_kwDOJk4SXM8AAAABWJg9Ag</NodeID>
+    <URL>https://api.github.com/repos/kubecub/go-project-layout/labels/kind/deprecation</URL>
+  </label>
+  <label>
+    <Name>kind/design</Name>
+    <Description>Categorizes issue or PR as related to design.</Description>
+    <Color>c7def8</Color>
+    <Default>false</Default>
+    <ID>5781339443</ID>
+    <NodeID>LA_kwDOJk4SXM8AAAABWJg9Mw</NodeID>
+    <URL>https://api.github.com/repos/kubecub/go-project-layout/labels/kind/design</URL>
+  </label>
+  <label>
     <Name>kind/documentation</Name>
-    <Description>Improvements or additions to documentation</Description>
-    <Color>0075ca</Color>
+    <Description>Categorizes issue or PR as related to documentation.</Description>
+    <Color>c7def8</Color>
     <Default>false</Default>
     <ID>5520223420</ID>
     <NodeID>LA_kwDOJk4SXM8AAAABSQfsvA</NodeID>
     <URL>https://api.github.com/repos/kubecub/go-project-layout/labels/kind/documentation</URL>
   </label>
   <label>
-    <Name>kind/enhancement</Name>
-    <Description>New feature or request</Description>
-    <Color>a2eeef</Color>
+    <Name>kind/failing-test</Name>
+    <Description>Report failed tests in kubecub</Description>
+    <Color>B60205</Color>
     <Default>false</Default>
-    <ID>5520223423</ID>
-    <NodeID>LA_kwDOJk4SXM8AAAABSQfsvw</NodeID>
-    <URL>https://api.github.com/repos/kubecub/go-project-layout/labels/kind/enhancement</URL>
+    <ID>5781339246</ID>
+    <NodeID>LA_kwDOJk4SXM8AAAABWJg8bg</NodeID>
+    <URL>https://api.github.com/repos/kubecub/go-project-layout/labels/kind/failing-test</URL>
   </label>
   <label>
     <Name>kind/feature</Name>
-    <Description></Description>
-    <Color>DC03D2</Color>
+    <Description>Categorizes issue or PR as related to a new feature.</Description>
+    <Color>c7def8</Color>
     <Default>false</Default>
     <ID>5520223425</ID>
     <NodeID>LA_kwDOJk4SXM8AAAABSQfswQ</NodeID>
     <URL>https://api.github.com/repos/kubecub/go-project-layout/labels/kind/feature</URL>
   </label>
   <label>
+    <Name>kind/flake</Name>
+    <Description>Categorizes issue or PR as related to a flaky test.</Description>
+    <Color>f7c6c7</Color>
+    <Default>false</Default>
+    <ID>5781339353</ID>
+    <NodeID>LA_kwDOJk4SXM8AAAABWJg82Q</NodeID>
+    <URL>https://api.github.com/repos/kubecub/go-project-layout/labels/kind/flake</URL>
+  </label>
+  <label>
+    <Name>kind/regression</Name>
+    <Description>Categorizes issue or PR as related to a regression from a prior release.</Description>
+    <Color>e11d21</Color>
+    <Default>false</Default>
+    <ID>5781339244</ID>
+    <NodeID>LA_kwDOJk4SXM8AAAABWJg8bA</NodeID>
+    <URL>https://api.github.com/repos/kubecub/go-project-layout/labels/kind/regression</URL>
+  </label>
+  <label>
+    <Name>kind/support</Name>
+    <Description>Categorizes issue or PR as a support question.</Description>
+    <Color>BFDADC</Color>
+    <Default>false</Default>
+    <ID>5781339261</ID>
+    <NodeID>LA_kwDOJk4SXM8AAAABWJg8fQ</NodeID>
+    <URL>https://api.github.com/repos/kubecub/go-project-layout/labels/kind/support</URL>
+  </label>
+  <label>
+    <Name>kubecub</Name>
+    <Description>User information, template information, important information, never expired and closed.</Description>
+    <Color>b60205</Color>
+    <Default>false</Default>
+    <ID>5781339270</ID>
+    <NodeID>LA_kwDOJk4SXM8AAAABWJg8hg</NodeID>
+    <URL>https://api.github.com/repos/kubecub/go-project-layout/labels/kubecub</URL>
+  </label>
+  <label>
     <Name>lgtm</Name>
-    <Description>Indicates that a PR is ready to be merged.</Description>
-    <Color>0E8A16</Color>
+    <Description>&#34;Looks good to me&#34;, indicates that a PR is ready to be merged.</Description>
+    <Color>15dd18</Color>
     <Default>false</Default>
     <ID>5520223428</ID>
     <NodeID>LA_kwDOJk4SXM8AAAABSQfsxA</NodeID>
     <URL>https://api.github.com/repos/kubecub/go-project-layout/labels/lgtm</URL>
   </label>
   <label>
+    <Name>lifecycle/active</Name>
+    <Description>Indicates that an issue or PR is actively being worked on by a contributor.</Description>
+    <Color>8fc951</Color>
+    <Default>false</Default>
+    <ID>5781339339</ID>
+    <NodeID>LA_kwDOJk4SXM8AAAABWJg8yw</NodeID>
+    <URL>https://api.github.com/repos/kubecub/go-project-layout/labels/lifecycle/active</URL>
+  </label>
+  <label>
+    <Name>lifecycle/frozen</Name>
+    <Description>Indicates that an issue or PR should not be auto-closed due to staleness.</Description>
+    <Color>d3e2f0</Color>
+    <Default>false</Default>
+    <ID>5781339230</ID>
+    <NodeID>LA_kwDOJk4SXM8AAAABWJg8Xg</NodeID>
+    <URL>https://api.github.com/repos/kubecub/go-project-layout/labels/lifecycle/frozen</URL>
+  </label>
+  <label>
+    <Name>lifecycle/rotten</Name>
+    <Description>Denotes an issue or PR that has aged beyond stale and will be auto-closed.</Description>
+    <Color>604460</Color>
+    <Default>false</Default>
+    <ID>5781339239</ID>
+    <NodeID>LA_kwDOJk4SXM8AAAABWJg8Zw</NodeID>
+    <URL>https://api.github.com/repos/kubecub/go-project-layout/labels/lifecycle/rotten</URL>
+  </label>
+  <label>
     <Name>lifecycle/stale</Name>
-    <Description></Description>
-    <Color>ededed</Color>
+    <Description>Denotes an issue or PR has remained open with no activity and has become stale.</Description>
+    <Color>795548</Color>
     <Default>false</Default>
     <ID>5618487007</ID>
     <NodeID>LA_kwDOJk4SXM8AAAABTuNO3w</NodeID>
@@ -117,6 +1071,177 @@
     <URL>https://api.github.com/repos/kubecub/go-project-layout/labels/log</URL>
   </label>
   <label>
+    <Name>milestone/incomplete-labels</Name>
+    <Description>Marks issues or pull requests where labels are incomplete or missing.</Description>
+    <Color>ededed</Color>
+    <Default>false</Default>
+    <ID>5781339390</ID>
+    <NodeID>LA_kwDOJk4SXM8AAAABWJg8_g</NodeID>
+    <URL>https://api.github.com/repos/kubecub/go-project-layout/labels/milestone/incomplete-labels</URL>
+  </label>
+  <label>
+    <Name>milestone/needs-approval</Name>
+    <Description>Marks issues or pull requests that need approval to be included in the milestone.</Description>
+    <Color>ededed</Color>
+    <Default>false</Default>
+    <ID>5781339256</ID>
+    <NodeID>LA_kwDOJk4SXM8AAAABWJg8eA</NodeID>
+    <URL>https://api.github.com/repos/kubecub/go-project-layout/labels/milestone/needs-approval</URL>
+  </label>
+  <label>
+    <Name>milestone/needs-attention</Name>
+    <Description>Marks issues or pull requests that need further attention or action to be included in the milestone.</Description>
+    <Color>ededed</Color>
+    <Default>false</Default>
+    <ID>5781339418</ID>
+    <NodeID>LA_kwDOJk4SXM8AAAABWJg9Gg</NodeID>
+    <URL>https://api.github.com/repos/kubecub/go-project-layout/labels/milestone/needs-attention</URL>
+  </label>
+  <label>
+    <Name>milestone/removed</Name>
+    <Description>Marks issues or pull requests that have been removed from the milestone.</Description>
+    <Color>ededed</Color>
+    <Default>false</Default>
+    <ID>5781339303</ID>
+    <NodeID>LA_kwDOJk4SXM8AAAABWJg8pw</NodeID>
+    <URL>https://api.github.com/repos/kubecub/go-project-layout/labels/milestone/removed</URL>
+  </label>
+  <label>
+    <Name>needs-kind</Name>
+    <Description>Indicates a PR lacks a `kind/foo` label and requires one.</Description>
+    <Color>ededed</Color>
+    <Default>false</Default>
+    <ID>5781339305</ID>
+    <NodeID>LA_kwDOJk4SXM8AAAABWJg8qQ</NodeID>
+    <URL>https://api.github.com/repos/kubecub/go-project-layout/labels/needs-kind</URL>
+  </label>
+  <label>
+    <Name>needs-ok-to-test</Name>
+    <Description>Indicates a PR that requires an org member to verify it is safe to test.</Description>
+    <Color>b60205</Color>
+    <Default>false</Default>
+    <ID>5781339349</ID>
+    <NodeID>LA_kwDOJk4SXM8AAAABWJg81Q</NodeID>
+    <URL>https://api.github.com/repos/kubecub/go-project-layout/labels/needs-ok-to-test</URL>
+  </label>
+  <label>
+    <Name>needs-priority</Name>
+    <Description>Indicates a PR lacks a `priority/foo` label and requires one.</Description>
+    <Color>ededed</Color>
+    <Default>false</Default>
+    <ID>5781339319</ID>
+    <NodeID>LA_kwDOJk4SXM8AAAABWJg8tw</NodeID>
+    <URL>https://api.github.com/repos/kubecub/go-project-layout/labels/needs-priority</URL>
+  </label>
+  <label>
+    <Name>needs-rebase</Name>
+    <Description>Indicates a PR cannot be merged because it has merge conflicts with HEAD.</Description>
+    <Color>e11d21</Color>
+    <Default>false</Default>
+    <ID>5781339406</ID>
+    <NodeID>LA_kwDOJk4SXM8AAAABWJg9Dg</NodeID>
+    <URL>https://api.github.com/repos/kubecub/go-project-layout/labels/needs-rebase</URL>
+  </label>
+  <label>
+    <Name>needs-sig</Name>
+    <Description>Indicates an issue or PR lacks a `sig/foo` label and requires one.</Description>
+    <Color>ededed</Color>
+    <Default>false</Default>
+    <ID>5781339360</ID>
+    <NodeID>LA_kwDOJk4SXM8AAAABWJg84A</NodeID>
+    <URL>https://api.github.com/repos/kubecub/go-project-layout/labels/needs-sig</URL>
+  </label>
+  <label>
+    <Name>needs-triage</Name>
+    <Description>Indicates an issue or PR lacks a `triage/foo` label and requires one.</Description>
+    <Color>C5DEF5</Color>
+    <Default>false</Default>
+    <ID>5781339253</ID>
+    <NodeID>LA_kwDOJk4SXM8AAAABWJg8dQ</NodeID>
+    <URL>https://api.github.com/repos/kubecub/go-project-layout/labels/needs-triage</URL>
+  </label>
+  <label>
+    <Name>network</Name>
+    <Description>Categorizes an issue or PR as relevant to Network.</Description>
+    <Color>006B75</Color>
+    <Default>false</Default>
+    <ID>5781339372</ID>
+    <NodeID>LA_kwDOJk4SXM8AAAABWJg87A</NodeID>
+    <URL>https://api.github.com/repos/kubecub/go-project-layout/labels/network</URL>
+  </label>
+  <label>
+    <Name>official-cve-feed</Name>
+    <Description>Issues or PRs related to CVEs officially announced by Security Response Committee (SRC)</Description>
+    <Color>0052cc</Color>
+    <Default>false</Default>
+    <ID>5781339318</ID>
+    <NodeID>LA_kwDOJk4SXM8AAAABWJg8tg</NodeID>
+    <URL>https://api.github.com/repos/kubecub/go-project-layout/labels/official-cve-feed</URL>
+  </label>
+  <label>
+    <Name>ok-to-test</Name>
+    <Description>Indicates a non-member PR verified by an org member that is safe to test.</Description>
+    <Color>15dd18</Color>
+    <Default>false</Default>
+    <ID>5781339348</ID>
+    <NodeID>LA_kwDOJk4SXM8AAAABWJg81A</NodeID>
+    <URL>https://api.github.com/repos/kubecub/go-project-layout/labels/ok-to-test</URL>
+  </label>
+  <label>
+    <Name>priority/awaiting-more-evidence</Name>
+    <Description>Lowest priority. Possibly useful, but not yet enough support to actually get it done.</Description>
+    <Color>fef2c0</Color>
+    <Default>false</Default>
+    <ID>5781339354</ID>
+    <NodeID>LA_kwDOJk4SXM8AAAABWJg82g</NodeID>
+    <URL>https://api.github.com/repos/kubecub/go-project-layout/labels/priority/awaiting-more-evidence</URL>
+  </label>
+  <label>
+    <Name>priority/backlog</Name>
+    <Description>Higher priority than priority/awaiting-more-evidence.</Description>
+    <Color>fbca04</Color>
+    <Default>false</Default>
+    <ID>5781339369</ID>
+    <NodeID>LA_kwDOJk4SXM8AAAABWJg86Q</NodeID>
+    <URL>https://api.github.com/repos/kubecub/go-project-layout/labels/priority/backlog</URL>
+  </label>
+  <label>
+    <Name>priority/critical-urgent</Name>
+    <Description>Highest priority. Must be actively worked on as someone&#39;s top priority right now.</Description>
+    <Color>e11d21</Color>
+    <Default>false</Default>
+    <ID>5781339263</ID>
+    <NodeID>LA_kwDOJk4SXM8AAAABWJg8fw</NodeID>
+    <URL>https://api.github.com/repos/kubecub/go-project-layout/labels/priority/critical-urgent</URL>
+  </label>
+  <label>
+    <Name>priority/important-longterm</Name>
+    <Description>Important over the long term, but may not be staffed and/or may need multiple releases to complete.</Description>
+    <Color>eb6420</Color>
+    <Default>false</Default>
+    <ID>5781339393</ID>
+    <NodeID>LA_kwDOJk4SXM8AAAABWJg9AQ</NodeID>
+    <URL>https://api.github.com/repos/kubecub/go-project-layout/labels/priority/important-longterm</URL>
+  </label>
+  <label>
+    <Name>priority/important-soon</Name>
+    <Description>Must be staffed and worked on either currently, or very soon, ideally in time for the next release.</Description>
+    <Color>eb6420</Color>
+    <Default>false</Default>
+    <ID>5781339297</ID>
+    <NodeID>LA_kwDOJk4SXM8AAAABWJg8oQ</NodeID>
+    <URL>https://api.github.com/repos/kubecub/go-project-layout/labels/priority/important-soon</URL>
+  </label>
+  <label>
+    <Name>proposal</Name>
+    <Description></Description>
+    <Color>0E8A16</Color>
+    <Default>false</Default>
+    <ID>5781339364</ID>
+    <NodeID>LA_kwDOJk4SXM8AAAABWJg85A</NodeID>
+    <URL>https://api.github.com/repos/kubecub/go-project-layout/labels/proposal</URL>
+  </label>
+  <label>
     <Name>question</Name>
     <Description>Further information is requested</Description>
     <Color>d876e3</Color>
@@ -126,18 +1251,81 @@
     <URL>https://api.github.com/repos/kubecub/go-project-layout/labels/question</URL>
   </label>
   <label>
-    <Name>report</Name>
-    <Description></Description>
+    <Name>release-note</Name>
+    <Description>Denotes a PR that will be considered when it comes time to generate release notes.</Description>
+    <Color>c2e0c6</Color>
+    <Default>false</Default>
+    <ID>5781339320</ID>
+    <NodeID>LA_kwDOJk4SXM8AAAABWJg8uA</NodeID>
+    <URL>https://api.github.com/repos/kubecub/go-project-layout/labels/release-note</URL>
+  </label>
+  <label>
+    <Name>release-note-action-required</Name>
+    <Description>Denotes a PR that introduces potentially breaking changes that require user action.</Description>
+    <Color>c2e0c6</Color>
+    <Default>false</Default>
+    <ID>5781339378</ID>
+    <NodeID>LA_kwDOJk4SXM8AAAABWJg88g</NodeID>
+    <URL>https://api.github.com/repos/kubecub/go-project-layout/labels/release-note-action-required</URL>
+  </label>
+  <label>
+    <Name>release-note-none</Name>
+    <Description>Denotes a PR that doesn&#39;t merit a release note.</Description>
+    <Color>c2e0c6</Color>
+    <Default>false</Default>
+    <ID>5781339397</ID>
+    <NodeID>LA_kwDOJk4SXM8AAAABWJg9BQ</NodeID>
+    <URL>https://api.github.com/repos/kubecub/go-project-layout/labels/release-note-none</URL>
+  </label>
+  <label>
+    <Name>release/v3.0</Name>
+    <Description>Issues and pull requests related to version 3.0 of the release. This is the current version.</Description>
     <Color>0E8A16</Color>
+    <Default>false</Default>
+    <ID>5781339238</ID>
+    <NodeID>LA_kwDOJk4SXM8AAAABWJg8Zg</NodeID>
+    <URL>https://api.github.com/repos/kubecub/go-project-layout/labels/release/v3.0</URL>
+  </label>
+  <label>
+    <Name>release/v4.0</Name>
+    <Description>Issues and pull requests related to version 4.0 of the release. This version is in development.</Description>
+    <Color>0E8A16</Color>
+    <Default>false</Default>
+    <ID>5781339384</ID>
+    <NodeID>LA_kwDOJk4SXM8AAAABWJg8-A</NodeID>
+    <URL>https://api.github.com/repos/kubecub/go-project-layout/labels/release/v4.0</URL>
+  </label>
+  <label>
+    <Name>release/v5.0</Name>
+    <Description>Issues and pull requests related to version 5.0 of the release. This version is in planning stage.</Description>
+    <Color>0E8A16</Color>
+    <Default>false</Default>
+    <ID>5781339343</ID>
+    <NodeID>LA_kwDOJk4SXM8AAAABWJg8zw</NodeID>
+    <URL>https://api.github.com/repos/kubecub/go-project-layout/labels/release/v5.0</URL>
+  </label>
+  <label>
+    <Name>report</Name>
+    <Description>Some labels for the CICD automation report</Description>
+    <Color>D93F0B</Color>
     <Default>false</Default>
     <ID>5520832656</ID>
     <NodeID>LA_kwDOJk4SXM8AAAABSRE4kA</NodeID>
     <URL>https://api.github.com/repos/kubecub/go-project-layout/labels/report</URL>
   </label>
   <label>
-    <Name>RFC</Name>
+    <Name>response-expired</Name>
     <Description></Description>
-    <Color>10C590</Color>
+    <Color>B60205</Color>
+    <Default>false</Default>
+    <ID>5781339289</ID>
+    <NodeID>LA_kwDOJk4SXM8AAAABWJg8mQ</NodeID>
+    <URL>https://api.github.com/repos/kubecub/go-project-layout/labels/response-expired</URL>
+  </label>
+  <label>
+    <Name>RFC</Name>
+    <Description>Project design proposal</Description>
+    <Color>0E8A16</Color>
     <Default>false</Default>
     <ID>5520223404</ID>
     <NodeID>LA_kwDOJk4SXM8AAAABSQfsrA</NodeID>
@@ -145,7 +1333,7 @@
   </label>
   <label>
     <Name>roadmap</Name>
-    <Description></Description>
+    <Description>Roadmap-related labels</Description>
     <Color>0E8A16</Color>
     <Default>false</Default>
     <ID>5520223432</ID>
@@ -153,18 +1341,324 @@
     <URL>https://api.github.com/repos/kubecub/go-project-layout/labels/roadmap</URL>
   </label>
   <label>
+    <Name>sig/api-machinery</Name>
+    <Description>Categorizes an issue or PR as relevant to SIG API Machinery.</Description>
+    <Color>d2b48c</Color>
+    <Default>false</Default>
+    <ID>5781339363</ID>
+    <NodeID>LA_kwDOJk4SXM8AAAABWJg84w</NodeID>
+    <URL>https://api.github.com/repos/kubecub/go-project-layout/labels/sig/api-machinery</URL>
+  </label>
+  <label>
+    <Name>sig/apps</Name>
+    <Description>Categorizes an issue or PR as relevant to SIG Apps.</Description>
+    <Color>d2b48c</Color>
+    <Default>false</Default>
+    <ID>5781339359</ID>
+    <NodeID>LA_kwDOJk4SXM8AAAABWJg83w</NodeID>
+    <URL>https://api.github.com/repos/kubecub/go-project-layout/labels/sig/apps</URL>
+  </label>
+  <label>
+    <Name>sig/architecture</Name>
+    <Description>Categorizes an issue or PR as relevant to SIG Architecture.</Description>
+    <Color>d2b48c</Color>
+    <Default>false</Default>
+    <ID>5781339247</ID>
+    <NodeID>LA_kwDOJk4SXM8AAAABWJg8bw</NodeID>
+    <URL>https://api.github.com/repos/kubecub/go-project-layout/labels/sig/architecture</URL>
+  </label>
+  <label>
+    <Name>sig/auth</Name>
+    <Description>Categorizes an issue or PR as relevant to SIG Auth.</Description>
+    <Color>d2b48c</Color>
+    <Default>false</Default>
+    <ID>5781339374</ID>
+    <NodeID>LA_kwDOJk4SXM8AAAABWJg87g</NodeID>
+    <URL>https://api.github.com/repos/kubecub/go-project-layout/labels/sig/auth</URL>
+  </label>
+  <label>
+    <Name>sig/autoscaling</Name>
+    <Description>Categorizes an issue or PR as relevant to SIG Autoscaling.</Description>
+    <Color>d2b48c</Color>
+    <Default>false</Default>
+    <ID>5781339357</ID>
+    <NodeID>LA_kwDOJk4SXM8AAAABWJg83Q</NodeID>
+    <URL>https://api.github.com/repos/kubecub/go-project-layout/labels/sig/autoscaling</URL>
+  </label>
+  <label>
+    <Name>sig/cli</Name>
+    <Description>Categorizes an issue or PR as relevant to SIG CLI.</Description>
+    <Color>d2b48c</Color>
+    <Default>false</Default>
+    <ID>5781339387</ID>
+    <NodeID>LA_kwDOJk4SXM8AAAABWJg8-w</NodeID>
+    <URL>https://api.github.com/repos/kubecub/go-project-layout/labels/sig/cli</URL>
+  </label>
+  <label>
+    <Name>sig/cloud-provider</Name>
+    <Description>Categorizes an issue or PR as relevant to SIG Cloud Provider.</Description>
+    <Color>d2b48c</Color>
+    <Default>false</Default>
+    <ID>5781339299</ID>
+    <NodeID>LA_kwDOJk4SXM8AAAABWJg8ow</NodeID>
+    <URL>https://api.github.com/repos/kubecub/go-project-layout/labels/sig/cloud-provider</URL>
+  </label>
+  <label>
+    <Name>sig/cluster-lifecycle</Name>
+    <Description>Categorizes an issue or PR as relevant to SIG Cluster Lifecycle.</Description>
+    <Color>d2b48c</Color>
+    <Default>false</Default>
+    <ID>5781339376</ID>
+    <NodeID>LA_kwDOJk4SXM8AAAABWJg88A</NodeID>
+    <URL>https://api.github.com/repos/kubecub/go-project-layout/labels/sig/cluster-lifecycle</URL>
+  </label>
+  <label>
+    <Name>sig/contributor-experience</Name>
+    <Description>Categorizes an issue or PR as relevant to SIG Contributor Experience.</Description>
+    <Color>d2b48c</Color>
+    <Default>false</Default>
+    <ID>5781339415</ID>
+    <NodeID>LA_kwDOJk4SXM8AAAABWJg9Fw</NodeID>
+    <URL>https://api.github.com/repos/kubecub/go-project-layout/labels/sig/contributor-experience</URL>
+  </label>
+  <label>
+    <Name>sig/docs</Name>
+    <Description>Categorizes an issue or PR as relevant to SIG Docs.</Description>
+    <Color>d2b48c</Color>
+    <Default>false</Default>
+    <ID>5781339342</ID>
+    <NodeID>LA_kwDOJk4SXM8AAAABWJg8zg</NodeID>
+    <URL>https://api.github.com/repos/kubecub/go-project-layout/labels/sig/docs</URL>
+  </label>
+  <label>
+    <Name>sig/instrumentation</Name>
+    <Description>Categorizes an issue or PR as relevant to SIG Instrumentation.</Description>
+    <Color>d2b48c</Color>
+    <Default>false</Default>
+    <ID>5781339333</ID>
+    <NodeID>LA_kwDOJk4SXM8AAAABWJg8xQ</NodeID>
+    <URL>https://api.github.com/repos/kubecub/go-project-layout/labels/sig/instrumentation</URL>
+  </label>
+  <label>
+    <Name>sig/kubecub-infra</Name>
+    <Description>Categorizes an issue or PR as relevant to SIG kubecub Infra.</Description>
+    <Color>d2b48c</Color>
+    <Default>false</Default>
+    <ID>5781339417</ID>
+    <NodeID>LA_kwDOJk4SXM8AAAABWJg9GQ</NodeID>
+    <URL>https://api.github.com/repos/kubecub/go-project-layout/labels/sig/kubecub-infra</URL>
+  </label>
+  <label>
+    <Name>sig/multicluster</Name>
+    <Description>Categorizes an issue or PR as relevant to SIG Multicluster.</Description>
+    <Color>d2b48c</Color>
+    <Default>false</Default>
+    <ID>5781339300</ID>
+    <NodeID>LA_kwDOJk4SXM8AAAABWJg8pA</NodeID>
+    <URL>https://api.github.com/repos/kubecub/go-project-layout/labels/sig/multicluster</URL>
+  </label>
+  <label>
+    <Name>sig/network</Name>
+    <Description>Categorizes an issue or PR as relevant to SIG Network.</Description>
+    <Color>d2b48c</Color>
+    <Default>false</Default>
+    <ID>5781339291</ID>
+    <NodeID>LA_kwDOJk4SXM8AAAABWJg8mw</NodeID>
+    <URL>https://api.github.com/repos/kubecub/go-project-layout/labels/sig/network</URL>
+  </label>
+  <label>
+    <Name>sig/node</Name>
+    <Description>Categorizes an issue or PR as relevant to SIG Node.</Description>
+    <Color>d2b48c</Color>
+    <Default>false</Default>
+    <ID>5781339310</ID>
+    <NodeID>LA_kwDOJk4SXM8AAAABWJg8rg</NodeID>
+    <URL>https://api.github.com/repos/kubecub/go-project-layout/labels/sig/node</URL>
+  </label>
+  <label>
+    <Name>sig/release</Name>
+    <Description>Categorizes an issue or PR as relevant to SIG Release.</Description>
+    <Color>d2b48c</Color>
+    <Default>false</Default>
+    <ID>5781339377</ID>
+    <NodeID>LA_kwDOJk4SXM8AAAABWJg88Q</NodeID>
+    <URL>https://api.github.com/repos/kubecub/go-project-layout/labels/sig/release</URL>
+  </label>
+  <label>
+    <Name>sig/scalability</Name>
+    <Description>Categorizes an issue or PR as relevant to SIG Scalability.</Description>
+    <Color>d2b48c</Color>
+    <Default>false</Default>
+    <ID>5781339380</ID>
+    <NodeID>LA_kwDOJk4SXM8AAAABWJg89A</NodeID>
+    <URL>https://api.github.com/repos/kubecub/go-project-layout/labels/sig/scalability</URL>
+  </label>
+  <label>
+    <Name>sig/scheduling</Name>
+    <Description>Categorizes an issue or PR as relevant to SIG Scheduling.</Description>
+    <Color>d2b48c</Color>
+    <Default>false</Default>
+    <ID>5781339280</ID>
+    <NodeID>LA_kwDOJk4SXM8AAAABWJg8kA</NodeID>
+    <URL>https://api.github.com/repos/kubecub/go-project-layout/labels/sig/scheduling</URL>
+  </label>
+  <label>
+    <Name>sig/security</Name>
+    <Description>Categorizes an issue or PR as relevant to SIG Security.</Description>
+    <Color>d2b48c</Color>
+    <Default>false</Default>
+    <ID>5781339346</ID>
+    <NodeID>LA_kwDOJk4SXM8AAAABWJg80g</NodeID>
+    <URL>https://api.github.com/repos/kubecub/go-project-layout/labels/sig/security</URL>
+  </label>
+  <label>
+    <Name>sig/service-catalog</Name>
+    <Description>Categorizes an issue or PR as relevant to SIG Service Catalog.</Description>
+    <Color>d2b48c</Color>
+    <Default>false</Default>
+    <ID>5781339400</ID>
+    <NodeID>LA_kwDOJk4SXM8AAAABWJg9CA</NodeID>
+    <URL>https://api.github.com/repos/kubecub/go-project-layout/labels/sig/service-catalog</URL>
+  </label>
+  <label>
+    <Name>sig/storage</Name>
+    <Description>Categorizes an issue or PR as relevant to SIG Storage.</Description>
+    <Color>d2b48c</Color>
+    <Default>false</Default>
+    <ID>5781339383</ID>
+    <NodeID>LA_kwDOJk4SXM8AAAABWJg89w</NodeID>
+    <URL>https://api.github.com/repos/kubecub/go-project-layout/labels/sig/storage</URL>
+  </label>
+  <label>
+    <Name>sig/testing</Name>
+    <Description>Categorizes an issue or PR as relevant to SIG Testing.</Description>
+    <Color>d2b48c</Color>
+    <Default>false</Default>
+    <ID>5781339312</ID>
+    <NodeID>LA_kwDOJk4SXM8AAAABWJg8sA</NodeID>
+    <URL>https://api.github.com/repos/kubecub/go-project-layout/labels/sig/testing</URL>
+  </label>
+  <label>
+    <Name>sig/ui</Name>
+    <Description>Categorizes an issue or PR as relevant to SIG UI.</Description>
+    <Color>d2b48c</Color>
+    <Default>false</Default>
+    <ID>5781339321</ID>
+    <NodeID>LA_kwDOJk4SXM8AAAABWJg8uQ</NodeID>
+    <URL>https://api.github.com/repos/kubecub/go-project-layout/labels/sig/ui</URL>
+  </label>
+  <label>
+    <Name>sig/usability</Name>
+    <Description>Categorizes an issue or PR as relevant to SIG Usability.</Description>
+    <Color>d2b48c</Color>
+    <Default>false</Default>
+    <ID>5781339287</ID>
+    <NodeID>LA_kwDOJk4SXM8AAAABWJg8lw</NodeID>
+    <URL>https://api.github.com/repos/kubecub/go-project-layout/labels/sig/usability</URL>
+  </label>
+  <label>
+    <Name>sig/windows</Name>
+    <Description>Categorizes an issue or PR as relevant to SIG Windows.</Description>
+    <Color>d2b48c</Color>
+    <Default>false</Default>
+    <ID>5781339292</ID>
+    <NodeID>LA_kwDOJk4SXM8AAAABWJg8nA</NodeID>
+    <URL>https://api.github.com/repos/kubecub/go-project-layout/labels/sig/windows</URL>
+  </label>
+  <label>
+    <Name>size/L</Name>
+    <Description>Denotes a PR that changes 100-499 lines, ignoring generated files.</Description>
+    <Color>D93F99</Color>
+    <Default>false</Default>
+    <ID>5781339235</ID>
+    <NodeID>LA_kwDOJk4SXM8AAAABWJg8Yw</NodeID>
+    <URL>https://api.github.com/repos/kubecub/go-project-layout/labels/size/L</URL>
+  </label>
+  <label>
+    <Name>size/M</Name>
+    <Description>Denotes a PR that changes 30-99 lines, ignoring generated files.</Description>
+    <Color>eebb00</Color>
+    <Default>false</Default>
+    <ID>5781339296</ID>
+    <NodeID>LA_kwDOJk4SXM8AAAABWJg8oA</NodeID>
+    <URL>https://api.github.com/repos/kubecub/go-project-layout/labels/size/M</URL>
+  </label>
+  <label>
+    <Name>size/S</Name>
+    <Description>Denotes a PR that changes 10-29 lines, ignoring generated files.</Description>
+    <Color>77bb00</Color>
+    <Default>false</Default>
+    <ID>5781339250</ID>
+    <NodeID>LA_kwDOJk4SXM8AAAABWJg8cg</NodeID>
+    <URL>https://api.github.com/repos/kubecub/go-project-layout/labels/size/S</URL>
+  </label>
+  <label>
+    <Name>size/XL</Name>
+    <Description>Denotes a PR that changes 500-999 lines, ignoring generated files.</Description>
+    <Color>ee5500</Color>
+    <Default>false</Default>
+    <ID>5781339232</ID>
+    <NodeID>LA_kwDOJk4SXM8AAAABWJg8YA</NodeID>
+    <URL>https://api.github.com/repos/kubecub/go-project-layout/labels/size/XL</URL>
+  </label>
+  <label>
     <Name>size/XS</Name>
-    <Description></Description>
-    <Color>3CBF00</Color>
+    <Description>Denotes a PR that changes 0-9 lines, ignoring generated files.</Description>
+    <Color>009900</Color>
     <Default>false</Default>
     <ID>5766082794</ID>
     <NodeID>LA_kwDOJk4SXM8AAAABV69w6g</NodeID>
     <URL>https://api.github.com/repos/kubecub/go-project-layout/labels/size/XS</URL>
   </label>
   <label>
+    <Name>size/XXL</Name>
+    <Description>Denotes a PR that changes 1000+ lines, ignoring generated files.</Description>
+    <Color>ee0000</Color>
+    <Default>false</Default>
+    <ID>5781339284</ID>
+    <NodeID>LA_kwDOJk4SXM8AAAABWJg8lA</NodeID>
+    <URL>https://api.github.com/repos/kubecub/go-project-layout/labels/size/XXL</URL>
+  </label>
+  <label>
+    <Name>tide/merge-blocker</Name>
+    <Description>Denotes an issue that blocks the tide merge queue for a branch while it is open.</Description>
+    <Color>e11d21</Color>
+    <Default>false</Default>
+    <ID>5781339420</ID>
+    <NodeID>LA_kwDOJk4SXM8AAAABWJg9HA</NodeID>
+    <URL>https://api.github.com/repos/kubecub/go-project-layout/labels/tide/merge-blocker</URL>
+  </label>
+  <label>
+    <Name>tide/merge-method-merge</Name>
+    <Description>Denotes a PR that should use a standard merge by tide when it merges.</Description>
+    <Color>ffaa00</Color>
+    <Default>false</Default>
+    <ID>5781339262</ID>
+    <NodeID>LA_kwDOJk4SXM8AAAABWJg8fg</NodeID>
+    <URL>https://api.github.com/repos/kubecub/go-project-layout/labels/tide/merge-method-merge</URL>
+  </label>
+  <label>
+    <Name>tide/merge-method-rebase</Name>
+    <Description>Denotes a PR that should be rebased by tide when it merges.</Description>
+    <Color>ffaa00</Color>
+    <Default>false</Default>
+    <ID>5781339392</ID>
+    <NodeID>LA_kwDOJk4SXM8AAAABWJg9AA</NodeID>
+    <URL>https://api.github.com/repos/kubecub/go-project-layout/labels/tide/merge-method-rebase</URL>
+  </label>
+  <label>
+    <Name>tide/merge-method-squash</Name>
+    <Description>Denotes a PR that should be squashed by tide when it merges.</Description>
+    <Color>ffaa00</Color>
+    <Default>false</Default>
+    <ID>5781339340</ID>
+    <NodeID>LA_kwDOJk4SXM8AAAABWJg8zA</NodeID>
+    <URL>https://api.github.com/repos/kubecub/go-project-layout/labels/tide/merge-method-squash</URL>
+  </label>
+  <label>
     <Name>triage/accepted</Name>
-    <Description></Description>
-    <Color>0E8A16</Color>
+    <Description>Indicates an issue or PR is ready to be actively worked on.</Description>
+    <Color>8fc951</Color>
     <Default>false</Default>
     <ID>5520223434</ID>
     <NodeID>LA_kwDOJk4SXM8AAAABSQfsyg</NodeID>
@@ -172,21 +1666,183 @@
   </label>
   <label>
     <Name>triage/duplicate</Name>
-    <Description>This issue or pull request already exists</Description>
-    <Color>C001BC</Color>
+    <Description>Indicates an issue is a duplicate of other open issue.</Description>
+    <Color>d455d0</Color>
     <Default>false</Default>
     <ID>5520223439</ID>
     <NodeID>LA_kwDOJk4SXM8AAAABSQfszw</NodeID>
     <URL>https://api.github.com/repos/kubecub/go-project-layout/labels/triage/duplicate</URL>
   </label>
   <label>
+    <Name>triage/needs-information</Name>
+    <Description>Indicates an issue needs more information in order to work on it.</Description>
+    <Color>C001BC</Color>
+    <Default>false</Default>
+    <ID>5781339294</ID>
+    <NodeID>LA_kwDOJk4SXM8AAAABWJg8ng</NodeID>
+    <URL>https://api.github.com/repos/kubecub/go-project-layout/labels/triage/needs-information</URL>
+  </label>
+  <label>
+    <Name>triage/not-reproducible</Name>
+    <Description>Indicates an issue can not be reproduced as described.</Description>
+    <Color>C001BC</Color>
+    <Default>false</Default>
+    <ID>5781339328</ID>
+    <NodeID>LA_kwDOJk4SXM8AAAABWJg8wA</NodeID>
+    <URL>https://api.github.com/repos/kubecub/go-project-layout/labels/triage/not-reproducible</URL>
+  </label>
+  <label>
     <Name>triage/unresolved</Name>
-    <Description></Description>
-    <Color>D93F0B</Color>
+    <Description>Indicates an issue that can not or will not be resolved.</Description>
+    <Color>C001BC</Color>
     <Default>false</Default>
     <ID>5520832653</ID>
     <NodeID>LA_kwDOJk4SXM8AAAABSRE4jQ</NodeID>
     <URL>https://api.github.com/repos/kubecub/go-project-layout/labels/triage/unresolved</URL>
+  </label>
+  <label>
+    <Name>ug/big-data</Name>
+    <Description>Categorizes an issue or PR as relevant to ug-big-data.</Description>
+    <Color>d2b48c</Color>
+    <Default>false</Default>
+    <ID>5781339385</ID>
+    <NodeID>LA_kwDOJk4SXM8AAAABWJg8-Q</NodeID>
+    <URL>https://api.github.com/repos/kubecub/go-project-layout/labels/ug/big-data</URL>
+  </label>
+  <label>
+    <Name>ug/vmware</Name>
+    <Description>Categorizes an issue or PR as relevant to ug-vmware.</Description>
+    <Color>d2b48c</Color>
+    <Default>false</Default>
+    <ID>5781339317</ID>
+    <NodeID>LA_kwDOJk4SXM8AAAABWJg8tQ</NodeID>
+    <URL>https://api.github.com/repos/kubecub/go-project-layout/labels/ug/vmware</URL>
+  </label>
+  <label>
+    <Name>wg/api-expression</Name>
+    <Description>Categorizes an issue or PR as relevant to WG API Expression.</Description>
+    <Color>d2b48c</Color>
+    <Default>false</Default>
+    <ID>5781339422</ID>
+    <NodeID>LA_kwDOJk4SXM8AAAABWJg9Hg</NodeID>
+    <URL>https://api.github.com/repos/kubecub/go-project-layout/labels/wg/api-expression</URL>
+  </label>
+  <label>
+    <Name>wg/batch</Name>
+    <Description>Categorizes an issue or PR as relevant to WG Batch.</Description>
+    <Color>d2b48c</Color>
+    <Default>false</Default>
+    <ID>5781339334</ID>
+    <NodeID>LA_kwDOJk4SXM8AAAABWJg8xg</NodeID>
+    <URL>https://api.github.com/repos/kubecub/go-project-layout/labels/wg/batch</URL>
+  </label>
+  <label>
+    <Name>wg/cluster-api</Name>
+    <Description>Categorizes an issue or PR as relevant to wg-cluster-api.</Description>
+    <Color>d2b48c</Color>
+    <Default>false</Default>
+    <ID>5781339282</ID>
+    <NodeID>LA_kwDOJk4SXM8AAAABWJg8kg</NodeID>
+    <URL>https://api.github.com/repos/kubecub/go-project-layout/labels/wg/cluster-api</URL>
+  </label>
+  <label>
+    <Name>wg/component-standard</Name>
+    <Description>Categorizes an issue or PR as relevant to WG Component Standard.</Description>
+    <Color>d2b48c</Color>
+    <Default>false</Default>
+    <ID>5781339356</ID>
+    <NodeID>LA_kwDOJk4SXM8AAAABWJg83A</NodeID>
+    <URL>https://api.github.com/repos/kubecub/go-project-layout/labels/wg/component-standard</URL>
+  </label>
+  <label>
+    <Name>wg/data-protection</Name>
+    <Description>Categorizes an issue or PR as relevant to WG Data Protection.</Description>
+    <Color>d2b48c</Color>
+    <Default>false</Default>
+    <ID>5781339341</ID>
+    <NodeID>LA_kwDOJk4SXM8AAAABWJg8zQ</NodeID>
+    <URL>https://api.github.com/repos/kubecub/go-project-layout/labels/wg/data-protection</URL>
+  </label>
+  <label>
+    <Name>wg/iot-edge</Name>
+    <Description>Categorizes an issue or PR as relevant to WG IOT Edge.</Description>
+    <Color>d2b48c</Color>
+    <Default>false</Default>
+    <ID>5781339382</ID>
+    <NodeID>LA_kwDOJk4SXM8AAAABWJg89g</NodeID>
+    <URL>https://api.github.com/repos/kubecub/go-project-layout/labels/wg/iot-edge</URL>
+  </label>
+  <label>
+    <Name>wg/lts</Name>
+    <Description>Categorizes an issue or PR as relevant to WG LTS.</Description>
+    <Color>d2b48c</Color>
+    <Default>false</Default>
+    <ID>5781339326</ID>
+    <NodeID>LA_kwDOJk4SXM8AAAABWJg8vg</NodeID>
+    <URL>https://api.github.com/repos/kubecub/go-project-layout/labels/wg/lts</URL>
+  </label>
+  <label>
+    <Name>wg/machine-learning</Name>
+    <Description>Categorizes an issue or PR as relevant to WG Machine Learning.</Description>
+    <Color>d2b48c</Color>
+    <Default>false</Default>
+    <ID>5781339322</ID>
+    <NodeID>LA_kwDOJk4SXM8AAAABWJg8ug</NodeID>
+    <URL>https://api.github.com/repos/kubecub/go-project-layout/labels/wg/machine-learning</URL>
+  </label>
+  <label>
+    <Name>wg/multitenancy</Name>
+    <Description>Categorizes an issue or PR as relevant to WG Multitenancy.</Description>
+    <Color>d2b48c</Color>
+    <Default>false</Default>
+    <ID>5781339347</ID>
+    <NodeID>LA_kwDOJk4SXM8AAAABWJg80w</NodeID>
+    <URL>https://api.github.com/repos/kubecub/go-project-layout/labels/wg/multitenancy</URL>
+  </label>
+  <label>
+    <Name>wg/naming</Name>
+    <Description>Categorizes an issue or PR as relevant to WG Naming.</Description>
+    <Color>d2b48c</Color>
+    <Default>false</Default>
+    <ID>5781339302</ID>
+    <NodeID>LA_kwDOJk4SXM8AAAABWJg8pg</NodeID>
+    <URL>https://api.github.com/repos/kubecub/go-project-layout/labels/wg/naming</URL>
+  </label>
+  <label>
+    <Name>wg/policy</Name>
+    <Description>Categorizes an issue or PR as relevant to WG Policy.</Description>
+    <Color>d2b48c</Color>
+    <Default>false</Default>
+    <ID>5781339386</ID>
+    <NodeID>LA_kwDOJk4SXM8AAAABWJg8-g</NodeID>
+    <URL>https://api.github.com/repos/kubecub/go-project-layout/labels/wg/policy</URL>
+  </label>
+  <label>
+    <Name>wg/reliability</Name>
+    <Description>Categorizes an issue or PR as relevant to WG Reliability</Description>
+    <Color>d2b48c</Color>
+    <Default>false</Default>
+    <ID>5781339379</ID>
+    <NodeID>LA_kwDOJk4SXM8AAAABWJg88w</NodeID>
+    <URL>https://api.github.com/repos/kubecub/go-project-layout/labels/wg/reliability</URL>
+  </label>
+  <label>
+    <Name>wg/security-audit</Name>
+    <Description>Categorizes an issue or PR as relevant to WG Security Audit.</Description>
+    <Color>d2b48c</Color>
+    <Default>false</Default>
+    <ID>5781339398</ID>
+    <NodeID>LA_kwDOJk4SXM8AAAABWJg9Bg</NodeID>
+    <URL>https://api.github.com/repos/kubecub/go-project-layout/labels/wg/security-audit</URL>
+  </label>
+  <label>
+    <Name>wg/structured-logging</Name>
+    <Description>Categorizes an issue or PR as relevant to WG Structured Logging.</Description>
+    <Color>d2b48c</Color>
+    <Default>false</Default>
+    <ID>5781339309</ID>
+    <NodeID>LA_kwDOJk4SXM8AAAABWJg8rQ</NodeID>
+    <URL>https://api.github.com/repos/kubecub/go-project-layout/labels/wg/structured-logging</URL>
   </label>
   <label>
     <Name>wontfix</Name>

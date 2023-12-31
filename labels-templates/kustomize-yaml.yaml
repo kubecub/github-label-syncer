@@ -319,6 +319,13 @@
   name: help wanted
   node_id: MDU6TGFiZWw5MzAyMDgwMTk=
   url: https://api.github.com/repos/kubernetes-sigs/kustomize/labels/help%20wanted
+- color: "168700"
+  default: false
+  description: Pull requests that update Javascript code
+  id: 6044061344
+  name: javascript
+  node_id: LA_kwDOB-5y6s8AAAABaEEOoA
+  url: https://api.github.com/repos/kubernetes-sigs/kustomize/labels/javascript
 - color: e11d21
   default: false
   description: Categorizes issue or PR as related to adding, removing, or otherwise
@@ -643,6 +650,13 @@
   name: sig/docs
   node_id: MDU6TGFiZWw5NTIwNzExMDg=
   url: https://api.github.com/repos/kubernetes-sigs/kustomize/labels/sig/docs
+- color: d2b48c
+  default: false
+  description: Categorizes an issue or PR as relevant to SIG Etcd.
+  id: 6045477694
+  name: sig/etcd
+  node_id: LA_kwDOB-5y6s8AAAABaFarPg
+  url: https://api.github.com/repos/kubernetes-sigs/kustomize/labels/sig/etcd
 - color: d2b48c
   default: false
   description: Categorizes an issue or PR as relevant to SIG Instrumentation.
