@@ -53,10 +53,11 @@ GITLINT_DIR="./_output/tools/go-gitlint"
 
 if ! command -v $GITLINT_DIR &>/dev/null; then
     echo "$GITLINT_DIR not found. Attempting to install it..."
-    # Add the commands to download and install the go-gitlint tool here
+    wget https://github.com/llorllale/go-gitlint/releases/latest/download/go-gitlint_${GOOS}_${GOARCH}.tar.gz -O go-gitlint.tar.gz || curl -L https://github.com/llorllale/go-gitlint/releases/latest/download/go-gitlint_${GOOS}_${GOARCH}.tar.gz -o go-gitlint.tar.gz
+    tar xzf go-gitlint.tar.gz -C ./_output/tools/ && chmod +x $GITLINT_DIR
     if [ $? -ne 0 ]; then
-        printError "Failed to install $GITLINT_DIR. Please run 'make tools' OR 'make tools.verify.go-gitlint' make verto install it manually."
-        exit 1
+        printError "Installation of $GITLINT_DIR failed. Please check your network connection, ensure you have the necessary permissions, and run 'make tools' OR 'make tools.verify.go-gitlint' to install it manually."
+        exit 2
     fi
 fi
 
@@ -77,5 +78,5 @@ then
     fi
     printError "Please fix your commit message to match kubecub coding standards"
     printError "https://gist.github.com/cubxxw/126b72104ac0b0ca484c9db09c3e5694#file-githook-md"
-    exit 1
+    exit 2
 fi
