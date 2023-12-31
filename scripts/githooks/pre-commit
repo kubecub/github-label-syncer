@@ -68,7 +68,7 @@ cd $repo_root
 empty_tree=$( git hash-object -t tree /dev/null )
 
 if ! command -v $GITLINT_DIR &>/dev/null; then
-    printError "The go-gitlint tool is required for the commit-msg hook. Please run the commit-msg hook manually to install the tool."
+    printError "The go-gitlint tool is not installed. Please run 'make tools' OR 'make tools.verify.go-gitlint' to install it."
     exit 1
 fi
 
@@ -102,7 +102,8 @@ fi
 if [ $? -ne 0 ]
 then
     printError "The commit-msg hook failed. Please check the error logs for more information."
-    exit 1
+    exit 2
+fi
 fi
 
 if [[ ! $local_branch =~ $valid_branch_regex ]]
