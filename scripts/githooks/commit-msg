@@ -53,8 +53,8 @@ GITLINT_DIR="./_output/tools/go-gitlint"
 
 if ! command -v $GITLINT_DIR &>/dev/null; then
     echo "$GITLINT_DIR not found. Attempting to install it..."
-    # Add the commands to download and install the go-gitlint tool here
-    if [ $? -ne 0 ]; then
+    go install github.com/llorllale/go-gitlint/cmd/go-gitlint@latest
+    if ! command -v $GITLINT_DIR &>/dev/null; then
         printError "Failed to install $GITLINT_DIR. Please run 'make tools' OR 'make tools.verify.go-gitlint' make verto install it manually."
         exit 1
     fi
