@@ -12,7 +12,7 @@
 # enforce checking for proper commit message format before actual commits.
 # You may need to make the script executable by 'chmod +x .git/hooks/commit-msg'.
 
-# commit-msg use go-gitlint tool, install go-gitlint via `go get github.com/llorllale/go-gitlint/cmd/go-gitlint`
+# commit-msg use go-gitlint tool, install go-gitlint via `go get -u github.com/llorllale/go-gitlint/cmd/go-gitlint`
 # go-gitlint --msg-file="$1"
 
 # An example hook script to check the commit log message.
@@ -53,7 +53,8 @@ GITLINT_DIR="./_output/tools/go-gitlint"
 
 if ! command -v $GITLINT_DIR &>/dev/null; then
     echo "$GITLINT_DIR not found. Attempting to install it..."
-    # Add the commands to download and install the go-gitlint tool here
+    go get -u github.com/llorllale/go-gitlint
+cp $(go env GOPATH)/bin/go-gitlint ./_output/tools/go-gitlint
     if [ $? -ne 0 ]; then
         printError "Failed to install $GITLINT_DIR. Please run 'make tools' OR 'make tools.verify.go-gitlint' make verto install it manually."
         exit 1
