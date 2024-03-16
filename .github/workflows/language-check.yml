@@ -10,4 +10,4 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Code Language Detector
-        uses: kubecub/comment-lang-detector@latest
+        uses: kubecub/comment-lang-detector@v0.1.6
