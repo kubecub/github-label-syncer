@@ -115,7 +115,7 @@ SPACE +=
 # ==============================================================================
 # Build definition
 
-GO_SUPPORTED_VERSIONS ?= 1.18|1.19|1.20
+GO_SUPPORTED_VERSIONS ?= 1.19|1.20|1.21|1.22|1.23
 GO_LDFLAGS += -X $(VERSION_PACKAGE).GitVersion=$(VERSION) \
 	-X $(VERSION_PACKAGE).GitCommit=$(GIT_COMMIT) \
 	-X $(VERSION_PACKAGE).GitTreeState=$(GIT_TREE_STATE) \
@@ -277,10 +277,6 @@ copyright-add: tools.verify.addlicense
 	@$(TOOLS_DIR)/addlicense -y $(shell date +"%Y") -v -c "KubeCub open source community." -f $(LICENSE_TEMPLATE) $(CODE_DIRS)
 	@echo "===========> End the copyright is added..."
 
-## tools: Install a must tools
-.PHONY: tools
-tools: $(addprefix tools.verify., $(BUILD_TOOLS))
-
 ## clean: Clean all builds.
 .PHONY: clean
 clean:
@@ -298,6 +294,10 @@ help: Makefile
 # tools
 
 BUILD_TOOLS ?= go-gitlint golangci-lint goimports addlicense deepcopy-gen conversion-gen ginkgo go-junit-report 
+
+## tools: Install a must tools
+.PHONY: tools
+tools: $(addprefix tools.verify., $(BUILD_TOOLS))
 
 ## tools.verify.%: Check if a tool is installed and install it
 .PHONY: tools.verify.%
